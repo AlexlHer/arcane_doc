@@ -1,0 +1,6 @@
+<map id="Arcane::AbstractItemOperationByBasicType" name="Arcane::AbstractItemOperationByBasicType">
+<area shape="rect" id="node1" title="Opérateur abstrait sur des entités rangées par type." alt="" coords="148,269,379,500"/>
+<area shape="rect" id="node3" href="$d6/d02/classArcane_1_1geometric_1_1BarycentricGeomShapeComputerByType.html" title=" " alt="" coords="5,548,268,837"/>
+<area shape="rect" id="node4" href="$de/db6/classArcane_1_1geometric_1_1GeomShapeOperation.html" title="Classe template pour appliquer spécifique à une vue sur une forme géométrique." alt="" coords="292,555,491,830"/>
+<area shape="rect" id="node2" href="$d4/dbd/classArcane_1_1IItemOperationByBasicType.html" title="Interface d&#39;un opérateur sur des entités rangées par type." alt="" coords="140,5,387,221"/>
+</map>

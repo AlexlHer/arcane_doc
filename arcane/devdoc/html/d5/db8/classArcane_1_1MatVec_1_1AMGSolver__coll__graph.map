@@ -1,0 +1,24 @@
+<map id="Arcane::MatVec::AMGSolver" name="Arcane::MatVec::AMGSolver">
+<area shape="rect" id="node1" title=" " alt="" coords="87,4151,298,4249"/>
+<area shape="rect" id="node2" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="5,3857,252,4088"/>
+<area shape="rect" id="node3" href="$db/d0c/classArcane_1_1MatVec_1_1AMG.html" title=" " alt="" coords="277,3872,509,4073"/>
+<area shape="rect" id="node4" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="161,3549,355,3795"/>
+<area shape="rect" id="node5" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="171,3139,345,3487"/>
+<area shape="rect" id="node6" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="7,2838,149,2878"/>
+<area shape="rect" id="node7" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="173,2823,351,2893"/>
+<area shape="rect" id="node8" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="273,2444,512,2660"/>
+<area shape="rect" id="node9" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="295,1372,495,1705"/>
+<area shape="rect" id="node10" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="469,755,684,1323"/>
+<area shape="rect" id="node18" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="433,1729,633,2063"/>
+<area shape="rect" id="node20" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="571,1372,771,1705"/>
+<area shape="rect" id="node22" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="773,1729,973,2063"/>
+<area shape="rect" id="node11" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="464,548,689,705"/>
+<area shape="rect" id="node12" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="481,211,672,471"/>
+<area shape="rect" id="node13" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="475,5,678,148"/>
+<area shape="rect" id="node14" href="$da/dff/classArcane_1_1MatVec_1_1Matrix.html" title="Matrice avec stockage CSR." alt="" coords="465,3549,646,3795"/>
+<area shape="rect" id="node15" href="$dc/dbf/classArcane_1_1MatVec_1_1MatrixImpl.html" title="Matrice avec stockage CSR." alt="" coords="498,3205,709,3421"/>
+<area shape="rect" id="node16" title=" " alt="" coords="431,2838,507,2878"/>
+<area shape="rect" id="node17" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="531,2684,713,3032"/>
+<area shape="rect" id="node19" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="570,2087,775,2420"/>
+<area shape="rect" id="node21" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="737,2684,920,3032"/>
+</map>

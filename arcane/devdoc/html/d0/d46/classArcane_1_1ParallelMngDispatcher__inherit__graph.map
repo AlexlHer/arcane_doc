@@ -1,0 +1,9 @@
+<map id="Arcane::ParallelMngDispatcher" name="Arcane::ParallelMngDispatcher">
+<area shape="rect" id="node1" title="Redirige la gestion des messages des sous&#45;domaines suivant le type de l&#39;argument." alt="" coords="413,5769,655,6191"/>
+<area shape="rect" id="node4" href="$dd/d91/classArcane_1_1MessagePassing_1_1HybridParallelMng.html" title="Gestionnaire du parallélisme utilisant les threads." alt="" coords="5,6239,252,6851"/>
+<area shape="rect" id="node5" href="$d7/dbc/classArcane_1_1MessagePassing_1_1SharedMemoryParallelMng.html" title="Gestionnaire du parallélisme utilisant les threads." alt="" coords="276,6239,523,6851"/>
+<area shape="rect" id="node6" href="$d8/da0/classArcane_1_1MpiParallelMng.html" title="Gestionnaire du parallélisme utilisant MPI." alt="" coords="547,6297,793,6792"/>
+<area shape="rect" id="node7" href="$dd/d2d/classArcane_1_1SequentialParallelMng.html" title="Gestionnaire du parallélisme en mode séquentiel." alt="" coords="817,6349,1045,6741"/>
+<area shape="rect" id="node2" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="285,2814,519,2913"/>
+<area shape="rect" id="node3" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="543,5,789,5721"/>
+</map>

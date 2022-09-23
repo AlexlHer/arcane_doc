@@ -1,0 +1,7 @@
+<map id="Arcane::AbstractScalarDataVisitor" name="Arcane::AbstractScalarDataVisitor">
+<area shape="rect" id="node1" title="Visiteur abstrait pour une donnée scalaire." alt="" coords="33,255,241,471"/>
+<area shape="rect" id="node3" href="$d5/d50/classArcane_1_1AbstractDataVisitor.html" title="Visiteur abstrait pour une donnée." alt="" coords="31,519,242,617"/>
+<area shape="rect" id="node2" href="$db/d50/classArcane_1_1IScalarDataVisitor.html" title="Interface du pattern visitor pour une donnée scalaire." alt="" coords="37,5,237,207"/>
+<area shape="rect" id="node4" href="$da/d46/classArcane_1_1AbstractDataTypeDispatchingDataVisitor.html" title="IDataVisitor dispatchant les opérations suivant le type de la donnée." alt="" coords="17,665,257,911"/>
+<area shape="rect" id="node5" href="$dd/dc7/classArcane_1_1DataTypeDispatchingDataVisitor.html" title="IDataVisitor dispatchant les opérations suivant le type de la donnée." alt="" coords="5,959,268,1101"/>
+</map>

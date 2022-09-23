@@ -1,0 +1,636 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::mesh::GraphIncrementalConnectivity</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../d2/d1b/classArcane_1_1mesh_1_1GraphIncrementalConnectivity-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::mesh::GraphIncrementalConnectivity</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::mesh::GraphIncrementalConnectivity:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../db/ddb/classArcane_1_1mesh_1_1GraphIncrementalConnectivity__inherit__graph.png" border="0" usemap="#aArcane_1_1mesh_1_1GraphIncrementalConnectivity_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1mesh_1_1GraphIncrementalConnectivity_inherit__map" id="aArcane_1_1mesh_1_1GraphIncrementalConnectivity_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,137,263,427"/>
+<area shape="rect" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html" title="Outillage de connectivité d&#39;un graphe." alt="" coords="30,5,238,89"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::mesh::GraphIncrementalConnectivity:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d9/dc7/classArcane_1_1mesh_1_1GraphIncrementalConnectivity__coll__graph.png" border="0" usemap="#aArcane_1_1mesh_1_1GraphIncrementalConnectivity_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1mesh_1_1GraphIncrementalConnectivity_coll__map" id="aArcane_1_1mesh_1_1GraphIncrementalConnectivity_coll__map">
+<area shape="rect" title=" " alt="" coords="741,5803,999,5945"/>
+<area shape="rect" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html" title="Outillage de connectivité d&#39;un graphe." alt="" coords="291,5495,499,5579"/>
+<area shape="rect" href="../../dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="276,3005,499,4116"/>
+<area shape="rect" href="../../dd/def/classArcane_1_1mesh_1_1AbstractIncrementalItemConnectivity.html" title="Classe abstraite de gestion des connectivités." alt="" coords="1127,4446,1426,4618"/>
+<area shape="rect" href="../../d2/df8/classArcane_1_1mesh_1_1IndexedItemConnectivityAccessor.html" title=" " alt="" coords="249,4468,525,4596"/>
+<area shape="rect" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html" title="Connectivité incrémentale item&#45;&gt;item[]." alt="" coords="1091,5333,1339,5740"/>
+<area shape="rect" href="../../de/d27/classArcane_1_1mesh_1_1IncrementalItemConnectivityBase.html" title="Classe de base pour les connectivités incrémentales item&#45;&gt;item[]." alt="" coords="1313,4747,1569,5256"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="947,3438,1142,3683"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="943,2188,1117,2536"/>
+<area shape="rect" href="../../d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="959,1429,1101,1469"/>
+<area shape="rect" href="../../df/d35/classArcane_1_1IIncrementalItemConnectivity.html" title="Interface pour gérer une connectivité incrémentale." alt="" coords="1167,3453,1427,3669"/>
+<area shape="rect" href="../../de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="1141,2298,1381,2426"/>
+<area shape="rect" href="../../d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="729,3387,923,3735"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="806,1743,1006,2076"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="799,549,1013,1117"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="651,1283,851,1616"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3509,1283,3709,1616"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="462,1743,662,2076"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3879,1283,4079,1616"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="793,343,1019,500"/>
+<area shape="rect" href="../../d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="811,5,1001,265"/>
+<area shape="rect" href="../../d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="581,2195,786,2529"/>
+<area shape="rect" href="../../d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="523,3387,705,3735"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="2971,1180,3193,1719"/>
+<area shape="rect" href="../../d7/d98/classArcane_1_1mesh_1_1IncrementalItemConnectivityContainer.html" title=" " alt="" coords="3332,4461,3563,4603"/>
+<area shape="rect" href="../../d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="2981,2137,3183,2587"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="3005,608,3159,1059"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="1277,2648,1431,2981"/>
+<area shape="rect" title=" " alt="" coords="1529,1429,1592,1469"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="1439,2685,1629,2945"/>
+<area shape="rect" href="../../d1/d6b/structArcane_1_1ItemInternalConnectivityList_1_1Int32View.html" title="Vue spécifique pour gérer les entités nulles." alt="" coords="1979,2736,2225,2893"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="1543,2232,1733,2492"/>
+<area shape="rect" href="../../d8/d30/classArcane_1_1VariableRefArrayT.html" title=" " alt="" coords="2755,3401,2967,3720"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="2765,2195,2957,2529"/>
+<area shape="rect" href="../../d9/d83/classArcane_1_1VariableArrayT.html" title="Implémentation d&#39;une variable sur un tableau 1D." alt="" coords="2139,2225,2361,2499"/>
+<area shape="rect" href="../../d5/d86/classArcane_1_1VariableFactoryRegisterer.html" title="Enregistreur d&#39;une fabrique de variables." alt="" coords="2385,2239,2635,2485"/>
+<area shape="rect" href="../../d1/dfb/classArcane_1_1Array.html" title="Tableau d&#39;items de types quelconques." alt="" coords="3343,3511,3552,3610"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3383,2247,3557,2477"/>
+<area shape="rect" href="../../d1/d7d/classArcane_1_1ObserverPool.html" title="Liste d&#39;observateurs." alt="" coords="3577,3497,3747,3625"/>
+<area shape="rect" href="../../d2/ddc/classArcane_1_1List.html" title=" " alt="" coords="3581,2232,3748,2492"/>
+<area shape="rect" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html" title="Informations de connectivité, pour une famille d&#39;entité, permettant la transition entre les anciennes..." alt="" coords="1657,4395,1925,4669"/>
+<area shape="rect" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="1810,3533,2031,3588"/>
+<area shape="rect" href="../../d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="1809,2100,2065,2624"/>
+<area shape="rect" title=" " alt="" coords="1027,4512,1103,4552"/>
+<area shape="rect" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html" title=" " alt="" coords="861,4908,1069,5095"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3895,2699,4107,2930"/>
+<area shape="rect" href="../../d3/dce/classArcane_1_1IndexedItemConnectivityViewBase.html" title="Classe de base d&#39;une vue sur une connectivité non structurée." alt="" coords="5,3460,252,3661"/>
+<area shape="rect" href="../../d2/d75/classArccore_1_1SmallSpan.html" title=" " alt="" coords="51,2247,207,2477"/>
+<area shape="rect" href="../../d6/d42/classArccore_1_1SpanImpl.html" title="Vue d&#39;un tableau d&#39;éléments de type T." alt="" coords="49,1290,208,1609"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4008,4140,4223,4371"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a63585d1cad2ab13891049f3ea3ee06d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a63585d1cad2ab13891049f3ea3ee06d6">GraphIncrementalConnectivity</a> (<a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const *dualnode_family, <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const *link_family, <a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> *link_connectivity, <a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> * &gt; const &amp;dualitem_connectivities, <a class="el" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html">ItemScalarProperty</a>&lt; Integer &gt; const &amp;dualnode_to_connectivity)</td></tr>
+<tr class="separator:a63585d1cad2ab13891049f3ea3ee06d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56366b0439f7af99086ae26d3486e972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a56366b0439f7af99086ae26d3486e972">GraphIncrementalConnectivity</a> (<a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html">GraphIncrementalConnectivity</a> const &amp;rhs)</td></tr>
+<tr class="separator:a56366b0439f7af99086ae26d3486e972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4951474c9e055f36f48403e69c333a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a9b4951474c9e055f36f48403e69c333a">GraphIncrementalConnectivity</a> (<a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html">GraphDoFs</a> *graph)</td></tr>
+<tr class="separator:a9b4951474c9e055f36f48403e69c333a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1209192bab2580d530a7439060ba251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#ab1209192bab2580d530a7439060ba251">dualItem</a> (const <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a> &amp;dualNode) const</td></tr>
+<tr class="memdesc:ab1209192bab2580d530a7439060ba251"><td class="mdescLeft">&#160;</td><td class="mdescRight">accès à l'<a class="el" href="../../df/d5f/classArcane_1_1Item.html" title="Classe de base d&#39;un élément de maillage.">Item</a> dual d'un DualNode (detype <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html" title="classe degré de liberté.">DoF</a>)  <a href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#ab1209192bab2580d530a7439060ba251">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab1209192bab2580d530a7439060ba251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f10bbcc7feb71d25d0c29497a6c948b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#ga2203bcb1890cc36f542ef0ae4e6c8580">DoFVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a9f10bbcc7feb71d25d0c29497a6c948b">dualNodes</a> (const <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a> &amp;link) const</td></tr>
+<tr class="memdesc:a9f10bbcc7feb71d25d0c29497a6c948b"><td class="mdescLeft">&#160;</td><td class="mdescRight">accès à la vue des DualNodes constituant un liaison Link de type(DoF)  <a href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a9f10bbcc7feb71d25d0c29497a6c948b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9f10bbcc7feb71d25d0c29497a6c948b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b614a912ea668d492f59572234ebe24"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html#a6b614a912ea668d492f59572234ebe24">dualItem</a> (const <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a> &amp;dualNode) const =0</td></tr>
+<tr class="memdesc:a6b614a912ea668d492f59572234ebe24"><td class="mdescLeft">&#160;</td><td class="mdescRight">accès à l'<a class="el" href="../../df/d5f/classArcane_1_1Item.html" title="Classe de base d&#39;un élément de maillage.">Item</a> dual d'un DualNode (detype <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html" title="classe degré de liberté.">DoF</a>)  <a href="../../d1/d46/classArcane_1_1IGraphConnectivity.html#a6b614a912ea668d492f59572234ebe24">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6b614a912ea668d492f59572234ebe24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03eeca763be996a87285e4ff2e5b54a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../de/db5/group__Mesh.html#ga2203bcb1890cc36f542ef0ae4e6c8580">DoFVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html#af03eeca763be996a87285e4ff2e5b54a">dualNodes</a> (const <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a> &amp;link) const =0</td></tr>
+<tr class="memdesc:af03eeca763be996a87285e4ff2e5b54a"><td class="mdescLeft">&#160;</td><td class="mdescRight">accès à la vue des DualNodes constituant un liaison Link de type(DoF)  <a href="../../d1/d46/classArcane_1_1IGraphConnectivity.html#af03eeca763be996a87285e4ff2e5b54a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af03eeca763be996a87285e4ff2e5b54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a896e6e8f26bbdf8cbacd798f12751bdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a896e6e8f26bbdf8cbacd798f12751bdf">m_dualnode_family</a> = nullptr</td></tr>
+<tr class="separator:a896e6e8f26bbdf8cbacd798f12751bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c7107577a0673a1708498ea189ea00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a95c7107577a0673a1708498ea189ea00">m_link_family</a> = nullptr</td></tr>
+<tr class="separator:a95c7107577a0673a1708498ea189ea00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc37fd0342f0c5b184c5dea58df7df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a7fc37fd0342f0c5b184c5dea58df7df8">m_link_connectivity</a> = nullptr</td></tr>
+<tr class="separator:a7fc37fd0342f0c5b184c5dea58df7df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78c8fb4f26938cc4f1ccc805cc6a207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> * &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#ac78c8fb4f26938cc4f1ccc805cc6a207">m_dualitem_connectivities</a></td></tr>
+<tr class="separator:ac78c8fb4f26938cc4f1ccc805cc6a207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6e5a5bdd4b5cf284756b130b6a2020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html">ItemScalarProperty</a>&lt; Integer &gt; const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#acf6e5a5bdd4b5cf284756b130b6a2020">m_dualnode_to_connectivity_index</a></td></tr>
+<tr class="separator:acf6e5a5bdd4b5cf284756b130b6a2020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf2f77488b34339f2912f28dadd4fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/df8/classArcane_1_1mesh_1_1IndexedItemConnectivityAccessor.html">Arcane::mesh::IndexedItemConnectivityAccessor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#a9bf2f77488b34339f2912f28dadd4fe8">m_link_connectivity_accessor</a></td></tr>
+<tr class="separator:a9bf2f77488b34339f2912f28dadd4fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca2e73d4f010e0b4db7be0c4fe41a15d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../d2/df8/classArcane_1_1mesh_1_1IndexedItemConnectivityAccessor.html">Arcane::mesh::IndexedItemConnectivityAccessor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html#aca2e73d4f010e0b4db7be0c4fe41a15d">m_dualitem_connectivity_accessors</a></td></tr>
+<tr class="separator:aca2e73d4f010e0b4db7be0c4fe41a15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock">
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00045">45</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a63585d1cad2ab13891049f3ea3ee06d6" name="a63585d1cad2ab13891049f3ea3ee06d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63585d1cad2ab13891049f3ea3ee06d6">&#9670;&#160;</a></span>GraphIncrementalConnectivity() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::mesh::GraphIncrementalConnectivity::GraphIncrementalConnectivity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const *&#160;</td>
+          <td class="paramname"><em>dualnode_family</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const *&#160;</td>
+          <td class="paramname"><em>link_family</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> *&#160;</td>
+          <td class="paramname"><em>link_connectivity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> * &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>dualitem_connectivities</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html">ItemScalarProperty</a>&lt; Integer &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>dualnode_to_connectivity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00049">49</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a56366b0439f7af99086ae26d3486e972" name="a56366b0439f7af99086ae26d3486e972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56366b0439f7af99086ae26d3486e972">&#9670;&#160;</a></span>GraphIncrementalConnectivity() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::mesh::GraphIncrementalConnectivity::GraphIncrementalConnectivity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html">GraphIncrementalConnectivity</a> const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00069">69</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a9b4951474c9e055f36f48403e69c333a" name="a9b4951474c9e055f36f48403e69c333a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b4951474c9e055f36f48403e69c333a">&#9670;&#160;</a></span>GraphIncrementalConnectivity() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::mesh::GraphIncrementalConnectivity::GraphIncrementalConnectivity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html">GraphDoFs</a> *&#160;</td>
+          <td class="paramname"><em>graph</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00032">32</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<a id="a5cc020b66ad6aa1207f69ed918290a66" name="a5cc020b66ad6aa1207f69ed918290a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cc020b66ad6aa1207f69ed918290a66">&#9670;&#160;</a></span>~GraphIncrementalConnectivity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Arcane::mesh::GraphIncrementalConnectivity::~GraphIncrementalConnectivity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00087">87</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="ab1209192bab2580d530a7439060ba251" name="ab1209192bab2580d530a7439060ba251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1209192bab2580d530a7439060ba251">&#9670;&#160;</a></span>dualItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> Arcane::mesh::GraphIncrementalConnectivity::dualItem </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a> &amp;&#160;</td>
+          <td class="paramname"><em>dualNode</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>accès à l'<a class="el" href="../../df/d5f/classArcane_1_1Item.html" title="Classe de base d&#39;un élément de maillage.">Item</a> dual d'un DualNode (detype <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html" title="classe degré de liberté.">DoF</a>) </p>
+
+<p>Implémente <a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html#a6b614a912ea668d492f59572234ebe24">Arcane::IGraphConnectivity</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00089">89</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a9f10bbcc7feb71d25d0c29497a6c948b" name="a9f10bbcc7feb71d25d0c29497a6c948b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f10bbcc7feb71d25d0c29497a6c948b">&#9670;&#160;</a></span>dualNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/db5/group__Mesh.html#ga2203bcb1890cc36f542ef0ae4e6c8580">DoFVectorView</a> Arcane::mesh::GraphIncrementalConnectivity::dualNodes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a> &amp;&#160;</td>
+          <td class="paramname"><em>link</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>accès à la vue des DualNodes constituant un liaison Link de type(DoF) </p>
+
+<p>Implémente <a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html#af03eeca763be996a87285e4ff2e5b54a">Arcane::IGraphConnectivity</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00094">94</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="ac78c8fb4f26938cc4f1ccc805cc6a207" name="ac78c8fb4f26938cc4f1ccc805cc6a207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac78c8fb4f26938cc4f1ccc805cc6a207">&#9670;&#160;</a></span>m_dualitem_connectivities</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a>*&gt; const&amp; Arcane::mesh::GraphIncrementalConnectivity::m_dualitem_connectivities</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00103">103</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="aca2e73d4f010e0b4db7be0c4fe41a15d" name="aca2e73d4f010e0b4db7be0c4fe41a15d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca2e73d4f010e0b4db7be0c4fe41a15d">&#9670;&#160;</a></span>m_dualitem_connectivity_accessors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../d2/df8/classArcane_1_1mesh_1_1IndexedItemConnectivityAccessor.html">Arcane::mesh::IndexedItemConnectivityAccessor</a>&gt; Arcane::mesh::GraphIncrementalConnectivity::m_dualitem_connectivity_accessors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00107">107</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a896e6e8f26bbdf8cbacd798f12751bdf" name="a896e6e8f26bbdf8cbacd798f12751bdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896e6e8f26bbdf8cbacd798f12751bdf">&#9670;&#160;</a></span>m_dualnode_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const* Arcane::mesh::GraphIncrementalConnectivity::m_dualnode_family = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00100">100</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="acf6e5a5bdd4b5cf284756b130b6a2020" name="acf6e5a5bdd4b5cf284756b130b6a2020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6e5a5bdd4b5cf284756b130b6a2020">&#9670;&#160;</a></span>m_dualnode_to_connectivity_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html">ItemScalarProperty</a>&lt;Integer&gt; const&amp; Arcane::mesh::GraphIncrementalConnectivity::m_dualnode_to_connectivity_index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00104">104</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a7fc37fd0342f0c5b184c5dea58df7df8" name="a7fc37fd0342f0c5b184c5dea58df7df8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc37fd0342f0c5b184c5dea58df7df8">&#9670;&#160;</a></span>m_link_connectivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a>* Arcane::mesh::GraphIncrementalConnectivity::m_link_connectivity = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00102">102</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a9bf2f77488b34339f2912f28dadd4fe8" name="a9bf2f77488b34339f2912f28dadd4fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf2f77488b34339f2912f28dadd4fe8">&#9670;&#160;</a></span>m_link_connectivity_accessor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/df8/classArcane_1_1mesh_1_1IndexedItemConnectivityAccessor.html">Arcane::mesh::IndexedItemConnectivityAccessor</a> Arcane::mesh::GraphIncrementalConnectivity::m_link_connectivity_accessor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00106">106</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a95c7107577a0673a1708498ea189ea00" name="a95c7107577a0673a1708498ea189ea00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c7107577a0673a1708498ea189ea00">&#9670;&#160;</a></span>m_link_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> const* Arcane::mesh::GraphIncrementalConnectivity::m_link_family = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00101">101</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a></li>
+<li><a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d5/d7e/namespaceArcane_1_1mesh.html">mesh</a></li><li class="navelem"><a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html">GraphIncrementalConnectivity</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:30 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

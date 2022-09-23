@@ -1,0 +1,3719 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::ItemSharedInfo</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('df/d0b/classArcane_1_1ItemSharedInfo.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-static-methods">Fonctions membres publiques statiques</a> &#124;
+<a href="#pub-attribs">Attributs publics</a> &#124;
+<a href="#pub-static-attribs">Attributs publics statiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="#pri-static-attribs">Attributs privés statiques</a> &#124;
+<a href="#friends">Amis</a> &#124;
+<a href="../../d9/dff/classArcane_1_1ItemSharedInfo-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::ItemSharedInfo</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Structure interne partagée d'une entité de maillage.  
+ <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">arcane/ItemSharedInfo.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::ItemSharedInfo:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d3/dfb/classArcane_1_1ItemSharedInfo__coll__graph.png" border="0" usemap="#aArcane_1_1ItemSharedInfo_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1ItemSharedInfo_coll__map" id="aArcane_1_1ItemSharedInfo_coll__map">
+<area shape="rect" title="Structure interne partagée d&#39;une entité de maillage." alt="" coords="598,4944,781,5439"/>
+<area shape="rect" title=" " alt="" coords="142,1894,205,1934"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="155,2469,346,2729"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="38,2885,229,3145"/>
+<area shape="rect" href="../../d1/d6b/structArcane_1_1ItemInternalConnectivityList_1_1Int32View.html" title="Vue spécifique pour gérer les entités nulles." alt="" coords="245,2937,491,3094"/>
+<area shape="rect" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="475,3411,696,3466"/>
+<area shape="rect" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html" title="Informations de connectivité, pour une famille d&#39;entité, permettant la transition entre les anciennes..." alt="" coords="150,4189,418,4463"/>
+<area shape="rect" href="../../d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="505,2337,761,2861"/>
+<area shape="rect" href="../../de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="556,1813,711,2015"/>
+<area shape="rect" href="../../dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="683,3771,906,4881"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="931,4159,1123,4493"/>
+<area shape="rect" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html" title="Infos sur un type d&#39;entité du maillage." alt="" coords="1147,4247,1315,4405"/>
+<area shape="rect" href="../../d7/dbb/classArcane_1_1ItemTypeMng.html" title="Gestionnaire des types d&#39;entités de maillage." alt="" coords="1650,3287,1854,3591"/>
+<area shape="rect" title=" " alt="" coords="1677,1894,1753,1934"/>
+<area shape="rect" href="../../dd/d37/classArcane_1_1MultiBufferT.html" title=" " alt="" coords="1939,2484,2175,2715"/>
+<area shape="rect" href="../../de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="1269,2499,1432,2700"/>
+<area shape="rect" href="../../d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="1457,2484,1703,2715"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2435,2097,2637,2313"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2452,1372,2652,1705"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="2109,755,2323,1323"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1780,1372,1980,1705"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2004,1372,2204,1705"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2228,1372,2428,1705"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="2103,548,2329,705"/>
+<area shape="rect" href="../../d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="2121,211,2311,471"/>
+<area shape="rect" href="../../d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="2115,5,2317,148"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="1777,1813,1983,2015"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2007,1806,2209,2022"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2244,2097,2412,2313"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="971,3169,1194,3708"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="1005,2374,1160,2825"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="991,1755,1199,2073"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="767,1755,966,2073"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a43fb49b7dc3388c323b1e8604ca80aee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a43fb49b7dc3388c323b1e8604ca80aee">itemKind</a> () const</td></tr>
+<tr class="separator:a43fb49b7dc3388c323b1e8604ca80aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8610f63c9d22270b6900c2c4fd0f50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a8b8610f63c9d22270b6900c2c4fd0f50">itemFamily</a> () const</td></tr>
+<tr class="separator:a8b8610f63c9d22270b6900c2c4fd0f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a241fd2c05fc53a5dc1db9ef0e45f1e1f"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a241fd2c05fc53a5dc1db9ef0e45f1e1f">nbParent</a> () const</td></tr>
+<tr class="separator:a241fd2c05fc53a5dc1db9ef0e45f1e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab92e48bdd17371088f4b49af1f7e92f2"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ab92e48bdd17371088f4b49af1f7e92f2">nbNode</a> () const</td></tr>
+<tr class="separator:ab92e48bdd17371088f4b49af1f7e92f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02ffd55159bdaed256831fe20d2a83a5"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a02ffd55159bdaed256831fe20d2a83a5">nbEdge</a> () const</td></tr>
+<tr class="separator:a02ffd55159bdaed256831fe20d2a83a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ebfec4d51dbd65a8bd62ab223c5acc1"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a4ebfec4d51dbd65a8bd62ab223c5acc1">nbFace</a> () const</td></tr>
+<tr class="separator:a4ebfec4d51dbd65a8bd62ab223c5acc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae40840e208d105612cd712c9345d6256"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ae40840e208d105612cd712c9345d6256">nbCell</a> () const</td></tr>
+<tr class="separator:ae40840e208d105612cd712c9345d6256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e2e2e11f8db0eebae42390aa465973"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a89e2e2e11f8db0eebae42390aa465973">nbHParent</a> () const</td></tr>
+<tr class="separator:a89e2e2e11f8db0eebae42390aa465973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad89b7f4aa82bb216b50d9eaeaa6dacc9"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ad89b7f4aa82bb216b50d9eaeaa6dacc9">nbHChildren</a> () const</td></tr>
+<tr class="separator:ad89b7f4aa82bb216b50d9eaeaa6dacc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9371d056ad3680a0ac93cb88db824f58"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a9371d056ad3680a0ac93cb88db824f58">typeId</a> () const</td></tr>
+<tr class="separator:a9371d056ad3680a0ac93cb88db824f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa077e9c7027118d5fe6cc07896cc53"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a1aa077e9c7027118d5fe6cc07896cc53">firstNode</a> () const</td></tr>
+<tr class="separator:a1aa077e9c7027118d5fe6cc07896cc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b23d9a66f220bc2e9978af3a9d6fbd9"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a2b23d9a66f220bc2e9978af3a9d6fbd9">firstEdge</a> () const</td></tr>
+<tr class="separator:a2b23d9a66f220bc2e9978af3a9d6fbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01dfdd34188be366fde1037e4d2d67fe"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a01dfdd34188be366fde1037e4d2d67fe">firstFace</a> () const</td></tr>
+<tr class="separator:a01dfdd34188be366fde1037e4d2d67fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b4e05426538ae3293837ece868540c"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a24b4e05426538ae3293837ece868540c">firstCell</a> () const</td></tr>
+<tr class="separator:a24b4e05426538ae3293837ece868540c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ea595461a7bcd19bd0ea2fbfd53895"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a72ea595461a7bcd19bd0ea2fbfd53895">firstParent</a> () const</td></tr>
+<tr class="separator:a72ea595461a7bcd19bd0ea2fbfd53895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48012b23ae7d1fdf311474608cf2a05c"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a48012b23ae7d1fdf311474608cf2a05c">firstHParent</a> () const</td></tr>
+<tr class="memdesc:a48012b23ae7d1fdf311474608cf2a05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a48012b23ae7d1fdf311474608cf2a05c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a48012b23ae7d1fdf311474608cf2a05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a060a63b3a94b27340facd50231f6dc3a"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a060a63b3a94b27340facd50231f6dc3a">firstHChild</a> () const</td></tr>
+<tr class="separator:a060a63b3a94b27340facd50231f6dc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affed7ee271c570d51089cf7a98112588"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#affed7ee271c570d51089cf7a98112588">neededMemory</a> () const</td></tr>
+<tr class="separator:affed7ee271c570d51089cf7a98112588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188c2cb4fe39a68ec32c956757e17e9c"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a188c2cb4fe39a68ec32c956757e17e9c">minimumNeededMemory</a> () const</td></tr>
+<tr class="separator:a188c2cb4fe39a68ec32c956757e17e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c9cb01c9b409c8670062c71718b622d"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a7c9cb01c9b409c8670062c71718b622d">hasLegacyConnectivity</a> () const</td></tr>
+<tr class="separator:a7c9cb01c9b409c8670062c71718b622d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaca109190b8b1b83f79fad0d8b1dc48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aaaca109190b8b1b83f79fad0d8b1dc48">print</a> (std::ostream &amp;o) const</td></tr>
+<tr class="separator:aaaca109190b8b1b83f79fad0d8b1dc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348481e0534d2279aa7f6ae90138125d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a348481e0534d2279aa7f6ae90138125d">nodes</a> (Int32 data_index) const</td></tr>
+<tr class="separator:a348481e0534d2279aa7f6ae90138125d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e23397ee33e47fd5a9eed5789007cd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a4e23397ee33e47fd5a9eed5789007cd0">edges</a> (Int32) const</td></tr>
+<tr class="separator:a4e23397ee33e47fd5a9eed5789007cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b31e2081d40401356c2b2b72f53b5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a3b31e2081d40401356c2b2b72f53b5ed">faces</a> (Int32) const</td></tr>
+<tr class="separator:a3b31e2081d40401356c2b2b72f53b5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af49580cb68e2e704c9365ea4a71824bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af49580cb68e2e704c9365ea4a71824bf">cells</a> (Int32) const</td></tr>
+<tr class="separator:af49580cb68e2e704c9365ea4a71824bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385ed496db7ca928273597a5670a663a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a385ed496db7ca928273597a5670a663a">hChildren</a> (Int32) const</td></tr>
+<tr class="separator:a385ed496db7ca928273597a5670a663a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a47984bf9476b675c55164cf04aac53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a7a47984bf9476b675c55164cf04aac53">parent</a> (Integer data_index, Integer aindex) const</td></tr>
+<tr class="separator:a7a47984bf9476b675c55164cf04aac53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301b4a028c27ae2a6cd401a4ab048c92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a301b4a028c27ae2a6cd401a4ab048c92">node</a> (Int32 data_index, Int32 aindex) const</td></tr>
+<tr class="separator:a301b4a028c27ae2a6cd401a4ab048c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad006cd43006f26e67c085b5a226f092e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ad006cd43006f26e67c085b5a226f092e">edge</a> (Int32, Int32) const</td></tr>
+<tr class="separator:ad006cd43006f26e67c085b5a226f092e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da0ae1be7f2b7dfb9a6ab68d29adeb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a3da0ae1be7f2b7dfb9a6ab68d29adeb0">face</a> (Int32, Int32) const</td></tr>
+<tr class="separator:a3da0ae1be7f2b7dfb9a6ab68d29adeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4381303e5b903f1399a2e3d87b55cb25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a4381303e5b903f1399a2e3d87b55cb25">cell</a> (Int32, Int32) const</td></tr>
+<tr class="separator:a4381303e5b903f1399a2e3d87b55cb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70599535485f242ad46681cbb922dd76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a70599535485f242ad46681cbb922dd76">hParent</a> (Integer, Integer) const</td></tr>
+<tr class="separator:a70599535485f242ad46681cbb922dd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b32d1452fd70c6573cd5a6ca36647d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a26b32d1452fd70c6573cd5a6ca36647d">hChild</a> (Int32, Int32) const</td></tr>
+<tr class="separator:a26b32d1452fd70c6573cd5a6ca36647d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef78aee8d705852742503c33c4e0b26"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aaef78aee8d705852742503c33c4e0b26">nodeLocalId</a> (Int32 data_index, Int32 aindex) const</td></tr>
+<tr class="separator:aaef78aee8d705852742503c33c4e0b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328766ba1ad5db58798f0828014f35c2"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a328766ba1ad5db58798f0828014f35c2">edgeLocalId</a> (Int32, Int32) const</td></tr>
+<tr class="separator:a328766ba1ad5db58798f0828014f35c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3e1f7e3e29ae0923a4f4a4b6e954f4"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a9f3e1f7e3e29ae0923a4f4a4b6e954f4">faceLocalId</a> (Int32, Int32) const</td></tr>
+<tr class="separator:a9f3e1f7e3e29ae0923a4f4a4b6e954f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4955941a4eb8189ca35c925dde7a2995"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a4955941a4eb8189ca35c925dde7a2995">cellLocalId</a> (Int32, Int32) const</td></tr>
+<tr class="separator:a4955941a4eb8189ca35c925dde7a2995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa82080934b4ae1fe5631772b89f50f"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aaaa82080934b4ae1fe5631772b89f50f">parentLocalId</a> (Integer, Integer) const</td></tr>
+<tr class="separator:aaaa82080934b4ae1fe5631772b89f50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea970942d8fa24e13ede55a2d7b4aa7d"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aea970942d8fa24e13ede55a2d7b4aa7d">hParentLocalId</a> (Integer, Integer) const</td></tr>
+<tr class="separator:aea970942d8fa24e13ede55a2d7b4aa7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1d350920bc7b29e14d7995acd78da0"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a5b1d350920bc7b29e14d7995acd78da0">hChildLocalId</a> (Integer, Integer) const</td></tr>
+<tr class="separator:a5b1d350920bc7b29e14d7995acd78da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463add5313cee448d57bcfcce9ffd4f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a463add5313cee448d57bcfcce9ffd4f1">setNode</a> (Int32 data_index, Int32 aindex, Int32 local_id) const</td></tr>
+<tr class="separator:a463add5313cee448d57bcfcce9ffd4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23777701d189d3d864abb51b4781e769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a23777701d189d3d864abb51b4781e769">setEdge</a> (Int32 data_index, Int32 aindex, Int32 local_id) const</td></tr>
+<tr class="separator:a23777701d189d3d864abb51b4781e769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279e78850249e258874a2b01faf2a65a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a279e78850249e258874a2b01faf2a65a">setFace</a> (Int32 data_index, Int32 aindex, Int32 local_id) const</td></tr>
+<tr class="separator:a279e78850249e258874a2b01faf2a65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba8c77f8a059e803be7c67d6613b8a77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aba8c77f8a059e803be7c67d6613b8a77">setCell</a> (Int32 data_index, Int32 aindex, Int32 local_id) const</td></tr>
+<tr class="separator:aba8c77f8a059e803be7c67d6613b8a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b87e851ef5f04b9516375f9fafd060"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a19b87e851ef5f04b9516375f9fafd060">setParent</a> (Integer data_index, Integer aindex, Integer local_id) const</td></tr>
+<tr class="separator:a19b87e851ef5f04b9516375f9fafd060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6327c8d0a2f95bbc7302ef46a9997181"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6327c8d0a2f95bbc7302ef46a9997181">setHParent</a> (Integer data_index, Integer aindex, Integer local_id) const</td></tr>
+<tr class="memdesc:a6327c8d0a2f95bbc7302ef46a9997181"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6327c8d0a2f95bbc7302ef46a9997181">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6327c8d0a2f95bbc7302ef46a9997181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcbd8da3c5ed1eaf21806857b58f146"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aadcbd8da3c5ed1eaf21806857b58f146">setHChild</a> (Int32 data_index, Int32 aindex, Int32 local_id) const</td></tr>
+<tr class="separator:aadcbd8da3c5ed1eaf21806857b58f146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0353f331e86fd4ac53030614ca4143d7"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a0353f331e86fd4ac53030614ca4143d7">edgeAllocated</a> () const</td></tr>
+<tr class="separator:a0353f331e86fd4ac53030614ca4143d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec80fff80a6196530bc81a99e12e6e3c"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aec80fff80a6196530bc81a99e12e6e3c">faceAllocated</a> () const</td></tr>
+<tr class="separator:aec80fff80a6196530bc81a99e12e6e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af206ed23cc58d8701d3e423f40bed4b7"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af206ed23cc58d8701d3e423f40bed4b7">cellAllocated</a> () const</td></tr>
+<tr class="separator:af206ed23cc58d8701d3e423f40bed4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99a098bb67916671e40ed133a89af743"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a99a098bb67916671e40ed133a89af743">hParentAllocated</a> () const</td></tr>
+<tr class="separator:a99a098bb67916671e40ed133a89af743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ce1335ea1aeb89d3d4c5e4270a5ad8"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a22ce1335ea1aeb89d3d4c5e4270a5ad8">hChildAllocated</a> () const</td></tr>
+<tr class="separator:a22ce1335ea1aeb89d3d4c5e4270a5ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5874660b698b64bac7bff1877c2ceb0b"><td class="memItemLeft" align="right" valign="top">const Int32 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a5874660b698b64bac7bff1877c2ceb0b">_infos</a> () const</td></tr>
+<tr class="separator:a5874660b698b64bac7bff1877c2ceb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af90cb5f461dfa5a23d85c244c6d4b5c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af90cb5f461dfa5a23d85c244c6d4b5c7">_setInfos</a> (Int32 *ptr)</td></tr>
+<tr class="separator:af90cb5f461dfa5a23d85c244c6d4b5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a807bd682ae64a93f718445b8dd18fa"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6a807bd682ae64a93f718445b8dd18fa">index</a> () const</td></tr>
+<tr class="separator:a6a807bd682ae64a93f718445b8dd18fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd61b54c7ca57a0055189e932b5620b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a3fd61b54c7ca57a0055189e932b5620b">setIndex</a> (Int32 aindex)</td></tr>
+<tr class="separator:a3fd61b54c7ca57a0055189e932b5620b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709391e36bffabe881c4a4e52ca64656"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a709391e36bffabe881c4a4e52ca64656">nbReference</a> () const</td></tr>
+<tr class="separator:a709391e36bffabe881c4a4e52ca64656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6b6356ceeff46fcd3908d917d00f3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a8f6b6356ceeff46fcd3908d917d00f3f">addReference</a> ()</td></tr>
+<tr class="separator:a8f6b6356ceeff46fcd3908d917d00f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1056b5f2b22d11109bcdb1dbaa935c9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a1056b5f2b22d11109bcdb1dbaa935c9d">removeReference</a> ()</td></tr>
+<tr class="separator:a1056b5f2b22d11109bcdb1dbaa935c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a3a8f38b99b0e70f1a818dab45f05b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ac3a3a8f38b99b0e70f1a818dab45f05b">serializeWrite</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a> buffer)</td></tr>
+<tr class="separator:ac3a3a8f38b99b0e70f1a818dab45f05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5004bcc4b70c60b5158ccb24988eb05e"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a5004bcc4b70c60b5158ccb24988eb05e">owner</a> (Int32 data_index) const</td></tr>
+<tr class="separator:a5004bcc4b70c60b5158ccb24988eb05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a680fb250c17b6a1d026a34d871960cc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a680fb250c17b6a1d026a34d871960cc5">setOwner</a> (Int32 data_index, Int32 aowner) const</td></tr>
+<tr class="separator:a680fb250c17b6a1d026a34d871960cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfdd2bd033405cf310cc7e4b9454adcc"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#adfdd2bd033405cf310cc7e4b9454adcc">flags</a> (Int32 data_index) const</td></tr>
+<tr class="separator:adfdd2bd033405cf310cc7e4b9454adcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa801e727cac5516b658a60e9eb6bb1e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aa801e727cac5516b658a60e9eb6bb1e7">setFlags</a> (Int32 data_index, Int32 f) const</td></tr>
+<tr class="separator:aa801e727cac5516b658a60e9eb6bb1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Fonctions membres publiques statiques</h2></td></tr>
+<tr class="memitem:aec29c137b75e317d40da364d5036f5aa"><td class="memItemLeft" align="right" valign="top">static Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aec29c137b75e317d40da364d5036f5aa">serializeWriteSize</a> ()</td></tr>
+<tr class="memdesc:aec29c137b75e317d40da364d5036f5aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre d'informations à écrire pour les données.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aec29c137b75e317d40da364d5036f5aa">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aec29c137b75e317d40da364d5036f5aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42013faaf7eaf7b913f994701d4af53d"><td class="memItemLeft" align="right" valign="top">static Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a42013faaf7eaf7b913f994701d4af53d">serializeSize</a> ()</td></tr>
+<tr class="separator:a42013faaf7eaf7b913f994701d4af53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6f12a3ce9e9ef5318dede4f02eea276"><td class="memItemLeft" align="right" valign="top">static Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af6f12a3ce9e9ef5318dede4f02eea276">serializeAMRSize</a> ()</td></tr>
+<tr class="separator:af6f12a3ce9e9ef5318dede4f02eea276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7948f91e49294fb532cea7076ead12d"><td class="memItemLeft" align="right" valign="top">static Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ae7948f91e49294fb532cea7076ead12d">serializeNoAMRSize</a> ()</td></tr>
+<tr class="separator:ae7948f91e49294fb532cea7076ead12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Attributs publics</h2></td></tr>
+<tr class="memitem:a449df44ce1196c5517352ca227a55d47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html">MeshItemInternalList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a449df44ce1196c5517352ca227a55d47">m_items</a> = nullptr</td></tr>
+<tr class="separator:a449df44ce1196c5517352ca227a55d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb629faec7c9169cec8d04d1fbc3a5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html">ItemInternalConnectivityList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a4fb629faec7c9169cec8d04d1fbc3a5b">m_connectivity</a></td></tr>
+<tr class="separator:a4fb629faec7c9169cec8d04d1fbc3a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89907ff5405eea92e68034602a52f9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a89907ff5405eea92e68034602a52f9b8">m_item_family</a> = nullptr</td></tr>
+<tr class="separator:a89907ff5405eea92e68034602a52f9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefec45f0c3d07d331ccd323feeacb321"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a7332a70f38a2f4925865259192b0fac3">Int64ArrayView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aefec45f0c3d07d331ccd323feeacb321">m_unique_ids</a> = nullptr</td></tr>
+<tr class="separator:aefec45f0c3d07d331ccd323feeacb321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4257b9070f23c73143575a72b580783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ad4257b9070f23c73143575a72b580783">m_item_type</a> = nullptr</td></tr>
+<tr class="separator:ad4257b9070f23c73143575a72b580783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e75eca283c4cd76d8c6cff97d930b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ac9e75eca283c4cd76d8c6cff97d930b3">m_item_kind</a> = <a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7a8801e4f56cb20372e75f70d514b6e968">IK_Unknown</a></td></tr>
+<tr class="separator:ac9e75eca283c4cd76d8c6cff97d930b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Attributs publics statiques</h2></td></tr>
+<tr class="memitem:a48a86f4371f572a919640b41bf38ffbe"><td class="memItemLeft" align="right" valign="top">static const Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a48a86f4371f572a919640b41bf38ffbe">NULL_INDEX</a> = static_cast&lt;Int32&gt;(-1)</td></tr>
+<tr class="separator:a48a86f4371f572a919640b41bf38ffbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33041c3d9cfacdf2f83c8f6869f05dc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html">ItemSharedInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ac33041c3d9cfacdf2f83c8f6869f05dc">nullItemSharedInfo</a></td></tr>
+<tr class="memdesc:ac33041c3d9cfacdf2f83c8f6869f05dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pour l'entité nulle.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ac33041c3d9cfacdf2f83c8f6869f05dc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac33041c3d9cfacdf2f83c8f6869f05dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5e722a646d39b409c6aba26ffc0d56"><td class="memItemLeft" align="right" valign="top">static const Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6f5e722a646d39b409c6aba26ffc0d56">COMMON_BASE_MEMORY</a> = 2</td></tr>
+<tr class="separator:a6f5e722a646d39b409c6aba26ffc0d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a5d864a3a41fab637337ec9856ffead5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a5d864a3a41fab637337ec9856ffead5a">ItemSharedInfo</a> (<a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *family, <a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a> *item_type, <a class="el" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html">MeshItemInternalList</a> *items, <a class="el" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html">ItemInternalConnectivityList</a> *connectivity, <a class="el" href="../../d0/d32/namespaceArcane.html#a7332a70f38a2f4925865259192b0fac3">Int64ArrayView</a> *unique_ids)</td></tr>
+<tr class="separator:a5d864a3a41fab637337ec9856ffead5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba61a6f5a3d2f10a9fd46f740ac4201"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a8ba61a6f5a3d2f10a9fd46f740ac4201">ItemSharedInfo</a> (<a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *family, <a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a> *item_type, <a class="el" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html">MeshItemInternalList</a> *items, <a class="el" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html">ItemInternalConnectivityList</a> *connectivity, <a class="el" href="../../d0/d32/namespaceArcane.html#a7332a70f38a2f4925865259192b0fac3">Int64ArrayView</a> *unique_ids, <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> buffer)</td></tr>
+<tr class="memdesc:a8ba61a6f5a3d2f10a9fd46f740ac4201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de désérialisation.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a8ba61a6f5a3d2f10a9fd46f740ac4201">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8ba61a6f5a3d2f10a9fd46f740ac4201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f49724cd492ebb798a39630bb5a1d31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6f49724cd492ebb798a39630bb5a1d31">_init</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> ik)</td></tr>
+<tr class="separator:a6f49724cd492ebb798a39630bb5a1d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af79d84a197e4020565a005b189e46dd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ItemInternalArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af79d84a197e4020565a005b189e46dd6">_parents</a> (Integer index) const</td></tr>
+<tr class="memdesc:af79d84a197e4020565a005b189e46dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version non optimisé mais robuste d'accès à l'ItemInternalArrayView parent.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af79d84a197e4020565a005b189e46dd6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af79d84a197e4020565a005b189e46dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a7f0facd62eb2861ef0fd137221d4e4f5"><td class="memItemLeft" align="right" valign="top">Int32 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a7f0facd62eb2861ef0fd137221d4e4f5">m_infos</a> = nullptr</td></tr>
+<tr class="separator:a7f0facd62eb2861ef0fd137221d4e4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc2cda0c43709d9d01ba2a6139850a08"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#afc2cda0c43709d9d01ba2a6139850a08">m_first_node</a> = 0</td></tr>
+<tr class="separator:afc2cda0c43709d9d01ba2a6139850a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3a348f0806bf3588e519dfbdd1b720"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a3a3a348f0806bf3588e519dfbdd1b720">m_nb_node</a> = 0</td></tr>
+<tr class="separator:a3a3a348f0806bf3588e519dfbdd1b720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d976257868cf482731a5699d0029c77"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a0d976257868cf482731a5699d0029c77">m_first_edge</a> = 0</td></tr>
+<tr class="separator:a0d976257868cf482731a5699d0029c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a6aea4b0b0a227ce189b2d83961b28"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a03a6aea4b0b0a227ce189b2d83961b28">m_nb_edge</a> = 0</td></tr>
+<tr class="separator:a03a6aea4b0b0a227ce189b2d83961b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f7aaedd41fd5fadef5f74e5bddde97"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a22f7aaedd41fd5fadef5f74e5bddde97">m_first_face</a> = 0</td></tr>
+<tr class="separator:a22f7aaedd41fd5fadef5f74e5bddde97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f115d8e02e74681ea2856cee68ddac4"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6f115d8e02e74681ea2856cee68ddac4">m_nb_face</a> = 0</td></tr>
+<tr class="separator:a6f115d8e02e74681ea2856cee68ddac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f6eb9017df48be35fda5a9ed933940"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a66f6eb9017df48be35fda5a9ed933940">m_first_cell</a> = 0</td></tr>
+<tr class="separator:a66f6eb9017df48be35fda5a9ed933940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacc13891b166b22d986d5e438829273"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#adacc13891b166b22d986d5e438829273">m_nb_cell</a> = 0</td></tr>
+<tr class="separator:adacc13891b166b22d986d5e438829273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3704b6c0fbb0e7db55cb3ed0e090b12"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af3704b6c0fbb0e7db55cb3ed0e090b12">m_first_parent</a> = 0</td></tr>
+<tr class="separator:af3704b6c0fbb0e7db55cb3ed0e090b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa84a33ed6b6ea86a70c3e96f582c8d"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6aa84a33ed6b6ea86a70c3e96f582c8d">m_nb_parent</a> = 0</td></tr>
+<tr class="separator:a6aa84a33ed6b6ea86a70c3e96f582c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2bb5749f38e2a5f567c12b50f59b7c5"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ab2bb5749f38e2a5f567c12b50f59b7c5">m_first_hParent</a> = 0</td></tr>
+<tr class="memdesc:ab2bb5749f38e2a5f567c12b50f59b7c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ab2bb5749f38e2a5f567c12b50f59b7c5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab2bb5749f38e2a5f567c12b50f59b7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1cd0fdc1bb2337603378f52a3396e96"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ae1cd0fdc1bb2337603378f52a3396e96">m_first_hChild</a> = 0</td></tr>
+<tr class="separator:ae1cd0fdc1bb2337603378f52a3396e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e9d199d7b68fe8e71587e0072d042e"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ac1e9d199d7b68fe8e71587e0072d042e">m_nb_hParent</a> = 0</td></tr>
+<tr class="separator:ac1e9d199d7b68fe8e71587e0072d042e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9610910a292b56f1322ee7dee20d352e"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a9610910a292b56f1322ee7dee20d352e">m_nb_hChildren</a> = 0</td></tr>
+<tr class="separator:a9610910a292b56f1322ee7dee20d352e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f6e2fe5c1e6383e600e7ddaf7e65e6"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a63f6e2fe5c1e6383e600e7ddaf7e65e6">m_needed_memory</a> = 0</td></tr>
+<tr class="separator:a63f6e2fe5c1e6383e600e7ddaf7e65e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b627ff16941cc9efd362857a0000e8"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a09b627ff16941cc9efd362857a0000e8">m_minimum_needed_memory</a> = 0</td></tr>
+<tr class="separator:a09b627ff16941cc9efd362857a0000e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae532a11c3da95ab1ccaf35f497904113"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ae532a11c3da95ab1ccaf35f497904113">m_edge_allocated</a> = 0</td></tr>
+<tr class="separator:ae532a11c3da95ab1ccaf35f497904113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4433ade6f152ec009e6fbf324363c676"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a4433ade6f152ec009e6fbf324363c676">m_face_allocated</a> = 0</td></tr>
+<tr class="separator:a4433ade6f152ec009e6fbf324363c676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdce5f90ed7c9dec4a9fe2b0830b8952"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#abdce5f90ed7c9dec4a9fe2b0830b8952">m_cell_allocated</a> = 0</td></tr>
+<tr class="separator:abdce5f90ed7c9dec4a9fe2b0830b8952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a7280617cdf86e50b6275e58eca5dda"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a1a7280617cdf86e50b6275e58eca5dda">m_hParent_allocated</a> = 0</td></tr>
+<tr class="memdesc:a1a7280617cdf86e50b6275e58eca5dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR.  <a href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a1a7280617cdf86e50b6275e58eca5dda">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1a7280617cdf86e50b6275e58eca5dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17de0d9188149da9de634a28e88bfce5"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a17de0d9188149da9de634a28e88bfce5">m_hChild_allocated</a> = 0</td></tr>
+<tr class="separator:a17de0d9188149da9de634a28e88bfce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af25c65997bc4121f573574cc370aa790"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#af25c65997bc4121f573574cc370aa790">m_type_id</a> = IT_NullType</td></tr>
+<tr class="separator:af25c65997bc4121f573574cc370aa790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c3c25c9c19fb4a608e2a959f038553c"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a6c3c25c9c19fb4a608e2a959f038553c">m_index</a> = NULL_INDEX</td></tr>
+<tr class="separator:a6c3c25c9c19fb4a608e2a959f038553c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74071c17045bde3aaeb92b25fdf7394d"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a74071c17045bde3aaeb92b25fdf7394d">m_nb_reference</a> = 0</td></tr>
+<tr class="separator:a74071c17045bde3aaeb92b25fdf7394d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Attributs privés statiques</h2></td></tr>
+<tr class="memitem:a958eecd5cec5494bee6ba45b3c66dc95"><td class="memItemLeft" align="right" valign="top">static const Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a958eecd5cec5494bee6ba45b3c66dc95">OWNER_INDEX</a> = 0</td></tr>
+<tr class="separator:a958eecd5cec5494bee6ba45b3c66dc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf3e480b401b4306e8962d65170bc428"><td class="memItemLeft" align="right" valign="top">static const Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#adf3e480b401b4306e8962d65170bc428">FLAGS_INDEX</a> = 1</td></tr>
+<tr class="separator:adf3e480b401b4306e8962d65170bc428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea790a873fd1d0b1b9b899bbcc2c9dc1"><td class="memItemLeft" align="right" valign="top">static const Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#aea790a873fd1d0b1b9b899bbcc2c9dc1">FIRST_NODE_INDEX</a> = 2</td></tr>
+<tr class="separator:aea790a873fd1d0b1b9b899bbcc2c9dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Amis</h2></td></tr>
+<tr class="memitem:ab5a45f7a19563aed8af84613b3b97503"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#ab5a45f7a19563aed8af84613b3b97503">ItemInternal</a></td></tr>
+<tr class="separator:ab5a45f7a19563aed8af84613b3b97503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842de3a24d5e8344033db48cb4276c85"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html#a842de3a24d5e8344033db48cb4276c85">mesh::ItemSharedInfoList</a></td></tr>
+<tr class="separator:a842de3a24d5e8344033db48cb4276c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Structure interne partagée d'une entité de maillage. </p>
+<p >Cette classe renferme des informations communes à plusieurs entités. Il s'agit d'une implémentation du design pattern FlyWeight. Cela permet de faire des économies mémoire importantes lorsque le maillage comporte un grand nombre d'entités similaire et qu'il est en grande partie structuré.</p>
+<p >Comme une instance de cette classe est partagée par plusieurs entités, il ne faut en cas la modifier directement. C'est à l'implémentation (Mesh) de fournir un mécanisme gérant les instances de cette classe.</p>
+<p >Parmi les informations partagées se trouvent le nombre des entités connectées à cette entité (nombre de noeuds, d'arêtes, de faces et de mailles) mais aussi les informations locales à un type d'entité donné comme par exemple la liste et la connectivité locale des faces d'un héxaèdre. Ces informations sont directements gérées par la classe <a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html" title="Infos sur un type d&#39;entité du maillage.">ItemTypeInfo</a>.</p>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000023">A faire:</a></b></dt><dd>Il ne faut plus utiliser les localFace(), localEdge() mais passer par l'intermédiaire de m_item_type. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00066">66</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="aa33e0d02741f41a77e2d3e8e334c9de2" name="aa33e0d02741f41a77e2d3e8e334c9de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa33e0d02741f41a77e2d3e8e334c9de2">&#9670;&#160;</a></span>ItemSharedInfo() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemSharedInfo::ItemSharedInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00042">42</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="a5d864a3a41fab637337ec9856ffead5a" name="a5d864a3a41fab637337ec9856ffead5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d864a3a41fab637337ec9856ffead5a">&#9670;&#160;</a></span>ItemSharedInfo() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemSharedInfo::ItemSharedInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td>
+          <td class="paramname"><em>family</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a> *&#160;</td>
+          <td class="paramname"><em>item_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html">MeshItemInternalList</a> *&#160;</td>
+          <td class="paramname"><em>items</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html">ItemInternalConnectivityList</a> *&#160;</td>
+          <td class="paramname"><em>connectivity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a7332a70f38a2f4925865259192b0fac3">Int64ArrayView</a> *&#160;</td>
+          <td class="paramname"><em>unique_ids</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00053">53</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8ba61a6f5a3d2f10a9fd46f740ac4201" name="a8ba61a6f5a3d2f10a9fd46f740ac4201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba61a6f5a3d2f10a9fd46f740ac4201">&#9670;&#160;</a></span>ItemSharedInfo() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemSharedInfo::ItemSharedInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td>
+          <td class="paramname"><em>family</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a> *&#160;</td>
+          <td class="paramname"><em>item_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html">MeshItemInternalList</a> *&#160;</td>
+          <td class="paramname"><em>items</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html">ItemInternalConnectivityList</a> *&#160;</td>
+          <td class="paramname"><em>connectivity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a7332a70f38a2f4925865259192b0fac3">Int64ArrayView</a> *&#160;</td>
+          <td class="paramname"><em>unique_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>buffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructeur de désérialisation. </p>
+<p >AMR</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00070">70</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00217">_init()</a>, <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00247">m_hParent_allocated</a>, <a class="el" href="../../df/d19/ItemTypeInfo_8h_source.html#l00102">Arcane::ItemTypeInfo::nbLocalNode()</a>, et <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a5874660b698b64bac7bff1877c2ceb0b" name="a5874660b698b64bac7bff1877c2ceb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5874660b698b64bac7bff1877c2ceb0b">&#9670;&#160;</a></span>_infos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Int32 * Arcane::ItemSharedInfo::_infos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00212">212</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a6f49724cd492ebb798a39630bb5a1d31" name="a6f49724cd492ebb798a39630bb5a1d31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f49724cd492ebb798a39630bb5a1d31">&#9670;&#160;</a></span>_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td>
+          <td class="paramname"><em>ik</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >AMR</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00216">216</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d0/d7e/ArcaneTypes_8h_source.html#l00121">Arcane::IK_Cell</a>, <a class="el" href="../../d0/d7e/ArcaneTypes_8h_source.html#l00119">Arcane::IK_Edge</a>, <a class="el" href="../../d0/d7e/ArcaneTypes_8h_source.html#l00120">Arcane::IK_Face</a>, <a class="el" href="../../d0/d7e/ArcaneTypes_8h_source.html#l00118">Arcane::IK_Node</a>, <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00228">m_first_hParent</a>, <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00247">m_hParent_allocated</a>, et <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#a258baa0cfaece80303aac4d4aa5bdad7">Arcane::IItemFamily::parentFamilyDepth()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00071">ItemSharedInfo()</a>.</p>
+
+</div>
+</div>
+<a id="af79d84a197e4020565a005b189e46dd6" name="af79d84a197e4020565a005b189e46dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af79d84a197e4020565a005b189e46dd6">&#9670;&#160;</a></span>_parents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ItemInternalArrayView</a> Arcane::ItemSharedInfo::_parents </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Version non optimisé mais robuste d'accès à l'ItemInternalArrayView parent. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00258">258</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../de/d4a/classArcane_1_1IMeshBase.html#a995682fefe80034f6e195176b1451cfe">Arcane::IMeshBase::itemFamily()</a>, <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#a5274480df9c2e1163d59cda218f882bf">Arcane::IItemFamily::itemsInternal()</a>, et <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#a86890c7bd1b2a3d7c39c7b3e9b53c7e3">Arcane::IItemFamily::parentFamily()</a>.</p>
+
+</div>
+</div>
+<a id="af90cb5f461dfa5a23d85c244c6d4b5c7" name="af90cb5f461dfa5a23d85c244c6d4b5c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af90cb5f461dfa5a23d85c244c6d4b5c7">&#9670;&#160;</a></span>_setInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::_setInfos </td>
+          <td>(</td>
+          <td class="paramtype">Int32 *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00213">213</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a8f6b6356ceeff46fcd3908d917d00f3f" name="a8f6b6356ceeff46fcd3908d917d00f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6b6356ceeff46fcd3908d917d00f3f">&#9670;&#160;</a></span>addReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::addReference </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00257">257</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a4381303e5b903f1399a2e3d87b55cb25" name="a4381303e5b903f1399a2e3d87b55cb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4381303e5b903f1399a2e3d87b55cb25">&#9670;&#160;</a></span>cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::cell </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00161">161</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="af206ed23cc58d8701d3e423f40bed4b7" name="af206ed23cc58d8701d3e423f40bed4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af206ed23cc58d8701d3e423f40bed4b7">&#9670;&#160;</a></span>cellAllocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 Arcane::ItemSharedInfo::cellAllocated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00207">207</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a4955941a4eb8189ca35c925dde7a2995" name="a4955941a4eb8189ca35c925dde7a2995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4955941a4eb8189ca35c925dde7a2995">&#9670;&#160;</a></span>cellLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::cellLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00177">177</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="af49580cb68e2e704c9365ea4a71824bf" name="af49580cb68e2e704c9365ea4a71824bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49580cb68e2e704c9365ea4a71824bf">&#9670;&#160;</a></span>cells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a> Arcane::ItemSharedInfo::cells </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00143">143</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ad006cd43006f26e67c085b5a226f092e" name="ad006cd43006f26e67c085b5a226f092e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad006cd43006f26e67c085b5a226f092e">&#9670;&#160;</a></span>edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::edge </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00157">157</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a0353f331e86fd4ac53030614ca4143d7" name="a0353f331e86fd4ac53030614ca4143d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0353f331e86fd4ac53030614ca4143d7">&#9670;&#160;</a></span>edgeAllocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 Arcane::ItemSharedInfo::edgeAllocated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00205">205</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a328766ba1ad5db58798f0828014f35c2" name="a328766ba1ad5db58798f0828014f35c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328766ba1ad5db58798f0828014f35c2">&#9670;&#160;</a></span>edgeLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::edgeLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00173">173</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a4e23397ee33e47fd5a9eed5789007cd0" name="a4e23397ee33e47fd5a9eed5789007cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e23397ee33e47fd5a9eed5789007cd0">&#9670;&#160;</a></span>edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a> Arcane::ItemSharedInfo::edges </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00137">137</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a3da0ae1be7f2b7dfb9a6ab68d29adeb0" name="a3da0ae1be7f2b7dfb9a6ab68d29adeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da0ae1be7f2b7dfb9a6ab68d29adeb0">&#9670;&#160;</a></span>face()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::face </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00159">159</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aec80fff80a6196530bc81a99e12e6e3c" name="aec80fff80a6196530bc81a99e12e6e3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec80fff80a6196530bc81a99e12e6e3c">&#9670;&#160;</a></span>faceAllocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 Arcane::ItemSharedInfo::faceAllocated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00206">206</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a9f3e1f7e3e29ae0923a4f4a4b6e954f4" name="a9f3e1f7e3e29ae0923a4f4a4b6e954f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3e1f7e3e29ae0923a4f4a4b6e954f4">&#9670;&#160;</a></span>faceLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::faceLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00175">175</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a3b31e2081d40401356c2b2b72f53b5ed" name="a3b31e2081d40401356c2b2b72f53b5ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b31e2081d40401356c2b2b72f53b5ed">&#9670;&#160;</a></span>faces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a> Arcane::ItemSharedInfo::faces </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00140">140</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a24b4e05426538ae3293837ece868540c" name="a24b4e05426538ae3293837ece868540c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b4e05426538ae3293837ece868540c">&#9670;&#160;</a></span>firstCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00116">116</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a2b23d9a66f220bc2e9978af3a9d6fbd9" name="a2b23d9a66f220bc2e9978af3a9d6fbd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b23d9a66f220bc2e9978af3a9d6fbd9">&#9670;&#160;</a></span>firstEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstEdge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00114">114</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a01dfdd34188be366fde1037e4d2d67fe" name="a01dfdd34188be366fde1037e4d2d67fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01dfdd34188be366fde1037e4d2d67fe">&#9670;&#160;</a></span>firstFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstFace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00115">115</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a060a63b3a94b27340facd50231f6dc3a" name="a060a63b3a94b27340facd50231f6dc3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a060a63b3a94b27340facd50231f6dc3a">&#9670;&#160;</a></span>firstHChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstHChild </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00120">120</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a48012b23ae7d1fdf311474608cf2a05c" name="a48012b23ae7d1fdf311474608cf2a05c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48012b23ae7d1fdf311474608cf2a05c">&#9670;&#160;</a></span>firstHParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstHParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>AMR. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00119">119</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a1aa077e9c7027118d5fe6cc07896cc53" name="a1aa077e9c7027118d5fe6cc07896cc53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa077e9c7027118d5fe6cc07896cc53">&#9670;&#160;</a></span>firstNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00113">113</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a72ea595461a7bcd19bd0ea2fbfd53895" name="a72ea595461a7bcd19bd0ea2fbfd53895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ea595461a7bcd19bd0ea2fbfd53895">&#9670;&#160;</a></span>firstParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::firstParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00117">117</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="adfdd2bd033405cf310cc7e4b9454adcc" name="adfdd2bd033405cf310cc7e4b9454adcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfdd2bd033405cf310cc7e4b9454adcc">&#9670;&#160;</a></span>flags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::flags </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00273">273</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a7c9cb01c9b409c8670062c71718b622d" name="a7c9cb01c9b409c8670062c71718b622d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c9cb01c9b409c8670062c71718b622d">&#9670;&#160;</a></span>hasLegacyConnectivity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool Arcane::ItemSharedInfo::hasLegacyConnectivity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00125">125</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a26b32d1452fd70c6573cd5a6ca36647d" name="a26b32d1452fd70c6573cd5a6ca36647d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b32d1452fd70c6573cd5a6ca36647d">&#9670;&#160;</a></span>hChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::hChild </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00165">165</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a22ce1335ea1aeb89d3d4c5e4270a5ad8" name="a22ce1335ea1aeb89d3d4c5e4270a5ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22ce1335ea1aeb89d3d4c5e4270a5ad8">&#9670;&#160;</a></span>hChildAllocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 Arcane::ItemSharedInfo::hChildAllocated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00209">209</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a5b1d350920bc7b29e14d7995acd78da0" name="a5b1d350920bc7b29e14d7995acd78da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1d350920bc7b29e14d7995acd78da0">&#9670;&#160;</a></span>hChildLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::hChildLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00183">183</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a385ed496db7ca928273597a5670a663a" name="a385ed496db7ca928273597a5670a663a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a385ed496db7ca928273597a5670a663a">&#9670;&#160;</a></span>hChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a> Arcane::ItemSharedInfo::hChildren </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00146">146</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a70599535485f242ad46681cbb922dd76" name="a70599535485f242ad46681cbb922dd76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70599535485f242ad46681cbb922dd76">&#9670;&#160;</a></span>hParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::hParent </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00163">163</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a99a098bb67916671e40ed133a89af743" name="a99a098bb67916671e40ed133a89af743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99a098bb67916671e40ed133a89af743">&#9670;&#160;</a></span>hParentAllocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 Arcane::ItemSharedInfo::hParentAllocated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00208">208</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aea970942d8fa24e13ede55a2d7b4aa7d" name="aea970942d8fa24e13ede55a2d7b4aa7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea970942d8fa24e13ede55a2d7b4aa7d">&#9670;&#160;</a></span>hParentLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::hParentLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00181">181</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a6a807bd682ae64a93f718445b8dd18fa" name="a6a807bd682ae64a93f718445b8dd18fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a807bd682ae64a93f718445b8dd18fa">&#9670;&#160;</a></span>index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::index </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00254">254</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a8b8610f63c9d22270b6900c2c4fd0f50" name="a8b8610f63c9d22270b6900c2c4fd0f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8610f63c9d22270b6900c2c4fd0f50">&#9670;&#160;</a></span>itemFamily()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> * Arcane::ItemSharedInfo::itemFamily </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00096">96</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a43fb49b7dc3388c323b1e8604ca80aee" name="a43fb49b7dc3388c323b1e8604ca80aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43fb49b7dc3388c323b1e8604ca80aee">&#9670;&#160;</a></span>itemKind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> Arcane::ItemSharedInfo::itemKind </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00095">95</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a188c2cb4fe39a68ec32c956757e17e9c" name="a188c2cb4fe39a68ec32c956757e17e9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188c2cb4fe39a68ec32c956757e17e9c">&#9670;&#160;</a></span>minimumNeededMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::minimumNeededMemory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00123">123</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ae40840e208d105612cd712c9345d6256" name="ae40840e208d105612cd712c9345d6256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae40840e208d105612cd712c9345d6256">&#9670;&#160;</a></span>nbCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00105">105</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a02ffd55159bdaed256831fe20d2a83a5" name="a02ffd55159bdaed256831fe20d2a83a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ffd55159bdaed256831fe20d2a83a5">&#9670;&#160;</a></span>nbEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 Arcane::ItemSharedInfo::nbEdge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00101">101</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a4ebfec4d51dbd65a8bd62ab223c5acc1" name="a4ebfec4d51dbd65a8bd62ab223c5acc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ebfec4d51dbd65a8bd62ab223c5acc1">&#9670;&#160;</a></span>nbFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbFace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00103">103</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ad89b7f4aa82bb216b50d9eaeaa6dacc9" name="ad89b7f4aa82bb216b50d9eaeaa6dacc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad89b7f4aa82bb216b50d9eaeaa6dacc9">&#9670;&#160;</a></span>nbHChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbHChildren </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00109">109</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a89e2e2e11f8db0eebae42390aa465973" name="a89e2e2e11f8db0eebae42390aa465973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e2e2e11f8db0eebae42390aa465973">&#9670;&#160;</a></span>nbHParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbHParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00107">107</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ab92e48bdd17371088f4b49af1f7e92f2" name="ab92e48bdd17371088f4b49af1f7e92f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab92e48bdd17371088f4b49af1f7e92f2">&#9670;&#160;</a></span>nbNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00098">98</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a241fd2c05fc53a5dc1db9ef0e45f1e1f" name="a241fd2c05fc53a5dc1db9ef0e45f1e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a241fd2c05fc53a5dc1db9ef0e45f1e1f">&#9670;&#160;</a></span>nbParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbParent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00097">97</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a709391e36bffabe881c4a4e52ca64656" name="a709391e36bffabe881c4a4e52ca64656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709391e36bffabe881c4a4e52ca64656">&#9670;&#160;</a></span>nbReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nbReference </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00256">256</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="affed7ee271c570d51089cf7a98112588" name="affed7ee271c570d51089cf7a98112588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affed7ee271c570d51089cf7a98112588">&#9670;&#160;</a></span>neededMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::neededMemory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00122">122</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a301b4a028c27ae2a6cd401a4ab048c92" name="a301b4a028c27ae2a6cd401a4ab048c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a301b4a028c27ae2a6cd401a4ab048c92">&#9670;&#160;</a></span>node()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::node </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00153">153</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aaef78aee8d705852742503c33c4e0b26" name="aaef78aee8d705852742503c33c4e0b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef78aee8d705852742503c33c4e0b26">&#9670;&#160;</a></span>nodeLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::nodeLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00169">169</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a348481e0534d2279aa7f6ae90138125d" name="a348481e0534d2279aa7f6ae90138125d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348481e0534d2279aa7f6ae90138125d">&#9670;&#160;</a></span>nodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dd5/classArcane_1_1ItemInternalVectorView.html">ItemInternalVectorView</a> Arcane::ItemSharedInfo::nodes </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00133">133</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a5004bcc4b70c60b5158ccb24988eb05e" name="a5004bcc4b70c60b5158ccb24988eb05e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5004bcc4b70c60b5158ccb24988eb05e">&#9670;&#160;</a></span>owner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::owner </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00266">266</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a7a47984bf9476b675c55164cf04aac53" name="a7a47984bf9476b675c55164cf04aac53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a47984bf9476b675c55164cf04aac53">&#9670;&#160;</a></span>parent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::ItemSharedInfo::parent </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>aindex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00150">150</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aaaa82080934b4ae1fe5631772b89f50f" name="aaaa82080934b4ae1fe5631772b89f50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa82080934b4ae1fe5631772b89f50f">&#9670;&#160;</a></span>parentLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::ItemSharedInfo::parentLocalId </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00179">179</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aaaca109190b8b1b83f79fad0d8b1dc48" name="aaaca109190b8b1b83f79fad0d8b1dc48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaca109190b8b1b83f79fad0d8b1dc48">&#9670;&#160;</a></span>print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::print </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >AMR</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00176">176</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#a5a4f8a736a5f4f59b0a3d37654aadef7">Arcane::IItemFamily::fullName()</a>, <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00228">m_first_hParent</a>, et <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00247">m_hParent_allocated</a>.</p>
+
+</div>
+</div>
+<a id="a1056b5f2b22d11109bcdb1dbaa935c9d" name="a1056b5f2b22d11109bcdb1dbaa935c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1056b5f2b22d11109bcdb1dbaa935c9d">&#9670;&#160;</a></span>removeReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::removeReference </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00258">258</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="af6f12a3ce9e9ef5318dede4f02eea276" name="af6f12a3ce9e9ef5318dede4f02eea276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6f12a3ce9e9ef5318dede4f02eea276">&#9670;&#160;</a></span>serializeAMRSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::ItemSharedInfo::serializeAMRSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00144">144</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="ae7948f91e49294fb532cea7076ead12d" name="ae7948f91e49294fb532cea7076ead12d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7948f91e49294fb532cea7076ead12d">&#9670;&#160;</a></span>serializeNoAMRSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::ItemSharedInfo::serializeNoAMRSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00150">150</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="a42013faaf7eaf7b913f994701d4af53d" name="a42013faaf7eaf7b913f994701d4af53d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42013faaf7eaf7b913f994701d4af53d">&#9670;&#160;</a></span>serializeSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::ItemSharedInfo::serializeSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00138">138</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="ac3a3a8f38b99b0e70f1a818dab45f05b" name="ac3a3a8f38b99b0e70f1a818dab45f05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3a3a8f38b99b0e70f1a818dab45f05b">&#9670;&#160;</a></span>serializeWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::serializeWrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a>&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00159">159</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="aec29c137b75e317d40da364d5036f5aa" name="aec29c137b75e317d40da364d5036f5aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec29c137b75e317d40da364d5036f5aa">&#9670;&#160;</a></span>serializeWriteSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::ItemSharedInfo::serializeWriteSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nombre d'informations à écrire pour les données. </p>
+<p >A partir de version 3.6, on ne conserve plus d'informations sur le nombre d'entités connectées. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00132">132</a> du fichier <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a>.</p>
+
+</div>
+</div>
+<a id="aba8c77f8a059e803be7c67d6613b8a77" name="aba8c77f8a059e803be7c67d6613b8a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba8c77f8a059e803be7c67d6613b8a77">&#9670;&#160;</a></span>setCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setCell </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00193">193</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a23777701d189d3d864abb51b4781e769" name="a23777701d189d3d864abb51b4781e769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23777701d189d3d864abb51b4781e769">&#9670;&#160;</a></span>setEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setEdge </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00189">189</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a279e78850249e258874a2b01faf2a65a" name="a279e78850249e258874a2b01faf2a65a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279e78850249e258874a2b01faf2a65a">&#9670;&#160;</a></span>setFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setFace </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00191">191</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aa801e727cac5516b658a60e9eb6bb1e7" name="aa801e727cac5516b658a60e9eb6bb1e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa801e727cac5516b658a60e9eb6bb1e7">&#9670;&#160;</a></span>setFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setFlags </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00275">275</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aadcbd8da3c5ed1eaf21806857b58f146" name="aadcbd8da3c5ed1eaf21806857b58f146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadcbd8da3c5ed1eaf21806857b58f146">&#9670;&#160;</a></span>setHChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setHChild </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00200">200</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a6327c8d0a2f95bbc7302ef46a9997181" name="a6327c8d0a2f95bbc7302ef46a9997181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6327c8d0a2f95bbc7302ef46a9997181">&#9670;&#160;</a></span>setHParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setHParent </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>AMR. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00198">198</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a3fd61b54c7ca57a0055189e932b5620b" name="a3fd61b54c7ca57a0055189e932b5620b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd61b54c7ca57a0055189e932b5620b">&#9670;&#160;</a></span>setIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setIndex </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00255">255</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a463add5313cee448d57bcfcce9ffd4f1" name="a463add5313cee448d57bcfcce9ffd4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a463add5313cee448d57bcfcce9ffd4f1">&#9670;&#160;</a></span>setNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setNode </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00187">187</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a680fb250c17b6a1d026a34d871960cc5" name="a680fb250c17b6a1d026a34d871960cc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a680fb250c17b6a1d026a34d871960cc5">&#9670;&#160;</a></span>setOwner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setOwner </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>aowner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00268">268</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a19b87e851ef5f04b9516375f9fafd060" name="a19b87e851ef5f04b9516375f9fafd060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19b87e851ef5f04b9516375f9fafd060">&#9670;&#160;</a></span>setParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemSharedInfo::setParent </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>data_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>aindex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00195">195</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a9371d056ad3680a0ac93cb88db824f58" name="a9371d056ad3680a0ac93cb88db824f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9371d056ad3680a0ac93cb88db824f58">&#9670;&#160;</a></span>typeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::typeId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00111">111</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions amies et associées</h2>
+<a id="ab5a45f7a19563aed8af84613b3b97503" name="ab5a45f7a19563aed8af84613b3b97503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a45f7a19563aed8af84613b3b97503">&#9670;&#160;</a></span>ItemInternal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00070">70</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a842de3a24d5e8344033db48cb4276c85" name="a842de3a24d5e8344033db48cb4276c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a842de3a24d5e8344033db48cb4276c85">&#9670;&#160;</a></span>mesh::ItemSharedInfoList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d7/d1a/classArcane_1_1mesh_1_1ItemSharedInfoList.html">mesh::ItemSharedInfoList</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00071">71</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a6f5e722a646d39b409c6aba26ffc0d56" name="a6f5e722a646d39b409c6aba26ffc0d56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f5e722a646d39b409c6aba26ffc0d56">&#9670;&#160;</a></span>COMMON_BASE_MEMORY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Int32 Arcane::ItemSharedInfo::COMMON_BASE_MEMORY = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00286">286</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aea790a873fd1d0b1b9b899bbcc2c9dc1" name="aea790a873fd1d0b1b9b899bbcc2c9dc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea790a873fd1d0b1b9b899bbcc2c9dc1">&#9670;&#160;</a></span>FIRST_NODE_INDEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Int32 Arcane::ItemSharedInfo::FIRST_NODE_INDEX = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00282">282</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="adf3e480b401b4306e8962d65170bc428" name="adf3e480b401b4306e8962d65170bc428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf3e480b401b4306e8962d65170bc428">&#9670;&#160;</a></span>FLAGS_INDEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Int32 Arcane::ItemSharedInfo::FLAGS_INDEX = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00281">281</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="abdce5f90ed7c9dec4a9fe2b0830b8952" name="abdce5f90ed7c9dec4a9fe2b0830b8952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdce5f90ed7c9dec4a9fe2b0830b8952">&#9670;&#160;</a></span>m_cell_allocated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_cell_allocated = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00245">245</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a4fb629faec7c9169cec8d04d1fbc3a5b" name="a4fb629faec7c9169cec8d04d1fbc3a5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fb629faec7c9169cec8d04d1fbc3a5b">&#9670;&#160;</a></span>m_connectivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html">ItemInternalConnectivityList</a>* Arcane::ItemSharedInfo::m_connectivity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00235">235</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ae532a11c3da95ab1ccaf35f497904113" name="ae532a11c3da95ab1ccaf35f497904113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae532a11c3da95ab1ccaf35f497904113">&#9670;&#160;</a></span>m_edge_allocated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_edge_allocated = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00243">243</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a4433ade6f152ec009e6fbf324363c676" name="a4433ade6f152ec009e6fbf324363c676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4433ade6f152ec009e6fbf324363c676">&#9670;&#160;</a></span>m_face_allocated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_face_allocated = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00244">244</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a66f6eb9017df48be35fda5a9ed933940" name="a66f6eb9017df48be35fda5a9ed933940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f6eb9017df48be35fda5a9ed933940">&#9670;&#160;</a></span>m_first_cell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_cell = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00223">223</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a0d976257868cf482731a5699d0029c77" name="a0d976257868cf482731a5699d0029c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d976257868cf482731a5699d0029c77">&#9670;&#160;</a></span>m_first_edge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_edge = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00219">219</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a22f7aaedd41fd5fadef5f74e5bddde97" name="a22f7aaedd41fd5fadef5f74e5bddde97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f7aaedd41fd5fadef5f74e5bddde97">&#9670;&#160;</a></span>m_first_face</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_face = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00221">221</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ae1cd0fdc1bb2337603378f52a3396e96" name="ae1cd0fdc1bb2337603378f52a3396e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1cd0fdc1bb2337603378f52a3396e96">&#9670;&#160;</a></span>m_first_hChild</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_hChild = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00229">229</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ab2bb5749f38e2a5f567c12b50f59b7c5" name="ab2bb5749f38e2a5f567c12b50f59b7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2bb5749f38e2a5f567c12b50f59b7c5">&#9670;&#160;</a></span>m_first_hParent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_hParent = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>AMR. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00228">228</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00217">_init()</a>, et <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00177">print()</a>.</p>
+
+</div>
+</div>
+<a id="afc2cda0c43709d9d01ba2a6139850a08" name="afc2cda0c43709d9d01ba2a6139850a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc2cda0c43709d9d01ba2a6139850a08">&#9670;&#160;</a></span>m_first_node</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_node = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00217">217</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="af3704b6c0fbb0e7db55cb3ed0e090b12" name="af3704b6c0fbb0e7db55cb3ed0e090b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3704b6c0fbb0e7db55cb3ed0e090b12">&#9670;&#160;</a></span>m_first_parent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_first_parent = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00225">225</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a17de0d9188149da9de634a28e88bfce5" name="a17de0d9188149da9de634a28e88bfce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17de0d9188149da9de634a28e88bfce5">&#9670;&#160;</a></span>m_hChild_allocated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_hChild_allocated = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00248">248</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a1a7280617cdf86e50b6275e58eca5dda" name="a1a7280617cdf86e50b6275e58eca5dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a7280617cdf86e50b6275e58eca5dda">&#9670;&#160;</a></span>m_hParent_allocated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_hParent_allocated = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>AMR. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00247">247</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00217">_init()</a>, <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00071">ItemSharedInfo()</a>, et <a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html#l00177">print()</a>.</p>
+
+</div>
+</div>
+<a id="a6c3c25c9c19fb4a608e2a959f038553c" name="a6c3c25c9c19fb4a608e2a959f038553c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c3c25c9c19fb4a608e2a959f038553c">&#9670;&#160;</a></span>m_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_index = NULL_INDEX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00251">251</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a7f0facd62eb2861ef0fd137221d4e4f5" name="a7f0facd62eb2861ef0fd137221d4e4f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f0facd62eb2861ef0fd137221d4e4f5">&#9670;&#160;</a></span>m_infos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32* Arcane::ItemSharedInfo::m_infos = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00215">215</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a89907ff5405eea92e68034602a52f9b8" name="a89907ff5405eea92e68034602a52f9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89907ff5405eea92e68034602a52f9b8">&#9670;&#160;</a></span>m_item_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a>* Arcane::ItemSharedInfo::m_item_family = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00236">236</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ac9e75eca283c4cd76d8c6cff97d930b3" name="ac9e75eca283c4cd76d8c6cff97d930b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e75eca283c4cd76d8c6cff97d930b3">&#9670;&#160;</a></span>m_item_kind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> Arcane::ItemSharedInfo::m_item_kind = <a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7a8801e4f56cb20372e75f70d514b6e968">IK_Unknown</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00239">239</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ad4257b9070f23c73143575a72b580783" name="ad4257b9070f23c73143575a72b580783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4257b9070f23c73143575a72b580783">&#9670;&#160;</a></span>m_item_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a>* Arcane::ItemSharedInfo::m_item_type = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00238">238</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a449df44ce1196c5517352ca227a55d47" name="a449df44ce1196c5517352ca227a55d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449df44ce1196c5517352ca227a55d47">&#9670;&#160;</a></span>m_items</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html">MeshItemInternalList</a>* Arcane::ItemSharedInfo::m_items = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00234">234</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a09b627ff16941cc9efd362857a0000e8" name="a09b627ff16941cc9efd362857a0000e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b627ff16941cc9efd362857a0000e8">&#9670;&#160;</a></span>m_minimum_needed_memory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_minimum_needed_memory = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00242">242</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="adacc13891b166b22d986d5e438829273" name="adacc13891b166b22d986d5e438829273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adacc13891b166b22d986d5e438829273">&#9670;&#160;</a></span>m_nb_cell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_cell = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00224">224</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a03a6aea4b0b0a227ce189b2d83961b28" name="a03a6aea4b0b0a227ce189b2d83961b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a6aea4b0b0a227ce189b2d83961b28">&#9670;&#160;</a></span>m_nb_edge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_edge = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00220">220</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a6f115d8e02e74681ea2856cee68ddac4" name="a6f115d8e02e74681ea2856cee68ddac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f115d8e02e74681ea2856cee68ddac4">&#9670;&#160;</a></span>m_nb_face</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_face = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00222">222</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a9610910a292b56f1322ee7dee20d352e" name="a9610910a292b56f1322ee7dee20d352e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9610910a292b56f1322ee7dee20d352e">&#9670;&#160;</a></span>m_nb_hChildren</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_hChildren = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00231">231</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ac1e9d199d7b68fe8e71587e0072d042e" name="ac1e9d199d7b68fe8e71587e0072d042e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e9d199d7b68fe8e71587e0072d042e">&#9670;&#160;</a></span>m_nb_hParent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_hParent = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00230">230</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a3a3a348f0806bf3588e519dfbdd1b720" name="a3a3a348f0806bf3588e519dfbdd1b720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3a348f0806bf3588e519dfbdd1b720">&#9670;&#160;</a></span>m_nb_node</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_node = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00218">218</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a6aa84a33ed6b6ea86a70c3e96f582c8d" name="a6aa84a33ed6b6ea86a70c3e96f582c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa84a33ed6b6ea86a70c3e96f582c8d">&#9670;&#160;</a></span>m_nb_parent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_parent = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00226">226</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a74071c17045bde3aaeb92b25fdf7394d" name="a74071c17045bde3aaeb92b25fdf7394d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74071c17045bde3aaeb92b25fdf7394d">&#9670;&#160;</a></span>m_nb_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_nb_reference = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00252">252</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a63f6e2fe5c1e6383e600e7ddaf7e65e6" name="a63f6e2fe5c1e6383e600e7ddaf7e65e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f6e2fe5c1e6383e600e7ddaf7e65e6">&#9670;&#160;</a></span>m_needed_memory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_needed_memory = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00241">241</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="af25c65997bc4121f573574cc370aa790" name="af25c65997bc4121f573574cc370aa790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af25c65997bc4121f573574cc370aa790">&#9670;&#160;</a></span>m_type_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::ItemSharedInfo::m_type_id = IT_NullType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00250">250</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="aefec45f0c3d07d331ccd323feeacb321" name="aefec45f0c3d07d331ccd323feeacb321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefec45f0c3d07d331ccd323feeacb321">&#9670;&#160;</a></span>m_unique_ids</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a7332a70f38a2f4925865259192b0fac3">Int64ArrayView</a>* Arcane::ItemSharedInfo::m_unique_ids = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00237">237</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a48a86f4371f572a919640b41bf38ffbe" name="a48a86f4371f572a919640b41bf38ffbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a86f4371f572a919640b41bf38ffbe">&#9670;&#160;</a></span>NULL_INDEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Int32 Arcane::ItemSharedInfo::NULL_INDEX = static_cast&lt;Int32&gt;(-1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00073">73</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="ac33041c3d9cfacdf2f83c8f6869f05dc" name="ac33041c3d9cfacdf2f83c8f6869f05dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac33041c3d9cfacdf2f83c8f6869f05dc">&#9670;&#160;</a></span>nullItemSharedInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html">ItemSharedInfo</a> Arcane::ItemSharedInfo::nullItemSharedInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pour l'entité nulle. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00078">78</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<a id="a958eecd5cec5494bee6ba45b3c66dc95" name="a958eecd5cec5494bee6ba45b3c66dc95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a958eecd5cec5494bee6ba45b3c66dc95">&#9670;&#160;</a></span>OWNER_INDEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Int32 Arcane::ItemSharedInfo::OWNER_INDEX = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html#l00280">280</a> du fichier <a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../df/d39/ItemSharedInfo_8h_source.html">ItemSharedInfo.h</a></li>
+<li><a class="el" href="../../de/d32/ItemSharedInfo_8cc_source.html">ItemSharedInfo.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html">ItemSharedInfo</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:26 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

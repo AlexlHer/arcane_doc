@@ -1,0 +1,5 @@
+<map id="Arcane::UserDataList" name="Arcane::UserDataList">
+<area shape="rect" id="node1" title="Gère une liste de données utilisateurs." alt="" coords="103,181,270,309"/>
+<area shape="rect" id="node2" href="$db/d42/classArcane_1_1IUserDataList.html" title="Interface d&#39;une liste qui gère des données utilisateurs." alt="" coords="5,5,176,119"/>
+<area shape="rect" id="node3" href="$d9/d7e/classArcane_1_1UserDataList_1_1Impl.html" title=" " alt="" coords="201,27,367,97"/>
+</map>

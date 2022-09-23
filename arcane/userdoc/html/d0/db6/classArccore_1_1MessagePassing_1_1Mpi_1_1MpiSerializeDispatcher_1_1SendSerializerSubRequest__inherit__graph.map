@@ -1,0 +1,4 @@
+<map id="Arccore::MessagePassing::Mpi::MpiSerializeDispatcher::SendSerializerSubRequest" name="Arccore::MessagePassing::Mpi::MpiSerializeDispatcher::SendSerializerSubRequest">
+<area shape="rect" id="node1" title="Sous&#45;requête d&#39;envoi." alt="" coords="5,137,233,265"/>
+<area shape="rect" id="node2" href="$dc/dda/classArccore_1_1MessagePassing_1_1ISubRequest.html" title=" " alt="" coords="22,5,217,89"/>
+</map>

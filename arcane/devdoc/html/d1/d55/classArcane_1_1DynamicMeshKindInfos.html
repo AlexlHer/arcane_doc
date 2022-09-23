@@ -1,0 +1,2269 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::DynamicMeshKindInfos</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d1/d55/classArcane_1_1DynamicMeshKindInfos.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-attribs">Attributs publics</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../d8/d53/classArcane_1_1DynamicMeshKindInfos-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::DynamicMeshKindInfos</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Infos de maillage pour un genre donné d'entité.  
+ <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">arcane/mesh/DynamicMeshKindInfos.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::DynamicMeshKindInfos:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../db/db1/classArcane_1_1DynamicMeshKindInfos__inherit__graph.png" border="0" usemap="#aArcane_1_1DynamicMeshKindInfos_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1DynamicMeshKindInfos_inherit__map" id="aArcane_1_1DynamicMeshKindInfos_inherit__map">
+<area shape="rect" title="Infos de maillage pour un genre donné d&#39;entité." alt="" coords="5,313,243,837"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="27,5,221,265"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::DynamicMeshKindInfos:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/d6e/classArcane_1_1DynamicMeshKindInfos__coll__graph.png" border="0" usemap="#aArcane_1_1DynamicMeshKindInfos_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1DynamicMeshKindInfos_coll__map" id="aArcane_1_1DynamicMeshKindInfos_coll__map">
+<area shape="rect" title="Infos de maillage pour un genre donné d&#39;entité." alt="" coords="1143,3759,1380,4165"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="193,3289,388,3535"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="192,2149,365,2497"/>
+<area shape="rect" href="../../d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="208,1519,349,1559"/>
+<area shape="rect" href="../../da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="5,1504,184,1573"/>
+<area shape="rect" href="../../d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="431,3150,687,3674"/>
+<area shape="rect" href="../../de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="416,2223,571,2424"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="721,3143,943,3681"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="595,2098,749,2549"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="597,1379,805,1698"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="374,1379,573,1698"/>
+<area shape="rect" href="../../d9/d27/classArcane_1_1ItemGroup.html" title="Groupe d&#39;entités de maillage." alt="" coords="972,3304,1124,3520"/>
+<area shape="rect" href="../../de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="773,2223,976,2424"/>
+<area shape="rect" href="../../dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="829,1423,976,1654"/>
+<area shape="rect" title=" " alt="" coords="1863,2303,1939,2343"/>
+<area shape="rect" href="../../dd/d37/classArcane_1_1MultiBufferT.html" title=" " alt="" coords="2008,3297,2195,3527"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1535,2215,1703,2431"/>
+<area shape="rect" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html" title="Informations pour gérer le compactage des entités d&#39;une famille." alt="" coords="1151,3319,1372,3505"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1519,1372,1719,1705"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="1847,755,2062,1323"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1743,1372,1943,1705"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1967,1372,2167,1705"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2192,1372,2392,1705"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="1842,548,2067,705"/>
+<area shape="rect" href="../../d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="1859,211,2050,471"/>
+<area shape="rect" href="../../d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="1853,5,2056,148"/>
+<area shape="rect" href="../../d3/d4e/classArcane_1_1IMeshCompacter.html" title="Gestion d&#39;un compactage de familles du maillage." alt="" coords="1001,2201,1263,2446"/>
+<area shape="rect" href="../../dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="1287,1768,1510,2879"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1647,2903,1843,3119"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="1963,2223,2170,2424"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2194,2215,2395,2431"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a51a2dac7e9635e01e0b38fbcb7abe7ab"><td class="memItemLeft" align="right" valign="top">typedef Arcane::mesh::ItemInternalMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a51a2dac7e9635e01e0b38fbcb7abe7ab">ItemInternalMap</a></td></tr>
+<tr class="separator:a51a2dac7e9635e01e0b38fbcb7abe7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b708b97b5e9f1c0fe0f162b27b597d2"><td class="memItemLeft" align="right" valign="top">typedef ItemInternalMap::Data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a7b708b97b5e9f1c0fe0f162b27b597d2">ItemInternalMapData</a></td></tr>
+<tr class="separator:a7b708b97b5e9f1c0fe0f162b27b597d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a8d90a571a250a57547c410980fe651ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8d90a571a250a57547c410980fe651ae">DynamicMeshKindInfos</a> (<a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *mesh, <a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> kind, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;kind_name)</td></tr>
+<tr class="memdesc:a8d90a571a250a57547c410980fe651ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Créé une instance pour un maillage et un genre donnée.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8d90a571a250a57547c410980fe651ae">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8d90a571a250a57547c410980fe651ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacfe7cbecc148a3c033f9d9f2d873e80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aacfe7cbecc148a3c033f9d9f2d873e80">~DynamicMeshKindInfos</a> ()</td></tr>
+<tr class="memdesc:aacfe7cbecc148a3c033f9d9f2d873e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Libère les ressources.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aacfe7cbecc148a3c033f9d9f2d873e80">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aacfe7cbecc148a3c033f9d9f2d873e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77e5e193b275d5121a1639cae526b6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ab77e5e193b275d5121a1639cae526b6d">build</a> ()</td></tr>
+<tr class="separator:ab77e5e193b275d5121a1639cae526b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299304a0539e6cbed61c064108b31f22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a299304a0539e6cbed61c064108b31f22">finalizeMeshChanged</a> ()</td></tr>
+<tr class="memdesc:a299304a0539e6cbed61c064108b31f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Réalloue et recalcule les structures après modification du maillage.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a299304a0539e6cbed61c064108b31f22">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a299304a0539e6cbed61c064108b31f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82263574ed57a5250b9392d4e671b07b"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a82263574ed57a5250b9392d4e671b07b">maxUsedLocalId</a> () const</td></tr>
+<tr class="memdesc:a82263574ed57a5250b9392d4e671b07b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numéro local le plus grand utilisé.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a82263574ed57a5250b9392d4e671b07b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a82263574ed57a5250b9392d4e671b07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab902855004259f530f3fbbea6dcc7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3ab902855004259f530f3fbbea6dcc7d">prepareForDump</a> ()</td></tr>
+<tr class="memdesc:a3ab902855004259f530f3fbbea6dcc7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prépare les variables pour les sauvegardes.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3ab902855004259f530f3fbbea6dcc7d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3ab902855004259f530f3fbbea6dcc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2ef1b465a7045ca4e975eea87c328e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5b2ef1b465a7045ca4e975eea87c328e">readFromDump</a> ()</td></tr>
+<tr class="memdesc:a5b2ef1b465a7045ca4e975eea87c328e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restaure les infos à partir des dumps.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5b2ef1b465a7045ca4e975eea87c328e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5b2ef1b465a7045ca4e975eea87c328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac40378695b949755fa1c90119210cfd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ac40378695b949755fa1c90119210cfd4">allItems</a> () const</td></tr>
+<tr class="memdesc:ac40378695b949755fa1c90119210cfd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe de toutes les entités.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ac40378695b949755fa1c90119210cfd4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac40378695b949755fa1c90119210cfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae63526182f922c24063df176456d0240"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae63526182f922c24063df176456d0240">addedItems</a> () const</td></tr>
+<tr class="memdesc:ae63526182f922c24063df176456d0240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des entitées ajoutées ou retirées depuis le dernier endUpdate()  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae63526182f922c24063df176456d0240">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae63526182f922c24063df176456d0240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8733ddd9be9916dc794472a6fb7f27a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8733ddd9be9916dc794472a6fb7f27a6">removedItems</a> () const</td></tr>
+<tr class="separator:a8733ddd9be9916dc794472a6fb7f27a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7214c2f63247e988306520ad07bb62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a1d7214c2f63247e988306520ad07bb62">itemsInternal</a> () const</td></tr>
+<tr class="memdesc:a1d7214c2f63247e988306520ad07bb62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste interne des <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a>'s.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a1d7214c2f63247e988306520ad07bb62">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1d7214c2f63247e988306520ad07bb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c03730b1ca85ef6646d9348be12970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a52c03730b1ca85ef6646d9348be12970">itemInternal</a> (Int32 local_id) const</td></tr>
+<tr class="separator:a52c03730b1ca85ef6646d9348be12970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af79ed0d894ba245666c80b35d9966539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#af79ed0d894ba245666c80b35d9966539">allocOne</a> (Int64 unique_id)</td></tr>
+<tr class="memdesc:af79ed0d894ba245666c80b35d9966539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute une entité de numéro unique <em>unique_id</em>.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#af79ed0d894ba245666c80b35d9966539">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af79ed0d894ba245666c80b35d9966539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d0198b897176116036824404f7061f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a4d0198b897176116036824404f7061f5">allocOne</a> (Int64 unique_id, bool &amp;need_alloc)</td></tr>
+<tr class="memdesc:a4d0198b897176116036824404f7061f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute une entité de numéro unique <em>unique_id</em>.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a4d0198b897176116036824404f7061f5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4d0198b897176116036824404f7061f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedfa13cb8126be54d3608a6a43e7f817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aedfa13cb8126be54d3608a6a43e7f817">removeOne</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *item)</td></tr>
+<tr class="memdesc:aedfa13cb8126be54d3608a6a43e7f817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime l'entité <em>item</em>.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aedfa13cb8126be54d3608a6a43e7f817">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aedfa13cb8126be54d3608a6a43e7f817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac27133da7220a11c30fe987390fde40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aac27133da7220a11c30fe987390fde40">removeDetachedOne</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *item)</td></tr>
+<tr class="memdesc:aac27133da7220a11c30fe987390fde40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime l'entité détachée <em>item</em>.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aac27133da7220a11c30fe987390fde40">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aac27133da7220a11c30fe987390fde40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d23a0a53f5f0d1ba71177e4cca5b636"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a7d23a0a53f5f0d1ba71177e4cca5b636">detachOne</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *item)</td></tr>
+<tr class="memdesc:a7d23a0a53f5f0d1ba71177e4cca5b636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Détache une l'entité <em>item</em>.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a7d23a0a53f5f0d1ba71177e4cca5b636">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7d23a0a53f5f0d1ba71177e4cca5b636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad0a5ec368a72918c63ab15b8de3e05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a2ad0a5ec368a72918c63ab15b8de3e05">removeMany</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> local_ids)</td></tr>
+<tr class="memdesc:a2ad0a5ec368a72918c63ab15b8de3e05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime une liste d'entités.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a2ad0a5ec368a72918c63ab15b8de3e05">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2ad0a5ec368a72918c63ab15b8de3e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4aab7ff59600e4d39f305d52a9aed82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae4aab7ff59600e4d39f305d52a9aed82">findOrAllocOne</a> (Int64 uid, bool &amp;is_alloc)</td></tr>
+<tr class="memdesc:ae4aab7ff59600e4d39f305d52a9aed82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recherche l'entité de numéro unique <em>unique_id</em> et la créé si elle n'existe pas.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae4aab7ff59600e4d39f305d52a9aed82">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae4aab7ff59600e4d39f305d52a9aed82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3a0c0794ceb05634cd5a2156c9b8ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3a3a0c0794ceb05634cd5a2156c9b8ab">findOne</a> (Int64 uid)</td></tr>
+<tr class="memdesc:a3a3a0c0794ceb05634cd5a2156c9b8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recherche l'entit de numro unique <em>unique_id</em> et.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3a3a0c0794ceb05634cd5a2156c9b8ab">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3a3a0c0794ceb05634cd5a2156c9b8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa449e8e0aa973c0c105cbea9c963861c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aa449e8e0aa973c0c105cbea9c963861c">checkValid</a> ()</td></tr>
+<tr class="memdesc:aa449e8e0aa973c0c105cbea9c963861c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie si les structures internes de l'instance sont valides.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aa449e8e0aa973c0c105cbea9c963861c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa449e8e0aa973c0c105cbea9c963861c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e96fb205a42ddfeb41d1e4ee509b9f"><td class="memItemLeft" align="right" valign="top">ItemInternalMap &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a49e96fb205a42ddfeb41d1e4ee509b9f">itemsMap</a> ()</td></tr>
+<tr class="separator:a49e96fb205a42ddfeb41d1e4ee509b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950ba975192b9fae93e7723c80f5ba4d"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a950ba975192b9fae93e7723c80f5ba4d">nbItem</a> () const</td></tr>
+<tr class="separator:a950ba975192b9fae93e7723c80f5ba4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764107c679698bf7795014bf0362ba04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a764107c679698bf7795014bf0362ba04">kind</a> () const</td></tr>
+<tr class="separator:a764107c679698bf7795014bf0362ba04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3e626905bdbabd73296b4ea9957431"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#acc3e626905bdbabd73296b4ea9957431">changed</a> () const</td></tr>
+<tr class="separator:acc3e626905bdbabd73296b4ea9957431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc2ea0d2d3b3ef4da68c67d7ea92cf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3dc2ea0d2d3b3ef4da68c67d7ea92cf6">beginCompactItems</a> (<a class="el" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html">ItemFamilyCompactInfos</a> &amp;compact_infos)</td></tr>
+<tr class="memdesc:a3dc2ea0d2d3b3ef4da68c67d7ea92cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcule les nouveaux id locaux des entités pour qu'ils soient consécutifs.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3dc2ea0d2d3b3ef4da68c67d7ea92cf6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3dc2ea0d2d3b3ef4da68c67d7ea92cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407c7bb36e360f03daae836741767e6d"><td class="memItemLeft" align="right" valign="top">ARCANE_DEPRECATED_240 <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a407c7bb36e360f03daae836741767e6d">oldToNewLocalIds</a> () const</td></tr>
+<tr class="memdesc:a407c7bb36e360f03daae836741767e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion entre les anciens et les nouveaux id locaux.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a407c7bb36e360f03daae836741767e6d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a407c7bb36e360f03daae836741767e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0888ef8d46a9379ed6c1595c445b577"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae0888ef8d46a9379ed6c1595c445b577">clear</a> ()</td></tr>
+<tr class="memdesc:ae0888ef8d46a9379ed6c1595c445b577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime toutes les entités.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae0888ef8d46a9379ed6c1595c445b577">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae0888ef8d46a9379ed6c1595c445b577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f19dd438a931212e16c16ffe084fe4f"><td class="memItemLeft" align="right" valign="top">ARCANE_DEPRECATED_240 <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8f19dd438a931212e16c16ffe084fe4f">newToOldLocalIds</a> () const</td></tr>
+<tr class="memdesc:a8f19dd438a931212e16c16ffe084fe4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion entre les nouveaux et les anciens id locaux.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8f19dd438a931212e16c16ffe084fe4f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8f19dd438a931212e16c16ffe084fe4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2942cd247b0b5d59b0a6722b2695c770"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a2942cd247b0b5d59b0a6722b2695c770">finishCompactItems</a> (<a class="el" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html">ItemFamilyCompactInfos</a> &amp;compact_infos)</td></tr>
+<tr class="separator:a2942cd247b0b5d59b0a6722b2695c770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227eb227351a14fac781c54adfb8511e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a227eb227351a14fac781c54adfb8511e">itemsUniqueIdToLocalId</a> (<a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; Int64 &gt; ids, bool do_fatal) const</td></tr>
+<tr class="separator:a227eb227351a14fac781c54adfb8511e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2e372b1eb990a75b0e29c0a192ed88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aee2e372b1eb990a75b0e29c0a192ed88">itemsUniqueIdToLocalId</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a> local_ids, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> unique_ids, bool do_fatal) const</td></tr>
+<tr class="separator:aee2e372b1eb990a75b0e29c0a192ed88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27590cd802bd29bc16e86cc91027b5cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a27590cd802bd29bc16e86cc91027b5cb">itemsUniqueIdToLocalId</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a> local_ids, <a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../df/d81/classArcane_1_1ItemUniqueId.html">ItemUniqueId</a> &gt; unique_ids, bool do_fatal) const</td></tr>
+<tr class="separator:a27590cd802bd29bc16e86cc91027b5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1714556345e679791ef114af04777c"><td class="memItemLeft" align="right" valign="top">ItemFamily *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aca1714556345e679791ef114af04777c">itemFamily</a> () const</td></tr>
+<tr class="separator:aca1714556345e679791ef114af04777c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c823920142ec8a4ee5715e452b5026"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aa7c823920142ec8a4ee5715e452b5026">setItemFamily</a> (ItemFamily *item_family)</td></tr>
+<tr class="separator:aa7c823920142ec8a4ee5715e452b5026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b551f395dcaa671addc350273bdf850"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a6b551f395dcaa671addc350273bdf850">hasUniqueIdMap</a> () const</td></tr>
+<tr class="separator:a6b551f395dcaa671addc350273bdf850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae608e89adc6c6581a7ff391dc8766c6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae608e89adc6c6581a7ff391dc8766c6b">setHasUniqueIdMap</a> (bool v)</td></tr>
+<tr class="separator:ae608e89adc6c6581a7ff391dc8766c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bdefed6ae5c845b510f513c24fe512d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5bdefed6ae5c845b510f513c24fe512d">printFreeInternals</a> (Integer max_print)</td></tr>
+<tr class="separator:a5bdefed6ae5c845b510f513c24fe512d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArccore_1_1TraceAccessor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArccore_1_1TraceAccessor')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">Arccore::TraceAccessor</a></td></tr>
+<tr class="memitem:afe70c009833ca29c6c1832a2cec75f86 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afe70c009833ca29c6c1832a2cec75f86">TraceAccessor</a> (<a class="el" href="../../d0/df9/classArccore_1_1ITraceMng.html">ITraceMng</a> *m)</td></tr>
+<tr class="memdesc:afe70c009833ca29c6c1832a2cec75f86 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit un accesseur via le gestionnaire de trace <em>m</em>.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afe70c009833ca29c6c1832a2cec75f86">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afe70c009833ca29c6c1832a2cec75f86 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52e789bcc12802b71ad911b73dd5c98 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac52e789bcc12802b71ad911b73dd5c98">TraceAccessor</a> (const <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">TraceAccessor</a> &amp;rhs)</td></tr>
+<tr class="memdesc:ac52e789bcc12802b71ad911b73dd5c98 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur par recopie.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac52e789bcc12802b71ad911b73dd5c98">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac52e789bcc12802b71ad911b73dd5c98 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67efc4d69e4c2df750a4ae48ff956396 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">TraceAccessor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a67efc4d69e4c2df750a4ae48ff956396">operator=</a> (const <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">TraceAccessor</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a67efc4d69e4c2df750a4ae48ff956396 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de recopie.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a67efc4d69e4c2df750a4ae48ff956396">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a67efc4d69e4c2df750a4ae48ff956396 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1495cbaf1ae139e0b969a4a246812d inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a4a1495cbaf1ae139e0b969a4a246812d">~TraceAccessor</a> ()</td></tr>
+<tr class="memdesc:a4a1495cbaf1ae139e0b969a4a246812d inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Libère les ressources.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a4a1495cbaf1ae139e0b969a4a246812d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4a1495cbaf1ae139e0b969a4a246812d inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c624a02bc7d3a224b158010018b753 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df9/classArccore_1_1ITraceMng.html">ITraceMng</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a75c624a02bc7d3a224b158010018b753">traceMng</a> () const</td></tr>
+<tr class="memdesc:a75c624a02bc7d3a224b158010018b753 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestionnaire de trace.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a75c624a02bc7d3a224b158010018b753">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a75c624a02bc7d3a224b158010018b753 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97ca3cda108d93dceb8e1a4800246a7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a> () const</td></tr>
+<tr class="memdesc:ac97ca3cda108d93dceb8e1a4800246a7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac97ca3cda108d93dceb8e1a4800246a7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb5f9dc714b659e4d7dc2c8716ce717 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a3eb5f9dc714b659e4d7dc2c8716ce717">pinfo</a> () const</td></tr>
+<tr class="memdesc:a3eb5f9dc714b659e4d7dc2c8716ce717 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information en parallèle.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a3eb5f9dc714b659e4d7dc2c8716ce717">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3eb5f9dc714b659e4d7dc2c8716ce717 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fc20509beb3913d9d362d763ee2f2a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a95fc20509beb3913d9d362d763ee2f2a">info</a> (char category) const</td></tr>
+<tr class="memdesc:a95fc20509beb3913d9d362d763ee2f2a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information d'une catégorie donnée.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a95fc20509beb3913d9d362d763ee2f2a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a95fc20509beb3913d9d362d763ee2f2a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e9d170dd926412aa515a8a65c6f660 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a33e9d170dd926412aa515a8a65c6f660">pinfo</a> (char category) const</td></tr>
+<tr class="memdesc:a33e9d170dd926412aa515a8a65c6f660 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information parallèle d'une catégorie donnée.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a33e9d170dd926412aa515a8a65c6f660">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a33e9d170dd926412aa515a8a65c6f660 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd471e54d5b3f74fa659fdf31a737c3 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a0dd471e54d5b3f74fa659fdf31a737c3">info</a> (bool v) const</td></tr>
+<tr class="memdesc:a0dd471e54d5b3f74fa659fdf31a737c3 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a0dd471e54d5b3f74fa659fdf31a737c3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0dd471e54d5b3f74fa659fdf31a737c3 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7819e9c2158bc8389f98db69bbdad02 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ab7819e9c2158bc8389f98db69bbdad02">warning</a> () const</td></tr>
+<tr class="memdesc:ab7819e9c2158bc8389f98db69bbdad02 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'avertissement.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ab7819e9c2158bc8389f98db69bbdad02">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab7819e9c2158bc8389f98db69bbdad02 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15637d98064c2991806fef1e1c187ef9 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a15637d98064c2991806fef1e1c187ef9">pwarning</a> () const</td></tr>
+<tr class="separator:a15637d98064c2991806fef1e1c187ef9 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a8c15c146724b331c8aa10e2027f08 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a> () const</td></tr>
+<tr class="memdesc:a86a8c15c146724b331c8aa10e2027f08 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'erreur.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a86a8c15c146724b331c8aa10e2027f08 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91bebb591669e3f99a5074639bc9a79 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ab91bebb591669e3f99a5074639bc9a79">perror</a> () const</td></tr>
+<tr class="separator:ab91bebb591669e3f99a5074639bc9a79 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c5f0749b260e04f8ce5815a430dc2e inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a15c5f0749b260e04f8ce5815a430dc2e">log</a> () const</td></tr>
+<tr class="memdesc:a15c5f0749b260e04f8ce5815a430dc2e inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de log.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a15c5f0749b260e04f8ce5815a430dc2e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a15c5f0749b260e04f8ce5815a430dc2e inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8092b75b69f2aa2425f890d7917bcdb4 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a8092b75b69f2aa2425f890d7917bcdb4">plog</a> () const</td></tr>
+<tr class="memdesc:a8092b75b69f2aa2425f890d7917bcdb4 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de log.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a8092b75b69f2aa2425f890d7917bcdb4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8092b75b69f2aa2425f890d7917bcdb4 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae19ea4861a709e97e78a6e59199fb1c7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ae19ea4861a709e97e78a6e59199fb1c7">logdate</a> () const</td></tr>
+<tr class="memdesc:ae19ea4861a709e97e78a6e59199fb1c7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de log précédé de la date.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ae19ea4861a709e97e78a6e59199fb1c7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae19ea4861a709e97e78a6e59199fb1c7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0d71ec8fb01c5f1a64fd404bff3812 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#adf0d71ec8fb01c5f1a64fd404bff3812">fatal</a> () const</td></tr>
+<tr class="memdesc:adf0d71ec8fb01c5f1a64fd404bff3812 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'erreur fatale.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#adf0d71ec8fb01c5f1a64fd404bff3812">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adf0d71ec8fb01c5f1a64fd404bff3812 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a523a890f337d989e89fa3268de7d2 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a44a523a890f337d989e89fa3268de7d2">pfatal</a> () const</td></tr>
+<tr class="memdesc:a44a523a890f337d989e89fa3268de7d2 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'erreur fatale en parallèle.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a44a523a890f337d989e89fa3268de7d2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a44a523a890f337d989e89fa3268de7d2 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f1b199abdaea45cfe09d1bb05bc0b8 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d03/classArccore_1_1TraceMessageDbg.html">TraceMessageDbg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a87f1b199abdaea45cfe09d1bb05bc0b8">debug</a> (<a class="el" href="../../d4/d56/namespaceArccore_1_1Trace.html#abf5dbf930d14c0c3147dcce10df4cac9">Trace::eDebugLevel</a>=<a class="el" href="../../d4/d56/namespaceArccore_1_1Trace.html#abf5dbf930d14c0c3147dcce10df4cac9a0daa39c42b94819ebb77c607a16ae023">Trace::Medium</a>) const</td></tr>
+<tr class="memdesc:a87f1b199abdaea45cfe09d1bb05bc0b8 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de debug.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a87f1b199abdaea45cfe09d1bb05bc0b8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a87f1b199abdaea45cfe09d1bb05bc0b8 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb8d2f4b894436310f42d0587da4eb6 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d56/namespaceArccore_1_1Trace.html#abf5dbf930d14c0c3147dcce10df4cac9">Trace::eDebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afcb8d2f4b894436310f42d0587da4eb6">configDbgLevel</a> () const</td></tr>
+<tr class="memdesc:afcb8d2f4b894436310f42d0587da4eb6 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Niveau debug du fichier de configuration.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afcb8d2f4b894436310f42d0587da4eb6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afcb8d2f4b894436310f42d0587da4eb6 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a5b1bb20d49b82a5ee5bdb20b1a71a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac8a5b1bb20d49b82a5ee5bdb20b1a71a">info</a> (<a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a> verbose_level) const</td></tr>
+<tr class="memdesc:ac8a5b1bb20d49b82a5ee5bdb20b1a71a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information d'un niveau donné  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac8a5b1bb20d49b82a5ee5bdb20b1a71a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac8a5b1bb20d49b82a5ee5bdb20b1a71a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a97cbf2e9e1af4e7584870bad6cb33c inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a6a97cbf2e9e1af4e7584870bad6cb33c">linfo</a> () const</td></tr>
+<tr class="memdesc:a6a97cbf2e9e1af4e7584870bad6cb33c inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information avec le niveau d'information local à cette instance.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a6a97cbf2e9e1af4e7584870bad6cb33c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6a97cbf2e9e1af4e7584870bad6cb33c inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8797fc0db8446c5eb9549ba8bfcfee5 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ad8797fc0db8446c5eb9549ba8bfcfee5">linfo</a> (<a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a> relative_level) const</td></tr>
+<tr class="memdesc:ad8797fc0db8446c5eb9549ba8bfcfee5 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information avec le niveau d'information local à cette instance.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ad8797fc0db8446c5eb9549ba8bfcfee5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad8797fc0db8446c5eb9549ba8bfcfee5 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcb629d674469f5950cc3a8bd357313 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#aadcb629d674469f5950cc3a8bd357313">fatalMessage</a> (const <a class="el" href="../../d8/da2/classArccore_1_1StandaloneTraceMessage.html">StandaloneTraceMessage</a> &amp;o) const</td></tr>
+<tr class="separator:aadcb629d674469f5950cc3a8bd357313 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Attributs publics</h2></td></tr>
+<tr class="memitem:a11f6761acdd91b7040d6b8e12f1cf60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a11f6761acdd91b7040d6b8e12f1cf60e">m_internals</a></td></tr>
+<tr class="memdesc:a11f6761acdd91b7040d6b8e12f1cf60e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a> des entités.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a11f6761acdd91b7040d6b8e12f1cf60e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a11f6761acdd91b7040d6b8e12f1cf60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c0db97d38f877630757f97abf0acfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a06c0db97d38f877630757f97abf0acfc">m_free_internals</a></td></tr>
+<tr class="memdesc:a06c0db97d38f877630757f97abf0acfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a> de m_item_internals_buffer libres.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a06c0db97d38f877630757f97abf0acfc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a06c0db97d38f877630757f97abf0acfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafb08a0aaf378de4152586fba168cc2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aafb08a0aaf378de4152586fba168cc2c">m_free_internals_in_multi_buffer</a></td></tr>
+<tr class="separator:aafb08a0aaf378de4152586fba168cc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a9186b920ac894623e76ebd66d2044afd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a9186b920ac894623e76ebd66d2044afd">_allocOne</a> (bool &amp;need_alloc)</td></tr>
+<tr class="memdesc:a9186b920ac894623e76ebd66d2044afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute une entité.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a9186b920ac894623e76ebd66d2044afd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9186b920ac894623e76ebd66d2044afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4efd29172763f7ae61f255244553934"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#af4efd29172763f7ae61f255244553934">_setSuppressed</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *item)</td></tr>
+<tr class="separator:af4efd29172763f7ae61f255244553934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae01c9e1322cc2fd83a8319ba4a689e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#aae01c9e1322cc2fd83a8319ba4a689e7">_setAdded</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *item)</td></tr>
+<tr class="separator:aae01c9e1322cc2fd83a8319ba4a689e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cb24f3f5d2960d6e4085f9275a4656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a59cb24f3f5d2960d6e4085f9275a4656">_checkActiveItem</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *item)</td></tr>
+<tr class="separator:a59cb24f3f5d2960d6e4085f9275a4656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0ede2fe161e8503270adc6c06eea73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a2e0ede2fe161e8503270adc6c06eea73">_dumpList</a> ()</td></tr>
+<tr class="separator:a2e0ede2fe161e8503270adc6c06eea73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5df1810ee6ff71f136f30df13309c0a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5df1810ee6ff71f136f30df13309c0a6">_badSameUniqueId</a> (Int64 unique_id) const</td></tr>
+<tr class="separator:a5df1810ee6ff71f136f30df13309c0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade16e1f8579d571536ee991632e24cf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ade16e1f8579d571536ee991632e24cf3">_badUniqueIdMap</a> () const</td></tr>
+<tr class="separator:ade16e1f8579d571536ee991632e24cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a3211d2ffc02b4d5d97f6c4d4c578fafc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3211d2ffc02b4d5d97f6c4d4c578fafc">m_mesh</a></td></tr>
+<tr class="memdesc:a3211d2ffc02b4d5d97f6c4d4c578fafc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maillage associé  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3211d2ffc02b4d5d97f6c4d4c578fafc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3211d2ffc02b4d5d97f6c4d4c578fafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6706c579d29b82e324d34c94105e8c4"><td class="memItemLeft" align="right" valign="top">ItemFamily *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ac6706c579d29b82e324d34c94105e8c4">m_item_family</a></td></tr>
+<tr class="memdesc:ac6706c579d29b82e324d34c94105e8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Famille de maillage associée.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ac6706c579d29b82e324d34c94105e8c4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac6706c579d29b82e324d34c94105e8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157f2e91c775ba75213f98ceb040a282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a157f2e91c775ba75213f98ceb040a282">m_kind</a></td></tr>
+<tr class="memdesc:a157f2e91c775ba75213f98ceb040a282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Genre correspondant.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a157f2e91c775ba75213f98ceb040a282">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a157f2e91c775ba75213f98ceb040a282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa79d6c862b978cd0aaab5c577059fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#abaa79d6c862b978cd0aaab5c577059fc">m_kind_name</a></td></tr>
+<tr class="memdesc:abaa79d6c862b978cd0aaab5c577059fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nom du genre des entités (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html" title="Noeud d&#39;un maillage.">Node</a>, <a class="el" href="../../d9/db2/classArcane_1_1Cell.html" title="Maille d&#39;un maillage.">Cell</a>, ...)  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#abaa79d6c862b978cd0aaab5c577059fc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abaa79d6c862b978cd0aaab5c577059fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2a4097183cb3b9f57180de3a14fbae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5a2a4097183cb3b9f57180de3a14fbae">m_all_group_name</a></td></tr>
+<tr class="memdesc:a5a2a4097183cb3b9f57180de3a14fbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nom du groupe contenant toutes les entités.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5a2a4097183cb3b9f57180de3a14fbae">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5a2a4097183cb3b9f57180de3a14fbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b9c133fce87f0287f694511864bf7e"><td class="memItemLeft" align="right" valign="top">ItemInternalMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ac3b9c133fce87f0287f694511864bf7e">m_items_map</a></td></tr>
+<tr class="memdesc:ac3b9c133fce87f0287f694511864bf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table de hachage conversion uniqueId() -&gt; ItemInternal*.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ac3b9c133fce87f0287f694511864bf7e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac3b9c133fce87f0287f694511864bf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88b058777f74063b050e1c5fcb2dabc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ab88b058777f74063b050e1c5fcb2dabc">m_all_group</a></td></tr>
+<tr class="separator:ab88b058777f74063b050e1c5fcb2dabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09aa8fe267ccfe71880486e9ccdab7ba"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a09aa8fe267ccfe71880486e9ccdab7ba">m_nb_item</a></td></tr>
+<tr class="memdesc:a09aa8fe267ccfe71880486e9ccdab7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe de toutes les entités.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a09aa8fe267ccfe71880486e9ccdab7ba">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a09aa8fe267ccfe71880486e9ccdab7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b5c4562d36e3daf5c8e69bf0fdb53b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae9b5c4562d36e3daf5c8e69bf0fdb53b">m_is_verbose</a></td></tr>
+<tr class="separator:ae9b5c4562d36e3daf5c8e69bf0fdb53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90430a982a004dafdb4b84763c875248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a90430a982a004dafdb4b84763c875248">m_added_items</a></td></tr>
+<tr class="separator:a90430a982a004dafdb4b84763c875248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af991fd61c266189ee5f0144961bec564"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#af991fd61c266189ee5f0144961bec564">m_removed_items</a></td></tr>
+<tr class="separator:af991fd61c266189ee5f0144961bec564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5533dc6d8a76257adc06cd5d831246ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a5533dc6d8a76257adc06cd5d831246ff">m_use_new_finalize</a></td></tr>
+<tr class="separator:a5533dc6d8a76257adc06cd5d831246ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01786dd039a2d32ad8dcf2e23b559867"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a01786dd039a2d32ad8dcf2e23b559867">m_is_first_finalize</a></td></tr>
+<tr class="separator:a01786dd039a2d32ad8dcf2e23b559867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c4f219abba0c3b91b7d3884008b148"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a89c4f219abba0c3b91b7d3884008b148">m_has_unique_id_map</a></td></tr>
+<tr class="separator:a89c4f219abba0c3b91b7d3884008b148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4bbe6107e1a1178be831cd3ecc62258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html">ItemFamilyCompactInfos</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae4bbe6107e1a1178be831cd3ecc62258">m_compact_infos</a></td></tr>
+<tr class="memdesc:ae4bbe6107e1a1178be831cd3ecc62258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporaire tant que <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a407c7bb36e360f03daae836741767e6d" title="Conversion entre les anciens et les nouveaux id locaux.">oldToNewLocalIds()</a> et <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8f19dd438a931212e16c16ffe084fe4f" title="Conversion entre les nouveaux et les anciens id locaux.">newToOldLocalIds()</a> existent.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#ae4bbe6107e1a1178be831cd3ecc62258">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae4bbe6107e1a1178be831cd3ecc62258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457d835ea9bdf401093ca19e0f69e309"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d37/classArcane_1_1MultiBufferT.html">MultiBufferT</a>&lt; <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a457d835ea9bdf401093ca19e0f69e309">m_item_internals_buffer</a></td></tr>
+<tr class="memdesc:a457d835ea9bdf401093ca19e0f69e309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tampon pour stocker une instance de <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a>.  <a href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a457d835ea9bdf401093ca19e0f69e309">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a457d835ea9bdf401093ca19e0f69e309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Membres hérités additionnels</h2></td></tr>
+<tr class="inherit_header pro_methods_classArccore_1_1TraceAccessor"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classArccore_1_1TraceAccessor')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres protégées hérités de <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">Arccore::TraceAccessor</a></td></tr>
+<tr class="memitem:a630f20ee7d44480eea5f29713813db29 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a630f20ee7d44480eea5f29713813db29">_setLocalVerboseLevel</a> (<a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a> v)</td></tr>
+<tr class="separator:a630f20ee7d44480eea5f29713813db29 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5aa89c22f87cffe6bf1132e9bd6ba5 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a5c5aa89c22f87cffe6bf1132e9bd6ba5">_localVerboseLevel</a> () const</td></tr>
+<tr class="separator:a5c5aa89c22f87cffe6bf1132e9bd6ba5 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Infos de maillage pour un genre donné d'entité. </p>
+<p >Une instance de cette classe gère toutes les structures de maillage pour une entité d'un genre donné. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00052">52</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a51a2dac7e9635e01e0b38fbcb7abe7ab" name="a51a2dac7e9635e01e0b38fbcb7abe7ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a2dac7e9635e01e0b38fbcb7abe7ab">&#9670;&#160;</a></span>ItemInternalMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef Arcane::mesh::ItemInternalMap Arcane::DynamicMeshKindInfos::ItemInternalMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00057">57</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a7b708b97b5e9f1c0fe0f162b27b597d2" name="a7b708b97b5e9f1c0fe0f162b27b597d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b708b97b5e9f1c0fe0f162b27b597d2">&#9670;&#160;</a></span>ItemInternalMapData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef ItemInternalMap::Data Arcane::DynamicMeshKindInfos::ItemInternalMapData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00058">58</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a8d90a571a250a57547c410980fe651ae" name="a8d90a571a250a57547c410980fe651ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d90a571a250a57547c410980fe651ae">&#9670;&#160;</a></span>DynamicMeshKindInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::mesh::DynamicMeshKindInfos::DynamicMeshKindInfos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td>
+          <td class="paramname"><em>kind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>kind_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Créé une instance pour un maillage et un genre donnée. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00049">49</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="aacfe7cbecc148a3c033f9d9f2d873e80" name="aacfe7cbecc148a3c033f9d9f2d873e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacfe7cbecc148a3c033f9d9f2d873e80">&#9670;&#160;</a></span>~DynamicMeshKindInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::mesh::DynamicMeshKindInfos::~DynamicMeshKindInfos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Libère les ressources. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00069">69</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00339">m_item_internals_buffer</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a9186b920ac894623e76ebd66d2044afd" name="a9186b920ac894623e76ebd66d2044afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9186b920ac894623e76ebd66d2044afd">&#9670;&#160;</a></span>_allocOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::DynamicMeshKindInfos::_allocOne </td>
+          <td>(</td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>need_alloc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajoute une entité. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00276">276</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00392">Arcane::ItemInternal::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a5df1810ee6ff71f136f30df13309c0a6" name="a5df1810ee6ff71f136f30df13309c0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df1810ee6ff71f136f30df13309c0a6">&#9670;&#160;</a></span>_badSameUniqueId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::_badSameUniqueId </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>unique_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00876">876</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="ade16e1f8579d571536ee991632e24cf3" name="ade16e1f8579d571536ee991632e24cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade16e1f8579d571536ee991632e24cf3">&#9670;&#160;</a></span>_badUniqueIdMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::_badUniqueIdMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00886">886</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="a59cb24f3f5d2960d6e4085f9275a4656" name="a59cb24f3f5d2960d6e4085f9275a4656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59cb24f3f5d2960d6e4085f9275a4656">&#9670;&#160;</a></span>_checkActiveItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::_checkActiveItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00841">841</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="a2e0ede2fe161e8503270adc6c06eea73" name="a2e0ede2fe161e8503270adc6c06eea73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0ede2fe161e8503270adc6c06eea73">&#9670;&#160;</a></span>_dumpList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::_dumpList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00852">852</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="aae01c9e1322cc2fd83a8319ba4a689e7" name="aae01c9e1322cc2fd83a8319ba4a689e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae01c9e1322cc2fd83a8319ba4a689e7">&#9670;&#160;</a></span>_setAdded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::DynamicMeshKindInfos::_setAdded </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00351">351</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="af4efd29172763f7ae61f255244553934" name="af4efd29172763f7ae61f255244553934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4efd29172763f7ae61f255244553934">&#9670;&#160;</a></span>_setSuppressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::DynamicMeshKindInfos::_setSuppressed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00343">343</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="ae63526182f922c24063df176456d0240" name="ae63526182f922c24063df176456d0240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae63526182f922c24063df176456d0240">&#9670;&#160;</a></span>addedItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> Arcane::DynamicMeshKindInfos::addedItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des entitées ajoutées ou retirées depuis le dernier endUpdate() </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00094">94</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="ac40378695b949755fa1c90119210cfd4" name="ac40378695b949755fa1c90119210cfd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac40378695b949755fa1c90119210cfd4">&#9670;&#160;</a></span>allItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> Arcane::DynamicMeshKindInfos::allItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Groupe de toutes les entités. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00091">91</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l00701">Arcane::mesh::ItemFamily::allItems()</a>, et <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l01075">Arcane::mesh::ItemFamily::readFromDump()</a>.</p>
+
+</div>
+</div>
+<a id="af79ed0d894ba245666c80b35d9966539" name="af79ed0d894ba245666c80b35d9966539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af79ed0d894ba245666c80b35d9966539">&#9670;&#160;</a></span>allocOne() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::DynamicMeshKindInfos::allocOne </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>unique_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajoute une entité de numéro unique <em>unique_id</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00104">104</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l01075">Arcane::mesh::ItemFamily::readFromDump()</a>.</p>
+
+</div>
+</div>
+<a id="a4d0198b897176116036824404f7061f5" name="a4d0198b897176116036824404f7061f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0198b897176116036824404f7061f5">&#9670;&#160;</a></span>allocOne() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::DynamicMeshKindInfos::allocOne </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>unique_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>need_alloc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajoute une entité de numéro unique <em>unique_id</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00115">115</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a3dc2ea0d2d3b3ef4da68c67d7ea92cf6" name="a3dc2ea0d2d3b3ef4da68c67d7ea92cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc2ea0d2d3b3ef4da68c67d7ea92cf6">&#9670;&#160;</a></span>beginCompactItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::beginCompactItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html">ItemFamilyCompactInfos</a> &amp;&#160;</td>
+          <td class="paramname"><em>compact_infos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcule les nouveaux id locaux des entités pour qu'ils soient consécutifs. </p>
+<p >Si <em>do_sort</em> est vrai, les entités sont triées de telle sorte que leur id unique et id local soient dans un ordre croissant.</p>
+<p >Avant appel à cette fonction, le maillage doit être valide et finalisé</p>
+<p >Après appel à cette fonction, les tableaux <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a407c7bb36e360f03daae836741767e6d" title="Conversion entre les anciens et les nouveaux id locaux.">oldToNewLocalIds()</a> et <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8f19dd438a931212e16c16ffe084fe4f" title="Conversion entre les nouveaux et les anciens id locaux.">newToOldLocalIds()</a> sont renseignés et contiennent pour chaque entité les conversions entre nouveaux et anciens numéros locaux. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00481">481</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d0/d1e/ArcaneGlobal_8h_source.html#l00761">ARCANE_FATAL</a>, <a class="el" href="../../de/d26/Misc_8cc_source.html#l00150">Arcane::arcaneIsCheck()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01188">Arccore::Array&lt; T &gt;::begin()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01181">Arccore::Array&lt; T &gt;::data()</a>, <a class="el" href="../../d1/d1d/arccore_2src_2trace_2arccore_2trace_2TraceAccessor_8h_source.html#l00120">Arccore::TraceAccessor::debug()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01194">Arccore::Array&lt; T &gt;::end()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01151">Arccore::Array&lt; T &gt;::fill()</a>, <a class="el" href="../../dd/d23/TraceAccessor_8cc_source.html#l00101">Arccore::TraceAccessor::info()</a>, <a class="el" href="../../d6/d3f/ItemGroup_8h_source.html#l00120">Arcane::ItemGroup::internal()</a>, <a class="el" href="../../d3/d4e/classArcane_1_1IMeshCompacter.html#a80328ec13b85f18f810139c4b1273a1b">Arcane::IMeshCompacter::isSorted()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00551">Arcane::ItemGroupImpl::itemsLocalId()</a>, <a class="el" href="../../dd/d27/Timer_8h_source.html#l00219">Arcane::Timer::lastActivationTime()</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00323">m_compact_infos</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00327">m_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00309">m_item_family</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00311">m_kind_name</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00308">m_mesh</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00315">m_nb_item</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00082">maxUsedLocalId()</a>, <a class="el" href="../../de/d9f/classArcane_1_1IItemInternalSortFunction.html#ac8f6772915616d98edf601cb4e1752fe">Arcane::IItemInternalSortFunction::name()</a>, <a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html#a0f11be8ad649d81fdbcdb71a8446c5a2">Arcane::IMesh::parallelMng()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00398">Arccore::AbstractArray&lt; T &gt;::size()</a>, <a class="el" href="../../de/d9f/classArcane_1_1IItemInternalSortFunction.html#a3692f793d7bcafd6d9b8cfb88eee42e2">Arcane::IItemInternalSortFunction::sortItems()</a>, <a class="el" href="../../dc/d5a/classArcane_1_1IParallelMng.html#ab63a3dd88f3e721e7db49703670de9c6">Arcane::IParallelMng::timerMng()</a>, et <a class="el" href="../../dd/d27/Timer_8h_source.html#l00076">Arcane::Timer::TimerReal</a>.</p>
+
+</div>
+</div>
+<a id="ab77e5e193b275d5121a1639cae526b6d" name="ab77e5e193b275d5121a1639cae526b6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77e5e193b275d5121a1639cae526b6d">&#9670;&#160;</a></span>build()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::build </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00078">78</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="acc3e626905bdbabd73296b4ea9957431" name="acc3e626905bdbabd73296b4ea9957431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3e626905bdbabd73296b4ea9957431">&#9670;&#160;</a></span>changed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::DynamicMeshKindInfos::changed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00217">217</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="aa449e8e0aa973c0c105cbea9c963861c" name="aa449e8e0aa973c0c105cbea9c963861c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa449e8e0aa973c0c105cbea9c963861c">&#9670;&#160;</a></span>checkValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::checkValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vérifie si les structures internes de l'instance sont valides. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00349">349</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d0/d1e/ArcaneGlobal_8h_source.html#l00761">ARCANE_FATAL</a>, <a class="el" href="../../d1/d1d/arccore_2src_2trace_2arccore_2trace_2TraceAccessor_8h_source.html#l00120">Arccore::TraceAccessor::debug()</a>, <a class="el" href="../../dd/d23/TraceAccessor_8cc_source.html#l00201">Arccore::TraceAccessor::error()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00544">Arcane::ItemInternal::isOwn()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00554">Arcane::ItemInternal::isSuppressed()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00392">Arcane::ItemInternal::localId()</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00328">m_free_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00327">m_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00311">m_kind_name</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00308">m_mesh</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00315">m_nb_item</a>, <a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html#afc8fa74a67c6d13e5f79e4eaae5d4c71">Arcane::IMesh::meshPartInfo()</a>, <a class="el" href="../../de/d4a/classArcane_1_1IMeshBase.html#a2c0ea643c9f3786493b3176214a7456e">Arcane::IMeshBase::name()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00436">Arcane::ItemInternal::owner()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00398">Arccore::AbstractArray&lt; T &gt;::size()</a>, et <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00394">Arcane::ItemInternal::uniqueId()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>.</p>
+
+</div>
+</div>
+<a id="ae0888ef8d46a9379ed6c1595c445b577" name="ae0888ef8d46a9379ed6c1595c445b577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0888ef8d46a9379ed6c1595c445b577">&#9670;&#160;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Supprime toutes les entités. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00754">754</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d6/d3f/ItemGroup_8h_source.html#l00120">Arcane::ItemGroup::internal()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00551">Arcane::ItemGroupImpl::itemsLocalId()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00790">removeMany()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l01955">Arcane::mesh::ItemFamily::clearItems()</a>.</p>
+
+</div>
+</div>
+<a id="a7d23a0a53f5f0d1ba71177e4cca5b636" name="a7d23a0a53f5f0d1ba71177e4cca5b636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d23a0a53f5f0d1ba71177e4cca5b636">&#9670;&#160;</a></span>detachOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::DynamicMeshKindInfos::detachOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Détache une l'entité <em>item</em>. </p>
+<p >L'entité est supprimée de la liste des uniqueId() si la macro REMOVE_UID_ON_DETACH est définie </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00163">163</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00558">Arcane::ItemInternal::setDetached()</a>, et <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00394">Arcane::ItemInternal::uniqueId()</a>.</p>
+
+</div>
+</div>
+<a id="a299304a0539e6cbed61c064108b31f22" name="a299304a0539e6cbed61c064108b31f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299304a0539e6cbed61c064108b31f22">&#9670;&#160;</a></span>finalizeMeshChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::finalizeMeshChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Réalloue et recalcule les structures après modification du maillage. </p>
+<p >En particulier injecte les added et removed items dans le groupe total all_items courant. Les changements sont faits en direct sur ce groupe sans protection. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00104">104</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01124">Arcane::ItemGroupImpl::addItems()</a>, <a class="el" href="../../de/d26/Misc_8cc_source.html#l00150">Arcane::arcaneIsCheck()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00560">Arcane::ItemGroupImpl::beginTransaction()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01621">Arcane::ItemGroupImpl::checkNeedUpdate()</a>, <a class="el" href="../../d4/dba/ItemGroup_8cc_source.html#l00519">Arcane::ItemGroup::checkValid()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01145">Arccore::Array&lt; T &gt;::clear()</a>, <a class="el" href="../../dc/d5a/classArcane_1_1IParallelMng.html#a26fc7494a02a7370d3be787fcc742b04">Arcane::IParallelMng::commRank()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00571">Arcane::ItemGroupImpl::endTransaction()</a>, <a class="el" href="../../dd/d23/TraceAccessor_8cc_source.html#l00101">Arccore::TraceAccessor::info()</a>, <a class="el" href="../../d6/d3f/ItemGroup_8h_source.html#l00120">Arcane::ItemGroup::internal()</a>, <a class="el" href="../../dc/d5a/classArcane_1_1IParallelMng.html#ae491defb6248865ffed9e8c04c9def4a">Arcane::IParallelMng::isParallel()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00554">Arcane::ItemInternal::isSuppressed()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00392">Arcane::ItemInternal::localId()</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00327">m_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00309">m_item_family</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00311">m_kind_name</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00308">m_mesh</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00315">m_nb_item</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00082">maxUsedLocalId()</a>, <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00436">Arcane::ItemInternal::owner()</a>, <a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html#a0f11be8ad649d81fdbcdb71a8446c5a2">Arcane::IMesh::parallelMng()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01288">Arcane::ItemGroupImpl::removeAddItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01199">Arcane::ItemGroupImpl::removeItems()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00398">Arccore::AbstractArray&lt; T &gt;::size()</a>, <a class="el" href="../../dd/d23/TraceAccessor_8cc_source.html#l00072">Arccore::TraceAccessor::traceMng()</a>, et <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00394">Arcane::ItemInternal::uniqueId()</a>.</p>
+
+</div>
+</div>
+<a id="a3a3a0c0794ceb05634cd5a2156c9b8ab" name="a3a3a0c0794ceb05634cd5a2156c9b8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3a0c0794ceb05634cd5a2156c9b8ab">&#9670;&#160;</a></span>findOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::DynamicMeshKindInfos::findOne </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>uid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recherche l'entit de numro unique <em>unique_id</em> et. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00196">196</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="ae4aab7ff59600e4d39f305d52a9aed82" name="ae4aab7ff59600e4d39f305d52a9aed82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4aab7ff59600e4d39f305d52a9aed82">&#9670;&#160;</a></span>findOrAllocOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::DynamicMeshKindInfos::findOrAllocOne </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>uid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>is_alloc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recherche l'entité de numéro unique <em>unique_id</em> et la créé si elle n'existe pas. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00181">181</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a2942cd247b0b5d59b0a6722b2695c770" name="a2942cd247b0b5d59b0a6722b2695c770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2942cd247b0b5d59b0a6722b2695c770">&#9670;&#160;</a></span>finishCompactItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::finishCompactItems </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html">ItemFamilyCompactInfos</a> &amp;&#160;</td>
+          <td class="paramname"><em>compact_infos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00632">632</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6b551f395dcaa671addc350273bdf850" name="a6b551f395dcaa671addc350273bdf850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b551f395dcaa671addc350273bdf850">&#9670;&#160;</a></span>hasUniqueIdMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::DynamicMeshKindInfos::hasUniqueIdMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00263">263</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="aca1714556345e679791ef114af04777c" name="aca1714556345e679791ef114af04777c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1714556345e679791ef114af04777c">&#9670;&#160;</a></span>itemFamily()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ItemFamily * Arcane::DynamicMeshKindInfos::itemFamily </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00253">253</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a52c03730b1ca85ef6646d9348be12970" name="a52c03730b1ca85ef6646d9348be12970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c03730b1ca85ef6646d9348be12970">&#9670;&#160;</a></span>itemInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * Arcane::DynamicMeshKindInfos::itemInternal </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00101">101</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d7214c2f63247e988306520ad07bb62" name="a1d7214c2f63247e988306520ad07bb62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7214c2f63247e988306520ad07bb62">&#9670;&#160;</a></span>itemsInternal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> * &gt; Arcane::DynamicMeshKindInfos::itemsInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste interne des <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a>'s. </p>
+<p >En lecture seule, la version en écriture a été supprimée comme indiqué en todo </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00099">99</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l00350">Arcane::mesh::ItemFamily::itemsInternal()</a>, <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l00953">Arcane::mesh::ItemFamily::prepareForDump()</a>, <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l01075">Arcane::mesh::ItemFamily::readFromDump()</a>, et <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l02058">Arcane::mesh::ItemFamily::view()</a>.</p>
+
+</div>
+</div>
+<a id="a49e96fb205a42ddfeb41d1e4ee509b9f" name="a49e96fb205a42ddfeb41d1e4ee509b9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e96fb205a42ddfeb41d1e4ee509b9f">&#9670;&#160;</a></span>itemsMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ItemInternalMap &amp; Arcane::DynamicMeshKindInfos::itemsMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00211">211</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a227eb227351a14fac781c54adfb8511e" name="a227eb227351a14fac781c54adfb8511e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a227eb227351a14fac781c54adfb8511e">&#9670;&#160;</a></span>itemsUniqueIdToLocalId() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::itemsUniqueIdToLocalId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; Int64 &gt;&#160;</td>
+          <td class="paramname"><em>ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>do_fatal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00187">187</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="a27590cd802bd29bc16e86cc91027b5cb" name="a27590cd802bd29bc16e86cc91027b5cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27590cd802bd29bc16e86cc91027b5cb">&#9670;&#160;</a></span>itemsUniqueIdToLocalId() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::itemsUniqueIdToLocalId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a>&#160;</td>
+          <td class="paramname"><em>local_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../df/d81/classArcane_1_1ItemUniqueId.html">ItemUniqueId</a> &gt;&#160;</td>
+          <td class="paramname"><em>unique_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>do_fatal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00278">278</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="aee2e372b1eb990a75b0e29c0a192ed88" name="aee2e372b1eb990a75b0e29c0a192ed88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2e372b1eb990a75b0e29c0a192ed88">&#9670;&#160;</a></span>itemsUniqueIdToLocalId() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::itemsUniqueIdToLocalId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a>&#160;</td>
+          <td class="paramname"><em>local_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>unique_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>do_fatal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00232">232</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="a764107c679698bf7795014bf0362ba04" name="a764107c679698bf7795014bf0362ba04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a764107c679698bf7795014bf0362ba04">&#9670;&#160;</a></span>kind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> Arcane::DynamicMeshKindInfos::kind </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00215">215</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a82263574ed57a5250b9392d4e671b07b" name="a82263574ed57a5250b9392d4e671b07b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82263574ed57a5250b9392d4e671b07b">&#9670;&#160;</a></span>maxUsedLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::DynamicMeshKindInfos::maxUsedLocalId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Numéro local le plus grand utilisé. </p>
+<p >Ce numéro est utilisé pour allouer les tableaux des variables sur les entités du maillage. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00082">82</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>, et <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l00341">Arcane::mesh::ItemFamily::maxLocalId()</a>.</p>
+
+</div>
+</div>
+<a id="a950ba975192b9fae93e7723c80f5ba4d" name="a950ba975192b9fae93e7723c80f5ba4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950ba975192b9fae93e7723c80f5ba4d">&#9670;&#160;</a></span>nbItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::DynamicMeshKindInfos::nbItem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00213">213</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a8f19dd438a931212e16c16ffe084fe4f" name="a8f19dd438a931212e16c16ffe084fe4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f19dd438a931212e16c16ffe084fe4f">&#9670;&#160;</a></span>newToOldLocalIds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> Arcane::mesh::DynamicMeshKindInfos::newToOldLocalIds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Conversion entre les nouveaux et les anciens id locaux. </p>
+<p >Cette méthode n'est valide qu'après appel à <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3dc2ea0d2d3b3ef4da68c67d7ea92cf6" title="Calcule les nouveaux id locaux des entités pour qu&#39;ils soient consécutifs.">beginCompactItems()</a> et avant finishCompactItems(). </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00458">458</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00323">m_compact_infos</a>, et <a class="el" href="../../de/d2a/ItemFamilyCompactInfos_8h_source.html#l00051">Arcane::ItemFamilyCompactInfos::newToOldLocalIds()</a>.</p>
+
+</div>
+</div>
+<a id="a407c7bb36e360f03daae836741767e6d" name="a407c7bb36e360f03daae836741767e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407c7bb36e360f03daae836741767e6d">&#9670;&#160;</a></span>oldToNewLocalIds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> Arcane::mesh::DynamicMeshKindInfos::oldToNewLocalIds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Conversion entre les anciens et les nouveaux id locaux. </p>
+<p >Cette méthode n'est valide qu'après appel à <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a3dc2ea0d2d3b3ef4da68c67d7ea92cf6" title="Calcule les nouveaux id locaux des entités pour qu&#39;ils soient consécutifs.">beginCompactItems()</a> et avant finishCompactItems(). </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00447">447</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00323">m_compact_infos</a>, et <a class="el" href="../../de/d2a/ItemFamilyCompactInfos_8h_source.html#l00045">Arcane::ItemFamilyCompactInfos::oldToNewLocalIds()</a>.</p>
+
+</div>
+</div>
+<a id="a3ab902855004259f530f3fbbea6dcc7d" name="a3ab902855004259f530f3fbbea6dcc7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab902855004259f530f3fbbea6dcc7d">&#9670;&#160;</a></span>prepareForDump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::prepareForDump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prépare les variables pour les sauvegardes. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00324">324</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l00953">Arcane::mesh::ItemFamily::prepareForDump()</a>.</p>
+
+</div>
+</div>
+<a id="a5bdefed6ae5c845b510f513c24fe512d" name="a5bdefed6ae5c845b510f513c24fe512d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bdefed6ae5c845b510f513c24fe512d">&#9670;&#160;</a></span>printFreeInternals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::printFreeInternals </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>max_print</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00772">772</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="a5b2ef1b465a7045ca4e975eea87c328e" name="a5b2ef1b465a7045ca4e975eea87c328e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2ef1b465a7045ca4e975eea87c328e">&#9670;&#160;</a></span>readFromDump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::readFromDump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Restaure les infos à partir des dumps. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00332">332</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01145">Arccore::Array&lt; T &gt;::clear()</a>, <a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html#a6185030605e81d7116bc09f20fa4e648">Arcane::IMesh::findGroup()</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00312">m_all_group_name</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00328">m_free_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00327">m_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00339">m_item_internals_buffer</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00313">m_items_map</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00308">m_mesh</a>, et <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00315">m_nb_item</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l01075">Arcane::mesh::ItemFamily::readFromDump()</a>.</p>
+
+</div>
+</div>
+<a id="aac27133da7220a11c30fe987390fde40" name="aac27133da7220a11c30fe987390fde40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac27133da7220a11c30fe987390fde40">&#9670;&#160;</a></span>removeDetachedOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::DynamicMeshKindInfos::removeDetachedOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Supprime l'entité détachée <em>item</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00142">142</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00392">Arcane::ItemInternal::localId()</a>, et <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00394">Arcane::ItemInternal::uniqueId()</a>.</p>
+
+</div>
+</div>
+<a id="a8733ddd9be9916dc794472a6fb7f27a6" name="a8733ddd9be9916dc794472a6fb7f27a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8733ddd9be9916dc794472a6fb7f27a6">&#9670;&#160;</a></span>removedItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> Arcane::DynamicMeshKindInfos::removedItems </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00095">95</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a2ad0a5ec368a72918c63ab15b8de3e05" name="a2ad0a5ec368a72918c63ab15b8de3e05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad0a5ec368a72918c63ab15b8de3e05">&#9670;&#160;</a></span>removeMany()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::removeMany </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>local_ids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Supprime une liste d'entités. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00789">789</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01181">Arccore::Array&lt; T &gt;::data()</a>, <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00711">Arccore::ConstArrayView&lt; T &gt;::data()</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00328">m_free_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00327">m_internals</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00309">m_item_family</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00313">m_items_map</a>, <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00315">m_nb_item</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01004">Arccore::Array&lt; T &gt;::resize()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00398">Arccore::AbstractArray&lt; T &gt;::size()</a>, et <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00755">clear()</a>, et <a class="el" href="../../d8/db6/ItemFamily_8cc_source.html#l02316">Arcane::mesh::ItemFamily::removeNeedRemoveMarkedItems()</a>.</p>
+
+</div>
+</div>
+<a id="aedfa13cb8126be54d3608a6a43e7f817" name="aedfa13cb8126be54d3608a6a43e7f817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfa13cb8126be54d3608a6a43e7f817">&#9670;&#160;</a></span>removeOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::DynamicMeshKindInfos::removeOne </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Supprime l'entité <em>item</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00125">125</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00392">Arcane::ItemInternal::localId()</a>, et <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00394">Arcane::ItemInternal::uniqueId()</a>.</p>
+
+</div>
+</div>
+<a id="ae608e89adc6c6581a7ff391dc8766c6b" name="ae608e89adc6c6581a7ff391dc8766c6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae608e89adc6c6581a7ff391dc8766c6b">&#9670;&#160;</a></span>setHasUniqueIdMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::DynamicMeshKindInfos::setHasUniqueIdMap </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00830">830</a> du fichier <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a>.</p>
+
+</div>
+</div>
+<a id="aa7c823920142ec8a4ee5715e452b5026" name="aa7c823920142ec8a4ee5715e452b5026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c823920142ec8a4ee5715e452b5026">&#9670;&#160;</a></span>setItemFamily()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::DynamicMeshKindInfos::setItemFamily </td>
+          <td>(</td>
+          <td class="paramtype">ItemFamily *&#160;</td>
+          <td class="paramname"><em>item_family</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00258">258</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a90430a982a004dafdb4b84763c875248" name="a90430a982a004dafdb4b84763c875248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90430a982a004dafdb4b84763c875248">&#9670;&#160;</a></span>m_added_items</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a> Arcane::DynamicMeshKindInfos::m_added_items</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00317">317</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="ab88b058777f74063b050e1c5fcb2dabc" name="ab88b058777f74063b050e1c5fcb2dabc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88b058777f74063b050e1c5fcb2dabc">&#9670;&#160;</a></span>m_all_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> Arcane::DynamicMeshKindInfos::m_all_group</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00314">314</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a5a2a4097183cb3b9f57180de3a14fbae" name="a5a2a4097183cb3b9f57180de3a14fbae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a2a4097183cb3b9f57180de3a14fbae">&#9670;&#160;</a></span>m_all_group_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::DynamicMeshKindInfos::m_all_group_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nom du groupe contenant toutes les entités. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00312">312</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>.</p>
+
+</div>
+</div>
+<a id="ae4bbe6107e1a1178be831cd3ecc62258" name="ae4bbe6107e1a1178be831cd3ecc62258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4bbe6107e1a1178be831cd3ecc62258">&#9670;&#160;</a></span>m_compact_infos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1f/classArcane_1_1ItemFamilyCompactInfos.html">ItemFamilyCompactInfos</a>* Arcane::DynamicMeshKindInfos::m_compact_infos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temporaire tant que <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a407c7bb36e360f03daae836741767e6d" title="Conversion entre les anciens et les nouveaux id locaux.">oldToNewLocalIds()</a> et <a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html#a8f19dd438a931212e16c16ffe084fe4f" title="Conversion entre les nouveaux et les anciens id locaux.">newToOldLocalIds()</a> existent. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00323">323</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00459">newToOldLocalIds()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00448">oldToNewLocalIds()</a>.</p>
+
+</div>
+</div>
+<a id="a06c0db97d38f877630757f97abf0acfc" name="a06c0db97d38f877630757f97abf0acfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c0db97d38f877630757f97abf0acfc">&#9670;&#160;</a></span>m_free_internals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a> Arcane::DynamicMeshKindInfos::m_free_internals</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Liste des <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a> de m_item_internals_buffer libres. </p>
+<p >Liste des <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a> de m_internals libérés </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00328">328</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00790">removeMany()</a>.</p>
+
+</div>
+</div>
+<a id="aafb08a0aaf378de4152586fba168cc2c" name="aafb08a0aaf378de4152586fba168cc2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafb08a0aaf378de4152586fba168cc2c">&#9670;&#160;</a></span>m_free_internals_in_multi_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a>*&gt; Arcane::DynamicMeshKindInfos::m_free_internals_in_multi_buffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00330">330</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a89c4f219abba0c3b91b7d3884008b148" name="a89c4f219abba0c3b91b7d3884008b148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89c4f219abba0c3b91b7d3884008b148">&#9670;&#160;</a></span>m_has_unique_id_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::DynamicMeshKindInfos::m_has_unique_id_map</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00321">321</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a11f6761acdd91b7040d6b8e12f1cf60e" name="a11f6761acdd91b7040d6b8e12f1cf60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f6761acdd91b7040d6b8e12f1cf60e">&#9670;&#160;</a></span>m_internals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a>*&gt; Arcane::DynamicMeshKindInfos::m_internals</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a> des entités. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00327">327</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00790">removeMany()</a>.</p>
+
+</div>
+</div>
+<a id="a01786dd039a2d32ad8dcf2e23b559867" name="a01786dd039a2d32ad8dcf2e23b559867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01786dd039a2d32ad8dcf2e23b559867">&#9670;&#160;</a></span>m_is_first_finalize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::DynamicMeshKindInfos::m_is_first_finalize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00320">320</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="ae9b5c4562d36e3daf5c8e69bf0fdb53b" name="ae9b5c4562d36e3daf5c8e69bf0fdb53b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b5c4562d36e3daf5c8e69bf0fdb53b">&#9670;&#160;</a></span>m_is_verbose</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::DynamicMeshKindInfos::m_is_verbose</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00316">316</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="ac6706c579d29b82e324d34c94105e8c4" name="ac6706c579d29b82e324d34c94105e8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6706c579d29b82e324d34c94105e8c4">&#9670;&#160;</a></span>m_item_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ItemFamily* Arcane::DynamicMeshKindInfos::m_item_family</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Famille de maillage associée. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00309">309</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00790">removeMany()</a>.</p>
+
+</div>
+</div>
+<a id="a457d835ea9bdf401093ca19e0f69e309" name="a457d835ea9bdf401093ca19e0f69e309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a457d835ea9bdf401093ca19e0f69e309">&#9670;&#160;</a></span>m_item_internals_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d37/classArcane_1_1MultiBufferT.html">MultiBufferT</a>&lt;<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a>&gt;* Arcane::DynamicMeshKindInfos::m_item_internals_buffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tampon pour stocker une instance de <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage.">ItemInternal</a>. </p>
+<dl class="section warning"><dt>Avertissement</dt><dd>Une instance créée doit rester valide tout au long d'une exécution. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00339">339</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00070">~DynamicMeshKindInfos()</a>.</p>
+
+</div>
+</div>
+<a id="ac3b9c133fce87f0287f694511864bf7e" name="ac3b9c133fce87f0287f694511864bf7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3b9c133fce87f0287f694511864bf7e">&#9670;&#160;</a></span>m_items_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ItemInternalMap Arcane::DynamicMeshKindInfos::m_items_map</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Table de hachage conversion uniqueId() -&gt; ItemInternal*. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00313">313</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00790">removeMany()</a>.</p>
+
+</div>
+</div>
+<a id="a157f2e91c775ba75213f98ceb040a282" name="a157f2e91c775ba75213f98ceb040a282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157f2e91c775ba75213f98ceb040a282">&#9670;&#160;</a></span>m_kind</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> Arcane::DynamicMeshKindInfos::m_kind</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Genre correspondant. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00310">310</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="abaa79d6c862b978cd0aaab5c577059fc" name="abaa79d6c862b978cd0aaab5c577059fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa79d6c862b978cd0aaab5c577059fc">&#9670;&#160;</a></span>m_kind_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::DynamicMeshKindInfos::m_kind_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nom du genre des entités (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html" title="Noeud d&#39;un maillage.">Node</a>, <a class="el" href="../../d9/db2/classArcane_1_1Cell.html" title="Maille d&#39;un maillage.">Cell</a>, ...) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00311">311</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>.</p>
+
+</div>
+</div>
+<a id="a3211d2ffc02b4d5d97f6c4d4c578fafc" name="a3211d2ffc02b4d5d97f6c4d4c578fafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3211d2ffc02b4d5d97f6c4d4c578fafc">&#9670;&#160;</a></span>m_mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a>* Arcane::DynamicMeshKindInfos::m_mesh</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maillage associé </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00308">308</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>.</p>
+
+</div>
+</div>
+<a id="a09aa8fe267ccfe71880486e9ccdab7ba" name="a09aa8fe267ccfe71880486e9ccdab7ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09aa8fe267ccfe71880486e9ccdab7ba">&#9670;&#160;</a></span>m_nb_item</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::DynamicMeshKindInfos::m_nb_item</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Groupe de toutes les entités. </p>
+<p >Nombre d'entités allouées </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00315">315</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00482">beginCompactItems()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00350">checkValid()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00105">finalizeMeshChanged()</a>, <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00333">readFromDump()</a>, et <a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html#l00790">removeMany()</a>.</p>
+
+</div>
+</div>
+<a id="af991fd61c266189ee5f0144961bec564" name="af991fd61c266189ee5f0144961bec564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af991fd61c266189ee5f0144961bec564">&#9670;&#160;</a></span>m_removed_items</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a> Arcane::DynamicMeshKindInfos::m_removed_items</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00318">318</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<a id="a5533dc6d8a76257adc06cd5d831246ff" name="a5533dc6d8a76257adc06cd5d831246ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5533dc6d8a76257adc06cd5d831246ff">&#9670;&#160;</a></span>m_use_new_finalize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::DynamicMeshKindInfos::m_use_new_finalize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html#l00319">319</a> du fichier <a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../da/d40/DynamicMeshKindInfos_8h_source.html">DynamicMeshKindInfos.h</a></li>
+<li><a class="el" href="../../d0/d94/DynamicMeshKindInfos_8cc_source.html">DynamicMeshKindInfos.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d1/d55/classArcane_1_1DynamicMeshKindInfos.html">DynamicMeshKindInfos</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:24 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

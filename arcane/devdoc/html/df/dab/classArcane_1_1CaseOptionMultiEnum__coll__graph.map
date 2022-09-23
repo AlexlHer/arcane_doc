@@ -1,0 +1,23 @@
+<map id="Arcane::CaseOptionMultiEnum" name="Arcane::CaseOptionMultiEnum">
+<area shape="rect" id="node1" title="Option du jeu de données de type liste d&#39;énumération." alt="" coords="1029,2909,1257,3155"/>
+<area shape="rect" id="node2" href="$df/d69/classArcane_1_1CaseOptionBase.html" title="Classe de base d&#39;une option du jeu de donnée." alt="" coords="793,2469,1003,2847"/>
+<area shape="rect" id="node3" href="$df/d4f/classArcane_1_1CaseOptionBasePrivate.html" title="Implémentation de la classe de base d&#39;une option du jeu de données." alt="" coords="479,2264,715,2348"/>
+<area shape="rect" id="node4" href="$d3/dcf/classArcane_1_1ICaseMng.html" title="Interface du gestionnaire de cas." alt="" coords="204,1729,379,1930"/>
+<area shape="rect" id="node5" href="$de/d86/classArcane_1_1ICaseOptionList.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="715,1721,937,1937"/>
+<area shape="rect" id="node6" href="$d9/dcc/classArcane_1_1XmlNode.html" title="Noeud d&#39;un arbre DOM." alt="" coords="13,1685,180,1974"/>
+<area shape="rect" id="node7" href="$d4/d81/classArcane_1_1IRessourceMng.html" title="Interface d&#39;un gestionnaire de ressource." alt="" coords="5,1171,188,1255"/>
+<area shape="rect" id="node8" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="961,1560,1184,2099"/>
+<area shape="rect" id="node9" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="993,988,1147,1439"/>
+<area shape="rect" id="node10" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="966,548,1174,867"/>
+<area shape="rect" id="node11" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="743,548,941,867"/>
+<area shape="rect" id="node12" title=" " alt="" coords="403,1809,479,1849"/>
+<area shape="rect" id="node13" href="$dd/d06/classArcane_1_1StringDictionary.html" title="Dictionnaire de chaînes unicode." alt="" coords="503,1758,691,1901"/>
+<area shape="rect" id="node14" href="$de/d91/classArcane_1_1StringDictionary_1_1Impl.html" title="Implémentation du dictionnaire de chaîne unicode." alt="" coords="503,1171,691,1255"/>
+<area shape="rect" id="node15" href="$dd/de0/classArcane_1_1CaseOptionEnumValues.html" title="Ensemble des valeurs d&#39;une énumération." alt="" coords="1183,2579,1421,2737"/>
+<area shape="rect" id="node16" href="$da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="1200,2205,1407,2407"/>
+<area shape="rect" id="node17" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1209,1663,1409,1996"/>
+<area shape="rect" id="node18" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="1203,929,1417,1497"/>
+<area shape="rect" id="node19" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="1199,629,1424,786"/>
+<area shape="rect" id="node20" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="1216,211,1407,471"/>
+<area shape="rect" id="node21" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="1210,5,1413,148"/>
+</map>

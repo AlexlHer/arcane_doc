@@ -1,0 +1,22 @@
+<map id="arcane" name="arcane">
+<area shape="rect" id="node4" href="dir_17f4ea0c244aae72fa297dc4325af5de.html" title="datatype" alt="" coords="351,100,431,125"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000002_000028.html" title="2" alt="" coords="407,80,416,94"/>
+<area shape="rect" id="node9" href="dir_795b6007a59c91e88082f61e485690d1.html" title="utils" alt="" coords="253,173,304,199"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000002_000051.html" title="83" alt="" coords="315,183,332,198"/>
+<area shape="rect" id="node10" href="dir_aa5b01452d2834cdc27722f8aeafdb81.html" title="arccore" alt="" coords="351,247,422,272"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000002_000003.html" title="10" alt="" coords="403,229,420,243"/>
+<area shape="rect" id="node2" href="dir_8f7cc19632c6b41e61ede80990a71d54.html" title="accelerator" alt="" coords="231,100,326,125"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000000_000051.html" title="5" alt="" coords="282,148,292,162"/>
+<area shape="rect" id="node3" href="dir_1941bdde34408fe2aa5689c21633ee3b.html" title="core" alt="" coords="27,100,77,125"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000027_000051.html" title="1" alt="" coords="234,156,243,171"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000028_000051.html" title="2" alt="" coords="312,163,321,178"/>
+<area shape="rect" id="node5" href="dir_6a79d197b20c9f2b6ed1250f3e70973d.html" title="geometry" alt="" coords="256,27,341,52"/>
+<area shape="rect" id="node6" href="dir_a826b2886aa61666da9274856f211834.html" title="launcher" alt="" coords="129,100,207,125"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000035_000051.html" title="1" alt="" coords="245,149,255,164"/>
+<area shape="rect" id="node7" href="dir_7f48b3f8c9c58f5c0beb35485c245f36.html" title="materials" alt="" coords="122,27,206,52"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000037_000027.html" title="3" alt="" coords="85,90,95,105"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000037_000051.html" title="3" alt="" coords="231,166,241,181"/>
+<area shape="rect" id="node8" href="dir_e7a3152d21bb40bd73df8dbffc181462.html" title="parallel" alt="" coords="27,27,98,52"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000051_000003.html" title="5" alt="" coords="354,222,363,237"/>
+<area shape="rect" id="clust1" href="dir_050f182cfd4329e7fe1ae122895331c9.html" alt="" coords="16,16,468,209"/>
+</map>

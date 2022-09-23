@@ -1,0 +1,7 @@
+<map id="Arcane::IVariable" name="Arcane::IVariable">
+<area shape="rect" id="node1" title="Interface d&#39;une variable." alt="" coords="255,5,477,1145"/>
+<area shape="rect" id="node2" href="$d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)" alt="" coords="253,1193,479,1717"/>
+<area shape="rect" id="node3" href="$d8/d38/classArcane_1_1Array2VariableT.html" title="Variable sur un tableau 2D." alt="" coords="5,1787,231,2077"/>
+<area shape="rect" id="node4" href="$d9/d83/classArcane_1_1VariableArrayT.html" title="Implémentation d&#39;une variable sur un tableau 1D." alt="" coords="255,1787,477,2077"/>
+<area shape="rect" id="node5" href="$da/dbf/classArcane_1_1VariableScalarT.html" title="Variable scalaire." alt="" coords="501,1765,724,2099"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Arcane::DumpWEnsight7::GroupPartInfo" name="Arcane::DumpWEnsight7::GroupPartInfo">
+<area shape="rect" id="node1" title="Information pour partagé un groupe en éléments de même sous&#45;type." alt="" coords="150,2061,341,2248"/>
+<area shape="rect" id="node2" href="$d9/d27/classArcane_1_1ItemGroup.html" title="Groupe d&#39;entités de maillage." alt="" coords="31,1775,183,1991"/>
+<area shape="rect" id="node3" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="5,1438,208,1639"/>
+<area shape="rect" id="node4" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="33,923,180,1154"/>
+<area shape="rect" id="node5" title=" " alt="" coords="207,1863,283,1903"/>
+<area shape="rect" id="node6" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="307,1768,506,1999"/>
+<area shape="rect" id="node7" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="307,1372,507,1705"/>
+<area shape="rect" id="node8" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="299,755,514,1323"/>
+<area shape="rect" id="node9" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="294,548,519,705"/>
+<area shape="rect" id="node10" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="311,211,502,471"/>
+<area shape="rect" id="node11" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="305,5,508,148"/>
+</map>

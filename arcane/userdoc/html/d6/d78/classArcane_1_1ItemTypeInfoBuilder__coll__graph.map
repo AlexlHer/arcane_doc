@@ -1,0 +1,13 @@
+<map id="Arcane::ItemTypeInfoBuilder" name="Arcane::ItemTypeInfoBuilder">
+<area shape="rect" id="node1" title=" " alt="" coords="169,2548,384,2749"/>
+<area shape="rect" id="node2" href="$dc/d74/classArcane_1_1ItemTypeInfo.html" title="Infos sur un type d&#39;entité du maillage." alt="" coords="193,2341,361,2499"/>
+<area shape="rect" id="node3" href="$d7/dbb/classArcane_1_1ItemTypeMng.html" title="Gestionnaire des types d&#39;entités de maillage." alt="" coords="11,1931,215,2147"/>
+<area shape="rect" id="node4" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="29,1579,197,1795"/>
+<area shape="rect" id="node5" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="13,1240,213,1529"/>
+<area shape="rect" id="node6" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="5,725,220,1191"/>
+<area shape="rect" id="node7" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="9,533,217,676"/>
+<area shape="rect" id="node8" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title=" " alt="" coords="17,211,208,456"/>
+<area shape="rect" id="node9" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="11,5,214,148"/>
+<area shape="rect" id="node10" title=" " alt="" coords="239,2019,315,2059"/>
+<area shape="rect" id="node11" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="359,1857,538,2220"/>
+</map>

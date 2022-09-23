@@ -1,0 +1,7 @@
+<map id="Arcane::Parallel::Stat" name="Arcane::Parallel::Stat">
+<area shape="rect" id="node1" title="Statistiques sur le parallélisme." alt="" coords="232,549,397,692"/>
+<area shape="rect" id="node2" href="$d5/d92/classArccore_1_1MessagePassing_1_1Stat.html" title="Statistiques sur le parallélisme." alt="" coords="115,284,309,500"/>
+<area shape="rect" id="node3" href="$d4/d36/classArccore_1_1MessagePassing_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="5,49,200,177"/>
+<area shape="rect" id="node4" href="$d6/d71/classArccore_1_1MessagePassing_1_1StatData.html" title="Un ensemble de donnees statistiques pour le profiling." alt="" coords="224,5,419,221"/>
+<area shape="rect" id="node5" href="$d0/dae/classArcane_1_1Parallel_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="334,328,503,456"/>
+</map>

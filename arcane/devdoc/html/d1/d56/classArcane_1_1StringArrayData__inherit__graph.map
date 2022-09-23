@@ -1,0 +1,7 @@
+<map id="Arcane::StringArrayData" name="Arcane::StringArrayData">
+<area shape="rect" id="node1" title="Donnée tableau d&#39;une chaîne de caractères unicode (spécialisation)" alt="" coords="115,636,355,955"/>
+<area shape="rect" id="node2" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,445,239,544"/>
+<area shape="rect" id="node3" href="$da/dc0/classArcane_1_1IArrayDataT.html" title=" " alt="" coords="263,401,437,588"/>
+<area shape="rect" id="node4" href="$d4/d06/classArcane_1_1IArrayData.html" title="Interface d&#39;une donnée tableau 1D." alt="" coords="273,284,427,353"/>
+<area shape="rect" id="node5" href="$d1/d15/classArcane_1_1IData.html" title="Interface d&#39;une donnée." alt="" coords="227,5,473,236"/>
+</map>

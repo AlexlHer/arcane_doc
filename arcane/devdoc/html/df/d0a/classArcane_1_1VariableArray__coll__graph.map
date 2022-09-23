@@ -1,0 +1,17 @@
+<map id="Arcane::VariableArray&lt; DataType &gt;" name="Arcane::VariableArray&lt; DataType &gt;">
+<area shape="rect" id="node1" title="Variable tableau aggrégée de types quelconques (pas de variables tableaux) ATTENTION Les variables ar..." alt="" coords="280,2132,483,2451"/>
+<area shape="rect" id="node2" href="$d8/d11/classArcane_1_1IFamilyObserver.html" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="5,1912,208,1996"/>
+<area shape="rect" id="node3" href="$d2/db4/classArcane_1_1Family.html" title="Famille AnyItem (pattern flyweight) Aggrégation de groupes pour décrire des variables / variables par..." alt="" coords="233,1853,359,2055"/>
+<area shape="rect" id="node4" href="$d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="146,1465,345,1754"/>
+<area shape="rect" id="node5" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="76,981,223,1211"/>
+<area shape="rect" id="node6" href="$d8/d02/classArcane_1_1RefCounter.html" title=" " alt="" coords="247,1047,403,1145"/>
+<area shape="rect" id="node7" href="$de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="244,548,407,749"/>
+<area shape="rect" id="node8" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="383,1839,553,2069"/>
+<area shape="rect" id="node9" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="368,1443,568,1776"/>
+<area shape="rect" id="node10" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="455,812,670,1380"/>
+<area shape="rect" id="node15" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="592,1443,792,1776"/>
+<area shape="rect" id="node11" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="450,570,675,727"/>
+<area shape="rect" id="node12" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="467,211,658,471"/>
+<area shape="rect" id="node13" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="461,5,664,148"/>
+<area shape="rect" id="node14" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="591,1846,764,2062"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MyTest::TestRefSharedPtr" name="MyTest::TestRefSharedPtr">
+<area shape="rect" id="node1" title="Classe de test utilisant un shared_ptr." alt="" coords="14,285,209,340"/>
+<area shape="rect" id="node2" href="$d1/dbb/classMyTest_1_1TestBaseTypeNoRef.html" title=" " alt="" coords="5,108,217,236"/>
+<area shape="rect" id="node3" title=" " alt="" coords="78,5,145,45"/>
+</map>

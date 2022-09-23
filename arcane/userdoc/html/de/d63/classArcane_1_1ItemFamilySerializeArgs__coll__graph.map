@@ -1,0 +1,6 @@
+<map id="Arcane::ItemFamilySerializeArgs" name="Arcane::ItemFamilySerializeArgs">
+<area shape="rect" id="node1" title="Arguments des callbacks de sérialisation des familles d&#39;entités." alt="" coords="157,299,398,427"/>
+<area shape="rect" id="node2" href="$dd/dcd/classArccore_1_1ISerializer.html" title="Interface d&#39;un sérialiseur." alt="" coords="5,20,157,221"/>
+<area shape="rect" id="node3" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="182,5,373,236"/>
+<area shape="rect" id="node4" title=" " alt="" coords="397,101,473,141"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Arcane::CellFamilyPolicyMng" name="Arcane::CellFamilyPolicyMng">
+<area shape="rect" id="node1" title="Gestionnaire des politiques d&#39;une famille de mailles." alt="" coords="267,2269,485,2353"/>
+<area shape="rect" id="node2" href="$d8/d37/classArcane_1_1ItemFamilyPolicyMng.html" title="Gestionnaire des politiques d&#39;une famille d&#39;entités." alt="" coords="265,2048,487,2220"/>
+<area shape="rect" id="node3" href="$d6/d57/classArcane_1_1IItemFamilyPolicyMng.html" title="Interface des politiques d&#39;une famille d&#39;entités." alt="" coords="5,1806,232,1934"/>
+<area shape="rect" id="node4" href="$d4/d78/classArcane_1_1IItemFamilyCompactPolicy.html" title="Politique de compactage des entités." alt="" coords="256,1784,496,1956"/>
+<area shape="rect" id="node5" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="521,1755,743,1985"/>
+<area shape="rect" id="node6" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="532,1372,732,1705"/>
+<area shape="rect" id="node7" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="525,755,739,1323"/>
+<area shape="rect" id="node8" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="519,548,745,705"/>
+<area shape="rect" id="node9" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="537,211,727,471"/>
+<area shape="rect" id="node10" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="531,5,733,148"/>
+</map>

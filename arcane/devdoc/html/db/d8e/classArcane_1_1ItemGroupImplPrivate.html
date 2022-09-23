@@ -1,0 +1,2013 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::ItemGroupImplPrivate</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/d8e/classArcane_1_1ItemGroupImplPrivate.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-attribs">Attributs publics</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../df/d3e/classArcane_1_1ItemGroupImplPrivate-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::ItemGroupImplPrivate</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implémentation de la classe <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html" title="Implémentation d&#39;un groupe d&#39;entités de maillage.">ItemGroupImpl</a>.  
+ <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#details">Plus de détails...</a></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::ItemGroupImplPrivate:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../da/d5a/classArcane_1_1ItemGroupImplPrivate__coll__graph.png" border="0" usemap="#aArcane_1_1ItemGroupImplPrivate_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1ItemGroupImplPrivate_coll__map" id="aArcane_1_1ItemGroupImplPrivate_coll__map">
+<area shape="rect" title="Implémentation de la classe ItemGroupImpl." alt="" coords="1789,5629,2015,6065"/>
+<area shape="rect" href="../../da/df1/classArcane_1_1ItemGroupImpl.html" title="Implémentation d&#39;un groupe d&#39;entités de maillage." alt="" coords="1725,6289,1943,6696"/>
+<area shape="rect" href="../../d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="2365,5043,2621,5567"/>
+<area shape="rect" href="../../de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="2427,4683,2582,4885"/>
+<area shape="rect" href="../../dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="625,2132,848,3243"/>
+<area shape="rect" href="../../dd/d92/classArcane_1_1VariablePrivate.html" title=" " alt="" coords="841,3320,1043,3595"/>
+<area shape="rect" href="../../dd/d79/classArcane_1_1SharedReference.html" title="Implémentation d&#39;un compteur de référence." alt="" coords="13,1428,207,1541"/>
+<area shape="rect" href="../../de/d86/classArcane_1_1ISharedReference.html" title="Interface d&#39;un compteur de référence." alt="" coords="5,577,204,676"/>
+<area shape="rect" href="../../de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="229,526,391,727"/>
+<area shape="rect" href="../../d8/d02/classArcane_1_1RefCounter.html" title=" " alt="" coords="232,1435,388,1534"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="1032,1215,1255,1754"/>
+<area shape="rect" href="../../d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="1431,2462,1634,2913"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="1066,401,1221,852"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="926,5,1134,324"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="1159,5,1357,324"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2577,3619,2792,3835"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2690,2521,2890,2854"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="2571,1201,2785,1769"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2914,2521,3114,2854"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2242,2521,2442,2854"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2466,2521,2666,2854"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="2565,548,2791,705"/>
+<area shape="rect" href="../../d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="2583,35,2773,295"/>
+<area shape="rect" href="../../d5/d5f/classArccore_1_1IFunctor.html" title="Interface d&#39;un fonctor." alt="" coords="2645,5270,2791,5339"/>
+<area shape="rect" href="../../d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="164,2543,379,2832"/>
+<area shape="rect" href="../../dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="413,1369,559,1600"/>
+<area shape="rect" href="../../d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="403,2543,601,2832"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="1834,2513,2021,2861"/>
+<area shape="rect" href="../../d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="1957,1465,2098,1505"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="2045,2513,2218,2861"/>
+<area shape="rect" href="../../da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="2122,1450,2357,1519"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2433,4363,2601,4579"/>
+<area shape="rect" href="../../d8/d30/classArcane_1_1VariableRefArrayT.html" title="Variable tableau." alt="" coords="1535,5145,1747,5464"/>
+<area shape="rect" href="../../d5/d96/classArcane_1_1IVariable.html" title="Interface d&#39;une variable." alt="" coords="1279,915,1501,2055"/>
+<area shape="rect" href="../../d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)" alt="" coords="1741,3859,1967,4324"/>
+<area shape="rect" href="../../d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="1525,1355,1700,1615"/>
+<area shape="rect" href="../../da/db9/classArcane_1_1VariableRef_1_1UpdateNotifyFunctorList.html" title="Classe interne pour gérer les fonctor appelés lors de la mise à jour de la variable." alt="" coords="1725,1384,1933,1585"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="1775,4617,1967,4951"/>
+<area shape="rect" href="../../d9/d83/classArcane_1_1VariableArrayT.html" title="Implémentation d&#39;une variable sur un tableau 1D." alt="" coords="1530,4647,1751,4921"/>
+<area shape="rect" href="../../d8/d11/classArcane_1_1IFamilyObserver.html" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="1753,3415,1955,3499"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="2039,3335,2234,3580"/>
+<area shape="rect" href="../../d2/db4/classArcane_1_1Family.html" title="Famille AnyItem (pattern flyweight) Aggrégation de groupes pour décrire des variables / variables par..." alt="" coords="475,3357,601,3558"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2258,3342,2426,3573"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2465,3349,2638,3565"/>
+<area shape="rect" title=" " alt="" coords="872,2667,935,2707"/>
+<area shape="rect" title=" " alt="" coords="1108,2667,1184,2707"/>
+<area shape="rect" href="../../df/d46/classArcane_1_1VariableTypeInfo.html" title="Informations caractérisant le type d&#39;une variable." alt="" coords="1068,3349,1301,3565"/>
+<area shape="rect" href="../../da/dc0/classArcane_1_1IArrayDataT.html" title="Interface d&#39;une donnée tableau d&#39;un type T." alt="" coords="1543,3998,1717,4185"/>
+<area shape="rect" href="../../d4/d06/classArcane_1_1IArrayData.html" title="Interface d&#39;une donnée tableau 1D." alt="" coords="1553,3423,1707,3492"/>
+<area shape="rect" href="../../d5/d86/classArcane_1_1VariableFactoryRegisterer.html" title="Enregistreur d&#39;une fabrique de variables." alt="" coords="963,4348,1214,4593"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a402e9c98c910ed404e1c3051b8ec4dad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a402e9c98c910ed404e1c3051b8ec4dad">ItemGroupImplPrivate</a> (<a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *family, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;name)</td></tr>
+<tr class="separator:a402e9c98c910ed404e1c3051b8ec4dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00d717f8f517dffd0c9c15bfcd315350"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a00d717f8f517dffd0c9c15bfcd315350">ItemGroupImplPrivate</a> (<a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *family, <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *parent, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;name)</td></tr>
+<tr class="separator:a00d717f8f517dffd0c9c15bfcd315350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00dec78b6c4dab8f5aad5cc109412e3b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a00dec78b6c4dab8f5aad5cc109412e3b">name</a> () const</td></tr>
+<tr class="separator:a00dec78b6c4dab8f5aad5cc109412e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9792949ad5ac7b26ced1187fe0332f3a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a9792949ad5ac7b26ced1187fe0332f3a">fullName</a> () const</td></tr>
+<tr class="separator:a9792949ad5ac7b26ced1187fe0332f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4152449d2ca03157da0be365e31f9f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#af4152449d2ca03157da0be365e31f9f6">null</a> () const</td></tr>
+<tr class="separator:af4152449d2ca03157da0be365e31f9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126c0b6562cc40ae3f058e02155eae19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a126c0b6562cc40ae3f058e02155eae19">mesh</a> () const</td></tr>
+<tr class="separator:a126c0b6562cc40ae3f058e02155eae19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5665345620c7d580bf4f345ae9d52856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5665345620c7d580bf4f345ae9d52856">kind</a> () const</td></tr>
+<tr class="separator:a5665345620c7d580bf4f345ae9d52856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae50d4ba7ea1a840f5fed4bc3bd7c61e"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aae50d4ba7ea1a840f5fed4bc3bd7c61e">maxLocalId</a> () const</td></tr>
+<tr class="separator:aae50d4ba7ea1a840f5fed4bc3bd7c61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd9d68829b9205da258bab63d8e0ea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a6946176a3fcbd7087f23d5b720bcefa3">ItemInternalList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aedd9d68829b9205da258bab63d8e0ea9">items</a> () const</td></tr>
+<tr class="separator:aedd9d68829b9205da258bab63d8e0ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae502793a7756616a1ec7dff220353c0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ae502793a7756616a1ec7dff220353c0f">itemsLocalId</a> ()</td></tr>
+<tr class="separator:ae502793a7756616a1ec7dff220353c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183df5b38935ab83b00a0f1f88f0ed05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a183df5b38935ab83b00a0f1f88f0ed05">itemsLocalId</a> () const</td></tr>
+<tr class="separator:a183df5b38935ab83b00a0f1f88f0ed05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b73b9fa340268f04721af96b45e539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#abc8d646c5aa8c4a583e54f7798c3bf80">Int32Array</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a69b73b9fa340268f04721af96b45e539">mutableItemsLocalId</a> ()</td></tr>
+<tr class="separator:a69b73b9fa340268f04721af96b45e539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed319a8646de5068f50d9cb151d33895"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d00/group__Variable.html#ga0e2b61714e05c0443f27740744606a69">VariableArrayInt32</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aed319a8646de5068f50d9cb151d33895">variableItemsLocalid</a> ()</td></tr>
+<tr class="separator:aed319a8646de5068f50d9cb151d33895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eaed16572f627a791fa4880693d400a"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a8eaed16572f627a791fa4880693d400a">timestamp</a> () const</td></tr>
+<tr class="separator:a8eaed16572f627a791fa4880693d400a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289f206829f2f955486a1dacce041449"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a289f206829f2f955486a1dacce041449">isContigous</a> () const</td></tr>
+<tr class="separator:a289f206829f2f955486a1dacce041449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c16dc5b94b5a724c112681af42883c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3c16dc5b94b5a724c112681af42883c8">checkIsContigous</a> ()</td></tr>
+<tr class="memdesc:a3c16dc5b94b5a724c112681af42883c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie que les localIds() sont contigüs.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3c16dc5b94b5a724c112681af42883c8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3c16dc5b94b5a724c112681af42883c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c228c8ed1b35c80888395b97bec5d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a40c228c8ed1b35c80888395b97bec5d6">updateTimestamp</a> ()</td></tr>
+<tr class="separator:a40c228c8ed1b35c80888395b97bec5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e759a3c2e3b1d1268fd8192306caa83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a4e759a3c2e3b1d1268fd8192306caa83">setNeedRecompute</a> ()</td></tr>
+<tr class="separator:a4e759a3c2e3b1d1268fd8192306caa83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9aef32b1b3e66d386851bc2a79457ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ab9aef32b1b3e66d386851bc2a79457ae">notifyExtendObservers</a> (const <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> *info)</td></tr>
+<tr class="separator:ab9aef32b1b3e66d386851bc2a79457ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d88cc0220df5326abe4d8d153a8365"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a94d88cc0220df5326abe4d8d153a8365">notifyReduceObservers</a> (const <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> *info)</td></tr>
+<tr class="separator:a94d88cc0220df5326abe4d8d153a8365"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3929988fc24d52720113820b94520b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3929988fc24d52720113820b94520b7b">notifyCompactObservers</a> (const <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> *info)</td></tr>
+<tr class="separator:a3929988fc24d52720113820b94520b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d396037623c3aa8b1f5d0d958ae2b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a8d396037623c3aa8b1f5d0d958ae2b49">notifyInvalidateObservers</a> ()</td></tr>
+<tr class="separator:a8d396037623c3aa8b1f5d0d958ae2b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb99001b8ed96bbac0f5f729a66a826"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a6bb99001b8ed96bbac0f5f729a66a826">resetSubGroups</a> ()</td></tr>
+<tr class="separator:a6bb99001b8ed96bbac0f5f729a66a826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Attributs publics</h2></td></tr>
+<tr class="memitem:aaa94ca73987b38fccd21bf50a05dc167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aaa94ca73987b38fccd21bf50a05dc167">m_mesh</a></td></tr>
+<tr class="memdesc:aaa94ca73987b38fccd21bf50a05dc167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestionnare de groupe associé  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aaa94ca73987b38fccd21bf50a05dc167">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aaa94ca73987b38fccd21bf50a05dc167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d776de82975ae3714f846f3e2c9eaf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a7d776de82975ae3714f846f3e2c9eaf1">m_item_family</a></td></tr>
+<tr class="memdesc:a7d776de82975ae3714f846f3e2c9eaf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Famille associée.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a7d776de82975ae3714f846f3e2c9eaf1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7d776de82975ae3714f846f3e2c9eaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f5d0cd00f4e7b2c29cf98e179d9a3af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a4f5d0cd00f4e7b2c29cf98e179d9a3af">m_parent</a></td></tr>
+<tr class="separator:a4f5d0cd00f4e7b2c29cf98e179d9a3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e91e046a7e113106605df9569822e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a0e91e046a7e113106605df9569822e5d">m_variable_name</a></td></tr>
+<tr class="memdesc:a0e91e046a7e113106605df9569822e5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe parent (groupe null si aucun)  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a0e91e046a7e113106605df9569822e5d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0e91e046a7e113106605df9569822e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950906d307fdcf26d6cd801576837bad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a950906d307fdcf26d6cd801576837bad">m_full_name</a></td></tr>
+<tr class="memdesc:a950906d307fdcf26d6cd801576837bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nom complet du groupe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a950906d307fdcf26d6cd801576837bad">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a950906d307fdcf26d6cd801576837bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa038ade9f996aac6195b901e2ff7e5cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aa038ade9f996aac6195b901e2ff7e5cc">m_is_null</a></td></tr>
+<tr class="memdesc:aa038ade9f996aac6195b901e2ff7e5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si le groupe est nul  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aa038ade9f996aac6195b901e2ff7e5cc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa038ade9f996aac6195b901e2ff7e5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb596f5c48d205bef32e843028b5d78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3eb596f5c48d205bef32e843028b5d78">m_kind</a></td></tr>
+<tr class="memdesc:a3eb596f5c48d205bef32e843028b5d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Genre de entités du groupe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3eb596f5c48d205bef32e843028b5d78">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3eb596f5c48d205bef32e843028b5d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26cd37c0226cbcf07fccdad2a78cfc26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a26cd37c0226cbcf07fccdad2a78cfc26">m_name</a></td></tr>
+<tr class="memdesc:a26cd37c0226cbcf07fccdad2a78cfc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nom du groupe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a26cd37c0226cbcf07fccdad2a78cfc26">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a26cd37c0226cbcf07fccdad2a78cfc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b830d45a54bc206c1574c6eff01b692"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5b830d45a54bc206c1574c6eff01b692">m_is_own</a> = false</td></tr>
+<tr class="memdesc:a5b830d45a54bc206c1574c6eff01b692"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si groupe local.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5b830d45a54bc206c1574c6eff01b692">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5b830d45a54bc206c1574c6eff01b692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e1b1fedd822869bf3ee8e471f1bf08"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a51e1b1fedd822869bf3ee8e471f1bf08">m_simd_timestamp</a> = -1</td></tr>
+<tr class="memdesc:a51e1b1fedd822869bf3ee8e471f1bf08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temps de la derniere modification pour le calcul des infos SIMD.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a51e1b1fedd822869bf3ee8e471f1bf08">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a51e1b1fedd822869bf3ee8e471f1bf08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9927cb5b0513b2ae8791e0b47b6bda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a0c9927cb5b0513b2ae8791e0b47b6bda">m_own_group</a> = nullptr</td></tr>
+<tr class="memdesc:a0c9927cb5b0513b2ae8791e0b47b6bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Items owned by the subdomain.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a0c9927cb5b0513b2ae8791e0b47b6bda">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0c9927cb5b0513b2ae8791e0b47b6bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa254640a6513ab8b4e1e983445099330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aa254640a6513ab8b4e1e983445099330">m_ghost_group</a> = nullptr</td></tr>
+<tr class="memdesc:aa254640a6513ab8b4e1e983445099330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Items not owned by the subdomain.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aa254640a6513ab8b4e1e983445099330">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa254640a6513ab8b4e1e983445099330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5450c4274b110e4d6ea465e4b1aa5175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5450c4274b110e4d6ea465e4b1aa5175">m_interface_group</a> = nullptr</td></tr>
+<tr class="memdesc:a5450c4274b110e4d6ea465e4b1aa5175"><td class="mdescLeft">&#160;</td><td class="mdescRight">Items on the boundary of two subdomains.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5450c4274b110e4d6ea465e4b1aa5175">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5450c4274b110e4d6ea465e4b1aa5175"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b3ecf209f6acaadb963158d81b35f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5b3ecf209f6acaadb963158d81b35f12">m_node_group</a> = nullptr</td></tr>
+<tr class="memdesc:a5b3ecf209f6acaadb963158d81b35f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des noeuds.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5b3ecf209f6acaadb963158d81b35f12">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5b3ecf209f6acaadb963158d81b35f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7987bfef5d9c982632bc5210d73b0e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ac7987bfef5d9c982632bc5210d73b0e0">m_edge_group</a> = nullptr</td></tr>
+<tr class="memdesc:ac7987bfef5d9c982632bc5210d73b0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des arêtes.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ac7987bfef5d9c982632bc5210d73b0e0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac7987bfef5d9c982632bc5210d73b0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39f9844a66e21b08951933d8ebccb57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ad39f9844a66e21b08951933d8ebccb57">m_face_group</a> = nullptr</td></tr>
+<tr class="memdesc:ad39f9844a66e21b08951933d8ebccb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des faces.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ad39f9844a66e21b08951933d8ebccb57">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad39f9844a66e21b08951933d8ebccb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d88f588207e80caa37116f263f1dd90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3d88f588207e80caa37116f263f1dd90">m_cell_group</a> = nullptr</td></tr>
+<tr class="memdesc:a3d88f588207e80caa37116f263f1dd90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des mailles.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3d88f588207e80caa37116f263f1dd90">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3d88f588207e80caa37116f263f1dd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93d70e6e897f4ab0f28276404d81025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ac93d70e6e897f4ab0f28276404d81025">m_inner_face_group</a> = nullptr</td></tr>
+<tr class="memdesc:ac93d70e6e897f4ab0f28276404d81025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des faces internes.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ac93d70e6e897f4ab0f28276404d81025">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac93d70e6e897f4ab0f28276404d81025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01f5a2edf6f1027c450efc3b56de015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#aa01f5a2edf6f1027c450efc3b56de015">m_outer_face_group</a> = nullptr</td></tr>
+<tr class="separator:aa01f5a2edf6f1027c450efc3b56de015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2d2953a208aadf7c49ba207623b3fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a2e2d2953a208aadf7c49ba207623b3fe">m_active_cell_group</a> = nullptr</td></tr>
+<tr class="memdesc:a2e2d2953a208aadf7c49ba207623b3fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a2e2d2953a208aadf7c49ba207623b3fe">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2e2d2953a208aadf7c49ba207623b3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d68e61fd481f13593611017293c06fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a9d68e61fd481f13593611017293c06fa">m_own_active_cell_group</a> = nullptr</td></tr>
+<tr class="memdesc:a9d68e61fd481f13593611017293c06fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des mailles propres actives.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a9d68e61fd481f13593611017293c06fa">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9d68e61fd481f13593611017293c06fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f797d8ea323a239f7bf2bbf3934b5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ad2f797d8ea323a239f7bf2bbf3934b5d">m_active_face_group</a> = nullptr</td></tr>
+<tr class="memdesc:ad2f797d8ea323a239f7bf2bbf3934b5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des faces actives.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ad2f797d8ea323a239f7bf2bbf3934b5d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad2f797d8ea323a239f7bf2bbf3934b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ec42388a3f28691984a48c473802c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a59ec42388a3f28691984a48c473802c8">m_own_active_face_group</a> = nullptr</td></tr>
+<tr class="memdesc:a59ec42388a3f28691984a48c473802c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des faces actives propres.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a59ec42388a3f28691984a48c473802c8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a59ec42388a3f28691984a48c473802c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25660cf4e1cf9e56dbc4b738079462f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a25660cf4e1cf9e56dbc4b738079462f3">m_inner_active_face_group</a> = nullptr</td></tr>
+<tr class="memdesc:a25660cf4e1cf9e56dbc4b738079462f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des faces internes actives.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a25660cf4e1cf9e56dbc4b738079462f3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a25660cf4e1cf9e56dbc4b738079462f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59adef04d2e1f8fbec89782831576fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ab59adef04d2e1f8fbec89782831576fc">m_outer_active_face_group</a> = nullptr</td></tr>
+<tr class="memdesc:ab59adef04d2e1f8fbec89782831576fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des faces externes actives.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ab59adef04d2e1f8fbec89782831576fc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab59adef04d2e1f8fbec89782831576fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c70a8253652247adb2015f697f3992"><td class="memItemLeft" align="right" valign="top">std::map&lt; Integer, <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a80c70a8253652247adb2015f697f3992">m_level_cell_group</a></td></tr>
+<tr class="memdesc:a80c70a8253652247adb2015f697f3992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des mailles de niveau.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a80c70a8253652247adb2015f697f3992">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a80c70a8253652247adb2015f697f3992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4587cc786035a31e98cec3b425650e"><td class="memItemLeft" align="right" valign="top">std::map&lt; Integer, <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a7e4587cc786035a31e98cec3b425650e">m_own_level_cell_group</a></td></tr>
+<tr class="memdesc:a7e4587cc786035a31e98cec3b425650e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groupe des mailles propres de niveau.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a7e4587cc786035a31e98cec3b425650e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7e4587cc786035a31e98cec3b425650e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab370166d7bfc74d9ccd00ce223f94160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ab370166d7bfc74d9ccd00ce223f94160">m_children_by_type</a></td></tr>
+<tr class="memdesc:ab370166d7bfc74d9ccd00ce223f94160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des fils de ce groupe par type d'entité  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ab370166d7bfc74d9ccd00ce223f94160">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab370166d7bfc74d9ccd00ce223f94160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe04b9dbd69f24c304c00703f7b73c24"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>, <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#afe04b9dbd69f24c304c00703f7b73c24">m_sub_groups</a></td></tr>
+<tr class="memdesc:afe04b9dbd69f24c304c00703f7b73c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensemble de tous les sous-groupes.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#afe04b9dbd69f24c304c00703f7b73c24">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afe04b9dbd69f24c304c00703f7b73c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01367609a1bc796a33ddba8a620bf11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#af01367609a1bc796a33ddba8a620bf11">m_need_recompute</a> = false</td></tr>
+<tr class="memdesc:af01367609a1bc796a33ddba8a620bf11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vrai si le groupe doit être recalculé  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#af01367609a1bc796a33ddba8a620bf11">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af01367609a1bc796a33ddba8a620bf11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d53a68d295a88a1c00c878b58e98f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a45d53a68d295a88a1c00c878b58e98f8">m_need_invalidate_on_recompute</a> = false</td></tr>
+<tr class="memdesc:a45d53a68d295a88a1c00c878b58e98f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vrai si l'on doit activer les invalidate observers en cas de recalcul.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a45d53a68d295a88a1c00c878b58e98f8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a45d53a68d295a88a1c00c878b58e98f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b456d07aa8491c5bc8377081a30e623"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a6b456d07aa8491c5bc8377081a30e623">m_transaction_mode</a> = false</td></tr>
+<tr class="memdesc:a6b456d07aa8491c5bc8377081a30e623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vrai si le groupe est en mode de transaction directe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a6b456d07aa8491c5bc8377081a30e623">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6b456d07aa8491c5bc8377081a30e623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36aa0d69860404c241aeac6da0c4932f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a36aa0d69860404c241aeac6da0c4932f">m_is_local_to_sub_domain</a> = false</td></tr>
+<tr class="memdesc:a36aa0d69860404c241aeac6da0c4932f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vrai si le groupe est local au sous-domaine.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a36aa0d69860404c241aeac6da0c4932f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a36aa0d69860404c241aeac6da0c4932f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99c111cbd17de9f3bd5d63fe9619fb4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d5f/classArccore_1_1IFunctor.html">IFunctor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a99c111cbd17de9f3bd5d63fe9619fb4d">m_compute_functor</a> = nullptr</td></tr>
+<tr class="memdesc:a99c111cbd17de9f3bd5d63fe9619fb4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction de calcul du groupe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a99c111cbd17de9f3bd5d63fe9619fb4d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a99c111cbd17de9f3bd5d63fe9619fb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70bb0293d246ee4dfb8e36a504d17e9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a70bb0293d246ee4dfb8e36a504d17e9b">m_is_all_items</a> = false</td></tr>
+<tr class="memdesc:a70bb0293d246ee4dfb8e36a504d17e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indique s'il s'agit du groupe de toutes les entités.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a70bb0293d246ee4dfb8e36a504d17e9b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a70bb0293d246ee4dfb8e36a504d17e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461426091ad587080638b2236706c4b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d23/classArcane_1_1SharedPtrT.html">SharedPtrT</a>&lt; <a class="el" href="../../d7/dbe/classArcane_1_1GroupIndexTable.html">GroupIndexTable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a461426091ad587080638b2236706c4b0">m_group_index_table</a></td></tr>
+<tr class="memdesc:a461426091ad587080638b2236706c4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Table de hachage du local id des items vers leur position en enumeration.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a461426091ad587080638b2236706c4b0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a461426091ad587080638b2236706c4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ae4928c8fe0be62ccf90ee7d2e11759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d9f/classArccore_1_1Ref.html">Ref</a>&lt; <a class="el" href="../../d4/d9f/classArcane_1_1IVariableSynchronizer.html">IVariableSynchronizer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3ae4928c8fe0be62ccf90ee7d2e11759">m_synchronizer</a></td></tr>
+<tr class="memdesc:a3ae4928c8fe0be62ccf90ee7d2e11759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronizer du groupe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a3ae4928c8fe0be62ccf90ee7d2e11759">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3ae4928c8fe0be62ccf90ee7d2e11759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78fadd0b0a112a9aa854e539cf84cbb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a78fadd0b0a112a9aa854e539cf84cbb5">m_items_index_in_all_group</a></td></tr>
+<tr class="separator:a78fadd0b0a112a9aa854e539cf84cbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5fff2749fd88a8dd62798028d00b18"><td class="memItemLeft" align="right" valign="top">std::map&lt; const void *, <a class="el" href="../../d1/d2a/classArcane_1_1IItemGroupObserver.html">IItemGroupObserver</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a6f5fff2749fd88a8dd62798028d00b18">m_observers</a></td></tr>
+<tr class="memdesc:a6f5fff2749fd88a8dd62798028d00b18"><td class="mdescLeft">&#160;</td><td class="mdescRight">localids -&gt; index (UNIQUEMENT ALLITEMS)  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a6f5fff2749fd88a8dd62798028d00b18">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6f5fff2749fd88a8dd62798028d00b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a96eec0f8c797723d4fde05d18595e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a9a96eec0f8c797723d4fde05d18595e4">m_observer_need_info</a> = false</td></tr>
+<tr class="memdesc:a9a96eec0f8c797723d4fde05d18595e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synthése de besoin de observers en informations de transition.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a9a96eec0f8c797723d4fde05d18595e4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9a96eec0f8c797723d4fde05d18595e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:ac2045b39dcf1dfbc30fa95e75786385a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ac2045b39dcf1dfbc30fa95e75786385a">_init</a> ()</td></tr>
+<tr class="memdesc:ac2045b39dcf1dfbc30fa95e75786385a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vrai si les localIds sont consécutifs.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#ac2045b39dcf1dfbc30fa95e75786385a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac2045b39dcf1dfbc30fa95e75786385a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a31db45f9264daf10cabc1f1436795f8c"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a31db45f9264daf10cabc1f1436795f8c">m_timestamp</a> = -1</td></tr>
+<tr class="memdesc:a31db45f9264daf10cabc1f1436795f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temps de la derniere modification.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a31db45f9264daf10cabc1f1436795f8c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a31db45f9264daf10cabc1f1436795f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278326a58609ca003ed354fcfc568551"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; Int32 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a278326a58609ca003ed354fcfc568551">m_local_buffer</a> = <a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;Int32&gt;(<a class="el" href="../../dd/d27/namespaceArcane_1_1platform.html#aa1642b1adf218ba84fae64d8fb4013f1">platform::getDefaultDataAllocator</a>())</td></tr>
+<tr class="separator:a278326a58609ca003ed354fcfc568551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe1c294b60293001e7284ce3c14d1e0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dfb/classArcane_1_1Array.html">Array</a>&lt; Int32 &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#abe1c294b60293001e7284ce3c14d1e0a">m_items_local_id</a> = &amp;m_local_buffer</td></tr>
+<tr class="memdesc:abe1c294b60293001e7284ce3c14d1e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des numéros locaux des entités de ce groupe.  <a href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#abe1c294b60293001e7284ce3c14d1e0a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abe1c294b60293001e7284ce3c14d1e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4ad2639efea80be4f4a0944a0c1d90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d00/group__Variable.html#ga0e2b61714e05c0443f27740744606a69">VariableArrayInt32</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a5c4ad2639efea80be4f4a0944a0c1d90">m_variable_items_local_id</a> = nullptr</td></tr>
+<tr class="separator:a5c4ad2639efea80be4f4a0944a0c1d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a753b66a3c008c7632e032b8be442b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html#a31a753b66a3c008c7632e032b8be442b">m_is_contigous</a> = false</td></tr>
+<tr class="separator:a31a753b66a3c008c7632e032b8be442b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Implémentation de la classe <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html" title="Implémentation d&#39;un groupe d&#39;entités de maillage.">ItemGroupImpl</a>. </p>
+<p >Le container contenant la liste des entités du groupe est soit une variable dans le cas d'une groupe standard, soit un tableau simple dans le cas d'un groupe ayant un parent. En effet, les groupes ayant des parents sont des groupes générés dynamiquement (par exemple le groupe des entités propres) et ne sont donc pas toujours présents sur tous les sous-domaines (une variable doit toujours exister sur tous les sous-domaines). De plus, leur valeur n'a pas besoin d'être sauvée lors d'une protection.</p>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000020">A faire:</a></b></dt><dd>ajouter notion de groupe générée, avec les propriétés suivantes:<ul>
+<li>ces groupes ne doivent pas être transférés d'un sous-domaine à l'autre</li>
+<li>ils ne peuvent pas être modifiés directement. </li>
+</ul>
+</dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00107">107</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a1edf7331aa56ad8ccf4e3a0b0e7a747d" name="a1edf7331aa56ad8ccf4e3a0b0e7a747d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1edf7331aa56ad8ccf4e3a0b0e7a747d">&#9670;&#160;</a></span>ItemGroupImplPrivate() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemGroupImplPrivate::ItemGroupImplPrivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00232">232</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a402e9c98c910ed404e1c3051b8ec4dad" name="a402e9c98c910ed404e1c3051b8ec4dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402e9c98c910ed404e1c3051b8ec4dad">&#9670;&#160;</a></span>ItemGroupImplPrivate() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemGroupImplPrivate::ItemGroupImplPrivate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td>
+          <td class="paramname"><em>family</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00247">247</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a00d717f8f517dffd0c9c15bfcd315350" name="a00d717f8f517dffd0c9c15bfcd315350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00d717f8f517dffd0c9c15bfcd315350">&#9670;&#160;</a></span>ItemGroupImplPrivate() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemGroupImplPrivate::ItemGroupImplPrivate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td>
+          <td class="paramname"><em>family</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00263">263</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="afecb4fe593002747ced4e4cb8a875258" name="afecb4fe593002747ced4e4cb8a875258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afecb4fe593002747ced4e4cb8a875258">&#9670;&#160;</a></span>~ItemGroupImplPrivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::ItemGroupImplPrivate::~ItemGroupImplPrivate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00279">279</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="ac2045b39dcf1dfbc30fa95e75786385a" name="ac2045b39dcf1dfbc30fa95e75786385a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2045b39dcf1dfbc30fa95e75786385a">&#9670;&#160;</a></span>_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::_init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vrai si les localIds sont consécutifs. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00294">294</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d7/d44/VariableRefArray_8cc_source.html#l00195">Arcane::VariableRefArrayT&lt; T &gt;::_internalTrueData()</a>, <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#a5a4f8a736a5f4f59b0a3d37654aadef7">Arcane::IItemFamily::fullName()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00162">m_full_name</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00159">m_item_family</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00220">m_items_local_id</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00158">m_mesh</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00165">m_name</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00161">m_variable_name</a>, <a class="el" href="../../d2/db3/IVariable_8h_source.html#l00114">Arcane::IVariable::PPrivate</a>, et <a class="el" href="../../d2/db3/IVariable_8h_source.html#l00091">Arcane::IVariable::PSubDomainDepend</a>.</p>
+
+</div>
+</div>
+<a id="a3c16dc5b94b5a724c112681af42883c8" name="a3c16dc5b94b5a724c112681af42883c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c16dc5b94b5a724c112681af42883c8">&#9670;&#160;</a></span>checkIsContigous()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::checkIsContigous </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vérifie que les localIds() sont contigüs. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00409">409</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00677">Arccore::ConstArrayView&lt; T &gt;::empty()</a>, et <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02147">Arcane::ItemGroupImpl::checkLocalIdsAreContigous()</a>.</p>
+
+</div>
+</div>
+<a id="a9792949ad5ac7b26ced1187fe0332f3a" name="a9792949ad5ac7b26ced1187fe0332f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9792949ad5ac7b26ced1187fe0332f3a">&#9670;&#160;</a></span>fullName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp; Arcane::ItemGroupImplPrivate::fullName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00119">119</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a289f206829f2f955486a1dacce041449" name="a289f206829f2f955486a1dacce041449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289f206829f2f955486a1dacce041449">&#9670;&#160;</a></span>isContigous()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::isContigous </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00136">136</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="aedd9d68829b9205da258bab63d8e0ea9" name="aedd9d68829b9205da258bab63d8e0ea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd9d68829b9205da258bab63d8e0ea9">&#9670;&#160;</a></span>items()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a6946176a3fcbd7087f23d5b720bcefa3">ItemInternalList</a> Arcane::ItemGroupImplPrivate::items </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00124">124</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="ae502793a7756616a1ec7dff220353c0f" name="ae502793a7756616a1ec7dff220353c0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae502793a7756616a1ec7dff220353c0f">&#9670;&#160;</a></span>itemsLocalId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#afec99f57f5dac88c46422be9cd3d3224">Int32ArrayView</a> Arcane::ItemGroupImplPrivate::itemsLocalId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00130">130</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a183df5b38935ab83b00a0f1f88f0ed05" name="a183df5b38935ab83b00a0f1f88f0ed05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183df5b38935ab83b00a0f1f88f0ed05">&#9670;&#160;</a></span>itemsLocalId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> Arcane::ItemGroupImplPrivate::itemsLocalId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00131">131</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a5665345620c7d580bf4f345ae9d52856" name="a5665345620c7d580bf4f345ae9d52856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5665345620c7d580bf4f345ae9d52856">&#9670;&#160;</a></span>kind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> Arcane::ItemGroupImplPrivate::kind </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00122">122</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="aae50d4ba7ea1a840f5fed4bc3bd7c61e" name="aae50d4ba7ea1a840f5fed4bc3bd7c61e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae50d4ba7ea1a840f5fed4bc3bd7c61e">&#9670;&#160;</a></span>maxLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::ItemGroupImplPrivate::maxLocalId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00123">123</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a126c0b6562cc40ae3f058e02155eae19" name="a126c0b6562cc40ae3f058e02155eae19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126c0b6562cc40ae3f058e02155eae19">&#9670;&#160;</a></span>mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> * Arcane::ItemGroupImplPrivate::mesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00121">121</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a69b73b9fa340268f04721af96b45e539" name="a69b73b9fa340268f04721af96b45e539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b73b9fa340268f04721af96b45e539">&#9670;&#160;</a></span>mutableItemsLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#abc8d646c5aa8c4a583e54f7798c3bf80">Int32Array</a> &amp; Arcane::ItemGroupImplPrivate::mutableItemsLocalId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00132">132</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a00dec78b6c4dab8f5aad5cc109412e3b" name="a00dec78b6c4dab8f5aad5cc109412e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00dec78b6c4dab8f5aad5cc109412e3b">&#9670;&#160;</a></span>name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp; Arcane::ItemGroupImplPrivate::name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00118">118</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a3929988fc24d52720113820b94520b7b" name="a3929988fc24d52720113820b94520b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3929988fc24d52720113820b94520b7b">&#9670;&#160;</a></span>notifyCompactObservers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::notifyCompactObservers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> *&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00373">373</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="ab9aef32b1b3e66d386851bc2a79457ae" name="ab9aef32b1b3e66d386851bc2a79457ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9aef32b1b3e66d386851bc2a79457ae">&#9670;&#160;</a></span>notifyExtendObservers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::notifyExtendObservers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> *&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00343">343</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8d396037623c3aa8b1f5d0d958ae2b49" name="a8d396037623c3aa8b1f5d0d958ae2b49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d396037623c3aa8b1f5d0d958ae2b49">&#9670;&#160;</a></span>notifyInvalidateObservers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::notifyInvalidateObservers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00388">388</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a94d88cc0220df5326abe4d8d153a8365" name="a94d88cc0220df5326abe4d8d153a8365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d88cc0220df5326abe4d8d153a8365">&#9670;&#160;</a></span>notifyReduceObservers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::notifyReduceObservers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> *&#160;</td>
+          <td class="paramname"><em>info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00358">358</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="af4152449d2ca03157da0be365e31f9f6" name="af4152449d2ca03157da0be365e31f9f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4152449d2ca03157da0be365e31f9f6">&#9670;&#160;</a></span>null()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::null </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00120">120</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6bb99001b8ed96bbac0f5f729a66a826" name="a6bb99001b8ed96bbac0f5f729a66a826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb99001b8ed96bbac0f5f729a66a826">&#9670;&#160;</a></span>resetSubGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::resetSubGroups </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00313">313</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a4e759a3c2e3b1d1268fd8192306caa83" name="a4e759a3c2e3b1d1268fd8192306caa83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e759a3c2e3b1d1268fd8192306caa83">&#9670;&#160;</a></span>setNeedRecompute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::setNeedRecompute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00145">145</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8eaed16572f627a791fa4880693d400a" name="a8eaed16572f627a791fa4880693d400a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eaed16572f627a791fa4880693d400a">&#9670;&#160;</a></span>timestamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::ItemGroupImplPrivate::timestamp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00135">135</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a40c228c8ed1b35c80888395b97bec5d6" name="a40c228c8ed1b35c80888395b97bec5d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c228c8ed1b35c80888395b97bec5d6">&#9670;&#160;</a></span>updateTimestamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::ItemGroupImplPrivate::updateTimestamp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00139">139</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="aed319a8646de5068f50d9cb151d33895" name="aed319a8646de5068f50d9cb151d33895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed319a8646de5068f50d9cb151d33895">&#9670;&#160;</a></span>variableItemsLocalid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d00/group__Variable.html#ga0e2b61714e05c0443f27740744606a69">VariableArrayInt32</a> * Arcane::ItemGroupImplPrivate::variableItemsLocalid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00133">133</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a2e2d2953a208aadf7c49ba207623b3fe" name="a2e2d2953a208aadf7c49ba207623b3fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2d2953a208aadf7c49ba207623b3fe">&#9670;&#160;</a></span>m_active_cell_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_active_cell_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>AMR. </p>
+<p >Groupe des mailles actives </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00184">184</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00834">Arcane::ItemGroupImpl::activeCellGroup()</a>.</p>
+
+</div>
+</div>
+<a id="ad2f797d8ea323a239f7bf2bbf3934b5d" name="ad2f797d8ea323a239f7bf2bbf3934b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2f797d8ea323a239f7bf2bbf3934b5d">&#9670;&#160;</a></span>m_active_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_active_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des faces actives. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00186">186</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00907">Arcane::ItemGroupImpl::activeFaceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a3d88f588207e80caa37116f263f1dd90" name="a3d88f588207e80caa37116f263f1dd90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d88f588207e80caa37116f263f1dd90">&#9670;&#160;</a></span>m_cell_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_cell_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des mailles. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00178">178</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00781">Arcane::ItemGroupImpl::cellGroup()</a>.</p>
+
+</div>
+</div>
+<a id="ab370166d7bfc74d9ccd00ce223f94160" name="ab370166d7bfc74d9ccd00ce223f94160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab370166d7bfc74d9ccd00ce223f94160">&#9670;&#160;</a></span>m_children_by_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>*&gt; Arcane::ItemGroupImplPrivate::m_children_by_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Liste des fils de ce groupe par type d'entité </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00193">193</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01886">Arcane::ItemGroupImpl::_computeChildrenByType()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01867">Arcane::ItemGroupImpl::_initChildrenByType()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01719">Arcane::ItemGroupImpl::applyOperation()</a>.</p>
+
+</div>
+</div>
+<a id="a99c111cbd17de9f3bd5d63fe9619fb4d" name="a99c111cbd17de9f3bd5d63fe9619fb4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c111cbd17de9f3bd5d63fe9619fb4d">&#9670;&#160;</a></span>m_compute_functor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d5f/classArccore_1_1IFunctor.html">IFunctor</a>* Arcane::ItemGroupImplPrivate::m_compute_functor = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction de calcul du groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00200">200</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01124">Arcane::ItemGroupImpl::addItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01018">Arcane::ItemGroupImpl::changeIds()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01621">Arcane::ItemGroupImpl::checkNeedUpdate()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01541">Arcane::ItemGroupImpl::checkValid()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01858">Arcane::ItemGroupImpl::hasComputeFunctor()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01765">Arcane::ItemGroupImpl::needSynchronization()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01288">Arcane::ItemGroupImpl::removeAddItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01199">Arcane::ItemGroupImpl::removeItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01464">Arcane::ItemGroupImpl::removeSuppressedItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01848">Arcane::ItemGroupImpl::setComputeFunctor()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01360">Arcane::ItemGroupImpl::setItems()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00587">Arcane::ItemGroupImpl::unguardedItemsLocalId()</a>.</p>
+
+</div>
+</div>
+<a id="ac7987bfef5d9c982632bc5210d73b0e0" name="ac7987bfef5d9c982632bc5210d73b0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7987bfef5d9c982632bc5210d73b0e0">&#9670;&#160;</a></span>m_edge_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_edge_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des arêtes. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00176">176</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00749">Arcane::ItemGroupImpl::edgeGroup()</a>.</p>
+
+</div>
+</div>
+<a id="ad39f9844a66e21b08951933d8ebccb57" name="ad39f9844a66e21b08951933d8ebccb57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39f9844a66e21b08951933d8ebccb57">&#9670;&#160;</a></span>m_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des faces. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00177">177</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00765">Arcane::ItemGroupImpl::faceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a950906d307fdcf26d6cd801576837bad" name="a950906d307fdcf26d6cd801576837bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950906d307fdcf26d6cd801576837bad">&#9670;&#160;</a></span>m_full_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::ItemGroupImplPrivate::m_full_name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nom complet du groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00162">162</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00295">_init()</a>.</p>
+
+</div>
+</div>
+<a id="aa254640a6513ab8b4e1e983445099330" name="aa254640a6513ab8b4e1e983445099330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa254640a6513ab8b4e1e983445099330">&#9670;&#160;</a></span>m_ghost_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_ghost_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Items not owned by the subdomain. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00173">173</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00703">Arcane::ItemGroupImpl::ghostGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a461426091ad587080638b2236706c4b0" name="a461426091ad587080638b2236706c4b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a461426091ad587080638b2236706c4b0">&#9670;&#160;</a></span>m_group_index_table</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d23/classArcane_1_1SharedPtrT.html">SharedPtrT</a>&lt;<a class="el" href="../../d7/dbe/classArcane_1_1GroupIndexTable.html">GroupIndexTable</a>&gt; Arcane::ItemGroupImplPrivate::m_group_index_table</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Table de hachage du local id des items vers leur position en enumeration. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00203">203</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01806">Arcane::ItemGroupImpl::detachObserver()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02034">Arcane::ItemGroupImpl::localIdToIndex()</a>.</p>
+
+</div>
+</div>
+<a id="a25660cf4e1cf9e56dbc4b738079462f3" name="a25660cf4e1cf9e56dbc4b738079462f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25660cf4e1cf9e56dbc4b738079462f3">&#9670;&#160;</a></span>m_inner_active_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_inner_active_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des faces internes actives. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00188">188</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00940">Arcane::ItemGroupImpl::innerActiveFaceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="ac93d70e6e897f4ab0f28276404d81025" name="ac93d70e6e897f4ab0f28276404d81025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93d70e6e897f4ab0f28276404d81025">&#9670;&#160;</a></span>m_inner_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_inner_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des faces internes. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00179">179</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00797">Arcane::ItemGroupImpl::innerFaceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a5450c4274b110e4d6ea465e4b1aa5175" name="a5450c4274b110e4d6ea465e4b1aa5175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5450c4274b110e4d6ea465e4b1aa5175">&#9670;&#160;</a></span>m_interface_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_interface_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Items on the boundary of two subdomains. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00174">174</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a70bb0293d246ee4dfb8e36a504d17e9b" name="a70bb0293d246ee4dfb8e36a504d17e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bb0293d246ee4dfb8e36a504d17e9b">&#9670;&#160;</a></span>m_is_all_items</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_is_all_items = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indique s'il s'agit du groupe de toutes les entités. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00201">201</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02008">Arcane::ItemGroupImpl::destroy()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01433">Arcane::ItemGroupImpl::isAllItems()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01424">Arcane::ItemGroupImpl::setIsAllItems()</a>.</p>
+
+</div>
+</div>
+<a id="a31a753b66a3c008c7632e032b8be442b" name="a31a753b66a3c008c7632e032b8be442b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a753b66a3c008c7632e032b8be442b">&#9670;&#160;</a></span>m_is_contigous</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_is_contigous = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00223">223</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a36aa0d69860404c241aeac6da0c4932f" name="a36aa0d69860404c241aeac6da0c4932f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36aa0d69860404c241aeac6da0c4932f">&#9670;&#160;</a></span>m_is_local_to_sub_domain</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_is_local_to_sub_domain = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vrai si le groupe est local au sous-domaine. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00199">199</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01106">Arcane::ItemGroupImpl::isLocalToSubDomain()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01765">Arcane::ItemGroupImpl::needSynchronization()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01115">Arcane::ItemGroupImpl::setLocalToSubDomain()</a>.</p>
+
+</div>
+</div>
+<a id="aa038ade9f996aac6195b901e2ff7e5cc" name="aa038ade9f996aac6195b901e2ff7e5cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa038ade9f996aac6195b901e2ff7e5cc">&#9670;&#160;</a></span>m_is_null</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_is_null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><em>true</em> si le groupe est nul </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00163">163</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a5b830d45a54bc206c1574c6eff01b692" name="a5b830d45a54bc206c1574c6eff01b692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b830d45a54bc206c1574c6eff01b692">&#9670;&#160;</a></span>m_is_own</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_is_own = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><em>true</em> si groupe local. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00166">166</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00640">Arcane::ItemGroupImpl::isOwn()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01765">Arcane::ItemGroupImpl::needSynchronization()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00682">Arcane::ItemGroupImpl::ownGroup()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00649">Arcane::ItemGroupImpl::setOwn()</a>.</p>
+
+</div>
+</div>
+<a id="a7d776de82975ae3714f846f3e2c9eaf1" name="a7d776de82975ae3714f846f3e2c9eaf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d776de82975ae3714f846f3e2c9eaf1">&#9670;&#160;</a></span>m_item_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a>* Arcane::ItemGroupImplPrivate::m_item_family</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Famille associée. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00159">159</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00295">_init()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01867">Arcane::ItemGroupImpl::_initChildrenByType()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00703">Arcane::ItemGroupImpl::ghostGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00622">Arcane::ItemGroupImpl::itemFamily()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00682">Arcane::ItemGroupImpl::ownGroup()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01288">Arcane::ItemGroupImpl::removeAddItems()</a>.</p>
+
+</div>
+</div>
+<a id="a78fadd0b0a112a9aa854e539cf84cbb5" name="a78fadd0b0a112a9aa854e539cf84cbb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78fadd0b0a112a9aa854e539cf84cbb5">&#9670;&#160;</a></span>m_items_index_in_all_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a> Arcane::ItemGroupImplPrivate::m_items_index_in_all_group</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00207">207</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="abe1c294b60293001e7284ce3c14d1e0a" name="abe1c294b60293001e7284ce3c14d1e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1c294b60293001e7284ce3c14d1e0a">&#9670;&#160;</a></span>m_items_local_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/dfb/classArcane_1_1Array.html">Array</a>&lt;Int32&gt;* Arcane::ItemGroupImplPrivate::m_items_local_id = &amp;m_local_buffer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des numéros locaux des entités de ce groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00220">220</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00295">_init()</a>.</p>
+
+</div>
+</div>
+<a id="a3eb596f5c48d205bef32e843028b5d78" name="a3eb596f5c48d205bef32e843028b5d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb596f5c48d205bef32e843028b5d78">&#9670;&#160;</a></span>m_kind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a> Arcane::ItemGroupImplPrivate::m_kind</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Genre de entités du groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00164">164</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01541">Arcane::ItemGroupImpl::checkValid()</a>.</p>
+
+</div>
+</div>
+<a id="a80c70a8253652247adb2015f697f3992" name="a80c70a8253652247adb2015f697f3992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c70a8253652247adb2015f697f3992">&#9670;&#160;</a></span>m_level_cell_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;Integer, <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>*&gt; Arcane::ItemGroupImplPrivate::m_level_cell_group</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des mailles de niveau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00190">190</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00870">Arcane::ItemGroupImpl::levelCellGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a278326a58609ca003ed354fcfc568551" name="a278326a58609ca003ed354fcfc568551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278326a58609ca003ed354fcfc568551">&#9670;&#160;</a></span>m_local_buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;Int32&gt; Arcane::ItemGroupImplPrivate::m_local_buffer = <a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;Int32&gt;(<a class="el" href="../../dd/d27/namespaceArcane_1_1platform.html#aa1642b1adf218ba84fae64d8fb4013f1">platform::getDefaultDataAllocator</a>())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00219">219</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="aaa94ca73987b38fccd21bf50a05dc167" name="aaa94ca73987b38fccd21bf50a05dc167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa94ca73987b38fccd21bf50a05dc167">&#9670;&#160;</a></span>m_mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a>* Arcane::ItemGroupImplPrivate::m_mesh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gestionnare de groupe associé </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00158">158</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00295">_init()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00834">Arcane::ItemGroupImpl::activeCellGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00907">Arcane::ItemGroupImpl::activeFaceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00781">Arcane::ItemGroupImpl::cellGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01018">Arcane::ItemGroupImpl::changeIds()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00749">Arcane::ItemGroupImpl::edgeGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00765">Arcane::ItemGroupImpl::faceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00940">Arcane::ItemGroupImpl::innerActiveFaceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00797">Arcane::ItemGroupImpl::innerFaceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01069">Arcane::ItemGroupImpl::invalidate()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00870">Arcane::ItemGroupImpl::levelCellGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02034">Arcane::ItemGroupImpl::localIdToIndex()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00733">Arcane::ItemGroupImpl::nodeGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00957">Arcane::ItemGroupImpl::outerActiveFaceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00814">Arcane::ItemGroupImpl::outerFaceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00852">Arcane::ItemGroupImpl::ownActiveCellGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00924">Arcane::ItemGroupImpl::ownActiveFaceGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00888">Arcane::ItemGroupImpl::ownLevelCellGroup()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02049">Arcane::ItemGroupImpl::synchronizer()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00587">Arcane::ItemGroupImpl::unguardedItemsLocalId()</a>.</p>
+
+</div>
+</div>
+<a id="a26cd37c0226cbcf07fccdad2a78cfc26" name="a26cd37c0226cbcf07fccdad2a78cfc26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26cd37c0226cbcf07fccdad2a78cfc26">&#9670;&#160;</a></span>m_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::ItemGroupImplPrivate::m_name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nom du groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00165">165</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00295">_init()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02034">Arcane::ItemGroupImpl::localIdToIndex()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02049">Arcane::ItemGroupImpl::synchronizer()</a>.</p>
+
+</div>
+</div>
+<a id="a45d53a68d295a88a1c00c878b58e98f8" name="a45d53a68d295a88a1c00c878b58e98f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d53a68d295a88a1c00c878b58e98f8">&#9670;&#160;</a></span>m_need_invalidate_on_recompute</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_need_invalidate_on_recompute = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vrai si l'on doit activer les invalidate observers en cas de recalcul. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00197">197</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01990">Arcane::ItemGroupImpl::_forceInvalidate()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01621">Arcane::ItemGroupImpl::checkNeedUpdate()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00571">Arcane::ItemGroupImpl::endTransaction()</a>.</p>
+
+</div>
+</div>
+<a id="af01367609a1bc796a33ddba8a620bf11" name="af01367609a1bc796a33ddba8a620bf11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af01367609a1bc796a33ddba8a620bf11">&#9670;&#160;</a></span>m_need_recompute</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_need_recompute = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vrai si le groupe doit être recalculé </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00196">196</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01124">Arcane::ItemGroupImpl::addItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01719">Arcane::ItemGroupImpl::applyOperation()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01621">Arcane::ItemGroupImpl::checkNeedUpdate()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01541">Arcane::ItemGroupImpl::checkValid()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01690">Arcane::ItemGroupImpl::clear()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00571">Arcane::ItemGroupImpl::endTransaction()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01288">Arcane::ItemGroupImpl::removeAddItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01199">Arcane::ItemGroupImpl::removeItems()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01360">Arcane::ItemGroupImpl::setItems()</a>.</p>
+
+</div>
+</div>
+<a id="a5b3ecf209f6acaadb963158d81b35f12" name="a5b3ecf209f6acaadb963158d81b35f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b3ecf209f6acaadb963158d81b35f12">&#9670;&#160;</a></span>m_node_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_node_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des noeuds. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00175">175</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00733">Arcane::ItemGroupImpl::nodeGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a9a96eec0f8c797723d4fde05d18595e4" name="a9a96eec0f8c797723d4fde05d18595e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a96eec0f8c797723d4fde05d18595e4">&#9670;&#160;</a></span>m_observer_need_info</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_observer_need_info = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Synthése de besoin de observers en informations de transition. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00210">210</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01964">Arcane::ItemGroupImpl::_updateNeedInfoFlag()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01785">Arcane::ItemGroupImpl::attachObserver()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01018">Arcane::ItemGroupImpl::changeIds()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01839">Arcane::ItemGroupImpl::hasInfoObserver()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01464">Arcane::ItemGroupImpl::removeSuppressedItems()</a>.</p>
+
+</div>
+</div>
+<a id="a6f5fff2749fd88a8dd62798028d00b18" name="a6f5fff2749fd88a8dd62798028d00b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f5fff2749fd88a8dd62798028d00b18">&#9670;&#160;</a></span>m_observers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;const void*,<a class="el" href="../../d1/d2a/classArcane_1_1IItemGroupObserver.html">IItemGroupObserver</a>*&gt; Arcane::ItemGroupImplPrivate::m_observers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>localids -&gt; index (UNIQUEMENT ALLITEMS) </p>
+<p >Observers du groupe </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00209">209</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01785">Arcane::ItemGroupImpl::attachObserver()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02008">Arcane::ItemGroupImpl::destroy()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01806">Arcane::ItemGroupImpl::detachObserver()</a>.</p>
+
+</div>
+</div>
+<a id="ab59adef04d2e1f8fbec89782831576fc" name="ab59adef04d2e1f8fbec89782831576fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab59adef04d2e1f8fbec89782831576fc">&#9670;&#160;</a></span>m_outer_active_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_outer_active_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des faces externes actives. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00189">189</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00957">Arcane::ItemGroupImpl::outerActiveFaceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="aa01f5a2edf6f1027c450efc3b56de015" name="aa01f5a2edf6f1027c450efc3b56de015"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01f5a2edf6f1027c450efc3b56de015">&#9670;&#160;</a></span>m_outer_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_outer_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Groupe des faces externes </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00180">180</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00814">Arcane::ItemGroupImpl::outerFaceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a9d68e61fd481f13593611017293c06fa" name="a9d68e61fd481f13593611017293c06fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d68e61fd481f13593611017293c06fa">&#9670;&#160;</a></span>m_own_active_cell_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_own_active_cell_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des mailles propres actives. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00185">185</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00852">Arcane::ItemGroupImpl::ownActiveCellGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a59ec42388a3f28691984a48c473802c8" name="a59ec42388a3f28691984a48c473802c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ec42388a3f28691984a48c473802c8">&#9670;&#160;</a></span>m_own_active_face_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_own_active_face_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des faces actives propres. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00187">187</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00924">Arcane::ItemGroupImpl::ownActiveFaceGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a0c9927cb5b0513b2ae8791e0b47b6bda" name="a0c9927cb5b0513b2ae8791e0b47b6bda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9927cb5b0513b2ae8791e0b47b6bda">&#9670;&#160;</a></span>m_own_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_own_group = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Items owned by the subdomain. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00172">172</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00682">Arcane::ItemGroupImpl::ownGroup()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00649">Arcane::ItemGroupImpl::setOwn()</a>.</p>
+
+</div>
+</div>
+<a id="a7e4587cc786035a31e98cec3b425650e" name="a7e4587cc786035a31e98cec3b425650e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e4587cc786035a31e98cec3b425650e">&#9670;&#160;</a></span>m_own_level_cell_group</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;Integer, <a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>*&gt; Arcane::ItemGroupImplPrivate::m_own_level_cell_group</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe des mailles propres de niveau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00191">191</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00888">Arcane::ItemGroupImpl::ownLevelCellGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a4f5d0cd00f4e7b2c29cf98e179d9a3af" name="a4f5d0cd00f4e7b2c29cf98e179d9a3af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f5d0cd00f4e7b2c29cf98e179d9a3af">&#9670;&#160;</a></span>m_parent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>* Arcane::ItemGroupImplPrivate::m_parent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00160">160</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a51e1b1fedd822869bf3ee8e471f1bf08" name="a51e1b1fedd822869bf3ee8e471f1bf08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e1b1fedd822869bf3ee8e471f1bf08">&#9670;&#160;</a></span>m_simd_timestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::ItemGroupImplPrivate::m_simd_timestamp = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Temps de la derniere modification pour le calcul des infos SIMD. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00170">170</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01676">Arcane::ItemGroupImpl::_checkUpdateSimdPadding()</a>.</p>
+
+</div>
+</div>
+<a id="afe04b9dbd69f24c304c00703f7b73c24" name="afe04b9dbd69f24c304c00703f7b73c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe04b9dbd69f24c304c00703f7b73c24">&#9670;&#160;</a></span>m_sub_groups</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>,<a class="el" href="../../da/df1/classArcane_1_1ItemGroupImpl.html">ItemGroupImpl</a>*&gt; Arcane::ItemGroupImplPrivate::m_sub_groups</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ensemble de tous les sous-groupes. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00195">195</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01990">Arcane::ItemGroupImpl::_forceInvalidate()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01690">Arcane::ItemGroupImpl::clear()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00973">Arcane::ItemGroupImpl::createSubGroup()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01001">Arcane::ItemGroupImpl::findSubGroup()</a>.</p>
+
+</div>
+</div>
+<a id="a3ae4928c8fe0be62ccf90ee7d2e11759" name="a3ae4928c8fe0be62ccf90ee7d2e11759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae4928c8fe0be62ccf90ee7d2e11759">&#9670;&#160;</a></span>m_synchronizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d9f/classArccore_1_1Ref.html">Ref</a>&lt;<a class="el" href="../../d4/d9f/classArcane_1_1IVariableSynchronizer.html">IVariableSynchronizer</a>&gt; Arcane::ItemGroupImplPrivate::m_synchronizer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Synchronizer du groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00204">204</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01806">Arcane::ItemGroupImpl::detachObserver()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02066">Arcane::ItemGroupImpl::hasSynchronizer()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l02049">Arcane::ItemGroupImpl::synchronizer()</a>.</p>
+
+</div>
+</div>
+<a id="a31db45f9264daf10cabc1f1436795f8c" name="a31db45f9264daf10cabc1f1436795f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31db45f9264daf10cabc1f1436795f8c">&#9670;&#160;</a></span>m_timestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::ItemGroupImplPrivate::m_timestamp = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temps de la derniere modification. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00168">168</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6b456d07aa8491c5bc8377081a30e623" name="a6b456d07aa8491c5bc8377081a30e623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b456d07aa8491c5bc8377081a30e623">&#9670;&#160;</a></span>m_transaction_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::ItemGroupImplPrivate::m_transaction_mode = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vrai si le groupe est en mode de transaction directe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00198">198</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01124">Arcane::ItemGroupImpl::addItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00560">Arcane::ItemGroupImpl::beginTransaction()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00571">Arcane::ItemGroupImpl::endTransaction()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01288">Arcane::ItemGroupImpl::removeAddItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01199">Arcane::ItemGroupImpl::removeItems()</a>, <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l01360">Arcane::ItemGroupImpl::setItems()</a>, et <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00587">Arcane::ItemGroupImpl::unguardedItemsLocalId()</a>.</p>
+
+</div>
+</div>
+<a id="a5c4ad2639efea80be4f4a0944a0c1d90" name="a5c4ad2639efea80be4f4a0944a0c1d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c4ad2639efea80be4f4a0944a0c1d90">&#9670;&#160;</a></span>m_variable_items_local_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d00/group__Variable.html#ga0e2b61714e05c0443f27740744606a69">VariableArrayInt32</a>* Arcane::ItemGroupImplPrivate::m_variable_items_local_id = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00221">221</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+</div>
+</div>
+<a id="a0e91e046a7e113106605df9569822e5d" name="a0e91e046a7e113106605df9569822e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e91e046a7e113106605df9569822e5d">&#9670;&#160;</a></span>m_variable_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::ItemGroupImplPrivate::m_variable_name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Groupe parent (groupe null si aucun) </p>
+<p >Nom de la variable contenant les indices des éléments du groupe </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00161">161</a> du fichier <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html#l00295">_init()</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d4/de0/ItemGroupImpl_8cc_source.html">ItemGroupImpl.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../db/d8e/classArcane_1_1ItemGroupImplPrivate.html">ItemGroupImplPrivate</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:26 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

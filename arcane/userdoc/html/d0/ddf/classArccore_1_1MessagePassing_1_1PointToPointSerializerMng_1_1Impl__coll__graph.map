@@ -1,0 +1,8 @@
+<map id="Arccore::MessagePassing::PointToPointSerializerMng::Impl" name="Arccore::MessagePassing::PointToPointSerializerMng::Impl">
+<area shape="rect" id="node1" title=" " alt="" coords="294,461,530,604"/>
+<area shape="rect" id="node2" href="$d2/d2f/classArccore_1_1MessagePassing_1_1IMessagePassingMng.html" title="Interface du gestionnaire des échanges de messages." alt="" coords="5,183,211,311"/>
+<area shape="rect" id="node3" href="$d0/d13/classArccore_1_1MessagePassing_1_1MessageRank.html" title="Rang d&#39;un message." alt="" coords="235,175,429,318"/>
+<area shape="rect" id="node4" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="453,95,659,399"/>
+<area shape="rect" id="node5" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="485,5,627,45"/>
+<area shape="rect" id="node6" href="$df/d1d/classArccore_1_1MessagePassing_1_1MessageTag.html" title="Tag d&#39;un message." alt="" coords="683,168,877,325"/>
+</map>

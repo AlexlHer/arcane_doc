@@ -1,0 +1,13 @@
+<map id="Arcane::CaseTableParams" name="Arcane::CaseTableParams">
+<area shape="rect" id="node1" title="Paramètre d&#39;une fonction." alt="" coords="143,2733,340,2993"/>
+<area shape="rect" id="node2" href="$d5/d08/classArcane_1_1CaseTableParams_1_1Impl.html" title=" " alt="" coords="143,2557,340,2671"/>
+<area shape="rect" id="node3" href="$d2/d4e/classArcane_1_1ICFParamSetter.html" title=" " alt="" coords="67,2220,251,2495"/>
+<area shape="rect" id="node4" href="$da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="27,1755,234,1956"/>
+<area shape="rect" id="node5" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="5,1372,205,1705"/>
+<area shape="rect" id="node6" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="109,755,323,1323"/>
+<area shape="rect" id="node11" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="229,1372,429,1705"/>
+<area shape="rect" id="node7" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="103,548,329,705"/>
+<area shape="rect" id="node8" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="121,211,311,471"/>
+<area shape="rect" id="node9" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="115,5,317,148"/>
+<area shape="rect" id="node10" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="243,1980,411,2196"/>
+</map>

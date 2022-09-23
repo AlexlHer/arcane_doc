@@ -1,0 +1,7 @@
+<map id="Arcane::Accelerator::Cuda::HostPinnedCudaMemoryAllocator" name="Arcane::Accelerator::Cuda::HostPinnedCudaMemoryAllocator">
+<area shape="rect" id="node1" title=" " alt="" coords="71,668,303,767"/>
+<area shape="rect" id="node2" href="$d7/df0/classArcane_1_1Accelerator_1_1Cuda_1_1CudaMemoryAllocatorBase.html" title="Classe de base d&#39;un allocateur spécifique pour &#39;Cuda&#39;." alt="" coords="63,461,311,619"/>
+<area shape="rect" id="node3" href="$d0/d7e/classArccore_1_1AlignedMemoryAllocator.html" title="Allocateur mémoire avec alignement mémoire spécifique." alt="" coords="63,211,311,412"/>
+<area shape="rect" id="node4" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="5,5,208,148"/>
+<area shape="rect" id="node5" title=" " alt="" coords="233,57,301,97"/>
+</map>

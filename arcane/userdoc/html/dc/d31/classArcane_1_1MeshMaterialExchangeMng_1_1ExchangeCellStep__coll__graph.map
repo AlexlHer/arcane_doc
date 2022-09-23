@@ -1,0 +1,11 @@
+<map id="Arcane::MeshMaterialExchangeMng::ExchangeCellStep" name="Arcane::MeshMaterialExchangeMng::ExchangeCellStep">
+<area shape="rect" id="node1" title=" " alt="" coords="561,1781,796,1953"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="208,20,402,251"/>
+<area shape="rect" id="node4" href="$da/d52/classArcane_1_1MeshMaterialExchangeMng.html" title=" " alt="" coords="446,1085,708,1242"/>
+<area shape="rect" id="node5" href="$d7/d43/classArcane_1_1Materials_1_1MeshMaterialMng.html" title=" " alt="" coords="586,315,816,531"/>
+<area shape="rect" id="node3" href="$dc/d3e/classArcane_1_1IItemFamilySerializeStep.html" title="Interface d&#39;une étape de la sérialisation des familles d&#39;entités." alt="" coords="176,1092,421,1235"/>
+<area shape="rect" id="node6" href="$d5/df0/classArcane_1_1Materials_1_1IMeshMaterialMng.html" title="Interface du gestionnaire des matériaux et des milieux d&#39;un maillage." alt="" coords="586,5,816,265"/>
+<area shape="rect" id="node7" href="$d2/df9/classArcane_1_1IItemFamilySerializeStepFactory.html" title="Fabrique pour créer une étape de la sérialisation des familles d&#39;entités." alt="" coords="342,373,561,472"/>
+<area shape="rect" id="node8" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="908,608,1131,1719"/>
+<area shape="rect" id="node9" href="$d3/d0d/classArcane_1_1MeshMaterialIndirectModifier.html" title="Objet permettant de modifier indirectement les matériaux ou les milieux." alt="" coords="1155,1099,1404,1227"/>
+</map>

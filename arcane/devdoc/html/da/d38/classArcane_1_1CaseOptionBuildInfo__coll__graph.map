@@ -1,0 +1,12 @@
+<map id="Arcane::CaseOptionBuildInfo" name="Arcane::CaseOptionBuildInfo">
+<area shape="rect" id="node1" title="Informations pour construire une option de jeu de données." alt="" coords="454,1516,670,1717"/>
+<area shape="rect" id="node2" href="$d3/dcf/classArcane_1_1ICaseMng.html" title="Interface du gestionnaire de cas." alt="" coords="5,1069,180,1270"/>
+<area shape="rect" id="node3" href="$de/d86/classArcane_1_1ICaseOptionList.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="204,1061,427,1277"/>
+<area shape="rect" id="node4" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="451,900,673,1439"/>
+<area shape="rect" id="node5" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="485,387,639,837"/>
+<area shape="rect" id="node6" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="345,5,553,324"/>
+<area shape="rect" id="node7" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="577,5,776,324"/>
+<area shape="rect" id="node8" href="$d9/dcc/classArcane_1_1XmlNode.html" title="Noeud d&#39;un arbre DOM." alt="" coords="697,1025,864,1314"/>
+<area shape="rect" id="node9" href="$d4/d81/classArcane_1_1IRessourceMng.html" title="Interface d&#39;un gestionnaire de ressource." alt="" coords="689,570,872,654"/>
+<area shape="rect" id="node10" title=" " alt="" coords="888,1149,964,1189"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Arccore::MessagePassing::PointToPointMessageInfo" name="Arccore::MessagePassing::PointToPointMessageInfo">
+<area shape="rect" id="node1" title="Informations pour envoyer/recevoir un message point à point." alt="" coords="250,841,465,1101"/>
+<area shape="rect" id="node2" href="$d0/d13/classArccore_1_1MessagePassing_1_1MessageRank.html" title="Rang d&#39;un message." alt="" coords="5,13,200,170"/>
+<area shape="rect" id="node5" href="$da/d01/classArccore_1_1MessagePassing_1_1MessageId_1_1SourceInfo.html" title=" " alt="" coords="359,240,553,427"/>
+<area shape="rect" id="node3" href="$df/d1d/classArccore_1_1MessagePassing_1_1MessageTag.html" title="Tag d&#39;un message." alt="" coords="443,5,637,177"/>
+<area shape="rect" id="node4" href="$d8/deb/classArccore_1_1MessagePassing_1_1MessageId.html" title="MessageId." alt="" coords="260,504,455,779"/>
+<area shape="rect" id="node6" href="$dc/d94/unionArccore_1_1MessagePassing_1_1MessageId_1_1__Message.html" title=" " alt="" coords="140,277,335,390"/>
+<area shape="rect" id="node7" title=" " alt="" coords="225,71,293,111"/>
+</map>

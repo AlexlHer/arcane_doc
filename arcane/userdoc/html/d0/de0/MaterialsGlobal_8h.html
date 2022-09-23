@@ -1,0 +1,304 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence du fichier MaterialsGlobal.h</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../user_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation utilisateur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d0/de0/MaterialsGlobal_8h.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">Espaces de nommage</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Définitions de type</a> &#124;
+<a href="#enum-members">Énumérations</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier MaterialsGlobal.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;arcane/core/materials/MaterialsCoreGlobal.h&quot;</code><br />
+<code>#include &lt;iosfwd&gt;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe des dépendances par inclusion de MaterialsGlobal.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d2/d31/MaterialsGlobal_8h__incl.png" border="0" usemap="#aMaterialsGlobal_8h" alt=""/></div>
+<map name="aMaterialsGlobal_8h" id="aMaterialsGlobal_8h">
+<area shape="rect" title=" " alt="" coords="83,5,221,31"/>
+<area shape="rect" href="../../dc/d7a/MaterialsCoreGlobal_8h_source.html" title=" " alt="" coords="5,79,176,119"/>
+<area shape="rect" title=" " alt="" coords="181,335,245,361"/>
+<area shape="rect" href="../../d4/da8/UtilsTypes_8h.html" title="Déclarations des types utilisés dans Arcane." alt="" coords="615,167,796,192"/>
+<area shape="rect" href="../../d0/d1e/ArcaneGlobal_8h.html" title="Fichier de configuration d&#39;Arcane." alt="" coords="251,247,453,273"/>
+<area shape="rect" href="../../d4/d12/BaseTypes_8h.html" title="Déclarations des types de la composante &#39;base&#39; de Arccore." alt="" coords="477,247,667,273"/>
+<area shape="rect" href="../../dc/d80/RefDeclarations_8h.html" title=" " alt="" coords="855,335,1081,361"/>
+<area shape="rect" href="../../d0/d8d/CollectionsGlobal_8h_source.html" title=" " alt="" coords="669,328,821,368"/>
+<area shape="rect" href="../../d1/db9/ConcurrencyGlobal_8h_source.html" title=" " alt="" coords="1015,240,1177,280"/>
+<area shape="rect" href="../../dd/d4e/TraceGlobal_8h_source.html" title=" " alt="" coords="742,247,941,273"/>
+<area shape="rect" href="../../dd/d76/ArccoreGlobal_8h_source.html" title=" " alt="" coords="558,416,770,441"/>
+<area shape="rect" title=" " alt="" coords="339,335,498,361"/>
+<area shape="rect" title=" " alt="" coords="557,489,624,515"/>
+<area shape="rect" title=" " alt="" coords="649,489,829,515"/>
+<area shape="rect" title=" " alt="" coords="574,335,645,361"/>
+<area shape="rect" title=" " alt="" coords="867,416,959,441"/>
+<area shape="rect" title=" " alt="" coords="984,416,1061,441"/>
+</map>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/d60/MaterialsGlobal_8h__dep__incl.png" border="0" usemap="#aMaterialsGlobal_8hdep" alt=""/></div>
+<map name="aMaterialsGlobal_8hdep" id="aMaterialsGlobal_8hdep">
+<area shape="rect" title=" " alt="" coords="3062,5,3199,31"/>
+<area shape="rect" href="../../d9/d9c/materials_2CellToAllEnvCellConverter_8h_source.html" title=" " alt="" coords="3243,167,3445,192"/>
+<area shape="rect" href="../../dd/d09/materials_2ComponentItem_8h_source.html" title=" " alt="" coords="219,86,357,111"/>
+<area shape="rect" href="../../d4/d51/materials_2ComponentItemInternal_8h_source.html" title=" " alt="" coords="5,86,195,111"/>
+<area shape="rect" href="../../d3/d70/materials_2ComponentItemListBuilder_8h_source.html" title=" " alt="" coords="586,86,793,111"/>
+<area shape="rect" href="../../dc/dd3/materials_2ComponentItemVector_8h_source.html" title=" " alt="" coords="817,86,996,111"/>
+<area shape="rect" href="../../d4/dd8/materials_2ComponentItemVectorView_8h_source.html" title=" " alt="" coords="1945,167,2156,192"/>
+<area shape="rect" href="../../da/d08/materials_2ComponentPartItemVectorView_8h_source.html" title=" " alt="" coords="1283,167,1519,192"/>
+<area shape="rect" href="../../d2/d11/materials_2EnvItemVector_8h_source.html" title=" " alt="" coords="1292,86,1420,111"/>
+<area shape="rect" href="../../df/dc3/materials_2IEnumeratorTracer_8h_source.html" title=" " alt="" coords="1444,86,1596,111"/>
+<area shape="rect" href="../../dc/d42/materials_2IMeshBlock_8h_source.html" title=" " alt="" coords="2075,86,2184,111"/>
+<area shape="rect" href="../../d2/dc0/materials_2IMeshMaterialMng_8h_source.html" title=" " alt="" coords="1767,167,1921,192"/>
+<area shape="rect" href="../../db/d68/materials_2IMeshComponent_8h_source.html" title=" " alt="" coords="1722,86,1870,111"/>
+<area shape="rect" href="../../df/d13/materials_2IMeshEnvironment_8h_source.html" title=" " alt="" coords="1894,86,2050,111"/>
+<area shape="rect" href="../../d1/d38/materials_2IMeshMaterial_8h_source.html" title=" " alt="" coords="4254,86,4381,111"/>
+<area shape="rect" href="../../dc/d3f/MeshMaterialModifierImpl_8h_source.html" title=" " alt="" coords="4761,167,4967,192"/>
+<area shape="rect" href="../../de/da0/IMeshMaterialModifierImpl_8h_source.html" title=" " alt="" coords="5150,86,5359,111"/>
+<area shape="rect" href="../../d2/d92/IMeshMaterialSynchronizeBuffer_8h_source.html" title=" " alt="" coords="2309,79,2504,119"/>
+<area shape="rect" href="../../d1/d4f/materials_2IMeshMaterialVariable_8h_source.html" title=" " alt="" coords="382,86,562,111"/>
+<area shape="rect" href="../../d4/dc2/materials_2IMeshMaterialVariableComputeFunction_8h_source.html" title=" " alt="" coords="2579,79,2805,119"/>
+<area shape="rect" href="../../d5/daa/IMeshMaterialVariableSynchronizer_8h_source.html" title=" " alt="" coords="2830,86,3093,111"/>
+<area shape="rect" href="../../d9/d1e/materials_2MatItem_8h_source.html" title=" " alt="" coords="3219,86,3309,111"/>
+<area shape="rect" href="../../d4/db4/MeshMaterialSynchronizer_8h_source.html" title=" " alt="" coords="3791,167,3998,192"/>
+<area shape="rect" href="../../d7/d30/materials_2MatItemEnumerator_8h_source.html" title=" " alt="" coords="2181,167,2345,192"/>
+<area shape="rect" href="../../d2/d52/materials_2MatItemVector_8h_source.html" title=" " alt="" coords="3333,86,3462,111"/>
+<area shape="rect" href="../../df/d95/materials_2MatVarIndex_8h_source.html" title=" " alt="" coords="3486,86,3602,111"/>
+<area shape="rect" href="../../df/d60/materials_2MaterialVariableBuildInfo_8h_source.html" title=" " alt="" coords="3626,86,3825,111"/>
+<area shape="rect" href="../../d8/d59/MaterialsGlobal_8cc_source.html" title=" " alt="" coords="3849,86,3991,111"/>
+<area shape="rect" href="../../d1/dcb/MeshBlockBuildInfo_8h_source.html" title=" " alt="" coords="4016,86,4179,111"/>
+<area shape="rect" href="../../de/d7d/materials_2MeshComponentPartData_8h_source.html" title=" " alt="" coords="1543,167,1743,192"/>
+<area shape="rect" href="../../d6/d7b/MeshEnvironmentBuildInfo_8h_source.html" title=" " alt="" coords="5124,167,5335,192"/>
+<area shape="rect" href="../../dc/d40/materials_2MeshEnvironmentVariableRef_8h_source.html" title=" " alt="" coords="4405,86,4632,111"/>
+<area shape="rect" href="../../d3/d72/MeshMaterialBackup_8h_source.html" title=" " alt="" coords="4656,86,4827,111"/>
+<area shape="rect" href="../../d8/d0b/MeshMaterialExchangeMng_8h_source.html" title=" " alt="" coords="5994,167,6209,192"/>
+<area shape="rect" href="../../dc/d16/MeshMaterialIndirectModifier_8h_source.html" title=" " alt="" coords="4901,86,5125,111"/>
+<area shape="rect" href="../../d1/d53/MeshMaterialInfo_8h_source.html" title=" " alt="" coords="2467,167,2615,192"/>
+<area shape="rect" href="../../db/d87/MeshMaterialModifier_8h_source.html" title=" " alt="" coords="3043,167,3218,192"/>
+<area shape="rect" href="../../da/dfa/MeshMaterialVariable_8h_source.html" title=" " alt="" coords="5425,167,5601,192"/>
+<area shape="rect" href="../../d0/d6f/materials_2MeshMaterialVariableComputeFunction_8h_source.html" title=" " alt="" coords="5485,79,5707,119"/>
+<area shape="rect" href="../../de/da5/MeshMaterialVariableFactoryRegisterer_8h_source.html" title=" " alt="" coords="5731,79,5941,119"/>
+<area shape="rect" href="../../d9/df8/materials_2MeshMaterialVariableIndexer_8h_source.html" title=" " alt="" coords="5965,86,6187,111"/>
+<area shape="rect" href="../../d9/d14/materials_2MeshMaterialVariableRef_8h_source.html" title=" " alt="" coords="1020,86,1217,111"/>
+<area shape="rect" href="../../d6/d2e/MeshMaterialMng_8cc_source.html" title=" " alt="" coords="4785,240,4943,265"/>
+<area shape="rect" href="../../d4/d6f/MeshMaterialSynchronizer_8cc_source.html" title=" " alt="" coords="3131,240,3343,265"/>
+<area shape="rect" href="../../d9/d16/MatItemInternal_8h_source.html" title=" " alt="" coords="31,167,169,192"/>
+<area shape="rect" href="../../d6/de7/AllEnvData_8cc_source.html" title=" " alt="" coords="579,167,691,192"/>
+<area shape="rect" href="../../d0/dd5/ItemMaterialVariableBaseT_8H_source.html" title=" " alt="" coords="897,167,1109,192"/>
+<area shape="rect" href="../../df/db9/MeshEnvironment_8cc_source.html" title=" " alt="" coords="1563,240,1722,265"/>
+<area shape="rect" href="../../d9/d78/MatConcurrency_8h_source.html" title=" " alt="" coords="2087,240,2225,265"/>
+<area shape="rect" href="../../dc/da1/MeshMaterial_8cc_source.html" title=" " alt="" coords="1855,240,1985,265"/>
+</map>
+</div>
+</div>
+<p><a href="../../d0/de0/MaterialsGlobal_8h_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Espaces de nommage</h2></td></tr>
+<tr class="memitem:d0/d32/namespaceArcane"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></td></tr>
+<tr class="memdesc:d0/d32/namespaceArcane"><td class="mdescLeft">&#160;</td><td class="mdescRight">-*- tab-width: 2; indent-tabs-mode: nil; coding: utf-8-with-signature -*- <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d60/namespaceArcane_1_1Materials"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d60/namespaceArcane_1_1Materials.html">Arcane::Materials</a></td></tr>
+<tr class="memdesc:d4/d60/namespaceArcane_1_1Materials"><td class="mdescLeft">&#160;</td><td class="mdescRight">Active toujours les traces dans les parties <a class="el" href="../../d0/d32/namespaceArcane.html" title="-*- tab-width: 2; indent-tabs-mode: nil; coding: utf-8-with-signature -*-">Arcane</a> concernant les matériaux. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7f137a607780ac92473f0df964b861c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de0/MaterialsGlobal_8h.html#a7f137a607780ac92473f0df964b861c0">ARCANE_MATERIALS_EXPORT</a>&#160;&#160;&#160;ARCANE_IMPORT</td></tr>
+<tr class="separator:a7f137a607780ac92473f0df964b861c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Définitions de type</h2></td></tr>
+<tr class="memitem:a4022a10349e61f6720a88e89d4df962b"><td class="memItemLeft" align="right" valign="top">typedef IMeshMaterialVariable *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d60/namespaceArcane_1_1Materials.html#a4022a10349e61f6720a88e89d4df962b">Arcane::Materials::MeshMaterialVariableFactoryVariableRefCreateFunc</a>) (const MaterialVariableBuildInfo &amp;vb)</td></tr>
+<tr class="separator:a4022a10349e61f6720a88e89d4df962b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Énumérations</h2></td></tr>
+<tr class="memitem:afd9e7feaccfa155bfa70c1e6288c9b29"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d60/namespaceArcane_1_1Materials.html#afd9e7feaccfa155bfa70c1e6288c9b29">Arcane::Materials::eModificationFlags</a> { <a class="el" href="../../d4/d60/namespaceArcane_1_1Materials.html#afd9e7feaccfa155bfa70c1e6288c9b29a4b354fb8c5b65622e1af4ae06378b444">Arcane::Materials::GenericOptimize</a> = 1
+, <a class="el" href="../../d4/d60/namespaceArcane_1_1Materials.html#afd9e7feaccfa155bfa70c1e6288c9b29ad3be648608cf8a007f0b3a22ab0532f2">Arcane::Materials::OptimizeMultiAddRemove</a> = 2
+, <a class="el" href="../../d4/d60/namespaceArcane_1_1Materials.html#afd9e7feaccfa155bfa70c1e6288c9b29a014f463ad922524ef67994345412cd4d">Arcane::Materials::OptimizeMultiMaterialPerEnvironment</a> = 4
+ }</td></tr>
+<tr class="memdesc:afd9e7feaccfa155bfa70c1e6288c9b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">flags pour paramétrer le comportement lors d'une modification de matériaux ou milieux.  <a href="../../d4/d60/namespaceArcane_1_1Materials.html#afd9e7feaccfa155bfa70c1e6288c9b29">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afd9e7feaccfa155bfa70c1e6288c9b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Liste des déclarations globales pour les matériaux. </p>
+
+<p class="definition">Définition dans le fichier <a class="el" href="../../d0/de0/MaterialsGlobal_8h_source.html">MaterialsGlobal.h</a>.</p>
+</div><h2 class="groupheader">Documentation des macros</h2>
+<a id="a7f137a607780ac92473f0df964b861c0" name="a7f137a607780ac92473f0df964b861c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f137a607780ac92473f0df964b861c0">&#9670;&#160;</a></span>ARCANE_MATERIALS_EXPORT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ARCANE_MATERIALS_EXPORT&#160;&#160;&#160;ARCANE_IMPORT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d0/de0/MaterialsGlobal_8h_source.html#l00027">27</a> du fichier <a class="el" href="../../d0/de0/MaterialsGlobal_8h_source.html">MaterialsGlobal.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_050f182cfd4329e7fe1ae122895331c9.html">arcane</a></li><li class="navelem"><a class="el" href="../../dir_7f48b3f8c9c58f5c0beb35485c245f36.html">materials</a></li><li class="navelem"><a class="el" href="../../d0/de0/MaterialsGlobal_8h.html">MaterialsGlobal.h</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:31:53 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

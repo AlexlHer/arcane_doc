@@ -1,0 +1,9 @@
+<map id="Arcane::CaseOptionListMulti" name="Arcane::CaseOptionListMulti">
+<area shape="rect" id="node1" title=" " alt="" coords="397,784,611,971"/>
+<area shape="rect" id="node2" href="$db/d32/classArcane_1_1CaseOptionList.html" title=" " alt="" coords="409,357,599,735"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,27,200,258"/>
+<area shape="rect" id="node4" href="$de/d86/classArcane_1_1ICaseOptionList.html" title=" " alt="" coords="225,35,447,251"/>
+<area shape="rect" id="node5" href="$d3/dcf/classArcane_1_1ICaseMng.html" title="Interface du gestionnaire de cas." alt="" coords="471,42,646,243"/>
+<area shape="rect" id="node6" href="$d9/dcc/classArcane_1_1XmlNode.html" title="Noeud d&#39;un arbre DOM." alt="" coords="670,5,837,280"/>
+<area shape="rect" id="node7" href="$dd/d74/classArcane_1_1ICaseOptions.html" title=" " alt="" coords="861,35,1033,251"/>
+</map>

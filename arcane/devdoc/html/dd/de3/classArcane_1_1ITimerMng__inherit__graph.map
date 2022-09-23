@@ -1,0 +1,6 @@
+<map id="Arcane::ITimerMng" name="Arcane::ITimerMng">
+<area shape="rect" id="node1" title="Interface d&#39;un gestionnaire de timer." alt="" coords="114,5,267,119"/>
+<area shape="rect" id="node2" href="$de/d00/classArcane_1_1TimerMng.html" title="Gestionnaire de timer." alt="" coords="116,167,265,412"/>
+<area shape="rect" id="node3" href="$dc/dd2/classArcane_1_1MpiTimerMng.html" title="Gestionnaire de timer utisant la bibliothèque MPI." alt="" coords="5,548,179,647"/>
+<area shape="rect" id="node4" href="$dd/d94/classArcane_1_1PapiTimerMng.html" title=" " alt="" coords="203,460,379,735"/>
+</map>

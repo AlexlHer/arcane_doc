@@ -1,0 +1,20 @@
+<map id="Arcane::ItemConnectivitySynchronizer" name="Arcane::ItemConnectivitySynchronizer">
+<area shape="rect" id="node1" title=" " alt="" coords="956,8276,1207,8507"/>
+<area shape="rect" id="node2" href="$df/dee/classArcane_1_1IItemConnectivitySynchronizer.html" title=" " alt="" coords="5,5306,272,5405"/>
+<area shape="rect" id="node3" href="$d9/d0f/classArcane_1_1IExtraGhostItemsBuilder.html" title="Interface d&#39;un constructeur d&#39;item fantômes &quot;extraordinaires&quot;." alt="" coords="296,5299,517,5412"/>
+<area shape="rect" id="node4" title=" " alt="" coords="542,5335,767,5375"/>
+<area shape="rect" id="node5" href="$d0/dc0/classArcane_1_1IItemConnectivity.html" title="Interface pour gérer une connectivité." alt="" coords="791,5262,998,5449"/>
+<area shape="rect" id="node6" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="775,2189,1015,2317"/>
+<area shape="rect" id="node7" href="$d3/d32/classArcane_1_1IItemConnectivityGhostPolicy.html" title=" " alt="" coords="1023,5291,1281,5419"/>
+<area shape="rect" id="node8" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="1305,2497,1551,8213"/>
+<area shape="rect" id="node9" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="1576,5181,1765,5529"/>
+<area shape="rect" id="node10" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1501,1729,1701,2063"/>
+<area shape="rect" id="node11" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="1633,755,1847,1323"/>
+<area shape="rect" id="node16" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1640,1372,1840,1705"/>
+<area shape="rect" id="node18" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1841,1729,2041,2063"/>
+<area shape="rect" id="node12" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="1627,548,1853,705"/>
+<area shape="rect" id="node13" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="1645,211,1835,471"/>
+<area shape="rect" id="node14" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="1639,5,1841,148"/>
+<area shape="rect" id="node15" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="1637,2087,1843,2420"/>
+<area shape="rect" id="node17" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="1790,5181,1973,5529"/>
+</map>

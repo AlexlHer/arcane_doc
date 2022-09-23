@@ -1,0 +1,18 @@
+<map id="Arcane::ItemPairGroupImplPrivate" name="Arcane::ItemPairGroupImplPrivate">
+<area shape="rect" id="node1" title=" " alt="" coords="588,2956,815,3201"/>
+<area shape="rect" id="node2" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="5,2061,261,2585"/>
+<area shape="rect" id="node3" href="$de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="56,1438,211,1639"/>
+<area shape="rect" id="node4" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="286,1768,509,2879"/>
+<area shape="rect" id="node5" href="$d9/d27/classArcane_1_1ItemGroup.html" title="Groupe d&#39;entités de maillage." alt="" coords="533,2215,685,2431"/>
+<area shape="rect" id="node6" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="467,1438,669,1639"/>
+<area shape="rect" id="node7" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="495,923,641,1154"/>
+<area shape="rect" id="node8" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="709,2215,877,2431"/>
+<area shape="rect" id="node9" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="693,1372,893,1705"/>
+<area shape="rect" id="node10" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="798,755,1013,1323"/>
+<area shape="rect" id="node15" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="917,1372,1117,1705"/>
+<area shape="rect" id="node11" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="793,548,1018,705"/>
+<area shape="rect" id="node12" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="810,211,1001,471"/>
+<area shape="rect" id="node13" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="804,5,1007,148"/>
+<area shape="rect" id="node14" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="901,2215,1069,2431"/>
+<area shape="rect" id="node16" href="$d5/d5f/classArccore_1_1IFunctor.html" title="Interface d&#39;un fonctor." alt="" coords="1093,2289,1240,2358"/>
+</map>

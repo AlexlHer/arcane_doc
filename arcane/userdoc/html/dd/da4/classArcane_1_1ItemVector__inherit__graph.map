@@ -1,0 +1,5 @@
+<map id="Arcane::ItemVector" name="Arcane::ItemVector">
+<area shape="rect" id="node1" title="Vecteur d&#39;entités." alt="" coords="121,5,330,251"/>
+<area shape="rect" id="node2" href="$dc/d3a/classArcane_1_1ConnectivityItemVector.html" title="Gère la récupération des informations de connectivité." alt="" coords="5,328,213,529"/>
+<area shape="rect" id="node3" href="$d5/ded/classArcane_1_1ItemVectorT.html" title="Vecteur typé d&#39;entité." alt="" coords="238,299,445,559"/>
+</map>

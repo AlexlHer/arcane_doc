@@ -1,0 +1,8 @@
+<map id="Arcane::IOMng" name="Arcane::IOMng">
+<area shape="rect" id="node1" title="Gestionnaire des entrées sorties." alt="" coords="494,5784,642,6029"/>
+<area shape="rect" id="node2" href="$da/dd2/classArcane_1_1IIOMng.html" title="Interface du gestionnaire des entrées sorties." alt="" coords="26,2763,174,2964"/>
+<area shape="rect" id="node3" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="198,5,444,5721"/>
+<area shape="rect" id="node4" href="$d9/dca/classArcane_1_1IParallelSuperMng.html" title="Classe abstraite du superviseur de parallélisme." alt="" coords="468,2704,668,3023"/>
+<area shape="rect" id="node5" href="$d3/db0/classArcane_1_1IThreadMng.html" title="Interface d&#39;un gestionnaire de thread." alt="" coords="692,2821,870,2905"/>
+<area shape="rect" id="node6" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="894,2748,1140,2979"/>
+</map>

@@ -1,0 +1,975 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence du modèle de la classe Arcane::VariableArray&lt; DataType &gt;</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('da/d21/classArcane_1_1VariableArray.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../d9/d80/classArcane_1_1VariableArray-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence du modèle de la classe Arcane::VariableArray&lt; DataType &gt;</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="../../d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)">Variable</a> tableau aggrégée de types quelconques (pas de variables tableaux) ATTENTION Les variables arcane doivent être retaillées au préalable !!!  
+ <a href="../../da/d21/classArcane_1_1VariableArray.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">arcane/anyitem/AnyItemVariableArray.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::VariableArray&lt; DataType &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../de/dd1/classArcane_1_1VariableArray__inherit__graph.png" border="0" usemap="#aArcane_1_1VariableArray_3_01DataType_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1VariableArray_3_01DataType_01_4_inherit__map" id="aArcane_1_1VariableArray_3_01DataType_01_4_inherit__map">
+<area shape="rect" title="Variable tableau aggrégée de types quelconques (pas de variables tableaux) ATTENTION Les variables ar..." alt="" coords="5,137,208,500"/>
+<area shape="rect" href="../../d8/d11/classArcane_1_1IFamilyObserver.html" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="5,5,208,89"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::VariableArray&lt; DataType &gt;:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../df/d0a/classArcane_1_1VariableArray__coll__graph.png" border="0" usemap="#aArcane_1_1VariableArray_3_01DataType_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1VariableArray_3_01DataType_01_4_coll__map" id="aArcane_1_1VariableArray_3_01DataType_01_4_coll__map">
+<area shape="rect" title="Variable tableau aggrégée de types quelconques (pas de variables tableaux) ATTENTION Les variables ar..." alt="" coords="280,2132,483,2451"/>
+<area shape="rect" href="../../d8/d11/classArcane_1_1IFamilyObserver.html" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="5,1912,208,1996"/>
+<area shape="rect" href="../../d2/db4/classArcane_1_1Family.html" title="Famille AnyItem (pattern flyweight) Aggrégation de groupes pour décrire des variables / variables par..." alt="" coords="233,1853,359,2055"/>
+<area shape="rect" href="../../d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="146,1465,345,1754"/>
+<area shape="rect" href="../../dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="76,981,223,1211"/>
+<area shape="rect" href="../../d8/d02/classArcane_1_1RefCounter.html" title=" " alt="" coords="247,1047,403,1145"/>
+<area shape="rect" href="../../de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="244,548,407,749"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="383,1839,553,2069"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="368,1443,568,1776"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="455,812,670,1380"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="592,1443,792,1776"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="450,570,675,727"/>
+<area shape="rect" href="../../d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="467,211,658,471"/>
+<area shape="rect" href="../../d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="461,5,664,148"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="591,1846,764,2062"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d29/classArcane_1_1VariableArray_1_1VariableAdder.html">VariableAdder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outil pour l'ajout de variable à un groupe.  <a href="../../db/d29/classArcane_1_1VariableArray_1_1VariableAdder.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a761faeedc4b06f3a60b09c73bcf3a249"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a761faeedc4b06f3a60b09c73bcf3a249">VariableArray</a> (const <a class="el" href="../../d2/db4/classArcane_1_1Family.html">Family</a> &amp;<a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a76cdb3a38c26394464cca4c89b36f055">family</a>)</td></tr>
+<tr class="separator:a761faeedc4b06f3a60b09c73bcf3a249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4bb1a169609563a871b0596dd07f8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a7b4bb1a169609563a871b0596dd07f8d">VariableArray</a> (const <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">VariableArray</a> &amp;v)</td></tr>
+<tr class="separator:a7b4bb1a169609563a871b0596dd07f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace5d866183ff399f5e634e8f24cfc71b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#ace5d866183ff399f5e634e8f24cfc71b">operator[]</a> (const <a class="el" href="../../de/d7b/classArcane_1_1Group_1_1BlockItemEnumerator.html">Group::BlockItemEnumerator</a> &amp;item)</td></tr>
+<tr class="memdesc:ace5d866183ff399f5e634e8f24cfc71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesseur direct par un enumerateur AnyItem.  <a href="../../da/d21/classArcane_1_1VariableArray.html#ace5d866183ff399f5e634e8f24cfc71b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ace5d866183ff399f5e634e8f24cfc71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67cb8087c01f95840d806a8b9c012f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#aa67cb8087c01f95840d806a8b9c012f7">operator[]</a> (const <a class="el" href="../../de/d7b/classArcane_1_1Group_1_1BlockItemEnumerator.html">Group::BlockItemEnumerator</a> &amp;item) const</td></tr>
+<tr class="memdesc:aa67cb8087c01f95840d806a8b9c012f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesseur direct par un enumerateur AnyItem.  <a href="../../da/d21/classArcane_1_1VariableArray.html#aa67cb8087c01f95840d806a8b9c012f7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa67cb8087c01f95840d806a8b9c012f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0af7fdfc34842e2c210a4db58db96dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#ab0af7fdfc34842e2c210a4db58db96dd">operator[]</a> (const <a class="el" href="../../da/dde/classArcane_1_1LinkFamilyInternal_1_1LinkData.html">LinkFamily::LinkData</a> &amp;item)</td></tr>
+<tr class="memdesc:ab0af7fdfc34842e2c210a4db58db96dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesseur direct par un élément de <a class="el" href="../../d0/deb/classArcane_1_1LinkFamily.html" title="Famille de liens AnyItem (pattern flyweight)">LinkFamily</a> (LinkData)  <a href="../../da/d21/classArcane_1_1VariableArray.html#ab0af7fdfc34842e2c210a4db58db96dd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab0af7fdfc34842e2c210a4db58db96dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad13d0b5a151db31b12c6a433342a4dfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#ad13d0b5a151db31b12c6a433342a4dfd">operator[]</a> (const <a class="el" href="../../da/dde/classArcane_1_1LinkFamilyInternal_1_1LinkData.html">LinkFamily::LinkData</a> &amp;item) const</td></tr>
+<tr class="memdesc:ad13d0b5a151db31b12c6a433342a4dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesseur direct par un élément de <a class="el" href="../../d0/deb/classArcane_1_1LinkFamily.html" title="Famille de liens AnyItem (pattern flyweight)">LinkFamily</a> (LinkData)  <a href="../../da/d21/classArcane_1_1VariableArray.html#ad13d0b5a151db31b12c6a433342a4dfd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad13d0b5a151db31b12c6a433342a4dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455991d25265ae613d4151f474f133d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d29/classArcane_1_1VariableArray_1_1VariableAdder.html">VariableAdder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a455991d25265ae613d4151f474f133d9">operator[]</a> (const <a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> &amp;group)</td></tr>
+<tr class="memdesc:a455991d25265ae613d4151f474f133d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout d'une variable pour un groupe.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a455991d25265ae613d4151f474f133d9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a455991d25265ae613d4151f474f133d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c4ac7e22276e6bdce0dfc67db9d013"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a38c4ac7e22276e6bdce0dfc67db9d013"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../db/d29/classArcane_1_1VariableArray_1_1VariableAdder.html">VariableAdder</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a38c4ac7e22276e6bdce0dfc67db9d013">operator[]</a> (const <a class="el" href="../../d8/d8e/classArcane_1_1ItemGroupT.html">ItemGroupT</a>&lt; T &gt; &amp;group)</td></tr>
+<tr class="separator:a38c4ac7e22276e6bdce0dfc67db9d013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76cdb3a38c26394464cca4c89b36f055"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/db4/classArcane_1_1Family.html">Family</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a76cdb3a38c26394464cca4c89b36f055">family</a> () const</td></tr>
+<tr class="memdesc:a76cdb3a38c26394464cca4c89b36f055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesseur à la famille.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a76cdb3a38c26394464cca4c89b36f055">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a76cdb3a38c26394464cca4c89b36f055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2220f43a2020d438c775a0abbbbec278"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../d5/d96/classArcane_1_1IVariable.html">IVariable</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a2220f43a2020d438c775a0abbbbec278">variables</a> () const</td></tr>
+<tr class="memdesc:a2220f43a2020d438c775a0abbbbec278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tableau des variables.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a2220f43a2020d438c775a0abbbbec278">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2220f43a2020d438c775a0abbbbec278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2fabd1e6f1d7761144d8f6c57378c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#ac2fabd1e6f1d7761144d8f6c57378c6b">valuesAtGroup</a> (const Integer igrp)</td></tr>
+<tr class="memdesc:ac2fabd1e6f1d7761144d8f6c57378c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Doonnées brutes associées à un groupe identifié relativement à sa famille.  <a href="../../da/d21/classArcane_1_1VariableArray.html#ac2fabd1e6f1d7761144d8f6c57378c6b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac2fabd1e6f1d7761144d8f6c57378c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d5131a6b9ae481172f5fa5a8580bbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d7d/classArccore_1_1ConstArray2View.html">ConstArray2View</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a02d5131a6b9ae481172f5fa5a8580bbe">valuesAtGroup</a> (const Integer igrp) const</td></tr>
+<tr class="memdesc:a02d5131a6b9ae481172f5fa5a8580bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Doonnées brutes associées à un groupe identifié relativement à sa famille.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a02d5131a6b9ae481172f5fa5a8580bbe">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a02d5131a6b9ae481172f5fa5a8580bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae502156c7a61459ef4e4682578f66665"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#ae502156c7a61459ef4e4682578f66665">notifyFamilyIsInvalidate</a> ()</td></tr>
+<tr class="memdesc:ae502156c7a61459ef4e4682578f66665"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification d'invalidation de la famille.  <a href="../../da/d21/classArcane_1_1VariableArray.html#ae502156c7a61459ef4e4682578f66665">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae502156c7a61459ef4e4682578f66665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acad230a7657519a44f77cfcd0940e6b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#acad230a7657519a44f77cfcd0940e6b6">notifyFamilyIsIncreased</a> ()</td></tr>
+<tr class="memdesc:acad230a7657519a44f77cfcd0940e6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification d'aggrandissement de la famille.  <a href="../../da/d21/classArcane_1_1VariableArray.html#acad230a7657519a44f77cfcd0940e6b6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acad230a7657519a44f77cfcd0940e6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4480889b934ae4c52892c1e3daca2397"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d11/classArcane_1_1IFamilyObserver.html#a4480889b934ae4c52892c1e3daca2397">notifyFamilyIsInvalidate</a> ()=0</td></tr>
+<tr class="memdesc:a4480889b934ae4c52892c1e3daca2397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifie à l'observeur que la famille est invalidée.  <a href="../../d8/d11/classArcane_1_1IFamilyObserver.html#a4480889b934ae4c52892c1e3daca2397">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4480889b934ae4c52892c1e3daca2397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a53b9c9e01a6a5481f6fd5a5bc0f69"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d11/classArcane_1_1IFamilyObserver.html#ae1a53b9c9e01a6a5481f6fd5a5bc0f69">notifyFamilyIsIncreased</a> ()=0</td></tr>
+<tr class="memdesc:ae1a53b9c9e01a6a5481f6fd5a5bc0f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifie à l'observeur que la famille est agrandie.  <a href="../../d8/d11/classArcane_1_1IFamilyObserver.html#ae1a53b9c9e01a6a5481f6fd5a5bc0f69">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae1a53b9c9e01a6a5481f6fd5a5bc0f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:afc373ae87010ab9df1612edff95f6548"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#afc373ae87010ab9df1612edff95f6548">_insertVariable</a> (<a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> group, <a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt; v)</td></tr>
+<tr class="separator:afc373ae87010ab9df1612edff95f6548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf3e3da2fba7f31019f827731897ac2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#acaf3e3da2fba7f31019f827731897ac2">_insertPartialVariable</a> (<a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> group, <a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt; v)</td></tr>
+<tr class="separator:acaf3e3da2fba7f31019f827731897ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af521f18bc41b136e2e844b4859b0f510"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#af521f18bc41b136e2e844b4859b0f510">_insertInternalVariable</a> (<a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> group, <a class="el" href="../../d5/d96/classArcane_1_1IVariable.html">IVariable</a> *v)</td></tr>
+<tr class="separator:af521f18bc41b136e2e844b4859b0f510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a4dc7bcdaebf4272e9af07e3d4df5df16"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/db4/classArcane_1_1Family.html">Family</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a4dc7bcdaebf4272e9af07e3d4df5df16">m_family</a></td></tr>
+<tr class="memdesc:a4dc7bcdaebf4272e9af07e3d4df5df16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Famille AnyItem des groupes.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a4dc7bcdaebf4272e9af07e3d4df5df16">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4dc7bcdaebf4272e9af07e3d4df5df16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281b2468a4019fbaf0bcc71487b04d55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">Arcane::UniqueArray</a>&lt; <a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a281b2468a4019fbaf0bcc71487b04d55">m_values</a></td></tr>
+<tr class="memdesc:a281b2468a4019fbaf0bcc71487b04d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conteneur des variables génériques.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a281b2468a4019fbaf0bcc71487b04d55">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a281b2468a4019fbaf0bcc71487b04d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9adde7130001426c1a4cbbad90c5bc8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">Arcane::UniqueArray</a>&lt; <a class="el" href="../../d5/d96/classArcane_1_1IVariable.html">IVariable</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html#a9adde7130001426c1a4cbbad90c5bc8e">m_variables</a></td></tr>
+<tr class="memdesc:a9adde7130001426c1a4cbbad90c5bc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conteneur des variables.  <a href="../../da/d21/classArcane_1_1VariableArray.html#a9adde7130001426c1a4cbbad90c5bc8e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9adde7130001426c1a4cbbad90c5bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename DataType&gt;<br />
+class Arcane::VariableArray&lt; DataType &gt;</div><p ><a class="el" href="../../d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)">Variable</a> tableau aggrégée de types quelconques (pas de variables tableaux) ATTENTION Les variables arcane doivent être retaillées au préalable !!! </p>
+<p >Par exemple :</p>
+<p >AnyItem::Family family;</p>
+<p >family &lt;&lt; AnyItem::GroupBuilder( allFaces() ) &lt;&lt; AnyItem::GroupBuilder( allCells() );</p>
+<p >AnyItem::Variable&lt;Real&gt; variable(family);</p>
+<p >variable[allFaces()] &lt;&lt; m_face_variable; variable[allCells()] &lt;&lt; m_cell_variable;</p>
+<p >Real value = 0.; ENUMERATE_ANY_ITEM(iitem, family.allItems()) { value += variable[iitem]; } </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00060">60</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a761faeedc4b06f3a60b09c73bcf3a249" name="a761faeedc4b06f3a60b09c73bcf3a249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a761faeedc4b06f3a60b09c73bcf3a249">&#9670;&#160;</a></span>VariableArray() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::VariableArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/db4/classArcane_1_1Family.html">Family</a> &amp;&#160;</td>
+          <td class="paramname"><em>family</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00114">114</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a7b4bb1a169609563a871b0596dd07f8d" name="a7b4bb1a169609563a871b0596dd07f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b4bb1a169609563a871b0596dd07f8d">&#9670;&#160;</a></span>VariableArray() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::VariableArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">VariableArray</a>&lt; DataType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00125">125</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a9d599db45f775af452b0c701f90e42c5" name="a9d599db45f775af452b0c701f90e42c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d599db45f775af452b0c701f90e42c5">&#9670;&#160;</a></span>~VariableArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::~<a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">VariableArray</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00134">134</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="af521f18bc41b136e2e844b4859b0f510" name="af521f18bc41b136e2e844b4859b0f510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af521f18bc41b136e2e844b4859b0f510">&#9670;&#160;</a></span>_insertInternalVariable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::_insertInternalVariable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a>&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d96/classArcane_1_1IVariable.html">IVariable</a> *&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00229">229</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="acaf3e3da2fba7f31019f827731897ac2" name="acaf3e3da2fba7f31019f827731897ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf3e3da2fba7f31019f827731897ac2">&#9670;&#160;</a></span>_insertPartialVariable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::_insertPartialVariable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a>&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00222">222</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="afc373ae87010ab9df1612edff95f6548" name="afc373ae87010ab9df1612edff95f6548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc373ae87010ab9df1612edff95f6548">&#9670;&#160;</a></span>_insertVariable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::_insertVariable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a>&#160;</td>
+          <td class="paramname"><em>group</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00215">215</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a76cdb3a38c26394464cca4c89b36f055" name="a76cdb3a38c26394464cca4c89b36f055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76cdb3a38c26394464cca4c89b36f055">&#9670;&#160;</a></span>family()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/db4/classArcane_1_1Family.html">Family</a> &amp; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::family </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Accesseur à la famille. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00173">173</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="acad230a7657519a44f77cfcd0940e6b6" name="acad230a7657519a44f77cfcd0940e6b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acad230a7657519a44f77cfcd0940e6b6">&#9670;&#160;</a></span>notifyFamilyIsIncreased()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::notifyFamilyIsIncreased </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notification d'aggrandissement de la famille. </p>
+
+<p>Implémente <a class="el" href="../../d8/d11/classArcane_1_1IFamilyObserver.html#ae1a53b9c9e01a6a5481f6fd5a5bc0f69">Arcane::IFamilyObserver</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00203">203</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="ae502156c7a61459ef4e4682578f66665" name="ae502156c7a61459ef4e4682578f66665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae502156c7a61459ef4e4682578f66665">&#9670;&#160;</a></span>notifyFamilyIsInvalidate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::notifyFamilyIsInvalidate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notification d'invalidation de la famille. </p>
+
+<p>Implémente <a class="el" href="../../d8/d11/classArcane_1_1IFamilyObserver.html#a4480889b934ae4c52892c1e3daca2397">Arcane::IFamilyObserver</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00194">194</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="ace5d866183ff399f5e634e8f24cfc71b" name="ace5d866183ff399f5e634e8f24cfc71b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace5d866183ff399f5e634e8f24cfc71b">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; DataType &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d7b/classArcane_1_1Group_1_1BlockItemEnumerator.html">Group::BlockItemEnumerator</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Accesseur direct par un enumerateur AnyItem. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00141">141</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d0/d45/AnyItemGroup_8h_source.html#l00123">Arcane::Group::BlockItemEnumerator::groupIndex()</a>, et <a class="el" href="../../d0/d45/AnyItemGroup_8h_source.html#l00117">Arcane::Group::BlockItemEnumerator::varIndex()</a>.</p>
+
+</div>
+</div>
+<a id="aa67cb8087c01f95840d806a8b9c012f7" name="aa67cb8087c01f95840d806a8b9c012f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa67cb8087c01f95840d806a8b9c012f7">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; DataType &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d7b/classArcane_1_1Group_1_1BlockItemEnumerator.html">Group::BlockItemEnumerator</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Accesseur direct par un enumerateur AnyItem. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00146">146</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d0/d45/AnyItemGroup_8h_source.html#l00123">Arcane::Group::BlockItemEnumerator::groupIndex()</a>, et <a class="el" href="../../d0/d45/AnyItemGroup_8h_source.html#l00117">Arcane::Group::BlockItemEnumerator::varIndex()</a>.</p>
+
+</div>
+</div>
+<a id="a455991d25265ae613d4151f474f133d9" name="a455991d25265ae613d4151f474f133d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455991d25265ae613d4151f474f133d9">&#9670;&#160;</a></span>operator[]() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d29/classArcane_1_1VariableArray_1_1VariableAdder.html">VariableAdder</a> <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d27/classArcane_1_1ItemGroup.html">ItemGroup</a> &amp;&#160;</td>
+          <td class="paramname"><em>group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajout d'une variable pour un groupe. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00161">161</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a38c4ac7e22276e6bdce0dfc67db9d013" name="a38c4ac7e22276e6bdce0dfc67db9d013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c4ac7e22276e6bdce0dfc67db9d013">&#9670;&#160;</a></span>operator[]() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d29/classArcane_1_1VariableArray_1_1VariableAdder.html">VariableAdder</a> <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d8e/classArcane_1_1ItemGroupT.html">ItemGroupT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00167">167</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="ab0af7fdfc34842e2c210a4db58db96dd" name="ab0af7fdfc34842e2c210a4db58db96dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0af7fdfc34842e2c210a4db58db96dd">&#9670;&#160;</a></span>operator[]() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; DataType &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/dde/classArcane_1_1LinkFamilyInternal_1_1LinkData.html">LinkFamily::LinkData</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Accesseur direct par un élément de <a class="el" href="../../d0/deb/classArcane_1_1LinkFamily.html" title="Famille de liens AnyItem (pattern flyweight)">LinkFamily</a> (LinkData) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00151">151</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d9/d2e/AnyItemLinkFamily_8h_source.html#l00120">Arcane::LinkFamilyInternal::LinkData::groupIndex()</a>, et <a class="el" href="../../d9/d2e/AnyItemLinkFamily_8h_source.html#l00122">Arcane::LinkFamilyInternal::LinkData::varIndex()</a>.</p>
+
+</div>
+</div>
+<a id="ad13d0b5a151db31b12c6a433342a4dfd" name="ad13d0b5a151db31b12c6a433342a4dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad13d0b5a151db31b12c6a433342a4dfd">&#9670;&#160;</a></span>operator[]() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; DataType &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/dde/classArcane_1_1LinkFamilyInternal_1_1LinkData.html">LinkFamily::LinkData</a> &amp;&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Accesseur direct par un élément de <a class="el" href="../../d0/deb/classArcane_1_1LinkFamily.html" title="Famille de liens AnyItem (pattern flyweight)">LinkFamily</a> (LinkData) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00156">156</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d9/d2e/AnyItemLinkFamily_8h_source.html#l00120">Arcane::LinkFamilyInternal::LinkData::groupIndex()</a>, et <a class="el" href="../../d9/d2e/AnyItemLinkFamily_8h_source.html#l00122">Arcane::LinkFamilyInternal::LinkData::varIndex()</a>.</p>
+
+</div>
+</div>
+<a id="ac2fabd1e6f1d7761144d8f6c57378c6b" name="ac2fabd1e6f1d7761144d8f6c57378c6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2fabd1e6f1d7761144d8f6c57378c6b">&#9670;&#160;</a></span>valuesAtGroup() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt; DataType &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::valuesAtGroup </td>
+          <td>(</td>
+          <td class="paramtype">const Integer&#160;</td>
+          <td class="paramname"><em>igrp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Doonnées brutes associées à un groupe identifié relativement à sa famille. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00182">182</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a02d5131a6b9ae481172f5fa5a8580bbe" name="a02d5131a6b9ae481172f5fa5a8580bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d5131a6b9ae481172f5fa5a8580bbe">&#9670;&#160;</a></span>valuesAtGroup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d7d/classArccore_1_1ConstArray2View.html">ConstArray2View</a>&lt; DataType &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::valuesAtGroup </td>
+          <td>(</td>
+          <td class="paramtype">const Integer&#160;</td>
+          <td class="paramname"><em>igrp</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Doonnées brutes associées à un groupe identifié relativement à sa famille. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00188">188</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a2220f43a2020d438c775a0abbbbec278" name="a2220f43a2020d438c775a0abbbbec278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2220f43a2020d438c775a0abbbbec278">&#9670;&#160;</a></span>variables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../d5/d96/classArcane_1_1IVariable.html">IVariable</a> * &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::variables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tableau des variables. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00176">176</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a4dc7bcdaebf4272e9af07e3d4df5df16" name="a4dc7bcdaebf4272e9af07e3d4df5df16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc7bcdaebf4272e9af07e3d4df5df16">&#9670;&#160;</a></span>m_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/db4/classArcane_1_1Family.html">Family</a> <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::m_family</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Famille AnyItem des groupes. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00237">237</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a281b2468a4019fbaf0bcc71487b04d55" name="a281b2468a4019fbaf0bcc71487b04d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a281b2468a4019fbaf0bcc71487b04d55">&#9670;&#160;</a></span>m_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">Arcane::UniqueArray</a>&lt; <a class="el" href="../../d7/da7/classArccore_1_1Array2View.html">Array2View</a>&lt;DataType&gt; &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::m_values</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conteneur des variables génériques. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00240">240</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a9adde7130001426c1a4cbbad90c5bc8e" name="a9adde7130001426c1a4cbbad90c5bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9adde7130001426c1a4cbbad90c5bc8e">&#9670;&#160;</a></span>m_variables</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DataType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">Arcane::UniqueArray</a>&lt; <a class="el" href="../../d5/d96/classArcane_1_1IVariable.html">IVariable</a>* &gt; <a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">Arcane::VariableArray</a>&lt; DataType &gt;::m_variables</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conteneur des variables. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html#l00243">243</a> du fichier <a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../df/dcc/AnyItemVariableArray_8h_source.html">AnyItemVariableArray.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../da/d21/classArcane_1_1VariableArray.html">VariableArray</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:29 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<map id="Arcane::DumpWUCD" name="Arcane::DumpWUCD">
+<area shape="rect" id="node1" title="Ecriture au format UCD." alt="" coords="115,504,279,852"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,181,200,441"/>
+<area shape="rect" id="node3" href="$d5/db3/classArcane_1_1DumpW.html" title="wrapper transformant des appels à l&#39;interface IDataWriter en ex IDumpW" alt="" coords="225,167,359,456"/>
+<area shape="rect" id="node4" href="$d2/d27/classArcane_1_1IDataWriter.html" title="Interface d&#39;écriture des données d&#39;une variable." alt="" coords="213,5,371,119"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Arcane::ArcaneHdf5CheckpointService2" name="Arcane::ArcaneHdf5CheckpointService2">
+<area shape="rect" id="node1" title="Protection/reprise au format ArcaneHdf5." alt="" coords="487,1560,743,1864"/>
+<area shape="rect" id="node2" href="$df/dd6/classArcane_1_1ArcaneHdf5ReaderWriterObject.html" title="Generation de la classe de base du Service." alt="" coords="483,1369,746,1512"/>
+<area shape="rect" id="node3" href="$d1/df4/classArcane_1_1CheckpointService.html" title="Service de protection/reprise." alt="" coords="510,1003,719,1321"/>
+<area shape="rect" id="node4" href="$d1/d5e/classArcane_1_1BasicService.html" title="Classe de base de service lié à un sous&#45;domaine." alt="" coords="323,790,490,889"/>
+<area shape="rect" id="node5" href="$da/d61/classArcane_1_1AbstractService.html" title="Classe de base d&#39;un service." alt="" coords="109,416,294,573"/>
+<area shape="rect" id="node6" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,5,200,265"/>
+<area shape="rect" id="node7" href="$da/d7e/classArcane_1_1IService.html" title="Interface d&#39;un service." alt="" coords="224,79,376,192"/>
+<area shape="rect" id="node8" href="$d6/d09/classArcane_1_1MeshAccessor.html" title="Accès aux informations d&#39;un maillage." alt="" coords="319,387,495,603"/>
+<area shape="rect" id="node9" href="$d1/d74/classArcane_1_1CommonVariables.html" title="Variables communes d&#39;un cas." alt="" coords="519,313,737,676"/>
+<area shape="rect" id="node10" href="$d1/d93/classArcane_1_1ICheckpointWriter.html" title="Interface du service d&#39;écriture d&#39;une protection/reprise." alt="" coords="515,724,715,955"/>
+<area shape="rect" id="node11" href="$d9/d1e/classArcane_1_1ICheckpointReader.html" title="Interface du service de lecture d&#39;une protection/reprise." alt="" coords="739,746,949,933"/>
+</map>

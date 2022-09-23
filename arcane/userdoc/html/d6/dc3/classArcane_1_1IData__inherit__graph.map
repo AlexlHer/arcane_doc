@@ -1,0 +1,11 @@
+<map id="Arcane::IData" name="Arcane::IData">
+<area shape="rect" id="node1" title="Interface d&#39;une donnée." alt="" coords="315,5,466,207"/>
+<area shape="rect" id="node2" href="$dd/dad/classArcane_1_1IArray2Data.html" title="Interface d&#39;une donnée tableau 2D." alt="" coords="22,269,183,309"/>
+<area shape="rect" id="node4" href="$d4/d06/classArcane_1_1IArrayData.html" title="Interface d&#39;une donnée tableau 1D." alt="" coords="215,255,369,324"/>
+<area shape="rect" id="node6" href="$d3/dc3/classArcane_1_1IMultiArray2Data.html" title="Interface d&#39;une donnée tableau 2D." alt="" coords="397,269,592,309"/>
+<area shape="rect" id="node8" href="$dd/dde/classArcane_1_1IScalarData.html" title="Interface d&#39;une donnée scalaire." alt="" coords="622,255,781,324"/>
+<area shape="rect" id="node3" href="$dc/d51/classArcane_1_1IArray2DataT.html" title=" " alt="" coords="5,372,179,559"/>
+<area shape="rect" id="node5" href="$da/dc0/classArcane_1_1IArrayDataT.html" title=" " alt="" coords="203,372,376,559"/>
+<area shape="rect" id="node7" href="$d2/d71/classArcane_1_1IMultiArray2DataT.html" title=" " alt="" coords="400,409,595,522"/>
+<area shape="rect" id="node9" href="$db/d09/classArcane_1_1IScalarDataT.html" title=" " alt="" coords="619,394,792,537"/>
+</map>

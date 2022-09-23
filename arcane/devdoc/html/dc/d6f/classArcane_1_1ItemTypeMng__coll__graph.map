@@ -1,0 +1,19 @@
+<map id="Arcane::ItemTypeMng" name="Arcane::ItemTypeMng">
+<area shape="rect" id="node1" title="Gestionnaire des types d&#39;entités de maillage." alt="" coords="531,2528,735,2832"/>
+<area shape="rect" id="node2" title=" " alt="" coords="171,1843,247,1883"/>
+<area shape="rect" id="node11" href="$dd/d37/classArcane_1_1MultiBufferT.html" title=" " alt="" coords="415,2235,651,2465"/>
+<area shape="rect" id="node3" href="$de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="822,2249,985,2451"/>
+<area shape="rect" id="node4" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="1009,2235,1256,2465"/>
+<area shape="rect" id="node5" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="5,1995,207,2211"/>
+<area shape="rect" id="node6" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="38,1372,238,1705"/>
+<area shape="rect" id="node7" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="323,755,537,1323"/>
+<area shape="rect" id="node13" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="266,1372,466,1705"/>
+<area shape="rect" id="node15" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="490,1372,690,1705"/>
+<area shape="rect" id="node17" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="714,1372,914,1705"/>
+<area shape="rect" id="node8" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="317,548,543,705"/>
+<area shape="rect" id="node9" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="335,211,525,471"/>
+<area shape="rect" id="node10" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="329,5,531,148"/>
+<area shape="rect" id="node12" href="$da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="271,1762,477,1963"/>
+<area shape="rect" id="node14" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="501,1755,703,1971"/>
+<area shape="rect" id="node16" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="729,1995,897,2211"/>
+</map>

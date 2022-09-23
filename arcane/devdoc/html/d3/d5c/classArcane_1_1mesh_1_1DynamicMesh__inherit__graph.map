@@ -1,0 +1,9 @@
+<map id="Arcane::mesh::DynamicMesh" name="Arcane::mesh::DynamicMesh">
+<area shape="rect" id="node1" title="Implémentation d&#39;un maillage." alt="" coords="295,1135,552,1747"/>
+<area shape="rect" id="node2" href="$d9/dbc/classArcane_1_1MeshVariables.html" title="Variables contenant les informations de connectivités communes aux maillages 1D, 2D et 3D." alt="" coords="5,863,196,1050"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="221,827,415,1087"/>
+<area shape="rect" id="node4" href="$d7/d89/classArcane_1_1IPrimaryMesh.html" title=" " alt="" coords="439,856,621,1057"/>
+<area shape="rect" id="node5" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="402,255,658,779"/>
+<area shape="rect" id="node6" href="$de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="453,5,607,207"/>
+<area shape="rect" id="node7" href="$d9/d71/classArcane_1_1IMeshModifier.html" title="Interface de modification du maillage." alt="" coords="645,856,820,1057"/>
+</map>

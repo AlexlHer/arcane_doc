@@ -1,0 +1,1635 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::CartesianConnectivity</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/d47/classArcane_1_1CartesianConnectivity.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-types">Types privés</a> &#124;
+<a href="../../d4/db1/classArcane_1_1CartesianConnectivity-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::CartesianConnectivity<div class="ingroups"><a class="el" href="../../db/d83/group__ArcaneCartesianMesh.html">Maillages cartésiens.</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Informations de connectivité d'un maillage cartésien.  
+ <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">arcane/cartesianmesh/CartesianConnectivity.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::CartesianConnectivity:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../db/d5f/classArcane_1_1CartesianConnectivity__coll__graph.png" border="0" usemap="#aArcane_1_1CartesianConnectivity_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1CartesianConnectivity_coll__map" id="aArcane_1_1CartesianConnectivity_coll__map">
+<area shape="rect" title="Informations de connectivité d&#39;un maillage cartésien." alt="" coords="9,533,236,823"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="5,108,240,456"/>
+<area shape="rect" title=" " alt="" coords="91,5,154,45"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a3fcbe023bc8d2f3cb7a0912a3c4b5513"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a3fcbe023bc8d2f3cb7a0912a3c4b5513">upperLeft</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:a3fcbe023bc8d2f3cb7a0912a3c4b5513"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en haut à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a3fcbe023bc8d2f3cb7a0912a3c4b5513">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3fcbe023bc8d2f3cb7a0912a3c4b5513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0eb90330b9da89ee048529ad1581437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac0eb90330b9da89ee048529ad1581437">upperRight</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:ac0eb90330b9da89ee048529ad1581437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en haut à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac0eb90330b9da89ee048529ad1581437">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac0eb90330b9da89ee048529ad1581437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1500618c12d77dba4e2ba1fbc4a39acb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a1500618c12d77dba4e2ba1fbc4a39acb">lowerRight</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:a1500618c12d77dba4e2ba1fbc4a39acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en bas à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a1500618c12d77dba4e2ba1fbc4a39acb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1500618c12d77dba4e2ba1fbc4a39acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d800c45f41eef5dea0379ba4ad06963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a8d800c45f41eef5dea0379ba4ad06963">lowerLeft</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:a8d800c45f41eef5dea0379ba4ad06963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en bas à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a8d800c45f41eef5dea0379ba4ad06963">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8d800c45f41eef5dea0379ba4ad06963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0d74a950df207df7479ff1e5ed5f772"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac0d74a950df207df7479ff1e5ed5f772">upperLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:ac0d74a950df207df7479ff1e5ed5f772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en haut à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac0d74a950df207df7479ff1e5ed5f772">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac0d74a950df207df7479ff1e5ed5f772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1549bf7949425462a3d8c896076cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a3b1549bf7949425462a3d8c896076cb8">upperRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:a3b1549bf7949425462a3d8c896076cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en haut à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a3b1549bf7949425462a3d8c896076cb8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3b1549bf7949425462a3d8c896076cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07fc2847dcb24b858babef92e14865f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ab07fc2847dcb24b858babef92e14865f">lowerRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:ab07fc2847dcb24b858babef92e14865f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en bas à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ab07fc2847dcb24b858babef92e14865f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab07fc2847dcb24b858babef92e14865f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed49047626babeb73893ff5477e50e2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aed49047626babeb73893ff5477e50e2c">lowerLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:aed49047626babeb73893ff5477e50e2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille en bas à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aed49047626babeb73893ff5477e50e2c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aed49047626babeb73893ff5477e50e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf67d3edbb0115722b0801eb71cda4b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#adf67d3edbb0115722b0801eb71cda4b3">topZUpperLeft</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:adf67d3edbb0115722b0801eb71cda4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en haut à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#adf67d3edbb0115722b0801eb71cda4b3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adf67d3edbb0115722b0801eb71cda4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63918be79385c2f1955fcdf1503bb366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a63918be79385c2f1955fcdf1503bb366">topZUpperRight</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:a63918be79385c2f1955fcdf1503bb366"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en haut à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a63918be79385c2f1955fcdf1503bb366">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a63918be79385c2f1955fcdf1503bb366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a957b72c6398d218bdd9cfcbc99194d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a957b72c6398d218bdd9cfcbc99194d53">topZLowerRight</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:a957b72c6398d218bdd9cfcbc99194d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en bas à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a957b72c6398d218bdd9cfcbc99194d53">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a957b72c6398d218bdd9cfcbc99194d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4858b7b4501e4413b9a4a0f2bc9ef71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aa4858b7b4501e4413b9a4a0f2bc9ef71">topZLowerLeft</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n) const</td></tr>
+<tr class="memdesc:aa4858b7b4501e4413b9a4a0f2bc9ef71"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en bas à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aa4858b7b4501e4413b9a4a0f2bc9ef71">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa4858b7b4501e4413b9a4a0f2bc9ef71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db3c8c8ee518eeb3c1879240381784a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9db3c8c8ee518eeb3c1879240381784a">topZUpperLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:a9db3c8c8ee518eeb3c1879240381784a"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en haut à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9db3c8c8ee518eeb3c1879240381784a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9db3c8c8ee518eeb3c1879240381784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f94aaa6016d757e9943faf64d8ce65f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a0f94aaa6016d757e9943faf64d8ce65f">topZUpperRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:a0f94aaa6016d757e9943faf64d8ce65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en haut à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a0f94aaa6016d757e9943faf64d8ce65f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0f94aaa6016d757e9943faf64d8ce65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9bc3a333e8ab1138164168d03f8814a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ab9bc3a333e8ab1138164168d03f8814a">topZLowerRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:ab9bc3a333e8ab1138164168d03f8814a"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en bas à droite du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ab9bc3a333e8ab1138164168d03f8814a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab9bc3a333e8ab1138164168d03f8814a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a76d1b9a92b380d3ab5111abc239a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a95a76d1b9a92b380d3ab5111abc239a4">topZLowerLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> n) const</td></tr>
+<tr class="memdesc:a95a76d1b9a92b380d3ab5111abc239a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, maille en bas à gauche du noeud <em>n</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a95a76d1b9a92b380d3ab5111abc239a4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a95a76d1b9a92b380d3ab5111abc239a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae06fe936b7287c27cf0798e7d74c70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a5ae06fe936b7287c27cf0798e7d74c70">upperLeft</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:a5ae06fe936b7287c27cf0798e7d74c70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en haut à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a5ae06fe936b7287c27cf0798e7d74c70">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5ae06fe936b7287c27cf0798e7d74c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a849639c725e1dfb5c0f480adc75edb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a1a849639c725e1dfb5c0f480adc75edb">upperRight</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:a1a849639c725e1dfb5c0f480adc75edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en haut à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a1a849639c725e1dfb5c0f480adc75edb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1a849639c725e1dfb5c0f480adc75edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24ddbbc1c8a66ad8ca000b453894a11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ad24ddbbc1c8a66ad8ca000b453894a11">lowerRight</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:ad24ddbbc1c8a66ad8ca000b453894a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en bas à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ad24ddbbc1c8a66ad8ca000b453894a11">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad24ddbbc1c8a66ad8ca000b453894a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab546ce3ea5d85df3c32be465613af879"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ab546ce3ea5d85df3c32be465613af879">lowerLeft</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:ab546ce3ea5d85df3c32be465613af879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en bad à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ab546ce3ea5d85df3c32be465613af879">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab546ce3ea5d85df3c32be465613af879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36192ce882a3c3bb62e7d954bdb48d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a36192ce882a3c3bb62e7d954bdb48d1f">upperLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:a36192ce882a3c3bb62e7d954bdb48d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en haut à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a36192ce882a3c3bb62e7d954bdb48d1f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a36192ce882a3c3bb62e7d954bdb48d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21b72165120f22ac31224ad63e16027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#af21b72165120f22ac31224ad63e16027">upperRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:af21b72165120f22ac31224ad63e16027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en haut à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#af21b72165120f22ac31224ad63e16027">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af21b72165120f22ac31224ad63e16027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2fb7f1b1da1c352172538459e84aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a4c2fb7f1b1da1c352172538459e84aa7">lowerRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:a4c2fb7f1b1da1c352172538459e84aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en bas à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a4c2fb7f1b1da1c352172538459e84aa7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4c2fb7f1b1da1c352172538459e84aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11bcccbccfb1644cebe716cc9caa7bf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a11bcccbccfb1644cebe716cc9caa7bf9">lowerLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:a11bcccbccfb1644cebe716cc9caa7bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Noeud en bad à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a11bcccbccfb1644cebe716cc9caa7bf9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a11bcccbccfb1644cebe716cc9caa7bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac622dc3d4339417cea4491e213803fb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac622dc3d4339417cea4491e213803fb8">topZUpperLeft</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:ac622dc3d4339417cea4491e213803fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en haut à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac622dc3d4339417cea4491e213803fb8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac622dc3d4339417cea4491e213803fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa620d3fa4e5ceefbdddf877989c865de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aa620d3fa4e5ceefbdddf877989c865de">topZUpperRight</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:aa620d3fa4e5ceefbdddf877989c865de"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en haut à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aa620d3fa4e5ceefbdddf877989c865de">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa620d3fa4e5ceefbdddf877989c865de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a01b4b6b49000d073e34aa7146c428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ad3a01b4b6b49000d073e34aa7146c428">topZLowerRight</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:ad3a01b4b6b49000d073e34aa7146c428"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en bas à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ad3a01b4b6b49000d073e34aa7146c428">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad3a01b4b6b49000d073e34aa7146c428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115f5a8260b3599ae183020f515ef2ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a115f5a8260b3599ae183020f515ef2ee">topZLowerLeft</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c) const</td></tr>
+<tr class="memdesc:a115f5a8260b3599ae183020f515ef2ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en bas à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a115f5a8260b3599ae183020f515ef2ee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a115f5a8260b3599ae183020f515ef2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0ccfc938f59c10bb7cf843272836b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a4e0ccfc938f59c10bb7cf843272836b5">topZUpperLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:a4e0ccfc938f59c10bb7cf843272836b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en haut à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a4e0ccfc938f59c10bb7cf843272836b5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4e0ccfc938f59c10bb7cf843272836b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba0d645973259f8a5281050032b5fa30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aba0d645973259f8a5281050032b5fa30">topZUpperRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:aba0d645973259f8a5281050032b5fa30"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en haut à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#aba0d645973259f8a5281050032b5fa30">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aba0d645973259f8a5281050032b5fa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2970d26e065c3cd02bae82a0d7855d6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a2970d26e065c3cd02bae82a0d7855d6c">topZLowerRightId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:a2970d26e065c3cd02bae82a0d7855d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en bas à droite de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a2970d26e065c3cd02bae82a0d7855d6c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2970d26e065c3cd02bae82a0d7855d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fcad8ed56c6eb82ae53c151ef831d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a0fcad8ed56c6eb82ae53c151ef831d1f">topZLowerLeftId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> c) const</td></tr>
+<tr class="memdesc:a0fcad8ed56c6eb82ae53c151ef831d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">En 3D, noeud au dessus en bas à gauche de la maille <em>c</em>.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a0fcad8ed56c6eb82ae53c151ef831d1f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0fcad8ed56c6eb82ae53c151ef831d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Types privés</h2></td></tr>
+<tr class="memitem:a9ffc03602388179acb022f250df6c4bf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9ffc03602388179acb022f250df6c4bf">ePosition</a> { <br />
+&#160;&#160;<b>P_UpperLeft</b> = 0
+, <b>P_UpperRight</b> = 1
+, <b>P_LowerRight</b> = 2
+, <b>P_LowerLeft</b> = 3
+, <br />
+&#160;&#160;<b>P_TopZUpperLeft</b> = 4
+, <b>P_TopZUpperRight</b> = 5
+, <b>P_TopZLowerRight</b> = 6
+, <b>P_TopZLowerLeft</b> = 7
+<br />
+ }</td></tr>
+<tr class="memdesc:a9ffc03602388179acb022f250df6c4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type énuméré indiquant la position.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9ffc03602388179acb022f250df6c4bf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9ffc03602388179acb022f250df6c4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Fonctions internes réservées à Arcane.</h2></td></tr>
+<tr class="memitem:ad3b746874b41fed095c2a33c3d9e698e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; <a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ad3b746874b41fed095c2a33c3d9e698e">m_nodes_to_cell</a></td></tr>
+<tr class="separator:ad3b746874b41fed095c2a33c3d9e698e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9518b30207933ce09ab8eebd7d9c4b82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; <a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9518b30207933ce09ab8eebd7d9c4b82">m_cells_to_node</a></td></tr>
+<tr class="separator:a9518b30207933ce09ab8eebd7d9c4b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47b97a5529db14a1857aa4d425a2898c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a47b97a5529db14a1857aa4d425a2898c">computeInfos</a> (<a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *mesh, <a class="el" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a> &amp;nodes_coord, <a class="el" href="../../d3/d00/group__Variable.html#ga89541ae01facee42d91990fbd2a351f0">VariableCellReal3</a> &amp;cells_coord)</td></tr>
+<tr class="memdesc:a47b97a5529db14a1857aa4d425a2898c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcule les infos de connectivité.  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a47b97a5529db14a1857aa4d425a2898c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a47b97a5529db14a1857aa4d425a2898c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef288a90b59cd5b0716a3a414313559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#abef288a90b59cd5b0716a3a414313559">setStorage</a> (<a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; <a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &gt; nodes_to_cell, <a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; <a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &gt; cells_to_node)</td></tr>
+<tr class="memdesc:abef288a90b59cd5b0716a3a414313559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positionne les tableaux contenant les infos de connectivité  <a href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#abef288a90b59cd5b0716a3a414313559">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abef288a90b59cd5b0716a3a414313559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2762289a12e4b988343e1ecc3e0cda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9b2762289a12e4b988343e1ecc3e0cda">_index</a> (<a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> n)</td></tr>
+<tr class="separator:a9b2762289a12e4b988343e1ecc3e0cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3600efe89b4ff0b5f13a4af5f587be5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a3600efe89b4ff0b5f13a4af5f587be5b">_index</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> c)</td></tr>
+<tr class="separator:a3600efe89b4ff0b5f13a4af5f587be5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720751936259af1f5a6850ed5ac7a406"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a720751936259af1f5a6850ed5ac7a406">_computeInfos2D</a> (<a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *mesh, <a class="el" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a> &amp;nodes_coord, <a class="el" href="../../d3/d00/group__Variable.html#ga89541ae01facee42d91990fbd2a351f0">VariableCellReal3</a> &amp;cells_coord)</td></tr>
+<tr class="separator:a720751936259af1f5a6850ed5ac7a406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a755baf165675d39546315bf2868c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a48a755baf165675d39546315bf2868c2">_computeInfos3D</a> (<a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *mesh, <a class="el" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a> &amp;nodes_coord, <a class="el" href="../../d3/d00/group__Variable.html#ga89541ae01facee42d91990fbd2a351f0">VariableCellReal3</a> &amp;cells_coord)</td></tr>
+<tr class="separator:a48a755baf165675d39546315bf2868c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p >Informations de connectivité d'un maillage cartésien. </p>
+<p >Pour l'instant, cela ne fonctionne que pour les maillages 2D.</p>
+<p >Comme tous les objets liés au maillage cartésien, ces instances ne sont valides que tant que la topologie du maillage n'évolue pas.</p>
+<p >Cette classe sert à la fois pour les connectivités 2D et les connectivités 3D. Les méthodes qui commencent par topZ ne sont valides que en 3D.</p>
+<p >Le nom des méthodes suit la nomenclature suivante:</p><ul>
+<li>topZ/.: pour la direction Z</li>
+<li>upper/lower: pour la direction Y</li>
+<li>left/right: pour la direction X</li>
+</ul>
+<p >Pour la connectivité des noeuds autour d'une maille de coordonnées (X0,Y0,Z0), le noeud de coordonnées (X,Y,Z) se récupère comme suit:</p><ul>
+<li>En 3D, topZ si Z&gt;Z0, sinon pas de préfixe. en 2D, jamais de préfixe.</li>
+<li>upper si Y&gt;Y0, lower sinon,</li>
+<li>right si X&gt;X0, left sinon,</li>
+</ul>
+<p >Donc par exemple, si Z&gt;Z0, Y&lt;Y0 et X&gt;X0, le nom de la méthode est <a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a957b72c6398d218bdd9cfcbc99194d53" title="En 3D, maille en bas à droite du noeud n.">topZLowerRight()</a>. Si Z&lt;Z0, Y&gt;Y0 et X&gt;X0, le nom est <a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#ac0eb90330b9da89ee048529ad1581437" title="Maille en haut à droite du noeud n.">upperRight()</a>.</p>
+<p >Le fonctionnement est le même pour les connectivités des mailles autour d'un noeud. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00065">65</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+</div><h2 class="groupheader">Documentation des énumérations membres</h2>
+<a id="a9ffc03602388179acb022f250df6c4bf" name="a9ffc03602388179acb022f250df6c4bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ffc03602388179acb022f250df6c4bf">&#9670;&#160;</a></span>ePosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html#a9ffc03602388179acb022f250df6c4bf">Arcane::CartesianConnectivity::ePosition</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Type énuméré indiquant la position. </p>
+<dl class="section warning"><dt>Avertissement</dt><dd>Les valeurs exactes ne doivent pas être utilisées car elles sont susceptibles de changer. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00072">72</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a720751936259af1f5a6850ed5ac7a406" name="a720751936259af1f5a6850ed5ac7a406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720751936259af1f5a6850ed5ac7a406">&#9670;&#160;</a></span>_computeInfos2D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::CartesianConnectivity::_computeInfos2D </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a> &amp;&#160;</td>
+          <td class="paramname"><em>nodes_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d00/group__Variable.html#ga89541ae01facee42d91990fbd2a351f0">VariableCellReal3</a> &amp;&#160;</td>
+          <td class="paramname"><em>cells_coord</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html#l00066">66</a> du fichier <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html">CartesianConnectivity.cc</a>.</p>
+
+</div>
+</div>
+<a id="a48a755baf165675d39546315bf2868c2" name="a48a755baf165675d39546315bf2868c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a755baf165675d39546315bf2868c2">&#9670;&#160;</a></span>_computeInfos3D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::CartesianConnectivity::_computeInfos3D </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a> &amp;&#160;</td>
+          <td class="paramname"><em>nodes_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d00/group__Variable.html#ga89541ae01facee42d91990fbd2a351f0">VariableCellReal3</a> &amp;&#160;</td>
+          <td class="paramname"><em>cells_coord</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html#l00130">130</a> du fichier <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html">CartesianConnectivity.cc</a>.</p>
+
+</div>
+</div>
+<a id="a3600efe89b4ff0b5f13a4af5f587be5b" name="a3600efe89b4ff0b5f13a4af5f587be5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3600efe89b4ff0b5f13a4af5f587be5b">&#9670;&#160;</a></span>_index() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &amp; Arcane::CartesianConnectivity::_index </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00183">183</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a9b2762289a12e4b988343e1ecc3e0cda" name="a9b2762289a12e4b988343e1ecc3e0cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b2762289a12e4b988343e1ecc3e0cda">&#9670;&#160;</a></span>_index() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &amp; Arcane::CartesianConnectivity::_index </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00182">182</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a47b97a5529db14a1857aa4d425a2898c" name="a47b97a5529db14a1857aa4d425a2898c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b97a5529db14a1857aa4d425a2898c">&#9670;&#160;</a></span>computeInfos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::CartesianConnectivity::computeInfos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a> &amp;&#160;</td>
+          <td class="paramname"><em>nodes_coord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d00/group__Variable.html#ga89541ae01facee42d91990fbd2a351f0">VariableCellReal3</a> &amp;&#160;</td>
+          <td class="paramname"><em>cells_coord</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcule les infos de connectivité. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html#l00051">51</a> du fichier <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html">CartesianConnectivity.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../de/d4a/classArcane_1_1IMeshBase.html#ac7c4fc0687609ad89409557d87f8e040">Arcane::IMeshBase::dimension()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d1/de9/CartesianMesh_8cc_source.html#l00244">Arcane::CartesianMeshImpl::computeDirections()</a>.</p>
+
+</div>
+</div>
+<a id="ab546ce3ea5d85df3c32be465613af879" name="ab546ce3ea5d85df3c32be465613af879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab546ce3ea5d85df3c32be465613af879">&#9670;&#160;</a></span>lowerLeft() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::lowerLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en bad à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00139">139</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a8d800c45f41eef5dea0379ba4ad06963" name="a8d800c45f41eef5dea0379ba4ad06963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d800c45f41eef5dea0379ba4ad06963">&#9670;&#160;</a></span>lowerLeft() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::lowerLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en bas à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00103">103</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d9/df1/CartesianMeshTesterModule_8cc_source.html#l00507">ArcaneTest::CartesianMeshTesterModule::_sample()</a>, et <a class="el" href="../../dc/d9b/CartesianMeshTestUtils_8cc_source.html#l00799">ArcaneTest::CartesianMeshTestUtils::_sample()</a>.</p>
+
+</div>
+</div>
+<a id="a11bcccbccfb1644cebe716cc9caa7bf9" name="a11bcccbccfb1644cebe716cc9caa7bf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11bcccbccfb1644cebe716cc9caa7bf9">&#9670;&#160;</a></span>lowerLeftId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::lowerLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en bad à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00148">148</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="aed49047626babeb73893ff5477e50e2c" name="aed49047626babeb73893ff5477e50e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed49047626babeb73893ff5477e50e2c">&#9670;&#160;</a></span>lowerLeftId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::lowerLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en bas à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00112">112</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ad24ddbbc1c8a66ad8ca000b453894a11" name="ad24ddbbc1c8a66ad8ca000b453894a11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24ddbbc1c8a66ad8ca000b453894a11">&#9670;&#160;</a></span>lowerRight() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::lowerRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en bas à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00137">137</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a1500618c12d77dba4e2ba1fbc4a39acb" name="a1500618c12d77dba4e2ba1fbc4a39acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1500618c12d77dba4e2ba1fbc4a39acb">&#9670;&#160;</a></span>lowerRight() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::lowerRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en bas à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00101">101</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d9/df1/CartesianMeshTesterModule_8cc_source.html#l00507">ArcaneTest::CartesianMeshTesterModule::_sample()</a>, et <a class="el" href="../../dc/d9b/CartesianMeshTestUtils_8cc_source.html#l00799">ArcaneTest::CartesianMeshTestUtils::_sample()</a>.</p>
+
+</div>
+</div>
+<a id="a4c2fb7f1b1da1c352172538459e84aa7" name="a4c2fb7f1b1da1c352172538459e84aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2fb7f1b1da1c352172538459e84aa7">&#9670;&#160;</a></span>lowerRightId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::lowerRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en bas à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00146">146</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ab07fc2847dcb24b858babef92e14865f" name="ab07fc2847dcb24b858babef92e14865f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07fc2847dcb24b858babef92e14865f">&#9670;&#160;</a></span>lowerRightId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::lowerRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en bas à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00110">110</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="abef288a90b59cd5b0716a3a414313559" name="abef288a90b59cd5b0716a3a414313559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef288a90b59cd5b0716a3a414313559">&#9670;&#160;</a></span>setStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::CartesianConnectivity::setStorage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; <a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &gt;&#160;</td>
+          <td class="paramname"><em>nodes_to_cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; <a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a> &gt;&#160;</td>
+          <td class="paramname"><em>cells_to_node</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Positionne les tableaux contenant les infos de connectivité </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html#l00036">36</a> du fichier <a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html">CartesianConnectivity.cc</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d1/de9/CartesianMesh_8cc_source.html#l00244">Arcane::CartesianMeshImpl::computeDirections()</a>.</p>
+
+</div>
+</div>
+<a id="a115f5a8260b3599ae183020f515ef2ee" name="a115f5a8260b3599ae183020f515ef2ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115f5a8260b3599ae183020f515ef2ee">&#9670;&#160;</a></span>topZLowerLeft() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::topZLowerLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en bas à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00157">157</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="aa4858b7b4501e4413b9a4a0f2bc9ef71" name="aa4858b7b4501e4413b9a4a0f2bc9ef71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4858b7b4501e4413b9a4a0f2bc9ef71">&#9670;&#160;</a></span>topZLowerLeft() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::topZLowerLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en bas à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00121">121</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a0fcad8ed56c6eb82ae53c151ef831d1f" name="a0fcad8ed56c6eb82ae53c151ef831d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fcad8ed56c6eb82ae53c151ef831d1f">&#9670;&#160;</a></span>topZLowerLeftId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::topZLowerLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en bas à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00166">166</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a95a76d1b9a92b380d3ab5111abc239a4" name="a95a76d1b9a92b380d3ab5111abc239a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95a76d1b9a92b380d3ab5111abc239a4">&#9670;&#160;</a></span>topZLowerLeftId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::topZLowerLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en bas à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00130">130</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3a01b4b6b49000d073e34aa7146c428" name="ad3a01b4b6b49000d073e34aa7146c428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a01b4b6b49000d073e34aa7146c428">&#9670;&#160;</a></span>topZLowerRight() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::topZLowerRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en bas à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00155">155</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a957b72c6398d218bdd9cfcbc99194d53" name="a957b72c6398d218bdd9cfcbc99194d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a957b72c6398d218bdd9cfcbc99194d53">&#9670;&#160;</a></span>topZLowerRight() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::topZLowerRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en bas à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00119">119</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a2970d26e065c3cd02bae82a0d7855d6c" name="a2970d26e065c3cd02bae82a0d7855d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2970d26e065c3cd02bae82a0d7855d6c">&#9670;&#160;</a></span>topZLowerRightId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::topZLowerRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en bas à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00164">164</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ab9bc3a333e8ab1138164168d03f8814a" name="ab9bc3a333e8ab1138164168d03f8814a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9bc3a333e8ab1138164168d03f8814a">&#9670;&#160;</a></span>topZLowerRightId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::topZLowerRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en bas à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00128">128</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ac622dc3d4339417cea4491e213803fb8" name="ac622dc3d4339417cea4491e213803fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac622dc3d4339417cea4491e213803fb8">&#9670;&#160;</a></span>topZUpperLeft() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::topZUpperLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en haut à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00151">151</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="adf67d3edbb0115722b0801eb71cda4b3" name="adf67d3edbb0115722b0801eb71cda4b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf67d3edbb0115722b0801eb71cda4b3">&#9670;&#160;</a></span>topZUpperLeft() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::topZUpperLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en haut à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00115">115</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a4e0ccfc938f59c10bb7cf843272836b5" name="a4e0ccfc938f59c10bb7cf843272836b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0ccfc938f59c10bb7cf843272836b5">&#9670;&#160;</a></span>topZUpperLeftId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::topZUpperLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en haut à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00160">160</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a9db3c8c8ee518eeb3c1879240381784a" name="a9db3c8c8ee518eeb3c1879240381784a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9db3c8c8ee518eeb3c1879240381784a">&#9670;&#160;</a></span>topZUpperLeftId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::topZUpperLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en haut à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00124">124</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="aa620d3fa4e5ceefbdddf877989c865de" name="aa620d3fa4e5ceefbdddf877989c865de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa620d3fa4e5ceefbdddf877989c865de">&#9670;&#160;</a></span>topZUpperRight() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::topZUpperRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en haut à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00153">153</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a63918be79385c2f1955fcdf1503bb366" name="a63918be79385c2f1955fcdf1503bb366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63918be79385c2f1955fcdf1503bb366">&#9670;&#160;</a></span>topZUpperRight() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::topZUpperRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en haut à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00117">117</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="aba0d645973259f8a5281050032b5fa30" name="aba0d645973259f8a5281050032b5fa30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba0d645973259f8a5281050032b5fa30">&#9670;&#160;</a></span>topZUpperRightId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::topZUpperRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, noeud au dessus en haut à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00162">162</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a0f94aaa6016d757e9943faf64d8ce65f" name="a0f94aaa6016d757e9943faf64d8ce65f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f94aaa6016d757e9943faf64d8ce65f">&#9670;&#160;</a></span>topZUpperRightId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::topZUpperRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>En 3D, maille en haut à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00126">126</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a5ae06fe936b7287c27cf0798e7d74c70" name="a5ae06fe936b7287c27cf0798e7d74c70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ae06fe936b7287c27cf0798e7d74c70">&#9670;&#160;</a></span>upperLeft() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::upperLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en haut à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00133">133</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="a3fcbe023bc8d2f3cb7a0912a3c4b5513" name="a3fcbe023bc8d2f3cb7a0912a3c4b5513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fcbe023bc8d2f3cb7a0912a3c4b5513">&#9670;&#160;</a></span>upperLeft() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::upperLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en haut à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00097">97</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d9/df1/CartesianMeshTesterModule_8cc_source.html#l00507">ArcaneTest::CartesianMeshTesterModule::_sample()</a>, et <a class="el" href="../../dc/d9b/CartesianMeshTestUtils_8cc_source.html#l00799">ArcaneTest::CartesianMeshTestUtils::_sample()</a>.</p>
+
+</div>
+</div>
+<a id="a36192ce882a3c3bb62e7d954bdb48d1f" name="a36192ce882a3c3bb62e7d954bdb48d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36192ce882a3c3bb62e7d954bdb48d1f">&#9670;&#160;</a></span>upperLeftId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::upperLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en haut à gauche de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00142">142</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ac0d74a950df207df7479ff1e5ed5f772" name="ac0d74a950df207df7479ff1e5ed5f772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d74a950df207df7479ff1e5ed5f772">&#9670;&#160;</a></span>upperLeftId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::upperLeftId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en haut à gauche du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00106">106</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a1a849639c725e1dfb5c0f480adc75edb" name="a1a849639c725e1dfb5c0f480adc75edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a849639c725e1dfb5c0f480adc75edb">&#9670;&#160;</a></span>upperRight() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a> Arcane::CartesianConnectivity::upperRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en haut à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00135">135</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+</div>
+</div>
+<a id="ac0eb90330b9da89ee048529ad1581437" name="ac0eb90330b9da89ee048529ad1581437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0eb90330b9da89ee048529ad1581437">&#9670;&#160;</a></span>upperRight() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::CartesianConnectivity::upperRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en haut à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00099">99</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00168">Arcane::Item::localId()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d9/df1/CartesianMeshTesterModule_8cc_source.html#l00507">ArcaneTest::CartesianMeshTesterModule::_sample()</a>, et <a class="el" href="../../dc/d9b/CartesianMeshTestUtils_8cc_source.html#l00799">ArcaneTest::CartesianMeshTestUtils::_sample()</a>.</p>
+
+</div>
+</div>
+<a id="af21b72165120f22ac31224ad63e16027" name="af21b72165120f22ac31224ad63e16027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af21b72165120f22ac31224ad63e16027">&#9670;&#160;</a></span>upperRightId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a> Arcane::CartesianConnectivity::upperRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Noeud en haut à droite de la maille <em>c</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00144">144</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="a3b1549bf7949425462a3d8c896076cb8" name="a3b1549bf7949425462a3d8c896076cb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b1549bf7949425462a3d8c896076cb8">&#9670;&#160;</a></span>upperRightId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::CartesianConnectivity::upperRightId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille en haut à droite du noeud <em>n</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00108">108</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a9518b30207933ce09ab8eebd7d9c4b82" name="a9518b30207933ce09ab8eebd7d9c4b82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9518b30207933ce09ab8eebd7d9c4b82">&#9670;&#160;</a></span>m_cells_to_node</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt;<a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a>&gt; Arcane::CartesianConnectivity::m_cells_to_node</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00188">188</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3b746874b41fed095c2a33c3d9e698e" name="ad3b746874b41fed095c2a33c3d9e698e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3b746874b41fed095c2a33c3d9e698e">&#9670;&#160;</a></span>m_nodes_to_cell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt;<a class="el" href="../../db/d96/structArcane_1_1CartesianConnectivity_1_1Index.html">Index</a>&gt; Arcane::CartesianConnectivity::m_nodes_to_cell</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html#l00187">187</a> du fichier <a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d5/dd9/cartesianmesh_2CartesianConnectivity_8h_source.html">cartesianmesh/CartesianConnectivity.h</a></li>
+<li><a class="el" href="../../d7/de1/CartesianConnectivity_8cc_source.html">CartesianConnectivity.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d2/d47/classArcane_1_1CartesianConnectivity.html">CartesianConnectivity</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:23 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

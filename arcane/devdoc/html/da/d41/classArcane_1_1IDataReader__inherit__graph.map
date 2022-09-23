@@ -1,0 +1,8 @@
+<map id="Arcane::IDataReader" name="Arcane::IDataReader">
+<area shape="rect" id="node1" title="Interface de lecture des données d&#39;une variable." alt="" coords="408,5,572,119"/>
+<area shape="rect" id="node2" href="$de/d97/classArcane_1_1BasicReader.html" title="Lecteur simple." alt="" coords="5,211,233,661"/>
+<area shape="rect" id="node3" href="$d5/dcc/classArcane_1_1Hdf5MpiReaderWriter.html" title="Lecture/Ecriture au format HDF5 parallele." alt="" coords="258,167,482,705"/>
+<area shape="rect" id="node4" href="$d1/d18/classArcane_1_1Hdf5ReaderWriter.html" title="Lecture/Ecriture au format HDF5." alt="" coords="507,167,713,705"/>
+<area shape="rect" id="node5" href="$db/d25/classArcane_1_1IDataReaderWriter.html" title="Interface de lecture/ecriture des données d&#39;une variable." alt="" coords="737,409,941,463"/>
+<area shape="rect" id="node6" href="$d4/d20/classArcane_1_1MemoryDataReaderWriter.html" title="Lecture/ecriture des données en mémoire." alt="" coords="725,753,954,1013"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Arcane::VariableSynchronizeDispatcher&lt; SimpleType &gt;" name="Arcane::VariableSynchronizeDispatcher&lt; SimpleType &gt;">
+<area shape="rect" id="node1" title="Gestion de la synchronisation pour un type de donnée SimpleType." alt="" coords="507,181,767,485"/>
+<area shape="rect" id="node4" href="$dc/d53/classArcane_1_1MpiBlockVariableSynchronizeDispatcher.html" title="Implémentation par block pour MPI de la synchronisation." alt="" coords="5,577,239,779"/>
+<area shape="rect" id="node5" href="$de/dd7/classArcane_1_1MpiDirectSendrecvVariableSynchronizeDispatcher.html" title="Implémentation optimisée pour MPI de la synchronisation." alt="" coords="263,607,487,749"/>
+<area shape="rect" id="node6" href="$d4/d3b/classArcane_1_1MpiLegacyVariableSynchronizeDispatcher.html" title="Implémentation optimisée pour MPI de la synchronisation." alt="" coords="511,533,762,823"/>
+<area shape="rect" id="node7" href="$d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html" title="Implémentation optimisée pour MPI de la synchronisation." alt="" coords="786,592,1063,764"/>
+<area shape="rect" id="node8" href="$db/d69/classArcane_1_1SimpleVariableSynchronizeDispatcher.html" title="Implémentation basique de la sérialisation." alt="" coords="1088,607,1348,749"/>
+<area shape="rect" id="node2" href="$d0/dc9/classArcane_1_1IDataTypeDataDispatcherT.html" title=" " alt="" coords="371,5,620,133"/>
+<area shape="rect" id="node3" href="$d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html" title="Interface pour gérer l&#39;envoi de la synchronisation." alt="" coords="643,20,915,119"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Arccore::ThreadPrivateBase" name="Arccore::ThreadPrivateBase">
+<area shape="rect" id="node1" title="Classe de base permettant de conserveur une instance d&#39;un objet par thread." alt="" coords="230,621,441,705"/>
+<area shape="rect" id="node2" href="$db/dcd/classArccore_1_1ThreadPrivateStorage.html" title="Conteneur pour les valeurs privées par thread." alt="" coords="5,445,233,559"/>
+<area shape="rect" id="node3" href="$d4/dfc/classArccore_1_1GlibPrivate.html" title="Encapsule un GPrivate de la glib." alt="" coords="40,247,199,361"/>
+<area shape="rect" id="node4" href="$de/d17/classArccore_1_1GlibPrivate_1_1Impl.html" title="GPrivate de la glib." alt="" coords="38,5,201,163"/>
+<area shape="rect" id="node5" href="$d8/d9e/classArccore_1_1GlibMutex.html" title="Encapsule un GMutex de la glib." alt="" coords="258,453,413,551"/>
+<area shape="rect" id="node6" href="$da/dc0/classArccore_1_1GlibMutex_1_1Impl.html" title="GMutex de la glib." alt="" coords="256,225,415,383"/>
+<area shape="rect" id="node7" href="$dd/def/classArccore_1_1ThreadPrivateBase_1_1ICreateFunctor.html" title=" " alt="" coords="437,460,647,544"/>
+</map>

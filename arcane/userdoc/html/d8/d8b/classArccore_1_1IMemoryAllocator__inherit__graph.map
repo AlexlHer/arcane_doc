@@ -1,0 +1,6 @@
+<map id="Arccore::IMemoryAllocator" name="Arccore::IMemoryAllocator">
+<area shape="rect" id="node1" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="163,5,365,148"/>
+<area shape="rect" id="node2" href="$d0/d7e/classArccore_1_1AlignedMemoryAllocator.html" title="Allocateur mémoire avec alignement mémoire spécifique." alt="" coords="5,196,253,397"/>
+<area shape="rect" id="node3" href="$db/d07/classArccore_1_1DefaultMemoryAllocator.html" title="Allocateur mémoire via malloc/realloc/free." alt="" coords="277,233,523,361"/>
+<area shape="rect" id="node4" href="$dc/d96/classArccore_1_1PrintableMemoryAllocator.html" title="Allocateur mémoire via malloc/realloc/free avec impression listing." alt="" coords="301,445,499,544"/>
+</map>

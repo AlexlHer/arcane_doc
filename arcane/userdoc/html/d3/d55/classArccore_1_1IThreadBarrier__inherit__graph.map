@@ -1,0 +1,5 @@
+<map id="Arccore::IThreadBarrier" name="Arccore::IThreadBarrier">
+<area shape="rect" id="node1" title="Interface d&#39;une barrière entre threads." alt="" coords="130,5,310,104"/>
+<area shape="rect" id="node2" href="$dc/d32/classArccore_1_1GlibThreadBarrier.html" title=" " alt="" coords="5,152,208,251"/>
+<area shape="rect" id="node3" href="$db/d1d/classArccore_1_1NullThreadBarrier.html" title="Implémentation d&#39;une barrière en mono&#45;thread." alt="" coords="232,181,435,221"/>
+</map>

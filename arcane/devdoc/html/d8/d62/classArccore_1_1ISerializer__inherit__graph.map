@@ -1,0 +1,5 @@
+<map id="Arccore::ISerializer" name="Arccore::ISerializer">
+<area shape="rect" id="node1" title="Interface d&#39;un sérialiseur." alt="" coords="25,5,177,207"/>
+<area shape="rect" id="node2" href="$de/d4b/classArccore_1_1BasicSerializer.html" title="Implémentation basique de &#39;ISerializer&#39;." alt="" coords="5,255,196,779"/>
+<area shape="rect" id="node3" href="$d8/da2/classArcane_1_1SerializeBuffer.html" title="Implémentation d&#39;un tampon pour la sérialisation." alt="" coords="11,827,190,881"/>
+</map>

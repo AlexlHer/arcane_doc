@@ -1,0 +1,8 @@
+<map id="Arcane::IItemFamilyModifier" name="Arcane::IItemFamilyModifier">
+<area shape="rect" id="node1" title="Interface de modification d&#39;une famille." alt="" coords="521,5,734,104"/>
+<area shape="rect" id="node2" href="$d1/df2/classArcane_1_1DoFFamily.html" title=" " alt="" coords="5,181,220,588"/>
+<area shape="rect" id="node3" href="$dc/d95/classArcane_1_1mesh_1_1CellFamily.html" title="Famille de mailles." alt="" coords="245,174,495,595"/>
+<area shape="rect" id="node4" href="$dd/d80/classArcane_1_1mesh_1_1EdgeFamily.html" title="Famille d&#39;arêtes." alt="" coords="520,196,735,573"/>
+<area shape="rect" id="node5" href="$d8/d1f/classArcane_1_1mesh_1_1FaceFamily.html" title="Famille de faces." alt="" coords="759,152,973,617"/>
+<area shape="rect" id="node6" href="$d2/d3e/classArcane_1_1mesh_1_1NodeFamily.html" title="Famille de noeuds." alt="" coords="997,196,1212,573"/>
+</map>

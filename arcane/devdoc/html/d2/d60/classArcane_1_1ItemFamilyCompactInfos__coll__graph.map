@@ -1,0 +1,11 @@
+<map id="Arcane::ItemFamilyCompactInfos" name="Arcane::ItemFamilyCompactInfos">
+<area shape="rect" id="node1" title="Informations pour gérer le compactage des entités d&#39;une famille." alt="" coords="293,2957,514,3144"/>
+<area shape="rect" id="node2" href="$d3/d4e/classArcane_1_1IMeshCompacter.html" title="Gestion d&#39;un compactage de familles du maillage." alt="" coords="5,2187,268,2433"/>
+<area shape="rect" id="node3" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="292,1755,515,2865"/>
+<area shape="rect" id="node4" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="539,2202,707,2418"/>
+<area shape="rect" id="node5" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="523,1372,723,1705"/>
+<area shape="rect" id="node6" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="516,755,731,1323"/>
+<area shape="rect" id="node7" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="511,548,736,705"/>
+<area shape="rect" id="node8" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="528,211,719,471"/>
+<area shape="rect" id="node9" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="522,5,725,148"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Arcane::IObserver" name="Arcane::IObserver">
+<area shape="rect" id="node1" title="Interface d&#39;un observateur." alt="" coords="15,5,191,119"/>
+<area shape="rect" id="node2" href="$d3/d24/classArcane_1_1AbstractObserver.html" title="Classe de base d&#39;un observateur." alt="" coords="5,167,201,280"/>
+<area shape="rect" id="node3" href="$d4/de1/classArcane_1_1ObserverT.html" title="Observateur pour un type T." alt="" coords="9,328,197,456"/>
+</map>

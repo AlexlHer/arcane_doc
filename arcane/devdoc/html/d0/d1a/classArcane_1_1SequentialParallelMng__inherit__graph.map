@@ -1,0 +1,6 @@
+<map id="Arcane::SequentialParallelMng" name="Arcane::SequentialParallelMng">
+<area shape="rect" id="node1" title="Gestionnaire du parallélisme en mode séquentiel." alt="" coords="140,6239,368,6631"/>
+<area shape="rect" id="node2" href="$d8/dd7/classArcane_1_1ParallelMngDispatcher.html" title="Redirige la gestion des messages des sous&#45;domaines suivant le type de l&#39;argument." alt="" coords="133,5769,375,6191"/>
+<area shape="rect" id="node3" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,2814,239,2913"/>
+<area shape="rect" id="node4" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="263,5,509,5721"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Arcane::ExternalPartitionConstraint" name="Arcane::ExternalPartitionConstraint">
+<area shape="rect" id="node1" title=" " alt="" coords="285,2341,515,2425"/>
+<area shape="rect" id="node2" href="$d7/dc2/classArcane_1_1IMeshPartitionConstraint.html" title="Interface d&#39;une contrainte de partitionnement d&#39;un maillage." alt="" coords="5,1982,248,2051"/>
+<area shape="rect" id="node3" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="272,1755,528,2279"/>
+<area shape="rect" id="node4" href="$de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="323,1438,477,1639"/>
+<area shape="rect" id="node5" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="553,1909,727,2125"/>
+<area shape="rect" id="node6" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="540,1372,740,1705"/>
+<area shape="rect" id="node7" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="533,755,747,1323"/>
+<area shape="rect" id="node8" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="527,548,753,705"/>
+<area shape="rect" id="node9" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="545,211,735,471"/>
+<area shape="rect" id="node10" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="539,5,741,148"/>
+</map>

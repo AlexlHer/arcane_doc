@@ -1,0 +1,52 @@
+<map id="Arcane::MpiParallelMng" name="Arcane::MpiParallelMng">
+<area shape="rect" id="node1" title="Gestionnaire du parallélisme utilisant MPI." alt="" coords="5637,8585,5884,9036"/>
+<area shape="rect" id="node2" href="$d8/dd7/classArcane_1_1ParallelMngDispatcher.html" title="Redirige la gestion des messages des sous&#45;domaines suivant le type de l&#39;argument." alt="" coords="808,7449,1055,7797"/>
+<area shape="rect" id="node3" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="732,3606,965,3705"/>
+<area shape="rect" id="node4" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="73,797,320,6513"/>
+<area shape="rect" id="node5" href="$d3/d52/classArcane_1_1ITimeStats.html" title="Interface gérant les statistiques sur les temps d&#39;exécution." alt="" coords="542,3555,707,3756"/>
+<area shape="rect" id="node6" href="$d6/d0f/classArccore_1_1MessagePassing_1_1Dispatchers.html" title="Interface du conteneur des dispatchers." alt="" coords="2001,3540,2197,3771"/>
+<area shape="rect" id="node7" href="$d7/d6c/classArccore_1_1MessagePassing_1_1IDispatchers.html" title="Interface du conteneur des dispatchers." alt="" coords="3911,416,4106,632"/>
+<area shape="rect" id="node24" href="$d9/d6e/classArccore_1_1MessagePassing_1_1MessagePassingMng.html" title="Gestionnaire des échanges de messages." alt="" coords="4057,3562,4256,3749"/>
+<area shape="rect" id="node8" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="3461,416,3655,632"/>
+<area shape="rect" id="node9" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="3679,409,3887,639"/>
+<area shape="rect" id="node10" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="730,409,925,639"/>
+<area shape="rect" id="node11" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="949,416,1146,632"/>
+<area shape="rect" id="node12" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="1170,409,1378,639"/>
+<area shape="rect" id="node13" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="1402,416,1597,632"/>
+<area shape="rect" id="node14" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="1621,416,1865,632"/>
+<area shape="rect" id="node15" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="1890,416,2085,632"/>
+<area shape="rect" id="node16" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="2109,409,2317,639"/>
+<area shape="rect" id="node17" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="2341,409,2535,639"/>
+<area shape="rect" id="node18" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="2559,409,2767,639"/>
+<area shape="rect" id="node19" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="2791,416,2986,632"/>
+<area shape="rect" id="node20" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="3010,416,3218,632"/>
+<area shape="rect" id="node21" href="$dc/d82/classArccore_1_1MessagePassing_1_1ITypeDispatcher.html" title=" " alt="" coords="3242,409,3437,639"/>
+<area shape="rect" id="node22" href="$d2/dab/classArccore_1_1MessagePassing_1_1IControlDispatcher.html" title="Manage control streams for parallel messages." alt="" coords="271,423,466,625"/>
+<area shape="rect" id="node23" href="$d8/db0/classArccore_1_1MessagePassing_1_1ISerializeDispatcher.html" title="Interface des messages de sérialisation." alt="" coords="491,460,705,588"/>
+<area shape="rect" id="node47" href="$d9/d94/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiSerializeDispatcher.html" title=" " alt="" coords="4984,7390,5204,7855"/>
+<area shape="rect" id="node25" href="$d2/d2f/classArccore_1_1MessagePassing_1_1IMessagePassingMng.html" title="Interface du gestionnaire des échanges de messages." alt="" coords="4130,460,4335,588"/>
+<area shape="rect" id="node26" href="$d2/d83/classArccore_1_1ITimeMetricCollector.html" title="Interface gérant les statistiques sur l&#39;exécution." alt="" coords="4360,475,4583,573"/>
+<area shape="rect" id="node37" href="$d5/d11/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiAdapter.html" title="Adapteur pour MPI." alt="" coords="4763,3393,4964,3917"/>
+<area shape="rect" id="node27" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="5224,3540,5471,3771"/>
+<area shape="rect" id="node28" href="$d3/db0/classArcane_1_1IThreadMng.html" title="Interface d&#39;un gestionnaire de thread." alt="" coords="5485,7581,5663,7665"/>
+<area shape="rect" id="node29" href="$da/dd2/classArcane_1_1IIOMng.html" title="Interface du gestionnaire des entrées sorties." alt="" coords="5687,7522,5835,7723"/>
+<area shape="rect" id="node30" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="6087,7449,6256,7797"/>
+<area shape="rect" id="node31" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="6015,3635,6157,3675"/>
+<area shape="rect" id="node49" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="5859,7449,6062,7797"/>
+<area shape="rect" id="node32" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="6181,3621,6359,3690"/>
+<area shape="rect" id="node33" href="$df/de1/classArcane_1_1ITimerMng.html" title="Interface d&#39;un gestionnaire de timer." alt="" coords="6280,7566,6433,7679"/>
+<area shape="rect" id="node34" href="$de/dcc/classArcane_1_1IParallelReplication.html" title="Informations sur la réplication des sous&#45;domaines en parallèle." alt="" coords="6458,7551,6666,7694"/>
+<area shape="rect" id="node35" href="$d9/d44/classArcane_1_1MpiDatatypeList.html" title="Gère les MPI_Datatype associées aux types Arcane." alt="" coords="6691,7434,6881,7811"/>
+<area shape="rect" id="node36" href="$d7/daa/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiDatatype.html" title="Encapsulation d&#39;un MPI_Datatype." alt="" coords="6689,3577,6883,3734"/>
+<area shape="rect" id="node38" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="4750,5,4945,251"/>
+<area shape="rect" id="node44" href="$df/de9/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiAdapter_1_1RequestSet.html" title=" " alt="" coords="4607,313,4826,735"/>
+<area shape="rect" id="node39" href="$d4/dfb/classArccore_1_1MessagePassing_1_1IRequestCreator.html" title="Interface d&#39;un créateur de requête." alt="" coords="4901,489,5095,559"/>
+<area shape="rect" id="node40" href="$d4/d36/classArccore_1_1MessagePassing_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="5119,460,5314,588"/>
+<area shape="rect" id="node41" href="$d6/dd7/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiLock.html" title="Verrou pour les appels MPI." alt="" coords="5557,489,5751,559"/>
+<area shape="rect" id="node42" href="$da/d90/classArccore_1_1Mutex.html" title="Mutex." alt="" coords="5590,79,5718,177"/>
+<area shape="rect" id="node43" href="$d0/db7/classArccore_1_1MessagePassing_1_1Mpi_1_1IMpiProfiling.html" title="Interface d&#39;abstraction pour les operations MPI. Sert principalement a utiliser un decorateur pour le..." alt="" coords="5338,416,5533,632"/>
+<area shape="rect" id="node45" href="$d0/dae/classArcane_1_1Parallel_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="6905,7559,7075,7687"/>
+<area shape="rect" id="node46" href="$d7/d03/classArcane_1_1IParallelNonBlockingCollective.html" title="Interface des opérations parallèles collectives non bloquantes." alt="" coords="7099,6723,7364,8523"/>
+<area shape="rect" id="node48" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4988,3533,5200,3778"/>
+<area shape="rect" id="node50" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="5741,3621,5991,3690"/>
+</map>

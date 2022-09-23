@@ -1,0 +1,6 @@
+<map id="Arcane::IParallelMngContainerFactory" name="Arcane::IParallelMngContainerFactory">
+<area shape="rect" id="node1" title="Interface d&#39;une fabrique de conteneur de &#39;IParallelMng&#39;." alt="" coords="263,5,519,89"/>
+<area shape="rect" id="node2" href="$d2/d5c/classArcane_1_1MessagePassing_1_1HybridParallelMngContainerFactory.html" title=" " alt="" coords="5,137,228,295"/>
+<area shape="rect" id="node3" href="$d0/d14/classArcane_1_1MessagePassing_1_1SharedMemoryParallelMngContainerFactory.html" title=" " alt="" coords="252,152,531,280"/>
+<area shape="rect" id="node4" href="$de/d07/classArcane_1_1SequentialParallelMngContainerFactory.html" title=" " alt="" coords="555,159,804,273"/>
+</map>

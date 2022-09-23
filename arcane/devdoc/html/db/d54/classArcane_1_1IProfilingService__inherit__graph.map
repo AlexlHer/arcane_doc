@@ -1,0 +1,6 @@
+<map id="Arcane::IProfilingService" name="Arcane::IProfilingService">
+<area shape="rect" id="node1" title="Interface d&#39;un service de profiling." alt="" coords="299,5,487,192"/>
+<area shape="rect" id="node2" href="$de/d13/classArcane_1_1PapiPerformanceService.html" title="Service de profiling utilisant la bibliothèque PAPI." alt="" coords="5,240,247,573"/>
+<area shape="rect" id="node3" href="$dd/d72/classArcane_1_1PerfmonPerformanceService.html" title="Session." alt="" coords="271,343,515,471"/>
+<area shape="rect" id="node4" href="$d5/d12/classArcane_1_1ProfPerformanceService.html" title="Service de profiling utilisant &#39;setitimer&#39;." alt="" coords="539,299,779,515"/>
+</map>

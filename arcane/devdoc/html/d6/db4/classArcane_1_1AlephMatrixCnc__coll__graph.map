@@ -1,0 +1,45 @@
+<map id="Arcane::AlephMatrixCnc" name="Arcane::AlephMatrixCnc">
+<area shape="rect" id="node1" title=" " alt="" coords="2649,8597,2873,8813"/>
+<area shape="rect" id="node2" href="$d1/d64/classArcane_1_1IAlephMatrix.html" title=" " alt="" coords="176,8275,367,8432"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="598,1443,793,1688"/>
+<area shape="rect" id="node8" href="$df/d0f/classArcane_1_1AlephKernel.html" title=" " alt="" coords="1207,7761,1406,8095"/>
+<area shape="rect" id="node12" href="$d4/d56/classArcane_1_1IAlephFactory.html" title=" " alt="" coords="758,4583,929,4696"/>
+<area shape="rect" id="node13" href="$d3/db1/classArcane_1_1AlephTopology.html" title="Informations sur l&#39;environement parallèle." alt="" coords="483,8223,706,8483"/>
+<area shape="rect" id="node20" href="$d8/d84/classArcane_1_1AlephOrdering.html" title="Gestionaire de reordering." alt="" coords="2076,8253,2270,8454"/>
+<area shape="rect" id="node23" href="$dd/de1/classArcane_1_1AlephIndexing.html" title="Gestionaire d&#39;indexing." alt="" coords="1050,8253,1286,8454"/>
+<area shape="rect" id="node4" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="609,878,782,1226"/>
+<area shape="rect" id="node5" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="533,607,674,647"/>
+<area shape="rect" id="node6" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="698,592,877,661"/>
+<area shape="rect" id="node7" title=" " alt="" coords="556,4619,632,4659"/>
+<area shape="rect" id="node9" href="$d9/d1e/classArcane_1_1ISubDomain.html" title="Interface du gestionnaire d&#39;un sous&#45;domaine." alt="" coords="953,4524,1140,4755"/>
+<area shape="rect" id="node10" href="$d3/d96/classArcane_1_1IBase.html" title="Interface de la classe de base des objets principaux arcane." alt="" coords="953,1472,1140,1659"/>
+<area shape="rect" id="node11" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="1164,1781,1411,7497"/>
+<area shape="rect" id="node14" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="208,7521,376,7737"/>
+<area shape="rect" id="node15" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="244,1399,444,1732"/>
+<area shape="rect" id="node16" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="2014,768,2228,1336"/>
+<area shape="rect" id="node22" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2805,1399,3005,1732"/>
+<area shape="rect" id="node25" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2581,1399,2781,1732"/>
+<area shape="rect" id="node27" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2133,1399,2333,1732"/>
+<area shape="rect" id="node29" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2357,1399,2557,1732"/>
+<area shape="rect" id="node31" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1452,1399,1652,1732"/>
+<area shape="rect" id="node33" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1685,1399,1885,1732"/>
+<area shape="rect" id="node35" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1909,1399,2109,1732"/>
+<area shape="rect" id="node17" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="2008,548,2234,705"/>
+<area shape="rect" id="node18" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="2026,211,2216,471"/>
+<area shape="rect" id="node19" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="2020,5,2222,148"/>
+<area shape="rect" id="node21" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2740,7521,2908,7737"/>
+<area shape="rect" id="node24" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2565,7521,2733,7737"/>
+<area shape="rect" id="node26" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2263,4524,2438,4755"/>
+<area shape="rect" id="node28" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2462,4524,2638,4755"/>
+<area shape="rect" id="node30" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1436,4531,1630,4747"/>
+<area shape="rect" id="node32" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1655,4531,1920,4747"/>
+<area shape="rect" id="node34" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1945,4531,2188,4747"/>
+<area shape="rect" id="node36" href="$db/d3d/classArcane_1_1CNC__Matrix.html" title=" " alt="" coords="2559,8172,2728,8535"/>
+<area shape="rect" id="node37" href="$df/dc5/classArcane_1_1CNCSparseRowColumn.html" title=" " alt="" coords="2610,7820,2843,8036"/>
+<area shape="rect" id="node38" href="$df/d42/classArcane_1_1CNCCoeff.html" title=" " alt="" coords="2866,4605,3011,4674"/>
+<area shape="rect" id="node39" href="$de/da8/classArcane_1_1Cuda.html" title=" " alt="" coords="2753,8201,2940,8505"/>
+<area shape="rect" id="node40" href="$dd/d76/classArcane_1_1CNC__MatrixCRS.html" title=" " alt="" coords="2964,8231,3150,8476"/>
+<area shape="rect" id="node41" href="$d6/dfd/classArcane_1_1CNC__MatrixPatternCRS.html" title=" " alt="" coords="3136,7842,3368,8014"/>
+<area shape="rect" id="node42" href="$d8/db4/classArcane_1_1CNC__Vector.html" title=" " alt="" coords="3169,4480,3334,4799"/>
+<area shape="rect" id="node43" href="$d8/db4/classArcane_1_1CNC__Vector.html" title=" " alt="" coords="2946,7769,3112,8087"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Arcane::IParallelDispatchT&lt; Type &gt;" name="Arcane::IParallelDispatchT&lt; Type &gt;">
+<area shape="rect" id="node1" title="Gestion des messages parallèles pour le type Type." alt="" coords="402,5,594,221"/>
+<area shape="rect" id="node2" href="$da/dd0/classArcane_1_1MessagePassing_1_1HybridParallelDispatch.html" title="Interface des messages pour le type Type." alt="" coords="5,269,212,764"/>
+<area shape="rect" id="node3" href="$d3/db4/classArcane_1_1MessagePassing_1_1SharedMemoryParallelDispatch.html" title="Interface des messages pour le type Type." alt="" coords="236,313,499,720"/>
+<area shape="rect" id="node4" href="$d3/d20/classArcane_1_1MpiParallelDispatchT.html" title="Interface des messages pour le type Type." alt="" coords="523,350,735,683"/>
+<area shape="rect" id="node5" href="$d7/d50/classArcane_1_1SequentialParallelDispatchT.html" title="Interface des messages pour le type Type." alt="" coords="758,409,995,625"/>
+</map>

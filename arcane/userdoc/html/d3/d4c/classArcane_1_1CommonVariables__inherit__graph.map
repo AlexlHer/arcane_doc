@@ -1,0 +1,11 @@
+<map id="Arcane::CommonVariables" name="Arcane::CommonVariables">
+<area shape="rect" id="node1" title="Variables communes d&#39;un cas." alt="" coords="515,5,734,368"/>
+<area shape="rect" id="node2" href="$d5/d47/classArcane_1_1BasicModule.html" title="Module basique." alt="" coords="351,658,517,727"/>
+<area shape="rect" id="node3" href="$d1/d5e/classArcane_1_1BasicService.html" title="Classe de base de service lié à un sous&#45;domaine." alt="" coords="541,651,708,735"/>
+<area shape="rect" id="node9" href="$db/d63/classArcane_1_1ModuleMaster.html" title=" " alt="" coords="732,416,971,969"/>
+<area shape="rect" id="node4" href="$d3/dcc/classArcane_1_1BasicRayMeshIntersection.html" title="Service basique de calcul d&#39;intersection entre segments et maillage." alt="" coords="5,1047,260,1219"/>
+<area shape="rect" id="node5" href="$d3/d2b/classArcane_1_1BasicTimeLoopService.html" title="Classe de base d&#39;un service opérant lors de la boucle en temps." alt="" coords="284,1047,515,1219"/>
+<area shape="rect" id="node6" href="$de/d51/classArcane_1_1BasicUnitTest.html" title="Service basique de test unitaire." alt="" coords="539,1076,710,1189"/>
+<area shape="rect" id="node7" href="$d1/df4/classArcane_1_1CheckpointService.html" title=" " alt="" coords="735,1017,944,1248"/>
+<area shape="rect" id="node8" href="$db/d67/classArcane_1_1PostProcessorWriterBase.html" title="Classe de base d&#39;un écrivain pour les informations de post&#45;traitement." alt="" coords="968,1017,1215,1248"/>
+</map>

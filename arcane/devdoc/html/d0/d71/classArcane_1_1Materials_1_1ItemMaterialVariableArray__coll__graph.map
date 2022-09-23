@@ -1,0 +1,52 @@
+<map id="Arcane::Materials::ItemMaterialVariableArray&lt; DataType &gt;" name="Arcane::Materials::ItemMaterialVariableArray&lt; DataType &gt;">
+<area shape="rect" id="node1" title="Variable tableau sur un matériau du maillage." alt="" coords="3525,5407,3755,5681"/>
+<area shape="rect" id="node2" href="$dd/dc8/classArcane_1_1Materials_1_1ItemMaterialVariableBase.html" title=" " alt="" coords="3524,5009,3756,5357"/>
+<area shape="rect" id="node3" href="$de/d4a/classArcane_1_1Materials_1_1MeshMaterialVariable.html" title="Classe de base des variables matériaux." alt="" coords="3540,3781,3740,4408"/>
+<area shape="rect" id="node4" href="$dc/dcf/classArcane_1_1Materials_1_1IMeshMaterialVariable.html" title="Interface d&#39;une variable matériau d&#39;un maillage." alt="" coords="4097,922,4329,1490"/>
+<area shape="rect" id="node6" href="$d9/dee/classArcane_1_1Materials_1_1MeshMaterialVariableRef.html" title="Classe de base des références aux variables matériaux." alt="" coords="3505,2264,3727,2553"/>
+<area shape="rect" id="node5" href="$da/dee/classArcane_1_1MeshMaterialVariablePrivate.html" title="Partie privée d&#39;une variable matériau." alt="" coords="3295,3279,3542,3481"/>
+<area shape="rect" id="node7" href="$d5/d96/classArcane_1_1IVariable.html" title="Interface d&#39;une variable." alt="" coords="2427,636,2648,1776"/>
+<area shape="rect" id="node24" href="$d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)" alt="" coords="707,3862,933,4327"/>
+<area shape="rect" id="node42" href="$d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="1967,2183,2169,2634"/>
+<area shape="rect" id="node8" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="2179,937,2402,1475"/>
+<area shape="rect" id="node9" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="2213,64,2368,515"/>
+<area shape="rect" id="node10" href="$d5/df0/classArcane_1_1Materials_1_1IMeshMaterialMng.html" title="Interface du gestionnaire des matériaux et des milieux d&#39;un maillage." alt="" coords="2791,2271,3022,2546"/>
+<area shape="rect" id="node11" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4375,2301,4566,2517"/>
+<area shape="rect" id="node12" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="4353,1039,4553,1373"/>
+<area shape="rect" id="node13" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="3754,5,3969,573"/>
+<area shape="rect" id="node16" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3873,1039,4073,1373"/>
+<area shape="rect" id="node18" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2869,1039,3069,1373"/>
+<area shape="rect" id="node20" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3649,1039,3849,1373"/>
+<area shape="rect" id="node31" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1196,1039,1396,1373"/>
+<area shape="rect" id="node33" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="316,1039,516,1373"/>
+<area shape="rect" id="node48" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="4577,1039,4777,1373"/>
+<area shape="rect" id="node50" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="4801,1039,5001,1373"/>
+<area shape="rect" id="node14" href="$d3/d02/classArcane_1_1IObserver.html" title="Interface d&#39;un observateur." alt="" coords="3047,2352,3223,2465"/>
+<area shape="rect" id="node15" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4119,2293,4351,2524"/>
+<area shape="rect" id="node17" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2534,2301,2767,2517"/>
+<area shape="rect" id="node34" href="$dd/d92/classArcane_1_1VariablePrivate.html" title=" " alt="" coords="1133,3243,1336,3517"/>
+<area shape="rect" id="node19" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3927,2301,4095,2517"/>
+<area shape="rect" id="node21" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="3247,2330,3481,2487"/>
+<area shape="rect" id="node22" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="3291,1091,3437,1321"/>
+<area shape="rect" id="node23" href="$d8/d38/classArcane_1_1Array2VariableT.html" title="Variable sur un tableau 2D." alt="" coords="707,4672,933,4947"/>
+<area shape="rect" id="node25" href="$d8/d11/classArcane_1_1IFamilyObserver.html" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="1360,3338,1563,3422"/>
+<area shape="rect" id="node26" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="425,3257,620,3503"/>
+<area shape="rect" id="node27" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="125,2235,299,2583"/>
+<area shape="rect" id="node28" href="$d2/db4/classArcane_1_1Family.html" title="Famille AnyItem (pattern flyweight) Aggrégation de groupes pour décrire des variables / variables par..." alt="" coords="645,3279,771,3481"/>
+<area shape="rect" id="node29" href="$d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="323,2264,522,2553"/>
+<area shape="rect" id="node30" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="493,2988,661,3219"/>
+<area shape="rect" id="node32" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="5,2995,179,3211"/>
+<area shape="rect" id="node35" title=" " alt="" coords="597,2389,659,2429"/>
+<area shape="rect" id="node36" href="$d9/d1e/classArcane_1_1ISubDomain.html" title="Interface du gestionnaire d&#39;un sous&#45;domaine." alt="" coords="684,2293,871,2524"/>
+<area shape="rect" id="node37" href="$db/d04/classArcane_1_1IDataFactoryMng.html" title="Interface du gestionnaire de fabrique d&#39;une donnée." alt="" coords="895,2315,1121,2502"/>
+<area shape="rect" id="node38" href="$d7/d6f/classArcane_1_1MeshHandle.html" title="Handle sur un maillage." alt="" coords="1145,2286,1325,2531"/>
+<area shape="rect" id="node39" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="1349,2235,1518,2583"/>
+<area shape="rect" id="node40" href="$d9/d27/classArcane_1_1ItemGroup.html" title="Groupe d&#39;entités de maillage." alt="" coords="1543,2301,1695,2517"/>
+<area shape="rect" id="node41" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="1719,1853,1942,2964"/>
+<area shape="rect" id="node43" href="$d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="1981,1076,2155,1336"/>
+<area shape="rect" id="node44" href="$da/db9/classArcane_1_1VariableRef_1_1UpdateNotifyFunctorList.html" title="Classe interne pour gérer les fonctor appelés lors de la mise à jour de la variable." alt="" coords="1748,1105,1956,1307"/>
+<area shape="rect" id="node45" href="$dc/d51/classArcane_1_1IArray2DataT.html" title="Interface d&#39;une donnée tableau bi&#45;dimensionnel d&#39;un type T." alt="" coords="303,4001,476,4188"/>
+<area shape="rect" id="node46" href="$dd/dad/classArcane_1_1IArray2Data.html" title="Interface d&#39;une donnée tableau 2D." alt="" coords="102,3360,263,3400"/>
+<area shape="rect" id="node47" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4624,3541,4792,3757"/>
+<area shape="rect" id="node49" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4733,4432,4910,4648"/>
+</map>

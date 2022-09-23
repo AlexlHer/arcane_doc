@@ -1,0 +1,2133 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence du modèle de la classe Arcane::ListImplBase&lt; T &gt;</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d4/de3/classArcane_1_1ListImplBase.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pro-methods">Fonctions membres protégées</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../df/d88/classArcane_1_1ListImplBase-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence du modèle de la classe Arcane::ListImplBase&lt; T &gt;</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Tableau avec allocateur virtuel.  
+ <a href="../../d4/de3/classArcane_1_1ListImplBase.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d5/d94/ListImpl_8h_source.html">arcane/utils/ListImpl.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::ListImplBase&lt; T &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/d00/classArcane_1_1ListImplBase__inherit__graph.png" border="0" usemap="#aArcane_1_1ListImplBase_3_01T_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1ListImplBase_3_01T_01_4_inherit__map" id="aArcane_1_1ListImplBase_3_01T_01_4_inherit__map">
+<area shape="rect" title="Tableau avec allocateur virtuel." alt="" coords="14,841,219,1307"/>
+<area shape="rect" href="../../d8/da0/classArcane_1_1ListImplT.html" title=" " alt="" coords="26,1355,207,1541"/>
+<area shape="rect" href="../../d0/d2c/classArcane_1_1CollectionImplT.html" title="classe de base d&#39;implémentation d&#39;une collection typée." alt="" coords="5,533,228,793"/>
+<area shape="rect" href="../../d3/daf/classArcane_1_1CollectionImplBase.html" title="classe de base d&#39;implémentation d&#39;une collection." alt="" coords="12,225,221,485"/>
+<area shape="rect" href="../../d5/deb/classArcane_1_1ObjectImpl.html" title="Classe de base d&#39;un objet avec compteur de référence." alt="" coords="39,5,194,177"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::ListImplBase&lt; T &gt;:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d2/dfa/classArcane_1_1ListImplBase__coll__graph.png" border="0" usemap="#aArcane_1_1ListImplBase_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1ListImplBase_3_01T_01_4_coll__map" id="aArcane_1_1ListImplBase_3_01T_01_4_coll__map">
+<area shape="rect" title="Tableau avec allocateur virtuel." alt="" coords="87,1107,293,1557"/>
+<area shape="rect" href="../../d0/d2c/classArcane_1_1CollectionImplT.html" title="classe de base d&#39;implémentation d&#39;une collection typée." alt="" coords="5,797,228,1057"/>
+<area shape="rect" href="../../d3/daf/classArcane_1_1CollectionImplBase.html" title="classe de base d&#39;implémentation d&#39;une collection." alt="" coords="16,489,225,735"/>
+<area shape="rect" href="../../d5/deb/classArcane_1_1ObjectImpl.html" title="Classe de base d&#39;un objet avec compteur de référence." alt="" coords="43,269,198,427"/>
+<area shape="rect" href="../../de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="39,5,202,207"/>
+<area shape="rect" title=" " alt="" coords="225,328,301,368"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a805f52230605423e5a0e0755030aafd3"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">CollectionImplT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a805f52230605423e5a0e0755030aafd3">BaseClass</a></td></tr>
+<tr class="separator:a805f52230605423e5a0e0755030aafd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0481612e9b8c87e5caf5c8c321a5943"><td class="memItemLeft" align="right" valign="top">typedef const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ab0481612e9b8c87e5caf5c8c321a5943">ObjectRef</a></td></tr>
+<tr class="separator:ab0481612e9b8c87e5caf5c8c321a5943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e7e29e3da9f7d00d34960bb80de13e"><td class="memItemLeft" align="right" valign="top">typedef T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a></td></tr>
+<tr class="memdesc:a40e7e29e3da9f7d00d34960bb80de13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type des éléments du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a40e7e29e3da9f7d00d34960bb80de13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2d4aa4aac38c7833bfb311eda338ce"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a></td></tr>
+<tr class="memdesc:a2e2d4aa4aac38c7833bfb311eda338ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type de l'itérateur sur un élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2e2d4aa4aac38c7833bfb311eda338ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20fc73000f6e20cb5342671483e5592a"><td class="memItemLeft" align="right" valign="top">typedef const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a></td></tr>
+<tr class="memdesc:a20fc73000f6e20cb5342671483e5592a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type de l'itérateur constant sur un élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a20fc73000f6e20cb5342671483e5592a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc1ed6136698d2d9beec11d3639d29b4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#acc1ed6136698d2d9beec11d3639d29b4">pointer</a></td></tr>
+<tr class="memdesc:acc1ed6136698d2d9beec11d3639d29b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type pointeur d'un élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#acc1ed6136698d2d9beec11d3639d29b4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acc1ed6136698d2d9beec11d3639d29b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f344ee635103a0340abecfa59e3deff"><td class="memItemLeft" align="right" valign="top">typedef const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a5f344ee635103a0340abecfa59e3deff">const_pointer</a></td></tr>
+<tr class="memdesc:a5f344ee635103a0340abecfa59e3deff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type pointeur constant d'un élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a5f344ee635103a0340abecfa59e3deff">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5f344ee635103a0340abecfa59e3deff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e91bb36f1566edcb3da0b76b434a196"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a1e91bb36f1566edcb3da0b76b434a196">reference</a></td></tr>
+<tr class="memdesc:a1e91bb36f1566edcb3da0b76b434a196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type référence d'un élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a1e91bb36f1566edcb3da0b76b434a196">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1e91bb36f1566edcb3da0b76b434a196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d9f582da61801a2ebe876bec5edeaf"><td class="memItemLeft" align="right" valign="top">typedef const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ac8d9f582da61801a2ebe876bec5edeaf">const_reference</a></td></tr>
+<tr class="memdesc:ac8d9f582da61801a2ebe876bec5edeaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type référence constante d'un élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ac8d9f582da61801a2ebe876bec5edeaf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac8d9f582da61801a2ebe876bec5edeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8fae65abb7edaedd20bd2bca5b1cc84"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d1/d4f/classArccore_1_1IterT.html">IterT</a>&lt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ae8fae65abb7edaedd20bd2bca5b1cc84">iter</a></td></tr>
+<tr class="memdesc:ae8fae65abb7edaedd20bd2bca5b1cc84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type d'un itérateur sur tout le tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ae8fae65abb7edaedd20bd2bca5b1cc84">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae8fae65abb7edaedd20bd2bca5b1cc84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbfaa6712378eca3940c57ea592abb1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d4a/classArccore_1_1ConstIterT.html">ConstIterT</a>&lt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a0dbfaa6712378eca3940c57ea592abb1">const_iter</a></td></tr>
+<tr class="memdesc:a0dbfaa6712378eca3940c57ea592abb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type d'un itérateur constant sur tout le tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a0dbfaa6712378eca3940c57ea592abb1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0dbfaa6712378eca3940c57ea592abb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classArcane_1_1CollectionImplT"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classArcane_1_1CollectionImplT')"><img src="../../closed.png" alt="-"/>&#160;Types publics hérités de <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a></td></tr>
+<tr class="memitem:a5d82547c939eab26539d0e4d44644679 inherit pub_types_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">typedef const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a5d82547c939eab26539d0e4d44644679">ObjectRef</a></td></tr>
+<tr class="separator:a5d82547c939eab26539d0e4d44644679 inherit pub_types_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f3ad6537df4d59aeb453c3497fd9a98 inherit pub_types_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">typedef T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a4f3ad6537df4d59aeb453c3497fd9a98">ObjectIterator</a></td></tr>
+<tr class="separator:a4f3ad6537df4d59aeb453c3497fd9a98 inherit pub_types_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778a7da9e4416723bc0b502f5367b6df inherit pub_types_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">typedef const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a778a7da9e4416723bc0b502f5367b6df">ConstObjectIterator</a></td></tr>
+<tr class="separator:a778a7da9e4416723bc0b502f5367b6df inherit pub_types_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classArcane_1_1CollectionImplBase"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classArcane_1_1CollectionImplBase')"><img src="../../closed.png" alt="-"/>&#160;Types publics hérités de <a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html">Arcane::CollectionImplBase</a></td></tr>
+<tr class="memitem:a73171df249c55e03e18480d7277d9215 inherit pub_types_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">typedef Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a73171df249c55e03e18480d7277d9215">size_type</a></td></tr>
+<tr class="memdesc:a73171df249c55e03e18480d7277d9215 inherit pub_types_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type indexant le tableau.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a73171df249c55e03e18480d7277d9215">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a73171df249c55e03e18480d7277d9215 inherit pub_types_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f4cef4c3e644bfc2f95a65490cd2fc inherit pub_types_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">typedef ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a19f4cef4c3e644bfc2f95a65490cd2fc">difference_type</a></td></tr>
+<tr class="memdesc:a19f4cef4c3e644bfc2f95a65490cd2fc inherit pub_types_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type d'une distance entre itérateur éléments du tableau.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a19f4cef4c3e644bfc2f95a65490cd2fc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a19f4cef4c3e644bfc2f95a65490cd2fc inherit pub_types_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a852958ea1f97b2c3a62f979b6ecd514c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a852958ea1f97b2c3a62f979b6ecd514c">ListImplBase</a> ()</td></tr>
+<tr class="memdesc:a852958ea1f97b2c3a62f979b6ecd514c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit un tableau vide.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a852958ea1f97b2c3a62f979b6ecd514c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a852958ea1f97b2c3a62f979b6ecd514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc5a4f376e6ba826f2c5e02be307f82"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a3fc5a4f376e6ba826f2c5e02be307f82">~ListImplBase</a> () ARCANE_NOEXCEPT</td></tr>
+<tr class="memdesc:a3fc5a4f376e6ba826f2c5e02be307f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Libère les éléments du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a3fc5a4f376e6ba826f2c5e02be307f82">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3fc5a4f376e6ba826f2c5e02be307f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90964fb860f77cd080a3154011ff6b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a90964fb860f77cd080a3154011ff6b36">assign</a> (const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &amp;s)</td></tr>
+<tr class="memdesc:a90964fb860f77cd080a3154011ff6b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recopie le tableau <em>s</em>.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a90964fb860f77cd080a3154011ff6b36">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a90964fb860f77cd080a3154011ff6b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec840df71dbff27f332761d7e68bd5f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#aec840df71dbff27f332761d7e68bd5f0">assign</a> (const <a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; T &gt; &amp;s)</td></tr>
+<tr class="memdesc:aec840df71dbff27f332761d7e68bd5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recopie le tableau <em>s</em>.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#aec840df71dbff27f332761d7e68bd5f0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aec840df71dbff27f332761d7e68bd5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e3742b7856f53896d73e19cdb8e5b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ac4e3742b7856f53896d73e19cdb8e5b6">assign</a> (const <a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; T &gt; &amp;s)</td></tr>
+<tr class="memdesc:ac4e3742b7856f53896d73e19cdb8e5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recopie le tableau <em>s</em>.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ac4e3742b7856f53896d73e19cdb8e5b6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac4e3742b7856f53896d73e19cdb8e5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97d7a0c69a4aec1121f496379a86fc8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ac97d7a0c69a4aec1121f496379a86fc8">setList</a> (const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &amp;v)</td></tr>
+<tr class="separator:ac97d7a0c69a4aec1121f496379a86fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fbefe598cfe75059b3f3ccfafb52398"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a5fbefe598cfe75059b3f3ccfafb52398">operator[]</a> (Integer i)</td></tr>
+<tr class="memdesc:a5fbefe598cfe75059b3f3ccfafb52398"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a5fbefe598cfe75059b3f3ccfafb52398">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5fbefe598cfe75059b3f3ccfafb52398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da0fdcd890226307010467372a3538a"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a6da0fdcd890226307010467372a3538a">operator[]</a> (Integer i) const</td></tr>
+<tr class="memdesc:a6da0fdcd890226307010467372a3538a"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a6da0fdcd890226307010467372a3538a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6da0fdcd890226307010467372a3538a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e6033a389461de13aa111fb6abcda7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ab6e6033a389461de13aa111fb6abcda7">begin</a> ()</td></tr>
+<tr class="memdesc:ab6e6033a389461de13aa111fb6abcda7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un iterateur sur le premier élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ab6e6033a389461de13aa111fb6abcda7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab6e6033a389461de13aa111fb6abcda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6292f7168a4c58a282d7d76279a25407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a6292f7168a4c58a282d7d76279a25407">end</a> ()</td></tr>
+<tr class="memdesc:a6292f7168a4c58a282d7d76279a25407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un iterateur sur le premier élément après la fin du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a6292f7168a4c58a282d7d76279a25407">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6292f7168a4c58a282d7d76279a25407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdcbe54d9f0d26f20041cac00e098b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#acdcbe54d9f0d26f20041cac00e098b4c">begin</a> () const</td></tr>
+<tr class="memdesc:acdcbe54d9f0d26f20041cac00e098b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un iterateur constant sur le premier élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#acdcbe54d9f0d26f20041cac00e098b4c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acdcbe54d9f0d26f20041cac00e098b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb25f457abe45044848970f06a711389"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#aeb25f457abe45044848970f06a711389">end</a> () const</td></tr>
+<tr class="memdesc:aeb25f457abe45044848970f06a711389"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un iterateur constant sur le premier élément après la fin du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#aeb25f457abe45044848970f06a711389">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aeb25f457abe45044848970f06a711389"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd8d6cf171e9a3c17741bef6d2ea3d1"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#acdd8d6cf171e9a3c17741bef6d2ea3d1">begin2</a> () const</td></tr>
+<tr class="memdesc:acdd8d6cf171e9a3c17741bef6d2ea3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un iterateur sur le premier élément du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#acdd8d6cf171e9a3c17741bef6d2ea3d1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acdd8d6cf171e9a3c17741bef6d2ea3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7ce8eb301151160f6f70281158dcaa"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#aee7ce8eb301151160f6f70281158dcaa">end2</a> () const</td></tr>
+<tr class="memdesc:aee7ce8eb301151160f6f70281158dcaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un iterateur sur le premier élément après la fin du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#aee7ce8eb301151160f6f70281158dcaa">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aee7ce8eb301151160f6f70281158dcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3cda1a42dde75c5423d654b9e31f1d8"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
+<tr class="memitem:ad3cda1a42dde75c5423d654b9e31f1d8"><td class="memTemplItemLeft" align="right" valign="top">Function&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ad3cda1a42dde75c5423d654b9e31f1d8">each</a> (Function f)</td></tr>
+<tr class="memdesc:ad3cda1a42dde75c5423d654b9e31f1d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applique le fonctor <em>f</em> à tous les éléments du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ad3cda1a42dde75c5423d654b9e31f1d8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad3cda1a42dde75c5423d654b9e31f1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136bff4080b15ac0ac175e451568b081"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a136bff4080b15ac0ac175e451568b081">setAllocator</a> (<a class="el" href="../../db/d00/classArcane_1_1IAllocatorT.html">IAllocatorT</a>&lt; T &gt; *allocator)</td></tr>
+<tr class="separator:a136bff4080b15ac0ac175e451568b081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4cd325b8030b71b787ba5a0cfc66e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2c4cd325b8030b71b787ba5a0cfc66e3">reserve</a> (Integer new_capacity)</td></tr>
+<tr class="memdesc:a2c4cd325b8030b71b787ba5a0cfc66e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signale qu'il faut réserver de la mémoire pour <em>new_capacity</em> éléments Il s'agit juste d'une indication. La classe dérivée est libre de ne pas en tenir compte.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a2c4cd325b8030b71b787ba5a0cfc66e3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2c4cd325b8030b71b787ba5a0cfc66e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e302c61db33630927276ac1db387bd2"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a8e302c61db33630927276ac1db387bd2">capacity</a> () const</td></tr>
+<tr class="memdesc:a8e302c61db33630927276ac1db387bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne le nombre d'éléments alloués du tableau. Il s'agit juste d'une indication. La classe dérivée est libre de ne pas en tenir compte.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a8e302c61db33630927276ac1db387bd2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8e302c61db33630927276ac1db387bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619653599d50737a4751cfabbbdef6f6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a619653599d50737a4751cfabbbdef6f6">add</a> (ObjectRef elem)</td></tr>
+<tr class="memdesc:a619653599d50737a4751cfabbbdef6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute l'élément <em>elem</em> à la fin du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a619653599d50737a4751cfabbbdef6f6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a619653599d50737a4751cfabbbdef6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb49fe52f181a926718582fd76f2f276"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#adb49fe52f181a926718582fd76f2f276">remove</a> (ObjectRef element)</td></tr>
+<tr class="separator:adb49fe52f181a926718582fd76f2f276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b90d94ab39a44d085c6a9f297b5386d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a4b90d94ab39a44d085c6a9f297b5386d">removeAt</a> (Integer index)</td></tr>
+<tr class="separator:a4b90d94ab39a44d085c6a9f297b5386d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4b307d3c279d3ee364f5552d3dadc6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a3e4b307d3c279d3ee364f5552d3dadc6">find</a> (ObjectRef element)</td></tr>
+<tr class="separator:a3e4b307d3c279d3ee364f5552d3dadc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26e642b91a4bea21bda4e1d1719affe"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ae26e642b91a4bea21bda4e1d1719affe">find</a> (ObjectRef element) const</td></tr>
+<tr class="separator:ae26e642b91a4bea21bda4e1d1719affe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41f12281e8049651613f8de7258936d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ad41f12281e8049651613f8de7258936d">contains</a> (ObjectRef element) const</td></tr>
+<tr class="separator:ad41f12281e8049651613f8de7258936d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd4b14524e517b2844aa2518cc85ea0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/dc1/classArcane_1_1EnumeratorImplBase.html">EnumeratorImplBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#adcd4b14524e517b2844aa2518cc85ea0">enumerator</a> () const</td></tr>
+<tr class="memdesc:adcd4b14524e517b2844aa2518cc85ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un énumérateur générique sur la collection.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#adcd4b14524e517b2844aa2518cc85ea0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adcd4b14524e517b2844aa2518cc85ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e201443f2a799c5c64fd607c1fe537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#aa0e201443f2a799c5c64fd607c1fe537">resize</a> (Integer new_size)</td></tr>
+<tr class="memdesc:aa0e201443f2a799c5c64fd607c1fe537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifie la taille du tableau. <em>new_size</em> est le nouveau nombre d'éléments du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#aa0e201443f2a799c5c64fd607c1fe537">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa0e201443f2a799c5c64fd607c1fe537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1CollectionImplT"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1CollectionImplT')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a></td></tr>
+<tr class="memitem:aeb43a86695dbcf25b22503458c6e0e30 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual ObjectIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#aeb43a86695dbcf25b22503458c6e0e30">begin</a> ()=0</td></tr>
+<tr class="separator:aeb43a86695dbcf25b22503458c6e0e30 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36856d576c1e0872c31dd373d6d19bf2 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a36856d576c1e0872c31dd373d6d19bf2">begin</a> () const =0</td></tr>
+<tr class="separator:a36856d576c1e0872c31dd373d6d19bf2 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa927dd74bad66250a49147fc0ae5c3ac inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual ObjectIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#aa927dd74bad66250a49147fc0ae5c3ac">end</a> ()=0</td></tr>
+<tr class="separator:aa927dd74bad66250a49147fc0ae5c3ac inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e45e8839ed00796ba88d4a400ada95c inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a9e45e8839ed00796ba88d4a400ada95c">end</a> () const =0</td></tr>
+<tr class="separator:a9e45e8839ed00796ba88d4a400ada95c inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b60ef2ba65f1948cc559b2387706712 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a0b60ef2ba65f1948cc559b2387706712">begin2</a> () const =0</td></tr>
+<tr class="separator:a0b60ef2ba65f1948cc559b2387706712 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0af2651b0d46699e1bc4cc4f0343261 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#af0af2651b0d46699e1bc4cc4f0343261">end2</a> () const =0</td></tr>
+<tr class="separator:af0af2651b0d46699e1bc4cc4f0343261 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dfb7ffd7b84eb1ceb6ef6bd8282651 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memTemplParams" colspan="2">template&lt;class Function &gt; </td></tr>
+<tr class="memitem:a36dfb7ffd7b84eb1ceb6ef6bd8282651 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memTemplItemLeft" align="right" valign="top">Function&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a36dfb7ffd7b84eb1ceb6ef6bd8282651">each</a> (Function f)</td></tr>
+<tr class="memdesc:a36dfb7ffd7b84eb1ceb6ef6bd8282651 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applique le fonctor <em>f</em> à tous les éléments de la collection.  <a href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a36dfb7ffd7b84eb1ceb6ef6bd8282651">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a36dfb7ffd7b84eb1ceb6ef6bd8282651 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76dd15c1947729b2a45f9cf029343d26 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html#a76dd15c1947729b2a45f9cf029343d26">add</a> (ObjectRef value)=0</td></tr>
+<tr class="separator:a76dd15c1947729b2a45f9cf029343d26 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2850c0724bfe742a4e175caa43b5290d inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top"><a id="a2850c0724bfe742a4e175caa43b5290d" name="a2850c0724bfe742a4e175caa43b5290d"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (ObjectRef value)=0</td></tr>
+<tr class="separator:a2850c0724bfe742a4e175caa43b5290d inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352f64a38f621a472be2f453cfd85dd2 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top"><a id="a352f64a38f621a472be2f453cfd85dd2" name="a352f64a38f621a472be2f453cfd85dd2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>removeAt</b> (Integer index)=0</td></tr>
+<tr class="separator:a352f64a38f621a472be2f453cfd85dd2 inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18aa239143519d0dd72039a0c2abd9ab inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top"><a id="a18aa239143519d0dd72039a0c2abd9ab" name="a18aa239143519d0dd72039a0c2abd9ab"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>contains</b> (ObjectRef value) const =0</td></tr>
+<tr class="separator:a18aa239143519d0dd72039a0c2abd9ab inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd551785c2d7d75dffe7633d9bd9d3a inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top"><a id="afdd551785c2d7d75dffe7633d9bd9d3a" name="afdd551785c2d7d75dffe7633d9bd9d3a"></a>
+virtual ConstObjectIterator&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (ObjectRef value) const =0</td></tr>
+<tr class="separator:afdd551785c2d7d75dffe7633d9bd9d3a inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a232180191c0f16cff2670095b9f54eaf inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memItemLeft" align="right" valign="top"><a id="a232180191c0f16cff2670095b9f54eaf" name="a232180191c0f16cff2670095b9f54eaf"></a>
+virtual ObjectIterator&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (ObjectRef value)=0</td></tr>
+<tr class="separator:a232180191c0f16cff2670095b9f54eaf inherit pub_methods_classArcane_1_1CollectionImplT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1CollectionImplBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1CollectionImplBase')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html">Arcane::CollectionImplBase</a></td></tr>
+<tr class="memitem:a4ff3974338ac3032edd20df3402a8f61 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a4ff3974338ac3032edd20df3402a8f61">CollectionImplBase</a> ()</td></tr>
+<tr class="memdesc:a4ff3974338ac3032edd20df3402a8f61 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une collection vide.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a4ff3974338ac3032edd20df3402a8f61">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4ff3974338ac3032edd20df3402a8f61 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc90aff43647117324fe8a6f8a90143e inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#adc90aff43647117324fe8a6f8a90143e">CollectionImplBase</a> (Integer acount)</td></tr>
+<tr class="memdesc:adc90aff43647117324fe8a6f8a90143e inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une collection avec <em>acount</em> éléments.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#adc90aff43647117324fe8a6f8a90143e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adc90aff43647117324fe8a6f8a90143e inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c3b49a965428778aa174b86b2b2b9b inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a74c3b49a965428778aa174b86b2b2b9b">CollectionImplBase</a> (const <a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html">CollectionImplBase</a> &amp;from)</td></tr>
+<tr class="memdesc:a74c3b49a965428778aa174b86b2b2b9b inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de recopie. les handlers d'évènements ne sont pas recopiés.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a74c3b49a965428778aa174b86b2b2b9b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a74c3b49a965428778aa174b86b2b2b9b inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41e763cd719e87f234862da6595f8745 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a41e763cd719e87f234862da6595f8745">count</a> () const</td></tr>
+<tr class="memdesc:a41e763cd719e87f234862da6595f8745 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne le nombre d'éléments de la collection.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a41e763cd719e87f234862da6595f8745">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a41e763cd719e87f234862da6595f8745 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4355ded91eeab85341878aa69e74b146 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a4355ded91eeab85341878aa69e74b146">clear</a> ()</td></tr>
+<tr class="memdesc:a4355ded91eeab85341878aa69e74b146 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime tous les éléments de la collection.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a4355ded91eeab85341878aa69e74b146">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4355ded91eeab85341878aa69e74b146 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4dedc1ac3f2d6cdc07c68f4bfc1bd5 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a7a4dedc1ac3f2d6cdc07c68f4bfc1bd5">onClear</a> ()</td></tr>
+<tr class="memdesc:a7a4dedc1ac3f2d6cdc07c68f4bfc1bd5 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evènement envoyé avant de supprimer tous les éléments.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a7a4dedc1ac3f2d6cdc07c68f4bfc1bd5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7a4dedc1ac3f2d6cdc07c68f4bfc1bd5 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae164a69bcf5e4a8d6825d35f5b95a5f7 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#ae164a69bcf5e4a8d6825d35f5b95a5f7">onClearComplete</a> ()</td></tr>
+<tr class="memdesc:ae164a69bcf5e4a8d6825d35f5b95a5f7 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evènement envoyé lorsque tous les éléments ont été supprimés.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#ae164a69bcf5e4a8d6825d35f5b95a5f7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae164a69bcf5e4a8d6825d35f5b95a5f7 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57eb7be271eea20a79381515228e11d0 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a57eb7be271eea20a79381515228e11d0">onInsert</a> ()</td></tr>
+<tr class="memdesc:a57eb7be271eea20a79381515228e11d0 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evènement envoyé avant d'insérer un élément.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a57eb7be271eea20a79381515228e11d0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a57eb7be271eea20a79381515228e11d0 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdecad4236af7c7be793cda5d2360ce2 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#abdecad4236af7c7be793cda5d2360ce2">onInsertComplete</a> (void *object, Integer position)</td></tr>
+<tr class="memdesc:abdecad4236af7c7be793cda5d2360ce2 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evènement envoyé après insertion d'un élément.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#abdecad4236af7c7be793cda5d2360ce2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abdecad4236af7c7be793cda5d2360ce2 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bce9066001b7b82e426da1d404a7775 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a1bce9066001b7b82e426da1d404a7775">onRemove</a> ()</td></tr>
+<tr class="memdesc:a1bce9066001b7b82e426da1d404a7775 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evènement envoyé avant de supprimer un élément.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a1bce9066001b7b82e426da1d404a7775">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1bce9066001b7b82e426da1d404a7775 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab106d15a677964c9af07280fee51fe07 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#ab106d15a677964c9af07280fee51fe07">onRemoveComplete</a> (void *object, Integer position)</td></tr>
+<tr class="memdesc:ab106d15a677964c9af07280fee51fe07 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evènement envoyé après supression d'un élément.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#ab106d15a677964c9af07280fee51fe07">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab106d15a677964c9af07280fee51fe07 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39f26f6c2cb980a0fe9f0d1e0c6c885 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#ac39f26f6c2cb980a0fe9f0d1e0c6c885">onSet</a> ()</td></tr>
+<tr class="separator:ac39f26f6c2cb980a0fe9f0d1e0c6c885 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18b0573f309bfed0819bf548ab70177 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#aa18b0573f309bfed0819bf548ab70177">onSetComplete</a> (void *object, Integer position)</td></tr>
+<tr class="separator:aa18b0573f309bfed0819bf548ab70177 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5b80ee164a251e060d55b05585fe4e0 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#af5b80ee164a251e060d55b05585fe4e0">onValidate</a> ()</td></tr>
+<tr class="separator:af5b80ee164a251e060d55b05585fe4e0 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086d1970c487497939607841af281376 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/dc1/classArcane_1_1EnumeratorImplBase.html">EnumeratorImplBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a086d1970c487497939607841af281376">enumerator</a> () const =0</td></tr>
+<tr class="memdesc:a086d1970c487497939607841af281376 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un énumérateur générique sur la collection.  <a href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a086d1970c487497939607841af281376">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a086d1970c487497939607841af281376 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a81afceb6c345beecdf1c53da15736 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">CollectionChangeEventHandler &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a15a81afceb6c345beecdf1c53da15736">change</a> ()</td></tr>
+<tr class="separator:a15a81afceb6c345beecdf1c53da15736 inherit pub_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1ObjectImpl"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1ObjectImpl')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html">Arcane::ObjectImpl</a></td></tr>
+<tr class="memitem:af6a006a1d7e059fc45d6a5452dc0907e inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html#af6a006a1d7e059fc45d6a5452dc0907e">ObjectImpl</a> (const <a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html">ObjectImpl</a> &amp;rhs)</td></tr>
+<tr class="separator:af6a006a1d7e059fc45d6a5452dc0907e inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842a542f6ae41a05f4503f8532491b65 inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html">ObjectImpl</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html#a842a542f6ae41a05f4503f8532491b65">operator=</a> (const <a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html">ObjectImpl</a> &amp;rhs)</td></tr>
+<tr class="separator:a842a542f6ae41a05f4503f8532491b65 inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1641c0f9ee7a8d5eb115c46c5592b7f6 inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html#a1641c0f9ee7a8d5eb115c46c5592b7f6">addRef</a> ()</td></tr>
+<tr class="memdesc:a1641c0f9ee7a8d5eb115c46c5592b7f6 inherit pub_methods_classArcane_1_1ObjectImpl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incrémente le compteur de référence.  <a href="../../d5/deb/classArcane_1_1ObjectImpl.html#a1641c0f9ee7a8d5eb115c46c5592b7f6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1641c0f9ee7a8d5eb115c46c5592b7f6 inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c2a9a9704013b3276025a23d45f197e inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html#a2c2a9a9704013b3276025a23d45f197e">removeRef</a> ()</td></tr>
+<tr class="memdesc:a2c2a9a9704013b3276025a23d45f197e inherit pub_methods_classArcane_1_1ObjectImpl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Décrémente le compteur de référence.  <a href="../../d5/deb/classArcane_1_1ObjectImpl.html#a2c2a9a9704013b3276025a23d45f197e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a2c2a9a9704013b3276025a23d45f197e inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288eb07c761f15e735733e3e7f375f1c inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html#a288eb07c761f15e735733e3e7f375f1c">refCount</a> () const</td></tr>
+<tr class="memdesc:a288eb07c761f15e735733e3e7f375f1c inherit pub_methods_classArcane_1_1ObjectImpl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne la valeur du compteur de référence.  <a href="../../d5/deb/classArcane_1_1ObjectImpl.html#a288eb07c761f15e735733e3e7f375f1c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a288eb07c761f15e735733e3e7f375f1c inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835fa96ec0a1d65b0a42b3a38f00146b inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/deb/classArcane_1_1ObjectImpl.html#a835fa96ec0a1d65b0a42b3a38f00146b">deleteMe</a> ()</td></tr>
+<tr class="memdesc:a835fa96ec0a1d65b0a42b3a38f00146b inherit pub_methods_classArcane_1_1ObjectImpl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Détruit cet objet.  <a href="../../d5/deb/classArcane_1_1ObjectImpl.html#a835fa96ec0a1d65b0a42b3a38f00146b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a835fa96ec0a1d65b0a42b3a38f00146b inherit pub_methods_classArcane_1_1ObjectImpl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Fonctions membres protégées</h2></td></tr>
+<tr class="memitem:a1994192993187789efdab4e497e36a06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a1994192993187789efdab4e497e36a06">_removeAt</a> (Integer index)</td></tr>
+<tr class="separator:a1994192993187789efdab4e497e36a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f843ea3ca348c0e7e7941be019207a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a24f843ea3ca348c0e7e7941be019207a">_setCapacity</a> (Integer v)</td></tr>
+<tr class="separator:a24f843ea3ca348c0e7e7941be019207a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc811523dad7134f505e92ea4f1d88c"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a9cc811523dad7134f505e92ea4f1d88c">_capacity</a> () const</td></tr>
+<tr class="separator:a9cc811523dad7134f505e92ea4f1d88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2dbfbca97fd97bc659358960b3cc7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a4d2dbfbca97fd97bc659358960b3cc7d">_arrayCopy</a> (const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &amp;array)</td></tr>
+<tr class="separator:a4d2dbfbca97fd97bc659358960b3cc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bb3a21dea6f3f35695dd7d0b2e9d67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a21bb3a21dea6f3f35695dd7d0b2e9d67">_arrayCopy</a> (const <a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; T &gt; &amp;array)</td></tr>
+<tr class="separator:a21bb3a21dea6f3f35695dd7d0b2e9d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addaf4cf25156f9860d9d31d7b285e05d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#addaf4cf25156f9860d9d31d7b285e05d">_arrayCopy</a> (const <a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; T &gt; &amp;array)</td></tr>
+<tr class="separator:addaf4cf25156f9860d9d31d7b285e05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8750bb53da480cd167931dab0397a816"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a8750bb53da480cd167931dab0397a816">_arrayCopy</a> (const T *from_ptr, Integer from_size)</td></tr>
+<tr class="separator:a8750bb53da480cd167931dab0397a816"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab125bf1a9e8930caaf653961e4c2ed13"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ab125bf1a9e8930caaf653961e4c2ed13">_ptr</a> ()</td></tr>
+<tr class="memdesc:ab125bf1a9e8930caaf653961e4c2ed13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne un pointeur sur le tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ab125bf1a9e8930caaf653961e4c2ed13">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab125bf1a9e8930caaf653961e4c2ed13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67b81554f8b957c39c93fb642df544c8"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a67b81554f8b957c39c93fb642df544c8">_ptr</a> () const</td></tr>
+<tr class="separator:a67b81554f8b957c39c93fb642df544c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ef4c4799a1ed9b0ec97be061b91ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a82ef4c4799a1ed9b0ec97be061b91ed8">_setList</a> (T *v, Integer s)</td></tr>
+<tr class="memdesc:a82ef4c4799a1ed9b0ec97be061b91ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifie le pointeur et la taille du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a82ef4c4799a1ed9b0ec97be061b91ed8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a82ef4c4799a1ed9b0ec97be061b91ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce74a24f9eb1e341a3e37a1aa38b482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a7ce74a24f9eb1e341a3e37a1aa38b482">_setPtr</a> (T *v)</td></tr>
+<tr class="memdesc:a7ce74a24f9eb1e341a3e37a1aa38b482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifie le pointeur du début du tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a7ce74a24f9eb1e341a3e37a1aa38b482">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7ce74a24f9eb1e341a3e37a1aa38b482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60d3207c93cf89843d5e7fc48e65e01f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a60d3207c93cf89843d5e7fc48e65e01f">_unguardedCopy</a> (T *to_ptr, const T *from_ptr, Integer s)</td></tr>
+<tr class="separator:a60d3207c93cf89843d5e7fc48e65e01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classArcane_1_1CollectionImplBase"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classArcane_1_1CollectionImplBase')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres protégées hérités de <a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html">Arcane::CollectionImplBase</a></td></tr>
+<tr class="memitem:aab25f09e29ff513287ccf6c6df34a11f inherit pro_methods_classArcane_1_1CollectionImplBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#aab25f09e29ff513287ccf6c6df34a11f">_setCount</a> (Integer acount)</td></tr>
+<tr class="separator:aab25f09e29ff513287ccf6c6df34a11f inherit pro_methods_classArcane_1_1CollectionImplBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a55afe8feb39a394a303fe35c227fa944"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a55afe8feb39a394a303fe35c227fa944">_resize</a> (const T *from_ptr, Integer new_size)</td></tr>
+<tr class="memdesc:a55afe8feb39a394a303fe35c227fa944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifie la taille du tableau. Cette méthode doit retourner un pointeur sur un tableau alloué par la classe dérivée et ce tableau doit avoir une taille au moins égale à <em>new_size</em>. La gestion mémoire est à la charge de la classe dérivée. Il est permis de renvoyer le même pointeur que le pointeur actuel. Il n'est pas permis de retourner un pointeur nul.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a55afe8feb39a394a303fe35c227fa944">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a55afe8feb39a394a303fe35c227fa944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ae6821e1bf4d45efb3b1c86a3a3373"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ae3ae6821e1bf4d45efb3b1c86a3a3373">_deallocate</a> (T *ptr)</td></tr>
+<tr class="memdesc:ae3ae6821e1bf4d45efb3b1c86a3a3373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signale qu'il faut libérer la mémoire associée au pointeur.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#ae3ae6821e1bf4d45efb3b1c86a3a3373">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae3ae6821e1bf4d45efb3b1c86a3a3373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6bc86f48c3169ab1a9ec671407cc7f3"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ab6bc86f48c3169ab1a9ec671407cc7f3">_allocate</a> (Integer new_capacity)</td></tr>
+<tr class="separator:ab6bc86f48c3169ab1a9ec671407cc7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a8597c70cac54b8933e198faf5406e777"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a8597c70cac54b8933e198faf5406e777">m_capacity</a></td></tr>
+<tr class="separator:a8597c70cac54b8933e198faf5406e777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20cf26cbee03cb8619321c062968a088"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20cf26cbee03cb8619321c062968a088">m_ptr</a></td></tr>
+<tr class="memdesc:a20cf26cbee03cb8619321c062968a088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointeur sur le tableau.  <a href="../../d4/de3/classArcane_1_1ListImplBase.html#a20cf26cbee03cb8619321c062968a088">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a20cf26cbee03cb8619321c062968a088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b30688cbce65fd8ec4a4393c003f21f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d00/classArcane_1_1IAllocatorT.html">IAllocatorT</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a5b30688cbce65fd8ec4a4393c003f21f">m_allocator</a></td></tr>
+<tr class="separator:a5b30688cbce65fd8ec4a4393c003f21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class Arcane::ListImplBase&lt; T &gt;</div><p >Tableau avec allocateur virtuel. </p>
+<p >C'est à la classe virtuelle de détruire les objets dans le destructeur virtuel. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00044">44</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a805f52230605423e5a0e0755030aafd3" name="a805f52230605423e5a0e0755030aafd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805f52230605423e5a0e0755030aafd3">&#9670;&#160;</a></span>BaseClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">CollectionImplT</a>&lt;T&gt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::BaseClass</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00049">49</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a0dbfaa6712378eca3940c57ea592abb1" name="a0dbfaa6712378eca3940c57ea592abb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dbfaa6712378eca3940c57ea592abb1">&#9670;&#160;</a></span>const_iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d7/d4a/classArccore_1_1ConstIterT.html">ConstIterT</a>&lt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt;T&gt; &gt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::const_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type d'un itérateur constant sur tout le tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00073">73</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a20fc73000f6e20cb5342671483e5592a" name="a20fc73000f6e20cb5342671483e5592a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20fc73000f6e20cb5342671483e5592a">&#9670;&#160;</a></span>const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a>* <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::const_iterator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type de l'itérateur constant sur un élément du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00060">60</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a5f344ee635103a0340abecfa59e3deff" name="a5f344ee635103a0340abecfa59e3deff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f344ee635103a0340abecfa59e3deff">&#9670;&#160;</a></span>const_pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a>* <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::const_pointer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type pointeur constant d'un élément du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00064">64</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ac8d9f582da61801a2ebe876bec5edeaf" name="ac8d9f582da61801a2ebe876bec5edeaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d9f582da61801a2ebe876bec5edeaf">&#9670;&#160;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a>&amp; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::const_reference</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type référence constante d'un élément du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00068">68</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ae8fae65abb7edaedd20bd2bca5b1cc84" name="ae8fae65abb7edaedd20bd2bca5b1cc84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8fae65abb7edaedd20bd2bca5b1cc84">&#9670;&#160;</a></span>iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d1/d4f/classArccore_1_1IterT.html">IterT</a>&lt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt;T&gt; &gt; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type d'un itérateur sur tout le tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00071">71</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a2e2d4aa4aac38c7833bfb311eda338ce" name="a2e2d4aa4aac38c7833bfb311eda338ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2d4aa4aac38c7833bfb311eda338ce">&#9670;&#160;</a></span>iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a>* <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::iterator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type de l'itérateur sur un élément du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00058">58</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ab0481612e9b8c87e5caf5c8c321a5943" name="ab0481612e9b8c87e5caf5c8c321a5943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0481612e9b8c87e5caf5c8c321a5943">&#9670;&#160;</a></span>ObjectRef</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const T&amp; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::ObjectRef</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00053">53</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="acc1ed6136698d2d9beec11d3639d29b4" name="acc1ed6136698d2d9beec11d3639d29b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc1ed6136698d2d9beec11d3639d29b4">&#9670;&#160;</a></span>pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a>* <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::pointer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type pointeur d'un élément du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00062">62</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a1e91bb36f1566edcb3da0b76b434a196" name="a1e91bb36f1566edcb3da0b76b434a196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e91bb36f1566edcb3da0b76b434a196">&#9670;&#160;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a40e7e29e3da9f7d00d34960bb80de13e">value_type</a>&amp; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::reference</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type référence d'un élément du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00066">66</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a40e7e29e3da9f7d00d34960bb80de13e" name="a40e7e29e3da9f7d00d34960bb80de13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40e7e29e3da9f7d00d34960bb80de13e">&#9670;&#160;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef T <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::value_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type des éléments du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00056">56</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a852958ea1f97b2c3a62f979b6ecd514c" name="a852958ea1f97b2c3a62f979b6ecd514c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a852958ea1f97b2c3a62f979b6ecd514c">&#9670;&#160;</a></span>ListImplBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::ListImplBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit un tableau vide. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00078">78</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a3fc5a4f376e6ba826f2c5e02be307f82" name="a3fc5a4f376e6ba826f2c5e02be307f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc5a4f376e6ba826f2c5e02be307f82">&#9670;&#160;</a></span>~ListImplBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::~<a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Libère les éléments du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00081">81</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="ab6bc86f48c3169ab1a9ec671407cc7f3" name="ab6bc86f48c3169ab1a9ec671407cc7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6bc86f48c3169ab1a9ec671407cc7f3">&#9670;&#160;</a></span>_allocate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_allocate </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>new_capacity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00391">391</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="addaf4cf25156f9860d9d31d7b285e05d" name="addaf4cf25156f9860d9d31d7b285e05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addaf4cf25156f9860d9d31d7b285e05d">&#9670;&#160;</a></span>_arrayCopy() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_arrayCopy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00282">282</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a21bb3a21dea6f3f35695dd7d0b2e9d67" name="a21bb3a21dea6f3f35695dd7d0b2e9d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21bb3a21dea6f3f35695dd7d0b2e9d67">&#9670;&#160;</a></span>_arrayCopy() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_arrayCopy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00277">277</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a4d2dbfbca97fd97bc659358960b3cc7d" name="a4d2dbfbca97fd97bc659358960b3cc7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2dbfbca97fd97bc659358960b3cc7d">&#9670;&#160;</a></span>_arrayCopy() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_arrayCopy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00272">272</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a8750bb53da480cd167931dab0397a816" name="a8750bb53da480cd167931dab0397a816"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8750bb53da480cd167931dab0397a816">&#9670;&#160;</a></span>_arrayCopy() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_arrayCopy </td>
+          <td>(</td>
+          <td class="paramtype">const T *&#160;</td>
+          <td class="paramname"><em>from_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>from_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00286">286</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a9cc811523dad7134f505e92ea4f1d88c" name="a9cc811523dad7134f505e92ea4f1d88c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc811523dad7134f505e92ea4f1d88c">&#9670;&#160;</a></span>_capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_capacity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00268">268</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ae3ae6821e1bf4d45efb3b1c86a3a3373" name="ae3ae6821e1bf4d45efb3b1c86a3a3373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ae6821e1bf4d45efb3b1c86a3a3373">&#9670;&#160;</a></span>_deallocate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_deallocate </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Signale qu'il faut libérer la mémoire associée au pointeur. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s</td><td>le pointeur sur le tableau à libèrer. Il est identique à <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#ab125bf1a9e8930caaf653961e4c2ed13" title="Retourne un pointeur sur le tableau.">_ptr()</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00388">388</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../db/d00/classArcane_1_1IAllocatorT.html#a2f362661b8dfc3cb9e45510314de65f1">Arcane::IAllocatorT&lt; T &gt;::deallocate()</a>.</p>
+
+</div>
+</div>
+<a id="ab125bf1a9e8930caaf653961e4c2ed13" name="ab125bf1a9e8930caaf653961e4c2ed13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab125bf1a9e8930caaf653961e4c2ed13">&#9670;&#160;</a></span>_ptr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_ptr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un pointeur sur le tableau. </p>
+<dl class="section warning"><dt>Avertissement</dt><dd>Il est préférable de ne pas utiliser cette méthode pour accéder à un élément du tableau car ce pointeur peut être invalidé par un redimensionnement du tableau. De plus, accéder aux éléments du tableau par ce pointeur ne permet aucune vérification de dépassement, même en mode DEBUG. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00314">314</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a67b81554f8b957c39c93fb642df544c8" name="a67b81554f8b957c39c93fb642df544c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67b81554f8b957c39c93fb642df544c8">&#9670;&#160;</a></span>_ptr() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_ptr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00316">316</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a1994192993187789efdab4e497e36a06" name="a1994192993187789efdab4e497e36a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1994192993187789efdab4e497e36a06">&#9670;&#160;</a></span>_removeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_removeAt </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00243">243</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a55afe8feb39a394a303fe35c227fa944" name="a55afe8feb39a394a303fe35c227fa944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55afe8feb39a394a303fe35c227fa944">&#9670;&#160;</a></span>_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_resize </td>
+          <td>(</td>
+          <td class="paramtype">const T *&#160;</td>
+          <td class="paramname"><em>from_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>new_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifie la taille du tableau. Cette méthode doit retourner un pointeur sur un tableau alloué par la classe dérivée et ce tableau doit avoir une taille au moins égale à <em>new_size</em>. La gestion mémoire est à la charge de la classe dérivée. Il est permis de renvoyer le même pointeur que le pointeur actuel. Il n'est pas permis de retourner un pointeur nul. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_size</td><td>nouvelle taille du tableau. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>le pointeur alloué. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00366">366</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a24f843ea3ca348c0e7e7941be019207a" name="a24f843ea3ca348c0e7e7941be019207a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f843ea3ca348c0e7e7941be019207a">&#9670;&#160;</a></span>_setCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_setCapacity </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00267">267</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a82ef4c4799a1ed9b0ec97be061b91ed8" name="a82ef4c4799a1ed9b0ec97be061b91ed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82ef4c4799a1ed9b0ec97be061b91ed8">&#9670;&#160;</a></span>_setList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_setList </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifie le pointeur et la taille du tableau. </p>
+<p >C'est à la classe dérivée de vérifier la cohérence entre le pointeur alloué et la dimension donnée. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00324">324</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a7ce74a24f9eb1e341a3e37a1aa38b482" name="a7ce74a24f9eb1e341a3e37a1aa38b482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ce74a24f9eb1e341a3e37a1aa38b482">&#9670;&#160;</a></span>_setPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_setPtr </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifie le pointeur du début du tableau. </p>
+<p >C'est à la classe dérivée de vérifier la cohérence entre le pointeur alloué et la dimension donnée. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00332">332</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a60d3207c93cf89843d5e7fc48e65e01f" name="a60d3207c93cf89843d5e7fc48e65e01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60d3207c93cf89843d5e7fc48e65e01f">&#9670;&#160;</a></span>_unguardedCopy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::_unguardedCopy </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>to_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *&#160;</td>
+          <td class="paramname"><em>from_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00337">337</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a619653599d50737a4751cfabbbdef6f6" name="a619653599d50737a4751cfabbbdef6f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619653599d50737a4751cfabbbdef6f6">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::add </td>
+          <td>(</td>
+          <td class="paramtype">ObjectRef&#160;</td>
+          <td class="paramname"><em>elem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajoute l'élément <em>elem</em> à la fin du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00179">179</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ac4e3742b7856f53896d73e19cdb8e5b6" name="ac4e3742b7856f53896d73e19cdb8e5b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4e3742b7856f53896d73e19cdb8e5b6">&#9670;&#160;</a></span>assign() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::assign </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d02/classArccore_1_1ArrayView.html">ArrayView</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recopie le tableau <em>s</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00092">92</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="aec840df71dbff27f332761d7e68bd5f0" name="aec840df71dbff27f332761d7e68bd5f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec840df71dbff27f332761d7e68bd5f0">&#9670;&#160;</a></span>assign() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::assign </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recopie le tableau <em>s</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00089">89</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a90964fb860f77cd080a3154011ff6b36" name="a90964fb860f77cd080a3154011ff6b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90964fb860f77cd080a3154011ff6b36">&#9670;&#160;</a></span>assign() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::assign </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recopie le tableau <em>s</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00086">86</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ab6e6033a389461de13aa111fb6abcda7" name="ab6e6033a389461de13aa111fb6abcda7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e6033a389461de13aa111fb6abcda7">&#9670;&#160;</a></span>begin() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a> <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un iterateur sur le premier élément du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00129">129</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="acdcbe54d9f0d26f20041cac00e098b4c" name="acdcbe54d9f0d26f20041cac00e098b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdcbe54d9f0d26f20041cac00e098b4c">&#9670;&#160;</a></span>begin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a> <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un iterateur constant sur le premier élément du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00133">133</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="acdd8d6cf171e9a3c17741bef6d2ea3d1" name="acdd8d6cf171e9a3c17741bef6d2ea3d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd8d6cf171e9a3c17741bef6d2ea3d1">&#9670;&#160;</a></span>begin2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::begin2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un iterateur sur le premier élément du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00138">138</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a8e302c61db33630927276ac1db387bd2" name="a8e302c61db33630927276ac1db387bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e302c61db33630927276ac1db387bd2">&#9670;&#160;</a></span>capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::capacity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne le nombre d'éléments alloués du tableau. Il s'agit juste d'une indication. La classe dérivée est libre de ne pas en tenir compte. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00175">175</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ad41f12281e8049651613f8de7258936d" name="ad41f12281e8049651613f8de7258936d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41f12281e8049651613f8de7258936d">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype">ObjectRef&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00233">233</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3cda1a42dde75c5423d654b9e31f1d8" name="ad3cda1a42dde75c5423d654b9e31f1d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3cda1a42dde75c5423d654b9e31f1d8">&#9670;&#160;</a></span>each()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<div class="memtemplate">
+template&lt;class Function &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Function <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::each </td>
+          <td>(</td>
+          <td class="paramtype">Function&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applique le fonctor <em>f</em> à tous les éléments du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00146">146</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a6292f7168a4c58a282d7d76279a25407" name="a6292f7168a4c58a282d7d76279a25407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6292f7168a4c58a282d7d76279a25407">&#9670;&#160;</a></span>end() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a> <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un iterateur sur le premier élément après la fin du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00131">131</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="aeb25f457abe45044848970f06a711389" name="aeb25f457abe45044848970f06a711389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb25f457abe45044848970f06a711389">&#9670;&#160;</a></span>end() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a> <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un iterateur constant sur le premier élément après la fin du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00135">135</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="aee7ce8eb301151160f6f70281158dcaa" name="aee7ce8eb301151160f6f70281158dcaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7ce8eb301151160f6f70281158dcaa">&#9670;&#160;</a></span>end2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::end2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un iterateur sur le premier élément après la fin du tableau. </p>
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00140">140</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="adcd4b14524e517b2844aa2518cc85ea0" name="adcd4b14524e517b2844aa2518cc85ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcd4b14524e517b2844aa2518cc85ea0">&#9670;&#160;</a></span>enumerator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc1/classArcane_1_1EnumeratorImplBase.html">EnumeratorImplBase</a> * <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::enumerator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne un énumérateur générique sur la collection. </p>
+
+<p>Implémente <a class="el" href="../../d3/daf/classArcane_1_1CollectionImplBase.html#a086d1970c487497939607841af281376">Arcane::CollectionImplBase</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00497">497</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a3e4b307d3c279d3ee364f5552d3dadc6" name="a3e4b307d3c279d3ee364f5552d3dadc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e4b307d3c279d3ee364f5552d3dadc6">&#9670;&#160;</a></span>find() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a2e2d4aa4aac38c7833bfb311eda338ce">iterator</a> <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype">ObjectRef&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00213">213</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ae26e642b91a4bea21bda4e1d1719affe" name="ae26e642b91a4bea21bda4e1d1719affe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26e642b91a4bea21bda4e1d1719affe">&#9670;&#160;</a></span>find() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html#a20fc73000f6e20cb5342671483e5592a">const_iterator</a> <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype">ObjectRef&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00223">223</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a5fbefe598cfe75059b3f3ccfafb52398" name="a5fbefe598cfe75059b3f3ccfafb52398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fbefe598cfe75059b3f3ccfafb52398">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T &amp; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>i-ème élément du tableau. </p>
+<p >En mode <em>check</em>, vérifie les débordements. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00107">107</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a6da0fdcd890226307010467372a3538a" name="a6da0fdcd890226307010467372a3538a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6da0fdcd890226307010467372a3538a">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T &amp; <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>i-ème élément du tableau. </p>
+<p >En mode <em>check</em>, vérifie les débordements. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00120">120</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="adb49fe52f181a926718582fd76f2f276" name="adb49fe52f181a926718582fd76f2f276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb49fe52f181a926718582fd76f2f276">&#9670;&#160;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::remove </td>
+          <td>(</td>
+          <td class="paramtype">ObjectRef&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00192">192</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a4b90d94ab39a44d085c6a9f297b5386d" name="a4b90d94ab39a44d085c6a9f297b5386d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b90d94ab39a44d085c6a9f297b5386d">&#9670;&#160;</a></span>removeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::removeAt </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d0/d2c/classArcane_1_1CollectionImplT.html">Arcane::CollectionImplT&lt; T &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00205">205</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a2c4cd325b8030b71b787ba5a0cfc66e3" name="a2c4cd325b8030b71b787ba5a0cfc66e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c4cd325b8030b71b787ba5a0cfc66e3">&#9670;&#160;</a></span>reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::reserve </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>new_capacity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Signale qu'il faut réserver de la mémoire pour <em>new_capacity</em> éléments Il s'agit juste d'une indication. La classe dérivée est libre de ne pas en tenir compte. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00165">165</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="aa0e201443f2a799c5c64fd607c1fe537" name="aa0e201443f2a799c5c64fd607c1fe537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e201443f2a799c5c64fd607c1fe537">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::resize </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>new_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifie la taille du tableau. <em>new_size</em> est le nouveau nombre d'éléments du tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00260">260</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a136bff4080b15ac0ac175e451568b081" name="a136bff4080b15ac0ac175e451568b081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136bff4080b15ac0ac175e451568b081">&#9670;&#160;</a></span>setAllocator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::setAllocator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d00/classArcane_1_1IAllocatorT.html">IAllocatorT</a>&lt; T &gt; *&#160;</td>
+          <td class="paramname"><em>allocator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00154">154</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="ac97d7a0c69a4aec1121f496379a86fc8" name="ac97d7a0c69a4aec1121f496379a86fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97d7a0c69a4aec1121f496379a86fc8">&#9670;&#160;</a></span>setList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::setList </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00097">97</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a5b30688cbce65fd8ec4a4393c003f21f" name="a5b30688cbce65fd8ec4a4393c003f21f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b30688cbce65fd8ec4a4393c003f21f">&#9670;&#160;</a></span>m_allocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d00/classArcane_1_1IAllocatorT.html">IAllocatorT</a>&lt;T&gt;* <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::m_allocator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00351">351</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a8597c70cac54b8933e198faf5406e777" name="a8597c70cac54b8933e198faf5406e777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8597c70cac54b8933e198faf5406e777">&#9670;&#160;</a></span>m_capacity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::m_capacity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00349">349</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a20cf26cbee03cb8619321c062968a088" name="a20cf26cbee03cb8619321c062968a088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20cf26cbee03cb8619321c062968a088">&#9670;&#160;</a></span>m_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">Arcane::ListImplBase</a>&lt; T &gt;::m_ptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointeur sur le tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d5/d94/ListImpl_8h_source.html#l00350">350</a> du fichier <a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d5/d94/ListImpl_8h_source.html">ListImpl.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d4/de3/classArcane_1_1ListImplBase.html">ListImplBase</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:27 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

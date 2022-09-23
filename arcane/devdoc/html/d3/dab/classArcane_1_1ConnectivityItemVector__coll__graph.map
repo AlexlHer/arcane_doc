@@ -1,0 +1,16 @@
+<map id="Arcane::ConnectivityItemVector" name="Arcane::ConnectivityItemVector">
+<area shape="rect" id="node1" title="Gère la récupération des informations de connectivité." alt="" coords="331,3935,539,4136"/>
+<area shape="rect" id="node2" href="$d1/d71/classArcane_1_1ItemVector.html" title="Vecteur d&#39;entités." alt="" coords="207,3671,416,3872"/>
+<area shape="rect" id="node3" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="5,2923,196,3183"/>
+<area shape="rect" id="node4" title=" " alt="" coords="69,2233,132,2273"/>
+<area shape="rect" id="node5" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="220,2879,403,3227"/>
+<area shape="rect" id="node6" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="166,1729,366,2063"/>
+<area shape="rect" id="node7" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="176,755,391,1323"/>
+<area shape="rect" id="node12" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="305,1372,505,1705"/>
+<area shape="rect" id="node8" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="171,548,396,705"/>
+<area shape="rect" id="node9" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="188,211,379,471"/>
+<area shape="rect" id="node10" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="182,5,385,148"/>
+<area shape="rect" id="node11" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="303,2087,509,2420"/>
+<area shape="rect" id="node13" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="427,2497,649,3608"/>
+<area shape="rect" id="node14" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="441,3707,681,3835"/>
+</map>

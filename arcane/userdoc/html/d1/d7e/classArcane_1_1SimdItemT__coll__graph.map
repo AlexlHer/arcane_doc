@@ -1,0 +1,7 @@
+<map id="Arcane::SimdItemT&lt; ItemType &gt;" name="Arcane::SimdItemT&lt; ItemType &gt;">
+<area shape="rect" id="node1" title="Gère un vecteur d&#39;entité ItemType." alt="" coords="97,609,300,737"/>
+<area shape="rect" id="node2" href="$d5/d75/classArcane_1_1SimdItem.html" title="Gère un vecteur d&#39;entité Item." alt="" coords="125,476,272,560"/>
+<area shape="rect" id="node3" href="$d4/d08/classArcane_1_1SimdItemBase.html" title="Classe gérant un vecteur SIMD d&#39;entité." alt="" coords="109,299,288,427"/>
+<area shape="rect" id="node4" href="$d6/d39/classArcane_1_1EMULSimdX2Int32.html" title="Vectorisation des entiers en utilisant une émulation." alt="" coords="5,13,208,229"/>
+<area shape="rect" id="node5" href="$dd/df1/classArcane_1_1ItemInternal.html" title=" " alt="" coords="232,5,395,236"/>
+</map>

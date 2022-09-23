@@ -1,0 +1,9 @@
+<map id="Arcane::Materials::CellEnvironmentVariableArrayRef&lt; DataType &gt;" name="Arcane::Materials::CellEnvironmentVariableArrayRef&lt; DataType &gt;">
+<area shape="rect" id="node1" title="Variable tableau sur les mailles d&#39;un matériau du maillage. Pour l&#39;instant, cette classe n&#39;est instan..." alt="" coords="561,1619,799,2055"/>
+<area shape="rect" id="node2" href="$d9/dee/classArcane_1_1Materials_1_1MeshMaterialVariableRef.html" title="Classe de base des références aux variables matériaux." alt="" coords="135,1237,358,1527"/>
+<area shape="rect" id="node3" href="$dc/dcf/classArcane_1_1Materials_1_1IMeshMaterialVariable.html" title="Interface d&#39;une variable matériau d&#39;un maillage." alt="" coords="5,291,237,859"/>
+<area shape="rect" id="node4" href="$d5/d96/classArcane_1_1IVariable.html" title="Interface d&#39;une variable." alt="" coords="261,5,483,1145"/>
+<area shape="rect" id="node5" href="$dd/d82/classArcane_1_1Materials_1_1IArrayMeshMaterialVariable.html" title="Interface d&#39;accès pour CellMaterialVariableArrayRef." alt="" coords="557,1296,803,1468"/>
+<area shape="rect" id="node6" href="$d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="827,1208,997,1556"/>
+<area shape="rect" id="node7" title=" " alt="" coords="881,555,943,595"/>
+</map>

@@ -1,0 +1,1100 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::VariableDataInfo</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d1/da2/classArcane_1_1VariableDataInfo.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../d9/d0e/classArcane_1_1VariableDataInfo-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::VariableDataInfo</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::VariableDataInfo:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d5/d48/classArcane_1_1VariableDataInfo__coll__graph.png" border="0" usemap="#aArcane_1_1VariableDataInfo_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1VariableDataInfo_coll__map" id="aArcane_1_1VariableDataInfo_coll__map">
+<area shape="rect" title=" " alt="" coords="213,1531,405,1967"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="111,900,334,1439"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="145,387,300,837"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="5,5,213,324"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="238,5,437,324"/>
+<area shape="rect" title=" " alt="" coords="358,1149,434,1189"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a9fee65a029ebdd41e013ea165772bc08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a9fee65a029ebdd41e013ea165772bc08">VariableDataInfo</a> (const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;full_name, const <a class="el" href="../../d9/d08/classArcane_1_1ISerializedData.html">ISerializedData</a> *sdata)</td></tr>
+<tr class="separator:a9fee65a029ebdd41e013ea165772bc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7e89c8a6536c2779fb495652831759"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a9a7e89c8a6536c2779fb495652831759">VariableDataInfo</a> (const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;full_name, const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;element)</td></tr>
+<tr class="separator:a9a7e89c8a6536c2779fb495652831759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28fef34f003b767129d8e098e8d8a42"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#ac28fef34f003b767129d8e098e8d8a42">fullName</a> () const</td></tr>
+<tr class="separator:ac28fef34f003b767129d8e098e8d8a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ade8057dcc49264d4db6eb16a35ce9"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a34ade8057dcc49264d4db6eb16a35ce9">nbDimension</a> () const</td></tr>
+<tr class="separator:a34ade8057dcc49264d4db6eb16a35ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a938f015107e37d47f3d14e89a5d716a3"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a938f015107e37d47f3d14e89a5d716a3">dim1Size</a> () const</td></tr>
+<tr class="separator:a938f015107e37d47f3d14e89a5d716a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd8e818c11b29cd7d4fc5ac11811b018"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#acd8e818c11b29cd7d4fc5ac11811b018">dim2Size</a> () const</td></tr>
+<tr class="separator:acd8e818c11b29cd7d4fc5ac11811b018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0115215c7e28b63d2c1cd046cc720fc"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#af0115215c7e28b63d2c1cd046cc720fc">nbElement</a> () const</td></tr>
+<tr class="separator:af0115215c7e28b63d2c1cd046cc720fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9be0134899eebe3d4a53449750fdfcf"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#ae9be0134899eebe3d4a53449750fdfcf">nbBaseElement</a> () const</td></tr>
+<tr class="separator:ae9be0134899eebe3d4a53449750fdfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467d107e60396819963bcd1d64636aa6"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a467d107e60396819963bcd1d64636aa6">dimensionArraySize</a> () const</td></tr>
+<tr class="separator:a467d107e60396819963bcd1d64636aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac282442580e03ca4f3a34d1180b8fd93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#ac282442580e03ca4f3a34d1180b8fd93">isMultiSize</a> () const</td></tr>
+<tr class="separator:ac282442580e03ca4f3a34d1180b8fd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d38f23b7a5277196b43e93b3b62d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a05c27a651d3da9ae112c75113fcf7426">eDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a74d38f23b7a5277196b43e93b3b62d94">baseDataType</a> () const</td></tr>
+<tr class="separator:a74d38f23b7a5277196b43e93b3b62d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1549b126f7feeec570c8681c984cce"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a3c1549b126f7feeec570c8681c984cce">memorySize</a> () const</td></tr>
+<tr class="separator:a3c1549b126f7feeec570c8681c984cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c788f8eeafe4bfbd51d06ea120daec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a8c788f8eeafe4bfbd51d06ea120daec3">setFileOffset</a> (Int64 v)</td></tr>
+<tr class="separator:a8c788f8eeafe4bfbd51d06ea120daec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d1f6ad681a59557c7f24cb74f0e5c65"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a6d1f6ad681a59557c7f24cb74f0e5c65">fileOffset</a> () const</td></tr>
+<tr class="separator:a6d1f6ad681a59557c7f24cb74f0e5c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a912cdcb930d08e5144e4ccfe54106f8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a912cdcb930d08e5144e4ccfe54106f8a">write</a> (<a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> element)</td></tr>
+<tr class="separator:a912cdcb930d08e5144e4ccfe54106f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a10df15049584aaa380fc31bdebd694af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a10df15049584aaa380fc31bdebd694af">_addAttribute</a> (<a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;node, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;attr_name, Int64 value)</td></tr>
+<tr class="separator:a10df15049584aaa380fc31bdebd694af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14db22302b0ffdf4ebbb8faf2464ceb"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#ac14db22302b0ffdf4ebbb8faf2464ceb">_readInteger</a> (const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;node, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;attr_name)</td></tr>
+<tr class="separator:ac14db22302b0ffdf4ebbb8faf2464ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6843d1bcaf6efaddb7ac09be2d2606d"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#ad6843d1bcaf6efaddb7ac09be2d2606d">_readInt64</a> (const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;node, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;attr_name)</td></tr>
+<tr class="separator:ad6843d1bcaf6efaddb7ac09be2d2606d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b14dc5db7fd0fd9654248ea2b3666a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a1b14dc5db7fd0fd9654248ea2b3666a1">_readBool</a> (const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;node, const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;attr_name)</td></tr>
+<tr class="separator:a1b14dc5db7fd0fd9654248ea2b3666a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a4340a4c1bd7e4c571133e1442caa3fcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a4340a4c1bd7e4c571133e1442caa3fcd">m_full_name</a></td></tr>
+<tr class="separator:a4340a4c1bd7e4c571133e1442caa3fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa69be21e65f7be737c67d82537e504f6"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#aa69be21e65f7be737c67d82537e504f6">m_nb_dimension</a></td></tr>
+<tr class="separator:aa69be21e65f7be737c67d82537e504f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa250219b5b971cc72f8384a457a17b55"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#aa250219b5b971cc72f8384a457a17b55">m_dim1_size</a></td></tr>
+<tr class="separator:aa250219b5b971cc72f8384a457a17b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecef1d86871cde942e1c92d12a964bd8"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#aecef1d86871cde942e1c92d12a964bd8">m_dim2_size</a></td></tr>
+<tr class="separator:aecef1d86871cde942e1c92d12a964bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e29cc5819de9103d22264712a7e7bc1"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a6e29cc5819de9103d22264712a7e7bc1">m_nb_element</a></td></tr>
+<tr class="separator:a6e29cc5819de9103d22264712a7e7bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6045c36c537b9fcb807250574419a735"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a6045c36c537b9fcb807250574419a735">m_nb_base_element</a></td></tr>
+<tr class="separator:a6045c36c537b9fcb807250574419a735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf383737d0c6b172450fe07001e91fc2"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#abf383737d0c6b172450fe07001e91fc2">m_dimension_array_size</a></td></tr>
+<tr class="separator:abf383737d0c6b172450fe07001e91fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ac9ee1cd21eaaf8f6246b61e8cdb25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a88ac9ee1cd21eaaf8f6246b61e8cdb25">m_is_multi_size</a></td></tr>
+<tr class="separator:a88ac9ee1cd21eaaf8f6246b61e8cdb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61c573e414ed3a969ad901cfb8026258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a05c27a651d3da9ae112c75113fcf7426">eDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a61c573e414ed3a969ad901cfb8026258">m_base_data_type</a></td></tr>
+<tr class="separator:a61c573e414ed3a969ad901cfb8026258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ef01b45da1cb13dd9b23c7ce2189ec"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#ab2ef01b45da1cb13dd9b23c7ce2189ec">m_memory_size</a></td></tr>
+<tr class="separator:ab2ef01b45da1cb13dd9b23c7ce2189ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656dbb782b42057e6ed85afe63a9b3ec"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html#a656dbb782b42057e6ed85afe63a9b3ec">m_file_offset</a></td></tr>
+<tr class="separator:a656dbb782b42057e6ed85afe63a9b3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock">
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00085">85</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a9fee65a029ebdd41e013ea165772bc08" name="a9fee65a029ebdd41e013ea165772bc08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fee65a029ebdd41e013ea165772bc08">&#9670;&#160;</a></span>VariableDataInfo() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::VariableDataInfo::VariableDataInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>full_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d08/classArcane_1_1ISerializedData.html">ISerializedData</a> *&#160;</td>
+          <td class="paramname"><em>sdata</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00088">88</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a9a7e89c8a6536c2779fb495652831759" name="a9a7e89c8a6536c2779fb495652831759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7e89c8a6536c2779fb495652831759">&#9670;&#160;</a></span>VariableDataInfo() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::VariableDataInfo::VariableDataInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>full_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>element</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00110">110</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a10df15049584aaa380fc31bdebd694af" name="a10df15049584aaa380fc31bdebd694af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10df15049584aaa380fc31bdebd694af">&#9670;&#160;</a></span>_addAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::VariableDataInfo::_addAttribute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>attr_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00155">155</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a1b14dc5db7fd0fd9654248ea2b3666a1" name="a1b14dc5db7fd0fd9654248ea2b3666a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b14dc5db7fd0fd9654248ea2b3666a1">&#9670;&#160;</a></span>_readBool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::VariableDataInfo::_readBool </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>attr_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00170">170</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="ad6843d1bcaf6efaddb7ac09be2d2606d" name="ad6843d1bcaf6efaddb7ac09be2d2606d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6843d1bcaf6efaddb7ac09be2d2606d">&#9670;&#160;</a></span>_readInt64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::_readInt64 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>attr_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00165">165</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="ac14db22302b0ffdf4ebbb8faf2464ceb" name="ac14db22302b0ffdf4ebbb8faf2464ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14db22302b0ffdf4ebbb8faf2464ceb">&#9670;&#160;</a></span>_readInteger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::VariableDataInfo::_readInteger </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a> &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp;&#160;</td>
+          <td class="paramname"><em>attr_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00160">160</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a74d38f23b7a5277196b43e93b3b62d94" name="a74d38f23b7a5277196b43e93b3b62d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d38f23b7a5277196b43e93b3b62d94">&#9670;&#160;</a></span>baseDataType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a05c27a651d3da9ae112c75113fcf7426">eDataType</a> Arcane::VariableDataInfo::baseDataType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00133">133</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a938f015107e37d47f3d14e89a5d716a3" name="a938f015107e37d47f3d14e89a5d716a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a938f015107e37d47f3d14e89a5d716a3">&#9670;&#160;</a></span>dim1Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::dim1Size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00127">127</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="acd8e818c11b29cd7d4fc5ac11811b018" name="acd8e818c11b29cd7d4fc5ac11811b018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd8e818c11b29cd7d4fc5ac11811b018">&#9670;&#160;</a></span>dim2Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::dim2Size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00128">128</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a467d107e60396819963bcd1d64636aa6" name="a467d107e60396819963bcd1d64636aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467d107e60396819963bcd1d64636aa6">&#9670;&#160;</a></span>dimensionArraySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::VariableDataInfo::dimensionArraySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00131">131</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6d1f6ad681a59557c7f24cb74f0e5c65" name="a6d1f6ad681a59557c7f24cb74f0e5c65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d1f6ad681a59557c7f24cb74f0e5c65">&#9670;&#160;</a></span>fileOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::fileOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00137">137</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="ac28fef34f003b767129d8e098e8d8a42" name="ac28fef34f003b767129d8e098e8d8a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28fef34f003b767129d8e098e8d8a42">&#9670;&#160;</a></span>fullName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> &amp; Arcane::VariableDataInfo::fullName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00125">125</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="ac282442580e03ca4f3a34d1180b8fd93" name="ac282442580e03ca4f3a34d1180b8fd93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac282442580e03ca4f3a34d1180b8fd93">&#9670;&#160;</a></span>isMultiSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::VariableDataInfo::isMultiSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00132">132</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a3c1549b126f7feeec570c8681c984cce" name="a3c1549b126f7feeec570c8681c984cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1549b126f7feeec570c8681c984cce">&#9670;&#160;</a></span>memorySize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::memorySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00134">134</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="ae9be0134899eebe3d4a53449750fdfcf" name="ae9be0134899eebe3d4a53449750fdfcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9be0134899eebe3d4a53449750fdfcf">&#9670;&#160;</a></span>nbBaseElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::nbBaseElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00130">130</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a34ade8057dcc49264d4db6eb16a35ce9" name="a34ade8057dcc49264d4db6eb16a35ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ade8057dcc49264d4db6eb16a35ce9">&#9670;&#160;</a></span>nbDimension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::VariableDataInfo::nbDimension </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00126">126</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="af0115215c7e28b63d2c1cd046cc720fc" name="af0115215c7e28b63d2c1cd046cc720fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0115215c7e28b63d2c1cd046cc720fc">&#9670;&#160;</a></span>nbElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::nbElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00129">129</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8c788f8eeafe4bfbd51d06ea120daec3" name="a8c788f8eeafe4bfbd51d06ea120daec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c788f8eeafe4bfbd51d06ea120daec3">&#9670;&#160;</a></span>setFileOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::VariableDataInfo::setFileOffset </td>
+          <td>(</td>
+          <td class="paramtype">Int64&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00136">136</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a912cdcb930d08e5144e4ccfe54106f8a" name="a912cdcb930d08e5144e4ccfe54106f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a912cdcb930d08e5144e4ccfe54106f8a">&#9670;&#160;</a></span>write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::VariableDataInfo::write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a>&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00139">139</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a61c573e414ed3a969ad901cfb8026258" name="a61c573e414ed3a969ad901cfb8026258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61c573e414ed3a969ad901cfb8026258">&#9670;&#160;</a></span>m_base_data_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a05c27a651d3da9ae112c75113fcf7426">eDataType</a> Arcane::VariableDataInfo::m_base_data_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00185">185</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="aa250219b5b971cc72f8384a457a17b55" name="aa250219b5b971cc72f8384a457a17b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa250219b5b971cc72f8384a457a17b55">&#9670;&#160;</a></span>m_dim1_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::m_dim1_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00179">179</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="aecef1d86871cde942e1c92d12a964bd8" name="aecef1d86871cde942e1c92d12a964bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecef1d86871cde942e1c92d12a964bd8">&#9670;&#160;</a></span>m_dim2_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::m_dim2_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00180">180</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="abf383737d0c6b172450fe07001e91fc2" name="abf383737d0c6b172450fe07001e91fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf383737d0c6b172450fe07001e91fc2">&#9670;&#160;</a></span>m_dimension_array_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::VariableDataInfo::m_dimension_array_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00183">183</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a656dbb782b42057e6ed85afe63a9b3ec" name="a656dbb782b42057e6ed85afe63a9b3ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656dbb782b42057e6ed85afe63a9b3ec">&#9670;&#160;</a></span>m_file_offset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::m_file_offset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00187">187</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a4340a4c1bd7e4c571133e1442caa3fcd" name="a4340a4c1bd7e4c571133e1442caa3fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4340a4c1bd7e4c571133e1442caa3fcd">&#9670;&#160;</a></span>m_full_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::VariableDataInfo::m_full_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00177">177</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a88ac9ee1cd21eaaf8f6246b61e8cdb25" name="a88ac9ee1cd21eaaf8f6246b61e8cdb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88ac9ee1cd21eaaf8f6246b61e8cdb25">&#9670;&#160;</a></span>m_is_multi_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::VariableDataInfo::m_is_multi_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00184">184</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="ab2ef01b45da1cb13dd9b23c7ce2189ec" name="ab2ef01b45da1cb13dd9b23c7ce2189ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ef01b45da1cb13dd9b23c7ce2189ec">&#9670;&#160;</a></span>m_memory_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::m_memory_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00186">186</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6045c36c537b9fcb807250574419a735" name="a6045c36c537b9fcb807250574419a735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6045c36c537b9fcb807250574419a735">&#9670;&#160;</a></span>m_nb_base_element</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::m_nb_base_element</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00182">182</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="aa69be21e65f7be737c67d82537e504f6" name="aa69be21e65f7be737c67d82537e504f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa69be21e65f7be737c67d82537e504f6">&#9670;&#160;</a></span>m_nb_dimension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::VariableDataInfo::m_nb_dimension</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00178">178</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6e29cc5819de9103d22264712a7e7bc1" name="a6e29cc5819de9103d22264712a7e7bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e29cc5819de9103d22264712a7e7bc1">&#9670;&#160;</a></span>m_nb_element</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::VariableDataInfo::m_nb_element</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html#l00181">181</a> du fichier <a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d9/d44/BasicReaderWriter_8cc_source.html">BasicReaderWriter.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d1/da2/classArcane_1_1VariableDataInfo.html">VariableDataInfo</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:29 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

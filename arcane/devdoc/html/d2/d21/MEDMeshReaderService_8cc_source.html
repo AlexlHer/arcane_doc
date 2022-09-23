@@ -1,0 +1,620 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane:  Fichier source de MEDMeshReaderService.cc</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/d21/MEDMeshReaderService_8cc_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MEDMeshReaderService.cc</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// -*- tab-width: 2; indent-tabs-mode: nil; coding: utf-8-with-signature -*-</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// Copyright 2000-2022 CEA (www.cea.fr) IFPEN (www.ifpenergiesnouvelles.com)</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// See the top-level COPYRIGHT file for details.</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">// SPDX-License-Identifier: Apache-2.0</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">/* MEDMeshReaderService.cc                                     (C) 2000-2018 */</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">/*                                                                           */</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">/* Lecture d&#39;un maillage au format MED.                                      */</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;arcane/IMeshReader.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;arcane/BasicService.h&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d58/ServiceFactory_8h.html">arcane/ServiceFactory.h</a>&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;arcane/IPrimaryMesh.h&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;med.h&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define MESGERR 1</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;med_utils.h&gt;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d32/namespaceArcane.html">Arcane</a></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html">   38</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html">MEDMeshReaderService</a></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>: <span class="keyword">public</span> <a class="code hl_class" href="../../d1/d5e/classArcane_1_1BasicService.html">BasicService</a></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>, <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d2c/classArcane_1_1IMeshReader.html">IMeshReader</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d6/d90/structArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo.html">   49</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="../../d6/d90/structArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo.html">MEDToArcaneItemInfo</a></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>   <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <a class="code hl_struct" href="../../d6/d90/structArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo.html">MEDToArcaneItemInfo</a>(<span class="keywordtype">int</span> dimension,<span class="keywordtype">int</span> nb_node,med_int med_type,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                        Integer arcane_type,<span class="keyword">const</span> Int32* indirection)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    : m_dimension(dimension), m_nb_node(nb_node), m_med_type(med_type),</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>      m_arcane_type(arcane_type), m_indirection(indirection){}</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>   <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">int</span> dimension()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_dimension; }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">int</span> nbNode()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_nb_node; }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    med_int medType()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_med_type; }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    Integer arcaneType()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_arcane_type; }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keyword">const</span> Int32* indirection()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> m_indirection; }</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>   <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">int</span> m_dimension;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">int</span> m_nb_node;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    med_int m_med_type;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    Integer m_arcane_type;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">const</span> Int32* m_indirection;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  };</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keyword">explicit</span> <a class="code hl_class" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html">MEDMeshReaderService</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d8/dc4/classArcane_1_1ServiceBuildInfo.html">ServiceBuildInfo</a>&amp; sbi)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  : <a class="code hl_class" href="../../d1/d5e/classArcane_1_1BasicService.html">BasicService</a>(sbi)</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    _initMEDToArcaneTypes();</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <a class="code hl_class" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html">~MEDMeshReaderService</a>()<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a551f4af5499527d271f8cb9838f8d333">   79</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a551f4af5499527d271f8cb9838f8d333">build</a>()<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a4ca4f7a82cda8fb21f09e03396f6a8ba">   80</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a4ca4f7a82cda8fb21f09e03396f6a8ba">allowExtension</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; str)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordflow">return</span> str==<span class="stringliteral">&quot;med&quot;</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <a class="code hl_enumeration" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004c">eReturnType</a> <a class="code hl_function" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a46c067b02b62e062bd6a891ed8342af4">readMeshFromFile</a>(<a class="code hl_class" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html">IPrimaryMesh</a>* mesh,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                               <span class="keyword">const</span> <a class="code hl_class" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a>&amp; mesh_element,</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                               <span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; file_name,</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                               <span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; dir_name,</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>                               <span class="keywordtype">bool</span> use_internal_partition) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <a class="code hl_enumeration" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004c">eReturnType</a> _readMesh(<a class="code hl_class" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html">IPrimaryMesh</a>* mesh,<span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; filename);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="comment">// Structure pour fermer automatiquement les fichiers MED ouverts</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="../../d0/db7/structArcane_1_1MEDMeshReaderService_1_1AutoCloseMED.html">   93</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="../../d0/db7/structArcane_1_1MEDMeshReaderService_1_1AutoCloseMED.html">AutoCloseMED</a></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <a class="code hl_struct" href="../../d0/db7/structArcane_1_1MEDMeshReaderService_1_1AutoCloseMED.html">AutoCloseMED</a>(med_idt <span class="keywordtype">id</span>) : fid(<span class="keywordtype">id</span>){}</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <a class="code hl_struct" href="../../d0/db7/structArcane_1_1MEDMeshReaderService_1_1AutoCloseMED.html">~AutoCloseMED</a>()</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>      <span class="keywordflow">if</span> (fid&gt;=0)</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        ::MEDfileClose(fid);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    }</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    med_idt fid;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  };</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <a class="code hl_class" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray&lt;MEDToArcaneItemInfo&gt;</a> m_med_to_arcane_types;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  Int32 _readItems(med_idt fid,<span class="keyword">const</span> <span class="keywordtype">char</span>* meshnane,<span class="keyword">const</span> <a class="code hl_struct" href="../../d6/d90/structArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo.html">MEDToArcaneItemInfo</a>&amp; iinfo,</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                   <a class="code hl_class" href="../../d1/dfb/classArcane_1_1Array.html">Array&lt;med_int&gt;</a>&amp; connectivity);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keywordtype">void</span> _initMEDToArcaneTypes();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  <span class="keywordtype">void</span> _addTypeInfo(<span class="keywordtype">int</span> dimension,<span class="keywordtype">int</span> nb_node,med_int med_type,Integer arcane_type)</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <a class="code hl_struct" href="../../d6/d90/structArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo.html">MEDToArcaneItemInfo</a> t(dimension,nb_node,med_type,arcane_type,<span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    m_med_to_arcane_types.<a class="code hl_function" href="../../d9/d09/classArccore_1_1Array.html#ab3f2d332e7c412261b9199bb5454e31b">add</a>(t);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  }</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="keywordtype">void</span> _addTypeInfo(<span class="keywordtype">int</span> dimension,<span class="keywordtype">int</span> nb_node,med_int med_type,Integer arcane_type,</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                    <span class="keyword">const</span> Int32* indirection)</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  {</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    MEDToArcaneItemInfo t(dimension,nb_node,med_type,arcane_type,indirection);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    m_med_to_arcane_types.<a class="code hl_function" href="../../d9/d09/classArccore_1_1Array.html#ab3f2d332e7c412261b9199bb5454e31b">add</a>(t);</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  }</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>};</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="keyword">namespace</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>{</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">const</span> Int32 Hexaedron8_indirection[] = { 1, 0, 3, 2, 5, 4, 7, 6 };</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">const</span> Int32 Pyramid5_indirection[] = { 1, 0, 3, 2, 4 };</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="keyword">const</span> Int32 Quad4_indirection[] = { 1, 0, 3, 2 };</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keyword">const</span> Int32 Triangle3_indirection[] = { 1, 0, 2 };</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="comment">// PAS utilisé pour l&#39;instant. A tester.</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="keyword">const</span> Int32 Tetraedron4_indirection[] = { 1, 0, 2, 3 };</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>}</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="keywordtype">void</span> MEDMeshReaderService::</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>_initMEDToArcaneTypes()</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>{</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  m_med_to_arcane_types.<a class="code hl_function" href="../../d9/d09/classArccore_1_1Array.html#aeacee0657891fd1b10c2f73efd5bb086">clear</a>();</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  <span class="comment">// TODO: regarder la correspondance de connectivité entre</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  <span class="comment">// Arcane et MED pour les éléments quadratiques</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  <span class="comment">// Types 1D</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  _addTypeInfo(1,2,MED_SEG2,IT_Line2);</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  _addTypeInfo(1,3,MED_SEG3,IT_Line3); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  _addTypeInfo(1,4,MED_SEG4,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  <span class="comment">// Types 2D.</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  _addTypeInfo(2,3,MED_TRIA3,IT_Triangle3, Triangle3_indirection);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  _addTypeInfo(2,4,MED_QUAD4,IT_Quad4, Quad4_indirection);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  _addTypeInfo(2,6,MED_TRIA6,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  _addTypeInfo(2,7,MED_TRIA7,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  _addTypeInfo(2,8,MED_QUAD8,IT_Quad8); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>  _addTypeInfo(2,9,MED_QUAD9,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>  <span class="comment">// Types 3D</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>  _addTypeInfo(3, 4,MED_TETRA4,IT_Tetraedron4);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  _addTypeInfo(3, 5,MED_PYRA5,IT_Pyramid5, Pyramid5_indirection);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>  _addTypeInfo(3, 6,MED_PENTA6,IT_Pentaedron6);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>  _addTypeInfo(3, 8,MED_HEXA8,IT_Hexaedron8, Hexaedron8_indirection);</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>  _addTypeInfo(3,10,MED_TETRA10,IT_Tetraedron10);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  _addTypeInfo(3,12,MED_OCTA12,IT_Octaedron12);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  _addTypeInfo(3,13,MED_PYRA13,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  _addTypeInfo(3,15,MED_PENTA15,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  _addTypeInfo(3,18,MED_PENTA18,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>  _addTypeInfo(3,20,MED_HEXA20,IT_Hexaedron20);</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  _addTypeInfo(3,27,MED_HEXA27,IT_NullType); <span class="comment">// Non supporté</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>  <span class="comment">// Mailles dont la géométrie à une connectivité variable.</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>  <span class="comment">// Pour l&#39;instant on ne supporte aucun de ces types dans Arcane.</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>  <span class="comment">// On traite quand même ces éléments pour afficher une erreur s&#39;ils sont</span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  <span class="comment">// présents dans le maillage. En mettant la valeur (0) pour le nombre</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>  <span class="comment">// de noeuds on signale à _readItems() qu&#39;on ne sait pas traiter ces éléments.</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="comment"></span>  _addTypeInfo(2,0,MED_POLYGON,IT_NullType);</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  _addTypeInfo(2,0,MED_POLYGON2,IT_NullType);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>  _addTypeInfo(3,0,MED_POLYHEDRON,IT_NullType);</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  <span class="comment">// Mailles dont la géométrie est dynamique (découverte du modèle dans le fichier)</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  <span class="comment">// TODO: regarder comment les traiter</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  <span class="comment">//#define MED_STRUCT_GEO_INTERNAL 600</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  <span class="comment">//#define MED_STRUCT_GEO_SUP_INTERNAL 700</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>}</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno"><a class="line" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a46c067b02b62e062bd6a891ed8342af4">  187</a></span><a class="code hl_enumeration" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004c">IMeshReader::eReturnType</a> <a class="code hl_function" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a46c067b02b62e062bd6a891ed8342af4">MEDMeshReaderService::</a></div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span><a class="code hl_function" href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a46c067b02b62e062bd6a891ed8342af4">readMeshFromFile</a>(<a class="code hl_class" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html">IPrimaryMesh</a>* mesh,</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>                 <span class="keyword">const</span> <a class="code hl_class" href="../../d9/dcc/classArcane_1_1XmlNode.html">XmlNode</a>&amp; mesh_element,</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>                 <span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; file_name,</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>                 <span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; dir_name,</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>                 <span class="keywordtype">bool</span> use_internal_partition)</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>{</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>  ARCANE_UNUSED(mesh_element);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>  ARCANE_UNUSED(dir_name);</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>  <span class="keywordflow">if</span> (use_internal_partition)</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a98dc7953a3cabcdf7e32826a9cc39da7">ARCANE_THROW</a>(<a class="code hl_class" href="../../d6/d5e/classArccore_1_1NotImplementedException.html">NotImplementedException</a>,<span class="stringliteral">&quot;Internal partitioning with MED files&quot;</span>);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;Trying to read MED File name=&quot;</span> &lt;&lt; file_name &lt;&lt; <span class="stringliteral">&quot; dir=&quot;</span> &lt;&lt; dir_name;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  <span class="keywordflow">return</span> _readMesh(mesh,file_name);</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>}</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><a class="code hl_enumeration" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004c">IMeshReader::eReturnType</a> MEDMeshReaderService::</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>_readMesh(<a class="code hl_class" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html">IPrimaryMesh</a>* mesh,<span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; filename)</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>{</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>  med_idt fid = MEDfileOpen(filename.<a class="code hl_function" href="../../d2/ddb/classArccore_1_1String.html#ab9f88427a38ac95ab3cf53743f248cb7">localstr</a>(),MED_ACC_RDONLY);</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  <span class="keywordflow">if</span> (fid&lt;0){</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    MESSAGE(<span class="stringliteral">&quot;ERROR: can not open MED file &quot;</span>);</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;ERROR: can not open MED file &#39;&quot;</span> &lt;&lt; filename &lt;&lt; <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>  }</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>  <span class="comment">// Pour garantir la fermeture du fichier.</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>  AutoCloseMED auto_close_med(fid);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>  <span class="keywordtype">int</span> nb_mesh = MEDnMesh(fid);</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>  <span class="keywordflow">if</span> (nb_mesh&lt;0){</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;Error reading number of meshes&quot;</span>;</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>  }</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: nb_mesh=&quot;</span> &lt;&lt; nb_mesh;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  <span class="keywordflow">if</span> (nb_mesh==0){</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;No mesh is present&quot;</span>;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>  }</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  <span class="comment">// Le maillage qu&#39;on lit est toujours le premier</span></div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>  <span class="keywordtype">int</span> mesh_index = 1;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>  <span class="comment">// Récupère la dimension d&#39;espace. Cela est nécessaire pour dimensionner axisname eet unitname</span></div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>  <span class="keywordtype">int</span> nb_axis = MEDmeshnAxis(fid,mesh_index);</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>  <span class="keywordflow">if</span> (nb_axis&lt;0){</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;Can not read number of axis (MEDmeshnAxis)&quot;</span>;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>  }</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: nb_axis=&quot;</span> &lt;&lt; nb_axis;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>  UniqueArray&lt;char&gt; axisname(MED_SNAME_SIZE*nb_axis+1,<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  UniqueArray&lt;char&gt; unitname(MED_SNAME_SIZE*nb_axis+1,<span class="charliteral">&#39;\0&#39;</span>);</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  <span class="keywordtype">char</span> meshname[MED_NAME_SIZE+1];</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  meshname[0] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  <span class="keywordtype">char</span> meshdescription[MED_COMMENT_SIZE+1];</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  meshdescription[0] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  <span class="keywordtype">char</span> dtunit[MED_SNAME_SIZE+1];</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  dtunit[0] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  med_int spacedim = 0;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  med_int meshdim = 0;</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  med_mesh_type meshtype = MED_UNDEF_MESH_TYPE;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>  med_sorting_type sortingtype = MED_SORT_UNDEF;</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>  med_int nstep = 0;</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>  med_axis_type axistype = MED_UNDEF_AXIS_TYPE;</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>  <span class="keywordtype">int</span> err = 0;</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>  err = MEDmeshInfo(fid, mesh_index, meshname, &amp;spacedim, &amp;meshdim, &amp;meshtype, meshdescription, </div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>                    dtunit, &amp;sortingtype, &amp;nstep, &amp;axistype, axisname.data(), unitname.data());</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  <span class="keywordflow">if</span> (err &lt; 0) {</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;Can not read mesh info (MEDmeshInfo) r=&quot;</span> &lt;&lt; err;</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  }</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  <span class="keywordflow">if</span> (meshtype!=MED_UNSTRUCTURED_MESH){</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;Arcane handle only MED unstructured mesh (MED_UNSTRUCTURED_MESH) type=&quot;</span> &lt;&lt; meshtype;</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;    </div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>  }</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>  <a class="code hl_typedef" href="../../d5/d60/namespaceArccore.html#a19fea02f94d4da203710fd2070c0f2fb">Integer</a> mesh_dimension = meshdim;</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  <span class="keywordflow">if</span> (mesh_dimension!=2 &amp;&amp; mesh_dimension!=3)</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>    <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a9d85d5fb84c5371348dd56600999e564">ARCANE_FATAL</a>(<span class="stringliteral">&quot;MED reader handles only 2D or 3D meshes&quot;</span>);</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: name=&quot;</span> &lt;&lt; meshname;</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: description=&quot;</span> &lt;&lt; meshdescription;</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: spacedim=&quot;</span> &lt;&lt; spacedim;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: meshdim=&quot;</span> &lt;&lt; meshdim;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: dtunit=&quot;</span> &lt;&lt; dtunit;</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: meshtype=&quot;</span> &lt;&lt; meshtype;</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: sortingtype=&quot;</span> &lt;&lt; sortingtype;</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: axistype=&quot;</span> &lt;&lt; axistype;</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: nstep=&quot;</span> &lt;&lt; nstep;</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>  Int64 nb_node = 0;</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>  <span class="comment">// Lecture du nombre de noeuds.</span></div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>  {</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    med_bool coordinatechangement;</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    med_bool geotransformation;</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">// TODO: traiter les informations telles que coordinatechangement</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="comment">// et geotransformation si besoin</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    med_int med_nb_node = MEDmeshnEntity(fid, meshname, MED_NO_DT, MED_NO_IT, MED_NODE, MED_NO_GEOTYPE,</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>                                         MED_COORDINATE, MED_NO_CMODE,&amp;coordinatechangement,</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>                                         &amp;geotransformation);</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    <span class="keywordflow">if</span> (med_nb_node&lt;0) {</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>      <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;Can not read number of nodes (MEDmeshnEntity) err=&quot;</span> &lt;&lt; med_nb_node;</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>      <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    }</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    nb_node = med_nb_node;</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>  }</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: nb_node=&quot;</span> &lt;&lt; nb_node;</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>  mesh-&gt;<a class="code hl_function" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#ad9fc773b1e7dddf645ce42e89feeb43d">setDimension</a>(mesh_dimension);</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>  Int64 cell_unique_id = 0;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>  Int32 cell_local_id = 0;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>  <span class="comment">// Alloue les entités types par type.</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>  <span class="keywordflow">for</span>( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; iinfo : m_med_to_arcane_types ){</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <a class="code hl_typedef" href="../../d5/d60/namespaceArccore.html#a19fea02f94d4da203710fd2070c0f2fb">Integer</a> item_dimension = iinfo.dimension();</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>    <span class="comment">// On ne traite que les entités de la dimension du maillage.</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    <span class="keywordflow">if</span> (item_dimension!=mesh_dimension)</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>      <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>    UniqueArray&lt;med_int&gt; med_connectivity;</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    Int32 nb_item = _readItems(fid,meshname,iinfo,med_connectivity);</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>    <span class="keywordflow">if</span> (nb_item==0)</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>      <span class="keywordflow">continue</span>;</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>    <a class="code hl_typedef" href="../../d5/d60/namespaceArccore.html#a19fea02f94d4da203710fd2070c0f2fb">Integer</a> arcane_type = iinfo.arcaneType();</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    <a class="code hl_typedef" href="../../d5/d60/namespaceArccore.html#a19fea02f94d4da203710fd2070c0f2fb">Integer</a> nb_item_node = iinfo.nbNode();</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <span class="keywordflow">if</span> (arcane_type==IT_NullType){</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>      <span class="comment">// Indique un type supporté par MED mais pas par Arcane</span></div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>      <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a9d85d5fb84c5371348dd56600999e564">ARCANE_FATAL</a>(<span class="stringliteral">&quot;MED type &#39;{0}&#39; is not supported by Arcane&quot;</span>,iinfo.medType());</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>    }</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    Int64 cells_infos_index = 0;</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>    Int64 med_connectivity_index = 0;</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>    UniqueArray&lt;Int64&gt; cells_infos((2+nb_item_node)*nb_item);</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>    <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;CELL_INFOS size=&quot;</span> &lt;&lt; cells_infos.size() &lt;&lt; <span class="stringliteral">&quot; nb_item=&quot;</span> &lt;&lt; nb_item</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>           &lt;&lt; <span class="stringliteral">&quot; type=&quot;</span> &lt;&lt; arcane_type;</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>    <span class="keyword">const</span> Int32* indirection = iinfo.indirection();</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>    <span class="keywordflow">for</span>( Int32 i=0; i&lt;nb_item; ++i ){</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>      cells_infos[cells_infos_index] = arcane_type;</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>      ++cells_infos_index;</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>      cells_infos[cells_infos_index] = cell_unique_id;</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>      ++cells_infos_index;</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>      ++cell_unique_id;</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>      <span class="comment">// La connectivité dans MED commence à 1 et Arcane à 0.</span></div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>      <span class="comment">// Il faut donc retrancher 1 de la connectivité donnée par MED.</span></div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>      Span&lt;Int64&gt; cinfo_span(cells_infos.span().subspan(cells_infos_index,nb_item_node));</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>      Span&lt;med_int&gt; med_cinfo_span(med_connectivity.span().subspan(med_connectivity_index,nb_item_node));</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>      <span class="keywordflow">if</span> (indirection){</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>        <span class="keywordflow">for</span>( Integer k=0; k&lt;nb_item_node; ++k ){</div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>          cinfo_span[k] = med_cinfo_span[indirection[k]] - 1;</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>        }</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>      }</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>      <span class="keywordflow">else</span>{</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>        <span class="keywordflow">for</span>( Integer k=0; k&lt;nb_item_node; ++k )</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>          cinfo_span[k] = med_cinfo_span[k] - 1;</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>      }</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span> </div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>      med_connectivity_index += nb_item_node;</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>      cells_infos_index += nb_item_node;</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>      ++cell_local_id;</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>    }</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>    mesh-&gt;<a class="code hl_function" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#a20388e004bece51246f03d3fc0b54f64">allocateCells</a>(nb_item,cells_infos,<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  }</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>  mesh-&gt;<a class="code hl_function" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#a6768749be29cc23ed6764c5f6b612618">endAllocate</a>();</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>  <span class="comment">// Lit les coordonnées des noeuds et positionne les coordonnées dans Arcane</span></div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>  UniqueArray&lt;Real3&gt; nodes_coordinates(nb_node);</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>  {</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    UniqueArray&lt;med_float&gt; coordinates(nb_node*spacedim);</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>    err = MEDmeshNodeCoordinateRd(fid, meshname, MED_NO_DT, MED_NO_IT, MED_FULL_INTERLACE,</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>                                  coordinates.data());</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>    <span class="keywordflow">if</span> (err&lt;0){</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>      <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a>() &lt;&lt; <span class="stringliteral">&quot;Can not read nodes coordinates err=&quot;</span> &lt;&lt; err;</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>      <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">RTError</a>;</div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>    }</div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>    <span class="keywordflow">if</span> (spacedim==3){</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>      <span class="keywordflow">for</span>( Int64 i=0; i&lt;nb_node; ++i ){</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>        Real3 xyz(coordinates[i*3],coordinates[(i*3)+1],coordinates[(i*3)+2]);</div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>        <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;I=&quot;</span> &lt;&lt; i &lt;&lt; <span class="stringliteral">&quot; XYZ=&quot;</span> &lt;&lt; xyz;</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>        nodes_coordinates[i] = xyz;</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>      }</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>    }</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spacedim==2){</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>      <span class="keywordflow">for</span>( Int64 i=0; i&lt;nb_node; ++i ){</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>        Real3 xyz(coordinates[i*2],coordinates[(i*2)+1],0.0);</div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>        <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;I=&quot;</span> &lt;&lt; i &lt;&lt; <span class="stringliteral">&quot; XYZ=&quot;</span> &lt;&lt; xyz;</div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>        nodes_coordinates[i] = xyz;</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>      }</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    }</div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>      <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a98dc7953a3cabcdf7e32826a9cc39da7">ARCANE_THROW</a>(NotImplementedException,<span class="stringliteral">&quot;spacedim!=2 &amp;&amp; spacedim!=3&quot;</span>);</div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>  }</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span> </div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>  <span class="comment">// Positionne les coordonnées</span></div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>  {</div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>    <a class="code hl_typedef" href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">VariableNodeReal3</a>&amp; nodes_coord_var(mesh-&gt;<a class="code hl_function" href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#a0687f623cfe9bfad1f8630b29c208efb">nodesCoordinates</a>());</div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>    <a class="code hl_define" href="../../d6/d0f/ItemEnumerator_8h.html#aea36524754c129124072de38e045d6ba">ENUMERATE_NODE</a>(inode,mesh-&gt;<a class="code hl_function" href="../../de/d4a/classArcane_1_1IMeshBase.html#ad74d7c091f90d9e11ef184c173f9947c">allNodes</a>()){</div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>      Node node = *inode;</div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>      nodes_coord_var[inode] = nodes_coordinates[node.uniqueId()];</div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>    }</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>  }</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>  <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca891d767ba5df9e8c5f93a49fffbbf194">RTOk</a>;</div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>}</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span> </div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span> </div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>Int32 MEDMeshReaderService::</div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>_readItems(med_idt fid,<span class="keyword">const</span> <span class="keywordtype">char</span>* meshname,<span class="keyword">const</span> MEDToArcaneItemInfo&amp; iinfo,</div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>           Array&lt;med_int&gt;&amp; connectivity)</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>{</div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>  <span class="keywordtype">int</span> med_item_type = iinfo.medType();</div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>  med_bool coordinatechangement;</div>
+<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>  med_bool geotransformation;</div>
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>  med_int nb_med_item = ::MEDmeshnEntity(fid, meshname, MED_NO_DT, MED_NO_IT, MED_CELL,med_item_type,</div>
+<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>                                         MED_CONNECTIVITY, MED_NODAL, &amp;coordinatechangement,</div>
+<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>                                         &amp;geotransformation);</div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>  <span class="keywordflow">if</span> (nb_med_item &lt; 0) {</div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>    <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a9d85d5fb84c5371348dd56600999e564">ARCANE_FATAL</a>(<span class="stringliteral">&quot;Can not read MED med_item_type &#39;{0}&#39; error={1}&quot;</span>,med_item_type,nb_med_item);</div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>  }</div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;MED: type=&quot;</span> &lt;&lt; med_item_type &lt;&lt; <span class="stringliteral">&quot; nb_item=&quot;</span> &lt;&lt; nb_med_item;</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>  <span class="keywordflow">if</span> (nb_med_item==0)</div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>  Int64 nb_node = iinfo.nbNode();</div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>  <span class="keywordflow">if</span> (nb_node==0)</div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>    <span class="comment">// Indique un élément qu&#39;on ne sais pas traiter.</span></div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>    <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a98dc7953a3cabcdf7e32826a9cc39da7">ARCANE_THROW</a>(NotImplementedException,<span class="stringliteral">&quot;Reading items with MED type &#39;{0}&#39;&quot;</span>,med_item_type);</div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span> </div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span>  connectivity.resize(nb_node*nb_med_item);</div>
+<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>  <span class="keywordtype">int</span> err = MEDmeshElementConnectivityRd(fid, meshname, MED_NO_DT, MED_NO_IT, MED_CELL,</div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>                                         med_item_type, MED_NODAL, MED_FULL_INTERLACE,</div>
+<div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span>                                         connectivity.data());</div>
+<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>  <span class="keywordflow">if</span> (err&lt;0){</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>    <a class="code hl_define" href="../../d0/d1e/ArcaneGlobal_8h.html#a9d85d5fb84c5371348dd56600999e564">ARCANE_FATAL</a>(<span class="stringliteral">&quot;Can not read connectivity MED med_item_type &#39;{0}&#39; error={1}&quot;</span>,</div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>                 med_item_type,err);</div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>  }</div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>  <a class="code hl_function" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a>() &lt;&lt; <span class="stringliteral">&quot;CON: &quot;</span> &lt;&lt; connectivity;</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>  <span class="keywordflow">return</span> nb_med_item;</div>
+<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>}</div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span> </div>
+<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span> </div>
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span><a class="code hl_define" href="../../d8/dff/group__Service.html#ga08ef55634029238ec40cbb93692033e8">ARCANE_REGISTER_SERVICE</a>(MEDMeshReaderService,</div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>                        ServiceProperty(<span class="stringliteral">&quot;MEDMeshReader&quot;</span>,<a class="code hl_enumvalue" href="../../d0/d32/namespaceArcane.html#a76d8edd5679322dbbea6dd06488a0db4a9997b517d3c4ecb309d952431399bd2f">ST_SubDomain</a>),</div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>                        <a class="code hl_define" href="../../d3/d58/ServiceFactory_8h.html#aba44ad90916fb14522e59bab36dbf5f7">ARCANE_SERVICE_INTERFACE</a>(IMeshReader));</div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span> </div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span> </div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>}</div>
+<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span> </div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span><span class="comment">// ----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span><span class="comment">// Local Variables:</span></div>
+<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span><span class="comment">// tab-width: 2</span></div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span><span class="comment">// indent-tabs-mode: nil</span></div>
+<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span><span class="comment">// coding: utf-8-with-signature</span></div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span><span class="comment">// End:</span></div>
+<div class="ttc" id="aArcaneGlobal_8h_html_a98dc7953a3cabcdf7e32826a9cc39da7"><div class="ttname"><a href="../../d0/d1e/ArcaneGlobal_8h.html#a98dc7953a3cabcdf7e32826a9cc39da7">ARCANE_THROW</a></div><div class="ttdeci">#define ARCANE_THROW(exception_class,...)</div><div class="ttdoc">Macro pour envoyer une exception avec formattage.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/ArcaneGlobal_8h_source.html#l00750">ArcaneGlobal.h:750</a></div></div>
+<div class="ttc" id="aArcaneGlobal_8h_html_a9d85d5fb84c5371348dd56600999e564"><div class="ttname"><a href="../../d0/d1e/ArcaneGlobal_8h.html#a9d85d5fb84c5371348dd56600999e564">ARCANE_FATAL</a></div><div class="ttdeci">#define ARCANE_FATAL(...)</div><div class="ttdoc">Macro envoyant une exception FatalErrorException.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1e/ArcaneGlobal_8h_source.html#l00761">ArcaneGlobal.h:761</a></div></div>
+<div class="ttc" id="aItemEnumerator_8h_html_aea36524754c129124072de38e045d6ba"><div class="ttname"><a href="../../d6/d0f/ItemEnumerator_8h.html#aea36524754c129124072de38e045d6ba">ENUMERATE_NODE</a></div><div class="ttdeci">#define ENUMERATE_NODE(name, group)</div><div class="ttdoc">Enumérateur générique d'un groupe de noeuds.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d0f/ItemEnumerator_8h_source.html#l00251">ItemEnumerator.h:251</a></div></div>
+<div class="ttc" id="aServiceFactory_8h_html"><div class="ttname"><a href="../../d3/d58/ServiceFactory_8h.html">ServiceFactory.h</a></div><div class="ttdoc">Ce fichier contient les différentes fabriques de services et macro pour enregistrer les services.</div></div>
+<div class="ttc" id="aServiceFactory_8h_html_aba44ad90916fb14522e59bab36dbf5f7"><div class="ttname"><a href="../../d3/d58/ServiceFactory_8h.html#aba44ad90916fb14522e59bab36dbf5f7">ARCANE_SERVICE_INTERFACE</a></div><div class="ttdeci">#define ARCANE_SERVICE_INTERFACE(ainterface)</div><div class="ttdoc">Macro pour déclarer une interface lors de l'enregistrement d'un service.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d58/ServiceFactory_8h_source.html#l00475">ServiceFactory.h:475</a></div></div>
+<div class="ttc" id="aclassArcane_1_1Array_html"><div class="ttname"><a href="../../d1/dfb/classArcane_1_1Array.html">Arcane::Array</a></div><div class="ttdoc">Tableau d'items de types quelconques.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d60/AnyItemArray_8h_source.html#l00054">AnyItemArray.h:55</a></div></div>
+<div class="ttc" id="aclassArcane_1_1BasicService_html"><div class="ttname"><a href="../../d1/d5e/classArcane_1_1BasicService.html">Arcane::BasicService</a></div><div class="ttdoc">Classe de base de service lié à un sous-domaine.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da2/BasicService_8h_source.html#l00039">BasicService.h:43</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IMeshBase_html_ad74d7c091f90d9e11ef184c173f9947c"><div class="ttname"><a href="../../de/d4a/classArcane_1_1IMeshBase.html#ad74d7c091f90d9e11ef184c173f9947c">Arcane::IMeshBase::allNodes</a></div><div class="ttdeci">virtual NodeGroup allNodes()=0</div><div class="ttdoc">Groupe de tous les noeuds.</div></div>
+<div class="ttc" id="aclassArcane_1_1IMeshReader_html"><div class="ttname"><a href="../../d7/d2c/classArcane_1_1IMeshReader.html">Arcane::IMeshReader</a></div><div class="ttdoc">Interface du service gérant la lecture d'un maillage.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/IMeshReader_8h_source.html#l00036">IMeshReader.h:37</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IMeshReader_html_aa5759e2881cc9fec93f3d2dbcb28004c"><div class="ttname"><a href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004c">Arcane::IMeshReader::eReturnType</a></div><div class="ttdeci">eReturnType</div><div class="ttdoc">Types des codes de retour d'une lecture ou écriture.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/IMeshReader_8h_source.html#l00041">IMeshReader.h:42</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IMeshReader_html_aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314"><div class="ttname"><a href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca3816c6372931032e4493be43848ec314">Arcane::IMeshReader::RTError</a></div><div class="ttdeci">@ RTError</div><div class="ttdoc">Erreur lors de l'opération.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/IMeshReader_8h_source.html#l00044">IMeshReader.h:44</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IMeshReader_html_aa5759e2881cc9fec93f3d2dbcb28004ca891d767ba5df9e8c5f93a49fffbbf194"><div class="ttname"><a href="../../d7/d2c/classArcane_1_1IMeshReader.html#aa5759e2881cc9fec93f3d2dbcb28004ca891d767ba5df9e8c5f93a49fffbbf194">Arcane::IMeshReader::RTOk</a></div><div class="ttdeci">@ RTOk</div><div class="ttdoc">Opération effectuée avec succès.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/IMeshReader_8h_source.html#l00043">IMeshReader.h:43</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IPrimaryMesh_html"><div class="ttname"><a href="../../d7/d89/classArcane_1_1IPrimaryMesh.html">Arcane::IPrimaryMesh</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d18/IPrimaryMesh_8h_source.html#l00041">IPrimaryMesh.h:43</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IPrimaryMesh_html_a0687f623cfe9bfad1f8630b29c208efb"><div class="ttname"><a href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#a0687f623cfe9bfad1f8630b29c208efb">Arcane::IPrimaryMesh::nodesCoordinates</a></div><div class="ttdeci">virtual VariableNodeReal3 &amp; nodesCoordinates()=0</div><div class="ttdoc">Coordonnées des noeuds.</div></div>
+<div class="ttc" id="aclassArcane_1_1IPrimaryMesh_html_a20388e004bece51246f03d3fc0b54f64"><div class="ttname"><a href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#a20388e004bece51246f03d3fc0b54f64">Arcane::IPrimaryMesh::allocateCells</a></div><div class="ttdeci">virtual void allocateCells(Integer nb_cell, Int64ConstArrayView cells_infos, bool one_alloc=true)=0</div><div class="ttdoc">Allocation d'un maillage.</div></div>
+<div class="ttc" id="aclassArcane_1_1IPrimaryMesh_html_a6768749be29cc23ed6764c5f6b612618"><div class="ttname"><a href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#a6768749be29cc23ed6764c5f6b612618">Arcane::IPrimaryMesh::endAllocate</a></div><div class="ttdeci">virtual void endAllocate()=0</div><div class="ttdoc">Indique une fin d'allocation de mailles.</div></div>
+<div class="ttc" id="aclassArcane_1_1IPrimaryMesh_html_ad9fc773b1e7dddf645ce42e89feeb43d"><div class="ttname"><a href="../../d7/d89/classArcane_1_1IPrimaryMesh.html#ad9fc773b1e7dddf645ce42e89feeb43d">Arcane::IPrimaryMesh::setDimension</a></div><div class="ttdeci">virtual void setDimension(Integer dim)=0</div><div class="ttdoc">Positionne la dimension du maillage (1D, 2D ou 3D).</div></div>
+<div class="ttc" id="aclassArcane_1_1MEDMeshReaderService_html"><div class="ttname"><a href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html">Arcane::MEDMeshReaderService</a></div><div class="ttdoc">Lecteur de maillages au format MED.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d21/MEDMeshReaderService_8cc_source.html#l00038">MEDMeshReaderService.cc:41</a></div></div>
+<div class="ttc" id="aclassArcane_1_1MEDMeshReaderService_html_a46c067b02b62e062bd6a891ed8342af4"><div class="ttname"><a href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a46c067b02b62e062bd6a891ed8342af4">Arcane::MEDMeshReaderService::readMeshFromFile</a></div><div class="ttdeci">eReturnType readMeshFromFile(IPrimaryMesh *mesh, const XmlNode &amp;mesh_element, const String &amp;file_name, const String &amp;dir_name, bool use_internal_partition) override</div><div class="ttdoc">Lit un maillage à partir d'un fichier.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d21/MEDMeshReaderService_8cc_source.html#l00187">MEDMeshReaderService.cc:188</a></div></div>
+<div class="ttc" id="aclassArcane_1_1MEDMeshReaderService_html_a4ca4f7a82cda8fb21f09e03396f6a8ba"><div class="ttname"><a href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a4ca4f7a82cda8fb21f09e03396f6a8ba">Arcane::MEDMeshReaderService::allowExtension</a></div><div class="ttdeci">bool allowExtension(const String &amp;str) override</div><div class="ttdoc">Vérifie si le service supporte les fichiers avec l'extension str.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d21/MEDMeshReaderService_8cc_source.html#l00080">MEDMeshReaderService.cc:80</a></div></div>
+<div class="ttc" id="aclassArcane_1_1MEDMeshReaderService_html_a551f4af5499527d271f8cb9838f8d333"><div class="ttname"><a href="../../d2/ddc/classArcane_1_1MEDMeshReaderService.html#a551f4af5499527d271f8cb9838f8d333">Arcane::MEDMeshReaderService::build</a></div><div class="ttdeci">void build() override</div><div class="ttdoc">Construction de niveau build du service.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d21/MEDMeshReaderService_8cc_source.html#l00079">MEDMeshReaderService.cc:79</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ServiceBuildInfo_html"><div class="ttname"><a href="../../d8/dc4/classArcane_1_1ServiceBuildInfo.html">Arcane::ServiceBuildInfo</a></div><div class="ttdoc">Structure contenant les informations pour créer un service.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/ServiceBuildInfo_8h_source.html#l00122">ServiceBuildInfo.h:124</a></div></div>
+<div class="ttc" id="aclassArcane_1_1XmlNode_html"><div class="ttname"><a href="../../d9/dcc/classArcane_1_1XmlNode.html">Arcane::XmlNode</a></div><div class="ttdoc">Noeud d'un arbre DOM.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d28/XmlNode_8h_source.html#l00049">XmlNode.h:50</a></div></div>
+<div class="ttc" id="aclassArccore_1_1Array_html_ab3f2d332e7c412261b9199bb5454e31b"><div class="ttname"><a href="../../d9/d09/classArccore_1_1Array.html#ab3f2d332e7c412261b9199bb5454e31b">Arccore::Array::add</a></div><div class="ttdeci">void add(ConstReferenceType val)</div><div class="ttdoc">Ajoute l'élément val à la fin du tableau.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00962">arccore/src/collections/arccore/collections/Array.h:962</a></div></div>
+<div class="ttc" id="aclassArccore_1_1Array_html_aeacee0657891fd1b10c2f73efd5bb086"><div class="ttname"><a href="../../d9/d09/classArccore_1_1Array.html#aeacee0657891fd1b10c2f73efd5bb086">Arccore::Array::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Supprime les éléments du tableau.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01145">arccore/src/collections/arccore/collections/Array.h:1145</a></div></div>
+<div class="ttc" id="aclassArccore_1_1NotImplementedException_html"><div class="ttname"><a href="../../d6/d5e/classArccore_1_1NotImplementedException.html">Arccore::NotImplementedException</a></div><div class="ttdoc">Exception lorsqu'une fonction n'est pas implémentée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d96/arccore_2src_2base_2arccore_2base_2NotImplementedException_8h_source.html#l00031">arccore/src/base/arccore/base/NotImplementedException.h:33</a></div></div>
+<div class="ttc" id="aclassArccore_1_1String_html"><div class="ttname"><a href="../../d2/ddb/classArccore_1_1String.html">Arccore::String</a></div><div class="ttdoc">Chaîne de caractères unicode.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddc/arccore_2src_2base_2arccore_2base_2String_8h_source.html#l00069">arccore/src/base/arccore/base/String.h:70</a></div></div>
+<div class="ttc" id="aclassArccore_1_1String_html_ab9f88427a38ac95ab3cf53743f248cb7"><div class="ttname"><a href="../../d2/ddb/classArccore_1_1String.html#ab9f88427a38ac95ab3cf53743f248cb7">Arccore::String::localstr</a></div><div class="ttdeci">const char * localstr() const</div><div class="ttdoc">Retourne la conversion de l'instance dans l'encodage UTF-8.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d07/String_8cc_source.html#l00228">String.cc:229</a></div></div>
+<div class="ttc" id="aclassArccore_1_1TraceAccessor_html_a86a8c15c146724b331c8aa10e2027f08"><div class="ttname"><a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">Arccore::TraceAccessor::error</a></div><div class="ttdeci">TraceMessage error() const</div><div class="ttdoc">Flot pour un message d'erreur.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/TraceAccessor_8cc_source.html#l00200">TraceAccessor.cc:201</a></div></div>
+<div class="ttc" id="aclassArccore_1_1TraceAccessor_html_ac97ca3cda108d93dceb8e1a4800246a7"><div class="ttname"><a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">Arccore::TraceAccessor::info</a></div><div class="ttdeci">TraceMessage info() const</div><div class="ttdoc">Flot pour un message d'information.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/TraceAccessor_8cc_source.html#l00100">TraceAccessor.cc:101</a></div></div>
+<div class="ttc" id="aclassArccore_1_1UniqueArray_html"><div class="ttname"><a href="../../da/daa/classArccore_1_1UniqueArray.html">Arccore::UniqueArray</a></div><div class="ttdoc">Vecteur 1D de données avec sémantique par valeur (style STL).</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01510">arccore/src/collections/arccore/collections/Array.h:1512</a></div></div>
+<div class="ttc" id="agroup__Service_html_ga08ef55634029238ec40cbb93692033e8"><div class="ttname"><a href="../../d8/dff/group__Service.html#ga08ef55634029238ec40cbb93692033e8">ARCANE_REGISTER_SERVICE</a></div><div class="ttdeci">#define ARCANE_REGISTER_SERVICE(aclass, a_service_property,...)</div><div class="ttdoc">Macro pour enregistrer un service.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d58/ServiceFactory_8h_source.html#l00516">ServiceFactory.h:516</a></div></div>
+<div class="ttc" id="agroup__Variable_html_ga98c3f361d93bc122a383a05c80a966b7"><div class="ttname"><a href="../../d3/d00/group__Variable.html#ga98c3f361d93bc122a383a05c80a966b7">Arcane::VariableNodeReal3</a></div><div class="ttdeci">MeshVariableScalarRefT&lt; Node, Real3 &gt; VariableNodeReal3</div><div class="ttdoc">Grandeur au noeud de type coordonnées.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc7/VariableTypedef_8h_source.html#l00359">VariableTypedef.h:359</a></div></div>
+<div class="ttc" id="anamespaceArcane_html"><div class="ttname"><a href="../../d0/d32/namespaceArcane.html">Arcane</a></div><div class="ttdoc">-*- tab-width: 2; indent-tabs-mode: nil; coding: utf-8-with-signature -*-</div><div class="ttdef"><b>Definition:</b> <a href="../../de/df4/AbstractCaseDocumentVisitor_8cc_source.html#l00020">AbstractCaseDocumentVisitor.cc:20</a></div></div>
+<div class="ttc" id="anamespaceArcane_html_a76d8edd5679322dbbea6dd06488a0db4a9997b517d3c4ecb309d952431399bd2f"><div class="ttname"><a href="../../d0/d32/namespaceArcane.html#a76d8edd5679322dbbea6dd06488a0db4a9997b517d3c4ecb309d952431399bd2f">Arcane::ST_SubDomain</a></div><div class="ttdeci">@ ST_SubDomain</div><div class="ttdoc">Le service s'utilise au niveau du sous-domaine.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d54/ServiceProperty_8h_source.html#l00068">ServiceProperty.h:68</a></div></div>
+<div class="ttc" id="anamespaceArccore_html_a19fea02f94d4da203710fd2070c0f2fb"><div class="ttname"><a href="../../d5/d60/namespaceArccore.html#a19fea02f94d4da203710fd2070c0f2fb">Arccore::Integer</a></div><div class="ttdeci">Int32 Integer</div><div class="ttdoc">Type représentant un entier.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d76/ArccoreGlobal_8h_source.html#l00232">ArccoreGlobal.h:232</a></div></div>
+<div class="ttc" id="astructArcane_1_1MEDMeshReaderService_1_1AutoCloseMED_html"><div class="ttname"><a href="../../d0/db7/structArcane_1_1MEDMeshReaderService_1_1AutoCloseMED.html">Arcane::MEDMeshReaderService::AutoCloseMED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d21/MEDMeshReaderService_8cc_source.html#l00093">MEDMeshReaderService.cc:94</a></div></div>
+<div class="ttc" id="astructArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo_html"><div class="ttname"><a href="../../d6/d90/structArcane_1_1MEDMeshReaderService_1_1MEDToArcaneItemInfo.html">Arcane::MEDMeshReaderService::MEDToArcaneItemInfo</a></div><div class="ttdoc">Informations pour passer des types MED aux types Arcane pour les entités.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d21/MEDMeshReaderService_8cc_source.html#l00049">MEDMeshReaderService.cc:50</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_cd48e9603a047c3a36ad2b31e177f8e3.html">arcane</a></li><li class="navelem"><a class="el" href="../../dir_a3e309b2fcc87469c5b99e55c99d7269.html">std</a></li><li class="navelem"><b>MEDMeshReaderService.cc</b></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:09 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

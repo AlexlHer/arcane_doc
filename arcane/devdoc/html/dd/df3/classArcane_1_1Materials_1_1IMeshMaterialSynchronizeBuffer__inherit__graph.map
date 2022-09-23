@@ -1,0 +1,5 @@
+<map id="Arcane::Materials::IMeshMaterialSynchronizeBuffer" name="Arcane::Materials::IMeshMaterialSynchronizeBuffer">
+<area shape="rect" id="node1" title="Interface des buffers pour la synchronisation de variables matériaux." alt="" coords="161,5,395,207"/>
+<area shape="rect" id="node2" href="$d8/d58/classArcane_1_1Materials_1_1MultiBufferMeshMaterialSynchronizeBuffer.html" title=" " alt="" coords="5,255,268,485"/>
+<area shape="rect" id="node3" href="$d5/de7/classArcane_1_1Materials_1_1OneBufferMeshMaterialSynchronizeBuffer.html" title=" " alt="" coords="292,255,547,485"/>
+</map>

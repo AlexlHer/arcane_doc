@@ -1,0 +1,52 @@
+<map id="Arcane::mesh::GhostLayerBuilder2" name="Arcane::mesh::GhostLayerBuilder2">
+<area shape="rect" id="node1" title="Construction des couches fantômes." alt="" coords="499,8453,701,8684"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="880,3635,1075,3881"/>
+<area shape="rect" id="node5" href="$d2/daa/classArcane_1_1mesh_1_1DynamicMesh.html" title="Implémentation d&#39;un maillage." alt="" coords="3415,7148,3673,7731"/>
+<area shape="rect" id="node26" href="$d1/d3c/classArcane_1_1mesh_1_1DynamicMeshIncrementalBuilder.html" title="Construction d&#39;un maillage de manière incrémentale." alt="" coords="1967,7837,2241,8288"/>
+<area shape="rect" id="node28" href="$d9/d24/classArcane_1_1mesh_1_1OneMeshItemAdder.html" title=" " alt="" coords="8236,8380,8455,8757"/>
+<area shape="rect" id="node29" href="$da/d1c/classArcane_1_1mesh_1_1GhostLayerBuilder.html" title="Construction des couches fantômes." alt="" coords="2075,8475,2299,8662"/>
+<area shape="rect" id="node30" href="$dd/d49/classArcane_1_1mesh_1_1FaceUniqueIdBuilder.html" title="Construction des couches fantômes." alt="" coords="1015,8475,1289,8662"/>
+<area shape="rect" id="node31" href="$db/dde/classArcane_1_1mesh_1_1EdgeUniqueIdBuilder.html" title="Construction des couches fantômes." alt="" coords="1683,8490,1962,8647"/>
+<area shape="rect" id="node32" href="$d3/db1/classArcane_1_1DynamicMeshChecker.html" title=" " alt="" coords="3945,6715,4210,7049"/>
+<area shape="rect" id="node33" href="$df/d92/classArcane_1_1SubMeshTools.html" title=" " alt="" coords="611,6745,813,7019"/>
+<area shape="rect" id="node34" href="$dc/d2d/classArcane_1_1mesh_1_1MeshRefinement.html" title="Implémentation des algorithmes d&#39;adaptation par raffinement de maillages non&#45;structuré." alt="" coords="1213,7808,1451,8317"/>
+<area shape="rect" id="node36" href="$da/df5/classArcane_1_1mesh_1_1ExtraGhostCellsBuilder.html" title="Construction des mailles fantômes supplémentaires." alt="" coords="3161,7991,3407,8134"/>
+<area shape="rect" id="node37" href="$d4/d51/classArcane_1_1mesh_1_1ExtraGhostParticlesBuilder.html" title="Construction des mailles fantômes supplémentaires." alt="" coords="1475,7977,1719,8149"/>
+<area shape="rect" id="node43" href="$d3/db3/classArcane_1_1TiedInterfaceMng.html" title="Implémentation du gestionnaire d&#39;interfaces liées." alt="" coords="4234,6767,4489,6997"/>
+<area shape="rect" id="node44" href="$d5/da3/classArcane_1_1MeshPartitionConstraintMng.html" title="Gestionnaire de contraintes de partitionnement de maillage." alt="" coords="3283,6759,3560,7005"/>
+<area shape="rect" id="node3" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="891,489,1064,837"/>
+<area shape="rect" id="node4" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="907,247,1048,287"/>
+<area shape="rect" id="node6" href="$d9/dbc/classArcane_1_1MeshVariables.html" title="Variables contenant les informations de connectivités communes aux maillages 1D, 2D et 3D." alt="" coords="3584,6847,3763,6917"/>
+<area shape="rect" id="node7" href="$d9/d1e/classArcane_1_1ISubDomain.html" title="Interface du gestionnaire d&#39;un sous&#45;domaine." alt="" coords="3717,3643,3904,3873"/>
+<area shape="rect" id="node8" href="$d7/d89/classArcane_1_1IPrimaryMesh.html" title=" " alt="" coords="5005,6781,5187,6983"/>
+<area shape="rect" id="node9" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="5151,3496,5407,4020"/>
+<area shape="rect" id="node14" href="$d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="5459,6855,5680,6909"/>
+<area shape="rect" id="node10" href="$d9/d71/classArcane_1_1IMeshModifier.html" title="Interface de modification du maillage." alt="" coords="1381,6781,1555,6983"/>
+<area shape="rect" id="node11" href="$d1/d4e/classArcane_1_1IMeshMng.html" title="Interface du gestionnaire des maillages." alt="" coords="1579,6803,1749,6961"/>
+<area shape="rect" id="node12" href="$d7/d6f/classArcane_1_1MeshHandle.html" title="Handle sur un maillage." alt="" coords="1773,6759,1953,7005"/>
+<area shape="rect" id="node13" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="346,900,593,6616"/>
+<area shape="rect" id="node15" href="$d7/d7c/classArcane_1_1IVariableMng.html" title="Interface du gestionnaire de variables." alt="" coords="1977,6737,2164,7027"/>
+<area shape="rect" id="node16" href="$d0/d62/classArcane_1_1Properties.html" title="Liste de propriétés." alt="" coords="2189,6774,2339,6990"/>
+<area shape="rect" id="node17" title=" " alt="" coords="8069,5,8145,45"/>
+<area shape="rect" id="node19" href="$d2/d3e/classArcane_1_1mesh_1_1NodeFamily.html" title="Famille de noeuds." alt="" coords="7999,152,8214,383"/>
+<area shape="rect" id="node20" href="$d8/d1f/classArcane_1_1mesh_1_1FaceFamily.html" title="Famille de faces." alt="" coords="7951,3599,8166,3917"/>
+<area shape="rect" id="node21" href="$dd/d80/classArcane_1_1mesh_1_1EdgeFamily.html" title="Famille d&#39;arêtes." alt="" coords="8269,541,8483,786"/>
+<area shape="rect" id="node22" href="$dc/d95/classArcane_1_1mesh_1_1CellFamily.html" title="Famille de mailles." alt="" coords="8184,6759,8435,7005"/>
+<area shape="rect" id="node27" href="$d7/dbb/classArcane_1_1ItemTypeMng.html" title="Gestionnaire des types d&#39;entités de maillage." alt="" coords="8561,6730,8765,7034"/>
+<area shape="rect" id="node18" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="6293,3489,6515,4027"/>
+<area shape="rect" id="node23" href="$da/df1/classArcane_1_1ItemGroupImpl.html" title="Implémentation d&#39;un groupe d&#39;entités de maillage." alt="" coords="2363,6679,2581,7085"/>
+<area shape="rect" id="node24" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2715,6774,2968,6990"/>
+<area shape="rect" id="node25" href="$dd/d6a/classArcane_1_1IMeshUtilities.html" title="Interface d&#39;une classe proposant des fonctions utilitaires sur maillage." alt="" coords="2993,6789,3207,6975"/>
+<area shape="rect" id="node35" href="$dc/da0/classArcane_1_1NewItemOwnerBuilder.html" title=" " alt="" coords="4513,6803,4751,6961"/>
+<area shape="rect" id="node38" href="$d2/ddc/classArcane_1_1List.html" title=" " alt="" coords="4776,6759,4981,7005"/>
+<area shape="rect" id="node39" href="$d2/ddc/classArcane_1_1List.html" title=" " alt="" coords="5211,6759,5435,7005"/>
+<area shape="rect" id="node40" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="5867,6774,6101,6990"/>
+<area shape="rect" id="node41" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="6125,6774,6371,6990"/>
+<area shape="rect" id="node42" href="$d1/d7d/classArcane_1_1ObserverPool.html" title="Liste d&#39;observateurs." alt="" coords="6396,6818,6567,6946"/>
+<area shape="rect" id="node45" href="$d0/dda/classArcane_1_1IGhostLayerMng.html" title=" " alt="" coords="6759,6825,6948,6939"/>
+<area shape="rect" id="node46" href="$d1/d1a/classArcane_1_1IMeshUniqueIdMng.html" title=" " alt="" coords="6972,6825,7180,6939"/>
+<area shape="rect" id="node47" href="$d3/d9f/classArcane_1_1IMeshExchangeMng.html" title="Interface du gestionnaire des échanges de maillages entre sous&#45;domaines." alt="" coords="7204,6825,7417,6939"/>
+<area shape="rect" id="node48" href="$da/dbc/classArcane_1_1IMeshCompactMng.html" title="Interface du gestionnaire des compactages de familles d&#39;un maillage." alt="" coords="7492,6818,7700,6946"/>
+<area shape="rect" id="node49" href="$d9/dfd/classArcane_1_1MeshPartInfo.html" title="Informations un maillage partitionné." alt="" coords="7724,6759,7897,7005"/>
+<area shape="rect" id="node50" href="$de/d50/classArcane_1_1IItemFamilyNetwork.html" title=" " alt="" coords="1142,6774,1357,6990"/>
+</map>

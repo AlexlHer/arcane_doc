@@ -1,0 +1,7 @@
+<map id="Arccore::IThreadImplementation" name="Arccore::IThreadImplementation">
+<area shape="rect" id="node1" title="Interface d&#39;un service implémentant le support des threads." alt="" coords="300,5,540,280"/>
+<area shape="rect" id="node2" href="$d9/dda/classArcane_1_1TBBThreadImplementation.html" title="Implémentation des threads utilisant TBB (Intel Threads Building Blocks)." alt="" coords="5,335,264,581"/>
+<area shape="rect" id="node3" href="$dd/de4/classArccore_1_1GlibThreadImplementation.html" title="Implémentation de ITreadImplementation avec la &#39;Glib&#39;." alt="" coords="289,343,551,573"/>
+<area shape="rect" id="node5" href="$d6/dfe/classArccore_1_1NullThreadImplementation.html" title="Implémentation des threads en mode mono&#45;thread." alt="" coords="575,328,838,588"/>
+<area shape="rect" id="node4" href="$db/dfb/classArcane_1_1ArcaneGlibThreadImplementation.html" title="Implémentation des threads utilisant Glib." alt="" coords="283,636,557,720"/>
+</map>

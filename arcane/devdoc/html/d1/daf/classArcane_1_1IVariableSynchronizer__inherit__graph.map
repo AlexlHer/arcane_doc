@@ -1,0 +1,5 @@
+<map id="Arcane::IVariableSynchronizer" name="Arcane::IVariableSynchronizer">
+<area shape="rect" id="node1" title="Interface d&#39;un service de synchronisation de variable." alt="" coords="145,5,369,221"/>
+<area shape="rect" id="node2" href="$da/da5/classArcane_1_1NullVariableSynchronizer.html" title="Synchronisation des variables en séquentiel." alt="" coords="5,372,252,647"/>
+<area shape="rect" id="node3" href="$dd/d33/classArcane_1_1VariableSynchronizer.html" title="Interface d&#39;un service de synchronisation de variable." alt="" coords="276,269,496,749"/>
+</map>

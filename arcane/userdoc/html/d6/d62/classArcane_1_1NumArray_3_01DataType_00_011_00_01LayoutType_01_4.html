@@ -1,0 +1,1124 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence du modèle de la classe Arcane::NumArray&lt; DataType, 1, LayoutType &gt;</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript">
+window.MathJax = {
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../user_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation utilisateur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="../../d9/dc5/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence du modèle de la classe Arcane::NumArray&lt; DataType, 1, LayoutType &gt;</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Tableau à 1 dimension pour les types numériques.  
+ <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">arcane/utils/NumArray.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::NumArray&lt; DataType, 1, LayoutType &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dd/dce/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4__inherit__graph.png" border="0" usemap="#aArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4_inherit__map" id="aArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4_inherit__map">
+<area shape="rect" title="Tableau à 1 dimension pour les types numériques." alt="" coords="11,533,240,749"/>
+<area shape="rect" href="../../d8/d39/classArcane_1_1NumArrayBase.html" title=" " alt="" coords="20,152,231,485"/>
+<area shape="rect" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html" title=" " alt="" coords="5,5,245,104"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::NumArray&lt; DataType, 1, LayoutType &gt;:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d1/d7b/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4__coll__graph.png" border="0" usemap="#aArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4_coll__map" id="aArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4_coll__map">
+<area shape="rect" title="Tableau à 1 dimension pour les types numériques." alt="" coords="137,535,367,751"/>
+<area shape="rect" href="../../d8/d39/classArcane_1_1NumArrayBase.html" title=" " alt="" coords="147,167,357,485"/>
+<area shape="rect" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html" title=" " alt="" coords="5,5,245,104"/>
+<area shape="rect" href="../../d8/d5d/classArcane_1_1MDSpan.html" title=" " alt="" coords="270,27,487,82"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a39018d9011eb0b77f23e2c751e60faff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a39018d9011eb0b77f23e2c751e60faff">BaseClass</a> = <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">NumArrayBase</a>&lt; DataType, 1, LayoutType &gt;</td></tr>
+<tr class="separator:a39018d9011eb0b77f23e2c751e60faff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c50ac13fca7c1530af195f116efc4c8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a4c50ac13fca7c1530af195f116efc4c8">ConstSpanType</a> = <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">MDSpan</a>&lt; const DataType, 1, LayoutType &gt;</td></tr>
+<tr class="separator:a4c50ac13fca7c1530af195f116efc4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29a99178e2a42802ce6f9e6388fa7ab9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a29a99178e2a42802ce6f9e6388fa7ab9">SpanType</a> = <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">MDSpan</a>&lt; DataType, 1, LayoutType &gt;</td></tr>
+<tr class="separator:a29a99178e2a42802ce6f9e6388fa7ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classArcane_1_1NumArrayBase"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classArcane_1_1NumArrayBase')"><img src="../../closed.png" alt="-"/>&#160;Types publics hérités de <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">Arcane::NumArrayBase&lt; DataType, 1, LayoutType &gt;</a></td></tr>
+<tr class="memitem:a68cc815c3b54b4c3a278489ae93bde8f inherit pub_types_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a68cc815c3b54b4c3a278489ae93bde8f">ConstSpanType</a> = <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">MDSpan</a>&lt; const DataType, RankValue, LayoutType &gt;</td></tr>
+<tr class="separator:a68cc815c3b54b4c3a278489ae93bde8f inherit pub_types_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9a260ec066b1a8d1e7b8657a0513dd7 inherit pub_types_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#aa9a260ec066b1a8d1e7b8657a0513dd7">SpanType</a> = <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">MDSpan</a>&lt; DataType, RankValue, LayoutType &gt;</td></tr>
+<tr class="separator:aa9a260ec066b1a8d1e7b8657a0513dd7 inherit pub_types_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d48928f953bd949416635ebf1c38c90 inherit pub_types_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a5d48928f953bd949416635ebf1c38c90">ArrayWrapper</a> = <a class="el" href="../../de/d6c/classArcane_1_1impl_1_1NumArrayContainer.html">impl::NumArrayContainer</a>&lt; DataType &gt;</td></tr>
+<tr class="separator:a5d48928f953bd949416635ebf1c38c90 inherit pub_types_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:aa69b0ae5aa7281b4e4caa957c4ebd136"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#aa69b0ae5aa7281b4e4caa957c4ebd136">NumArray</a> ()</td></tr>
+<tr class="memdesc:aa69b0ae5aa7281b4e4caa957c4ebd136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit un tableau vide.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#aa69b0ae5aa7281b4e4caa957c4ebd136">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa69b0ae5aa7281b4e4caa957c4ebd136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba9b4f95d5bf1bae57d80f202a04001"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#abba9b4f95d5bf1bae57d80f202a04001">NumArray</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> r)</td></tr>
+<tr class="separator:abba9b4f95d5bf1bae57d80f202a04001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a5a172c59c928900f543e16a37d574"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a35a5a172c59c928900f543e16a37d574">NumArray</a> (Int32 dim1_size)</td></tr>
+<tr class="memdesc:a35a5a172c59c928900f543e16a37d574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit un tableau.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a35a5a172c59c928900f543e16a37d574">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a35a5a172c59c928900f543e16a37d574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf42cc52b7690586cca6c3722d4357b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#aaf42cc52b7690586cca6c3722d4357b4">NumArray</a> (Int32 dim1_size, <a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> r)</td></tr>
+<tr class="separator:aaf42cc52b7690586cca6c3722d4357b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca6015f3447e4e72d847c4f55aba13f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a4ca6015f3447e4e72d847c4f55aba13f">NumArray</a> (Int32 dim1_size, std::initializer_list&lt; DataType &gt; alist)</td></tr>
+<tr class="memdesc:a4ca6015f3447e4e72d847c4f55aba13f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit un tableau à partir de valeurs prédéfinies.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a4ca6015f3447e4e72d847c4f55aba13f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4ca6015f3447e4e72d847c4f55aba13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6df0505930652bdd47e04f4b56f91a17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a6df0505930652bdd47e04f4b56f91a17">NumArray</a> (<a class="el" href="../../d2/d75/classArccore_1_1SmallSpan.html">SmallSpan</a>&lt; const DataType &gt; v)</td></tr>
+<tr class="memdesc:a6df0505930652bdd47e04f4b56f91a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une instance à partir d'une vue.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a6df0505930652bdd47e04f4b56f91a17">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6df0505930652bdd47e04f4b56f91a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5472fd337f82e7925b41d1476ed7813f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a5472fd337f82e7925b41d1476ed7813f">NumArray</a> (<a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; const DataType &gt; v)</td></tr>
+<tr class="memdesc:a5472fd337f82e7925b41d1476ed7813f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une instance à partir d'une vue.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a5472fd337f82e7925b41d1476ed7813f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5472fd337f82e7925b41d1476ed7813f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4cb054fdaa8bcc87de71bb2f44e408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a5c4cb054fdaa8bcc87de71bb2f44e408">resize</a> (Int32 dim1_size)</td></tr>
+<tr class="separator:a5c4cb054fdaa8bcc87de71bb2f44e408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c20cc8239b820d42e7c28769352d273"><td class="memItemLeft" align="right" valign="top">constexpr Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a9c20cc8239b820d42e7c28769352d273">dim1Size</a> () const</td></tr>
+<tr class="memdesc:a9c20cc8239b820d42e7c28769352d273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur de la première dimension.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a9c20cc8239b820d42e7c28769352d273">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9c20cc8239b820d42e7c28769352d273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff1aaa3f12b4c0ccc6eeb4ac06324fb"><td class="memItemLeft" align="right" valign="top">DataType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#adff1aaa3f12b4c0ccc6eeb4ac06324fb">operator()</a> (Int32 i) const</td></tr>
+<tr class="memdesc:adff1aaa3f12b4c0ccc6eeb4ac06324fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur pour l'élément <em>i</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#adff1aaa3f12b4c0ccc6eeb4ac06324fb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adff1aaa3f12b4c0ccc6eeb4ac06324fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2c8dfb8f5fcbc68a399570332614c6"><td class="memItemLeft" align="right" valign="top">DataType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#abd2c8dfb8f5fcbc68a399570332614c6">operator()</a> (Int32 i)</td></tr>
+<tr class="memdesc:abd2c8dfb8f5fcbc68a399570332614c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positionne la valeur pour l'élément <em>i</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#abd2c8dfb8f5fcbc68a399570332614c6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abd2c8dfb8f5fcbc68a399570332614c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a69d2886c88897a8aadb994931baee"><td class="memItemLeft" align="right" valign="top">DataType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a19a69d2886c88897a8aadb994931baee">s</a> (Int32 i)</td></tr>
+<tr class="memdesc:a19a69d2886c88897a8aadb994931baee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positionne la valeur pour l'élément <em>i</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a19a69d2886c88897a8aadb994931baee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a19a69d2886c88897a8aadb994931baee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cd4bc09b41db2d8c537eeaa9c1af5c"><td class="memItemLeft" align="right" valign="top">DataType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a40cd4bc09b41db2d8c537eeaa9c1af5c">operator[]</a> (Int32 i)</td></tr>
+<tr class="memdesc:a40cd4bc09b41db2d8c537eeaa9c1af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère une référence pour l'élément <em>i</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a40cd4bc09b41db2d8c537eeaa9c1af5c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a40cd4bc09b41db2d8c537eeaa9c1af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be44c3ded1366135fbb5aefa66fc55d"><td class="memItemLeft" align="right" valign="top">DataType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a9be44c3ded1366135fbb5aefa66fc55d">operator[]</a> (Int32 i) const</td></tr>
+<tr class="memdesc:a9be44c3ded1366135fbb5aefa66fc55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur pour l'élément <em>i</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a9be44c3ded1366135fbb5aefa66fc55d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9be44c3ded1366135fbb5aefa66fc55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8725c7722ce1c5083b6a1cd3a2006f1a"><td class="memTemplParams" colspan="2">template&lt;typename X  = DataType, typename SubConstType  = typename NumericTraitsT&lt;X&gt;::SubscriptConstType&gt; </td></tr>
+<tr class="memitem:a8725c7722ce1c5083b6a1cd3a2006f1a"><td class="memTemplItemLeft" align="right" valign="top">SubConstType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a8725c7722ce1c5083b6a1cd3a2006f1a">operator()</a> (Int32 i, Int32 a) const</td></tr>
+<tr class="memdesc:a8725c7722ce1c5083b6a1cd3a2006f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur pour l'élément <em>i</em> et la composante <em>a</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a8725c7722ce1c5083b6a1cd3a2006f1a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8725c7722ce1c5083b6a1cd3a2006f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afca3c80a99ea1e5132ad7969b3e3ba75"><td class="memTemplParams" colspan="2">template&lt;typename X  = DataType, typename SubType  = typename NumericTraitsT&lt;X&gt;::SubscriptType&gt; </td></tr>
+<tr class="memitem:afca3c80a99ea1e5132ad7969b3e3ba75"><td class="memTemplItemLeft" align="right" valign="top">SubType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#afca3c80a99ea1e5132ad7969b3e3ba75">operator()</a> (Int32 i, Int32 a)</td></tr>
+<tr class="memdesc:afca3c80a99ea1e5132ad7969b3e3ba75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur pour l'élément <em>i</em> et la composante <em></em>[a][b].  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#afca3c80a99ea1e5132ad7969b3e3ba75">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afca3c80a99ea1e5132ad7969b3e3ba75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25061a4ae30e91396bdb5cecd30090cd"><td class="memTemplParams" colspan="2">template&lt;typename X  = DataType, typename Sub2ConstType  = typename NumericTraitsT&lt;X&gt;::Subscript2ConstType&gt; </td></tr>
+<tr class="memitem:a25061a4ae30e91396bdb5cecd30090cd"><td class="memTemplItemLeft" align="right" valign="top">Sub2ConstType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a25061a4ae30e91396bdb5cecd30090cd">operator()</a> (Int32 i, Int32 a, Int32 b) const</td></tr>
+<tr class="memdesc:a25061a4ae30e91396bdb5cecd30090cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur pour l'élément <em>i</em> et la composante <em>a</em>.  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a25061a4ae30e91396bdb5cecd30090cd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a25061a4ae30e91396bdb5cecd30090cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261a5f5a2fd01db69e23f4aedd910cee"><td class="memTemplParams" colspan="2">template&lt;typename X  = DataType, typename Sub2Type  = typename NumericTraitsT&lt;X&gt;::Subscript2Type&gt; </td></tr>
+<tr class="memitem:a261a5f5a2fd01db69e23f4aedd910cee"><td class="memTemplItemLeft" align="right" valign="top">Sub2Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a261a5f5a2fd01db69e23f4aedd910cee">operator()</a> (Int32 i, Int32 a, Int32 b)</td></tr>
+<tr class="memdesc:a261a5f5a2fd01db69e23f4aedd910cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valeur pour l'élément <em>i</em> et la composante <em></em>[a][b].  <a href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a261a5f5a2fd01db69e23f4aedd910cee">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a261a5f5a2fd01db69e23f4aedd910cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c22cb05612fedcb8ace837ded1cb0d0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#a9c22cb05612fedcb8ace837ded1cb0d0">operator SpanType</a> ()</td></tr>
+<tr class="separator:a9c22cb05612fedcb8ace837ded1cb0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbaba4f86ae2fd5ecb57bdec2084741a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html#adbaba4f86ae2fd5ecb57bdec2084741a">operator ConstSpanType</a> () const</td></tr>
+<tr class="separator:adbaba4f86ae2fd5ecb57bdec2084741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1NumArrayBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1NumArrayBase')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">Arcane::NumArrayBase&lt; DataType, 1, LayoutType &gt;</a></td></tr>
+<tr class="memitem:aae6fa16ab76c08eb17e3896897bbfa73 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#aae6fa16ab76c08eb17e3896897bbfa73">totalNbElement</a> () const</td></tr>
+<tr class="memdesc:aae6fa16ab76c08eb17e3896897bbfa73 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre total d'éléments du tableau.  <a href="../../d8/d39/classArcane_1_1NumArrayBase.html#aae6fa16ab76c08eb17e3896897bbfa73">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aae6fa16ab76c08eb17e3896897bbfa73 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02860d362171436f556a86c5900f0c34 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a02860d362171436f556a86c5900f0c34">extent</a> (int i) const</td></tr>
+<tr class="memdesc:a02860d362171436f556a86c5900f0c34 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre d'éléments du rang <em>i</em>.  <a href="../../d8/d39/classArcane_1_1NumArrayBase.html#a02860d362171436f556a86c5900f0c34">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a02860d362171436f556a86c5900f0c34 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f49951e0db31ba054d8d3a5d68f31ef inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a6f49951e0db31ba054d8d3a5d68f31ef">resize</a> (<a class="el" href="../../da/d2e/classArcane_1_1ArrayExtents.html">ArrayExtents</a>&lt; RankValue &gt; extents)</td></tr>
+<tr class="memdesc:a6f49951e0db31ba054d8d3a5d68f31ef inherit pub_methods_classArcane_1_1NumArrayBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifie la taille du tableau.  <a href="../../d8/d39/classArcane_1_1NumArrayBase.html#a6f49951e0db31ba054d8d3a5d68f31ef">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6f49951e0db31ba054d8d3a5d68f31ef inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78b62e7d00107dd0d88988cdd4f9ded inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#aa78b62e7d00107dd0d88988cdd4f9ded">fill</a> (const DataType &amp;v)</td></tr>
+<tr class="separator:aa78b62e7d00107dd0d88988cdd4f9ded inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88db8c6155456cc84d08173a6d7c4f90 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a88db8c6155456cc84d08173a6d7c4f90">nbDimension</a> () const</td></tr>
+<tr class="separator:a88db8c6155456cc84d08173a6d7c4f90 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67da203cf5e6e4b7f2b6ef3f41a7731 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d2e/classArcane_1_1ArrayExtents.html">ArrayExtents</a>&lt; RankValue &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#ab67da203cf5e6e4b7f2b6ef3f41a7731">extents</a> () const</td></tr>
+<tr class="separator:ab67da203cf5e6e4b7f2b6ef3f41a7731 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7f3f6ec7d6689c2301ee3fa3dedc4f inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/db2/classArcane_1_1ArrayExtentsWithOffset.html">ArrayExtentsWithOffset</a>&lt; RankValue, LayoutType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#abb7f3f6ec7d6689c2301ee3fa3dedc4f">extentsWithOffset</a> () const</td></tr>
+<tr class="separator:abb7f3f6ec7d6689c2301ee3fa3dedc4f inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f56a8fd0f60b520cb56787049d3cdb0 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">SpanType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a5f56a8fd0f60b520cb56787049d3cdb0">span</a> ()</td></tr>
+<tr class="separator:a5f56a8fd0f60b520cb56787049d3cdb0 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16ab57d1811c10c27a0ed94312f2811 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">ConstSpanType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#aa16ab57d1811c10c27a0ed94312f2811">span</a> () const</td></tr>
+<tr class="separator:aa16ab57d1811c10c27a0ed94312f2811 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5209e813a1490d1c0fd2da804444e5f7 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">ConstSpanType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a5209e813a1490d1c0fd2da804444e5f7">constSpan</a> () const</td></tr>
+<tr class="separator:a5209e813a1490d1c0fd2da804444e5f7 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3b5a59394fe63c09affeceea8f828a inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; const DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a2e3b5a59394fe63c09affeceea8f828a">to1DSpan</a> () const</td></tr>
+<tr class="separator:a2e3b5a59394fe63c09affeceea8f828a inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57413579061000bc3bd118a9e69b9c1c inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; DataType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a57413579061000bc3bd118a9e69b9c1c">to1DSpan</a> ()</td></tr>
+<tr class="separator:a57413579061000bc3bd118a9e69b9c1c inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a0d30a298b47541c47e41a5b8991c0c inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a8a0d30a298b47541c47e41a5b8991c0c">copy</a> (<a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">ConstSpanType</a> rhs)</td></tr>
+<tr class="separator:a8a0d30a298b47541c47e41a5b8991c0c inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f702144d2cffd0a25b72953a472102 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#af2f702144d2cffd0a25b72953a472102">copy</a> (const <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">NumArrayBase</a>&lt; DataType, RankValue, LayoutType &gt; &amp;rhs)</td></tr>
+<tr class="separator:af2f702144d2cffd0a25b72953a472102 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f304cb18de83df631b4dd324e677fc inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">const DataType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a88f304cb18de83df631b4dd324e677fc">operator()</a> (<a class="el" href="../../d9/dd0/classArcane_1_1ArrayBoundsIndex.html">ArrayBoundsIndex</a>&lt; RankValue &gt; idx) const</td></tr>
+<tr class="separator:a88f304cb18de83df631b4dd324e677fc inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c9292f222d11b47f7cd11a70152251 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">DataType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a64c9292f222d11b47f7cd11a70152251">operator()</a> (<a class="el" href="../../d9/dd0/classArcane_1_1ArrayBoundsIndex.html">ArrayBoundsIndex</a>&lt; RankValue &gt; idx)</td></tr>
+<tr class="separator:a64c9292f222d11b47f7cd11a70152251 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00febc88fb45464ba6fe8c5527a923eb inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">DataType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a00febc88fb45464ba6fe8c5527a923eb">s</a> (<a class="el" href="../../d9/dd0/classArcane_1_1ArrayBoundsIndex.html">ArrayBoundsIndex</a>&lt; RankValue &gt; idx)</td></tr>
+<tr class="separator:a00febc88fb45464ba6fe8c5527a923eb inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee34dfe3ce8dd9a01fe1e4e8b81b473 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a9ee34dfe3ce8dd9a01fe1e4e8b81b473">swap</a> (<a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">NumArrayBase</a>&lt; DataType, RankValue &gt; &amp;rhs)</td></tr>
+<tr class="separator:a9ee34dfe3ce8dd9a01fe1e4e8b81b473 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57fc2b63984802a9acfa338e6271a2d5 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a57fc2b63984802a9acfa338e6271a2d5">capacity</a> () const</td></tr>
+<tr class="separator:a57fc2b63984802a9acfa338e6271a2d5 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e8d99eb2b1921ba8037f2ec97b2325 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a92e8d99eb2b1921ba8037f2ec97b2325">memoryRessource</a> () const</td></tr>
+<tr class="separator:a92e8d99eb2b1921ba8037f2ec97b2325 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abee404ae4246859ed9cb7fbd72982a04 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; std::byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#abee404ae4246859ed9cb7fbd72982a04">bytes</a> ()</td></tr>
+<tr class="separator:abee404ae4246859ed9cb7fbd72982a04 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90d965e2f9509851b676361ed876264f inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; const std::byte &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a90d965e2f9509851b676361ed876264f">bytes</a> () const</td></tr>
+<tr class="separator:a90d965e2f9509851b676361ed876264f inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e2f6f59d559df4081b62d0f1e95a54 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">DataType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a36e2f6f59d559df4081b62d0f1e95a54">_internalData</a> ()</td></tr>
+<tr class="separator:a36e2f6f59d559df4081b62d0f1e95a54 inherit pub_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Membres hérités additionnels</h2></td></tr>
+<tr class="inherit_header pro_methods_classArcane_1_1NumArrayBase"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classArcane_1_1NumArrayBase')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres protégées hérités de <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">Arcane::NumArrayBase&lt; DataType, 1, LayoutType &gt;</a></td></tr>
+<tr class="memitem:ab3aa735ad8acc4bd2bc0ac17fa0e5072 inherit pro_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#ab3aa735ad8acc4bd2bc0ac17fa0e5072">NumArrayBase</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> r)</td></tr>
+<tr class="separator:ab3aa735ad8acc4bd2bc0ac17fa0e5072 inherit pro_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda9694580dc8eb9435a6d07d8441a7c inherit pro_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#acda9694580dc8eb9435a6d07d8441a7c">NumArrayBase</a> (<a class="el" href="../../da/d2e/classArcane_1_1ArrayExtents.html">ArrayExtents</a>&lt; RankValue &gt; extents)</td></tr>
+<tr class="separator:acda9694580dc8eb9435a6d07d8441a7c inherit pro_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a447e47b2b7f86a1d3450aece2f36cfd3 inherit pro_methods_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a447e47b2b7f86a1d3450aece2f36cfd3">NumArrayBase</a> (<a class="el" href="../../da/d2e/classArcane_1_1ArrayExtents.html">ArrayExtents</a>&lt; RankValue &gt; extents, <a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> r)</td></tr>
+<tr class="separator:a447e47b2b7f86a1d3450aece2f36cfd3 inherit pro_methods_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classArcane_1_1NumArrayBaseCommon')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres protégées statiques hérités de <a class="el" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html">Arcane::NumArrayBaseCommon</a></td></tr>
+<tr class="memitem:ac4f13172bc9c38bbab4e1aba0e3294cb inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/dbb/classArccore_1_1IMemoryAllocator.html">IMemoryAllocator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html#ac4f13172bc9c38bbab4e1aba0e3294cb">_getDefaultAllocator</a> ()</td></tr>
+<tr class="separator:ac4f13172bc9c38bbab4e1aba0e3294cb inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3256aae3b1d871afd74591a33dc69032 inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/dbb/classArccore_1_1IMemoryAllocator.html">IMemoryAllocator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html#a3256aae3b1d871afd74591a33dc69032">_getDefaultAllocator</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> r)</td></tr>
+<tr class="separator:a3256aae3b1d871afd74591a33dc69032 inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9355066fda5a435c07c4ebed93fa384 inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html#aa9355066fda5a435c07c4ebed93fa384">_checkHost</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> r)</td></tr>
+<tr class="separator:aa9355066fda5a435c07c4ebed93fa384 inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123d5269111b2ca5bbf2cd9427aa449f inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc3/classArcane_1_1NumArrayBaseCommon.html#a123d5269111b2ca5bbf2cd9427aa449f">_copy</a> (<a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; const std::byte &gt; from, <a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> from_mem, <a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; std::byte &gt; to, <a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a> to_mem)</td></tr>
+<tr class="separator:a123d5269111b2ca5bbf2cd9427aa449f inherit pro_static_methods_classArcane_1_1NumArrayBaseCommon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classArcane_1_1NumArrayBase"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classArcane_1_1NumArrayBase')"><img src="../../closed.png" alt="-"/>&#160;Attributs protégés hérités de <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">Arcane::NumArrayBase&lt; DataType, 1, LayoutType &gt;</a></td></tr>
+<tr class="memitem:aacc113879979984c1c702a96249594c3 inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">SpanType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#aacc113879979984c1c702a96249594c3">m_span</a></td></tr>
+<tr class="separator:aacc113879979984c1c702a96249594c3 inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d9318cd7c473a4c144663747e04d7a inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d6c/classArcane_1_1impl_1_1NumArrayContainer.html">ArrayWrapper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a50d9318cd7c473a4c144663747e04d7a">m_data</a></td></tr>
+<tr class="separator:a50d9318cd7c473a4c144663747e04d7a inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a893a83e70011aaab87edeffff77d2379 inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#a893a83e70011aaab87edeffff77d2379">m_total_nb_element</a></td></tr>
+<tr class="separator:a893a83e70011aaab87edeffff77d2379 inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae151ed130eb057d818c2b536df619170 inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html#ae151ed130eb057d818c2b536df619170">m_memory_ressource</a></td></tr>
+<tr class="separator:ae151ed130eb057d818c2b536df619170 inherit pro_attribs_classArcane_1_1NumArrayBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class DataType, typename LayoutType&gt;<br />
+class Arcane::NumArray&lt; DataType, 1, LayoutType &gt;</div><p >Tableau à 1 dimension pour les types numériques. </p>
+<p >Les tableaux à une dimension possèdent l'opérateur 'operator[]' pour compatibilité avec les tableaux classiques du C++.</p>
+<dl class="section see"><dt>Voir également</dt><dd><a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html" title="Classe de base des tableaux multi-dimensionnels pour les types numériques sur accélérateur.">NumArrayBase</a> </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00250">250</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a39018d9011eb0b77f23e2c751e60faff" name="a39018d9011eb0b77f23e2c751e60faff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39018d9011eb0b77f23e2c751e60faff">&#9670;&#160;</a></span>BaseClass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::BaseClass =  <a class="el" href="../../d8/d39/classArcane_1_1NumArrayBase.html">NumArrayBase</a>&lt;DataType,1,LayoutType&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00254">254</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c50ac13fca7c1530af195f116efc4c8" name="a4c50ac13fca7c1530af195f116efc4c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c50ac13fca7c1530af195f116efc4c8">&#9670;&#160;</a></span>ConstSpanType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::ConstSpanType =  <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">MDSpan</a>&lt;const DataType,1,LayoutType&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00259">259</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a29a99178e2a42802ce6f9e6388fa7ab9" name="a29a99178e2a42802ce6f9e6388fa7ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a99178e2a42802ce6f9e6388fa7ab9">&#9670;&#160;</a></span>SpanType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::SpanType =  <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">MDSpan</a>&lt;DataType,1,LayoutType&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00260">260</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="aa69b0ae5aa7281b4e4caa957c4ebd136" name="aa69b0ae5aa7281b4e4caa957c4ebd136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa69b0ae5aa7281b4e4caa957c4ebd136">&#9670;&#160;</a></span>NumArray() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit un tableau vide. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00265">265</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="abba9b4f95d5bf1bae57d80f202a04001" name="abba9b4f95d5bf1bae57d80f202a04001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abba9b4f95d5bf1bae57d80f202a04001">&#9670;&#160;</a></span>NumArray() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a>&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00266">266</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a35a5a172c59c928900f543e16a37d574" name="a35a5a172c59c928900f543e16a37d574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a5a172c59c928900f543e16a37d574">&#9670;&#160;</a></span>NumArray() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dim1_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit un tableau. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00268">268</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="aaf42cc52b7690586cca6c3722d4357b4" name="aaf42cc52b7690586cca6c3722d4357b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf42cc52b7690586cca6c3722d4357b4">&#9670;&#160;</a></span>NumArray() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dim1_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a062109fbc830e3fc0bbf317a2ba566ee">eMemoryRessource</a>&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00270">270</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a4ca6015f3447e4e72d847c4f55aba13f" name="a4ca6015f3447e4e72d847c4f55aba13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ca6015f3447e4e72d847c4f55aba13f">&#9670;&#160;</a></span>NumArray() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dim1_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::initializer_list&lt; DataType &gt;&#160;</td>
+          <td class="paramname"><em>alist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit un tableau à partir de valeurs prédéfinies. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00273">273</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a6df0505930652bdd47e04f4b56f91a17" name="a6df0505930652bdd47e04f4b56f91a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6df0505930652bdd47e04f4b56f91a17">&#9670;&#160;</a></span>NumArray() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d75/classArccore_1_1SmallSpan.html">SmallSpan</a>&lt; const DataType &gt;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit une instance à partir d'une vue. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00279">279</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a5472fd337f82e7925b41d1476ed7813f" name="a5472fd337f82e7925b41d1476ed7813f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5472fd337f82e7925b41d1476ed7813f">&#9670;&#160;</a></span>NumArray() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::NumArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d9f/classArccore_1_1Span.html">Span</a>&lt; const DataType &gt;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit une instance à partir d'une vue. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00284">284</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a9c20cc8239b820d42e7c28769352d273" name="a9c20cc8239b820d42e7c28769352d273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c20cc8239b820d42e7c28769352d273">&#9670;&#160;</a></span>dim1Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr Int32 <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::dim1Size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur de la première dimension. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00298">298</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="adbaba4f86ae2fd5ecb57bdec2084741a" name="adbaba4f86ae2fd5ecb57bdec2084741a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbaba4f86ae2fd5ecb57bdec2084741a">&#9670;&#160;</a></span>operator ConstSpanType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator <a class="el" href="../../d8/d5d/classArcane_1_1MDSpan.html">ConstSpanType</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00332">332</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a9c22cb05612fedcb8ace837ded1cb0d0" name="a9c22cb05612fedcb8ace837ded1cb0d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c22cb05612fedcb8ace837ded1cb0d0">&#9670;&#160;</a></span>operator SpanType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator <a class="el" href="../../d1/d78/classArcane_1_1MDSpan_3_01DataType_00_011_00_01LayoutType_01_4.html">SpanType</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00331">331</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="abd2c8dfb8f5fcbc68a399570332614c6" name="abd2c8dfb8f5fcbc68a399570332614c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd2c8dfb8f5fcbc68a399570332614c6">&#9670;&#160;</a></span>operator()() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataType &amp; <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Positionne la valeur pour l'élément <em>i</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00305">305</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="adff1aaa3f12b4c0ccc6eeb4ac06324fb" name="adff1aaa3f12b4c0ccc6eeb4ac06324fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adff1aaa3f12b4c0ccc6eeb4ac06324fb">&#9670;&#160;</a></span>operator()() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataType <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur pour l'élément <em>i</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00303">303</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="afca3c80a99ea1e5132ad7969b3e3ba75" name="afca3c80a99ea1e5132ad7969b3e3ba75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca3c80a99ea1e5132ad7969b3e3ba75">&#9670;&#160;</a></span>operator()() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<div class="memtemplate">
+template&lt;typename X  = DataType, typename SubType  = typename NumericTraitsT&lt;X&gt;::SubscriptType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SubType <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur pour l'élément <em>i</em> et la composante <em></em>[a][b]. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00320">320</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a8725c7722ce1c5083b6a1cd3a2006f1a" name="a8725c7722ce1c5083b6a1cd3a2006f1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8725c7722ce1c5083b6a1cd3a2006f1a">&#9670;&#160;</a></span>operator()() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<div class="memtemplate">
+template&lt;typename X  = DataType, typename SubConstType  = typename NumericTraitsT&lt;X&gt;::SubscriptConstType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SubConstType <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur pour l'élément <em>i</em> et la composante <em>a</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00317">317</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a261a5f5a2fd01db69e23f4aedd910cee" name="a261a5f5a2fd01db69e23f4aedd910cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a261a5f5a2fd01db69e23f4aedd910cee">&#9670;&#160;</a></span>operator()() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<div class="memtemplate">
+template&lt;typename X  = DataType, typename Sub2Type  = typename NumericTraitsT&lt;X&gt;::Subscript2Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sub2Type <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur pour l'élément <em>i</em> et la composante <em></em>[a][b]. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00327">327</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a25061a4ae30e91396bdb5cecd30090cd" name="a25061a4ae30e91396bdb5cecd30090cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25061a4ae30e91396bdb5cecd30090cd">&#9670;&#160;</a></span>operator()() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<div class="memtemplate">
+template&lt;typename X  = DataType, typename Sub2ConstType  = typename NumericTraitsT&lt;X&gt;::Subscript2ConstType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sub2ConstType <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator() </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur pour l'élément <em>i</em> et la composante <em>a</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00324">324</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a40cd4bc09b41db2d8c537eeaa9c1af5c" name="a40cd4bc09b41db2d8c537eeaa9c1af5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40cd4bc09b41db2d8c537eeaa9c1af5c">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataType &amp; <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Récupère une référence pour l'élément <em>i</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00309">309</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a9be44c3ded1366135fbb5aefa66fc55d" name="a9be44c3ded1366135fbb5aefa66fc55d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be44c3ded1366135fbb5aefa66fc55d">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataType <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Valeur pour l'élément <em>i</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00311">311</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a5c4cb054fdaa8bcc87de71bb2f44e408" name="a5c4cb054fdaa8bcc87de71bb2f44e408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c4cb054fdaa8bcc87de71bb2f44e408">&#9670;&#160;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::resize </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>dim1_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00290">290</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<a id="a19a69d2886c88897a8aadb994931baee" name="a19a69d2886c88897a8aadb994931baee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a69d2886c88897a8aadb994931baee">&#9670;&#160;</a></span>s()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class DataType , typename LayoutType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DataType &amp; <a class="el" href="../../d9/d8e/classArcane_1_1NumArray.html">Arcane::NumArray</a>&lt; DataType, 1, LayoutType &gt;::s </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Positionne la valeur pour l'élément <em>i</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html#l00307">307</a> du fichier <a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d8/d83/utils_2NumArray_8h_source.html">utils/NumArray.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d6/d62/classArcane_1_1NumArray_3_01DataType_00_011_00_01LayoutType_01_4.html">NumArray&lt; DataType, 1, LayoutType &gt;</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:31:55 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

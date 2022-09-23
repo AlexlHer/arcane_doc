@@ -1,0 +1,15 @@
+<map id="Arcane::NodeInfo" name="Arcane::NodeInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="209,2923,378,3095"/>
+<area shape="rect" id="node2" href="$df/d81/classArcane_1_1ItemUniqueId.html" title="Identifiant unique d&#39;une entité." alt="" coords="5,2593,176,2750"/>
+<area shape="rect" id="node3" title=" " alt="" coords="201,2651,277,2691"/>
+<area shape="rect" id="node4" href="$d1/da6/classArcane_1_1Real3.html" title="Classe gérant un vecteur de réel de dimension 3." alt="" coords="301,2541,421,2801"/>
+<area shape="rect" id="node5" href="$d0/d3d/structArcane_1_1Real3POD.html" title=" " alt="" coords="287,2197,435,2310"/>
+<area shape="rect" id="node6" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="446,2497,639,2845"/>
+<area shape="rect" id="node7" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="415,1729,615,2063"/>
+<area shape="rect" id="node8" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="425,755,639,1323"/>
+<area shape="rect" id="node13" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="553,1372,753,1705"/>
+<area shape="rect" id="node9" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="419,548,645,705"/>
+<area shape="rect" id="node10" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="437,211,627,471"/>
+<area shape="rect" id="node11" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="431,5,633,148"/>
+<area shape="rect" id="node12" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="552,2087,757,2420"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Arcane::SimpleVariableSynchronizeDispatcher&lt; SimpleType &gt;" name="Arcane::SimpleVariableSynchronizeDispatcher&lt; SimpleType &gt;">
+<area shape="rect" id="node1" title="Implémentation basique de la sérialisation." alt="" coords="141,533,401,676"/>
+<area shape="rect" id="node2" href="$dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html" title="Gestion de la synchronisation pour un type de donnée SimpleType." alt="" coords="141,181,401,485"/>
+<area shape="rect" id="node3" href="$d0/dc9/classArcane_1_1IDataTypeDataDispatcherT.html" title=" " alt="" coords="5,5,255,133"/>
+<area shape="rect" id="node4" href="$d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html" title="Interface pour gérer l&#39;envoi de la synchronisation." alt="" coords="278,20,550,119"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Arcane::MshMeshReader" name="Arcane::MshMeshReader">
+<area shape="rect" id="node1" title="Lecteur de fichiers de maillage au format msh." alt="" coords="743,1077,985,1440"/>
+<area shape="rect" id="node2" href="$da/d61/classArcane_1_1AbstractService.html" title="Classe de base d&#39;un service." alt="" coords="415,900,601,1028"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="181,585,376,830"/>
+<area shape="rect" id="node4" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="192,137,365,485"/>
+<area shape="rect" id="node5" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="116,20,257,60"/>
+<area shape="rect" id="node6" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="281,5,460,75"/>
+<area shape="rect" id="node7" href="$da/d7e/classArcane_1_1IService.html" title="Interface d&#39;un service." alt="" coords="5,651,157,764"/>
+<area shape="rect" id="node8" href="$de/df8/classArcane_1_1IServiceInfo.html" title="Interface des informations d&#39;un service ou d&#39;un module." alt="" coords="400,577,616,837"/>
+<area shape="rect" id="node9" title=" " alt="" coords="737,291,813,331"/>
+<area shape="rect" id="node10" href="$d3/d96/classArcane_1_1IBase.html" title="Interface de la classe de base des objets principaux arcane." alt="" coords="640,614,827,801"/>
+<area shape="rect" id="node11" href="$d7/d2c/classArcane_1_1IMeshReader.html" title="Interface du service gérant la lecture d&#39;un maillage." alt="" coords="901,922,1069,1006"/>
+</map>

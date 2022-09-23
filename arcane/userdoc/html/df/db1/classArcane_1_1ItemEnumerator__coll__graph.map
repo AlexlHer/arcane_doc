@@ -1,0 +1,9 @@
+<map id="Arcane::ItemEnumerator" name="Arcane::ItemEnumerator">
+<area shape="rect" id="node1" title="Enumérateur sur une liste d&#39;entités." alt="" coords="335,639,524,855"/>
+<area shape="rect" id="node2" href="$dd/df1/classArcane_1_1ItemInternal.html" title=" " alt="" coords="5,323,168,554"/>
+<area shape="rect" id="node3" title=" " alt="" coords="337,419,399,459"/>
+<area shape="rect" id="node4" title=" " alt="" coords="454,419,530,459"/>
+<area shape="rect" id="node5" href="$da/df1/classArcane_1_1ItemGroupImpl.html" title=" " alt="" coords="555,316,736,561"/>
+<area shape="rect" id="node6" href="$dd/d79/classArcane_1_1SharedReference.html" title="Implémentation d&#39;un compteur de référence." alt="" coords="548,153,743,267"/>
+<area shape="rect" id="node7" href="$de/d86/classArcane_1_1ISharedReference.html" title="Interface d&#39;un compteur de référence." alt="" coords="546,5,745,104"/>
+</map>

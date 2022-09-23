@@ -1,0 +1,25 @@
+var classArcane_1_1NewWithLegacyConnectivity =
+[
+    [ "_connectedItems", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a7c99a200878b5117a48a06bd63f3b34e", null ],
+    [ "_initializeStorage", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a69429b62724c3d80737b72ca28027097", null ],
+    [ "addConnectedItem", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#abbca4cccdba7ee371e9e4b372c90d2c4", null ],
+    [ "connectedItemLocalId", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#aaf636bb680a7e06eb6aa31dffea07b20", null ],
+    [ "dumpStats", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a7a6a07616e49a60d5d550f3852d2eebb", null ],
+    [ "families", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#ac35a61f7553658b49986589eae4e4a3b", null ],
+    [ "hasConnectedItem", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a4781496384b332edae3769cc85c97fd4", null ],
+    [ "maxNbConnectedItem", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#af5b021cc54ce5ffdb67795092fc34092", null ],
+    [ "name", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#aa0b2dfe658369469f19a09e3ab53d46e", null ],
+    [ "nbConnectedItem", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a9723edbf025ab52ad5ced9a741bd5c87", null ],
+    [ "notifyReadFromDump", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a0f8d5be3446ae96bbf513db5314b0869", null ],
+    [ "notifySourceFamilyLocalIdChanged", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#ae7a200e3defd9be7ac18c3fd761e143d", null ],
+    [ "notifySourceItemAdded", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a9ce41d9e6b39c4fd235e6c85cc8c73ca", null ],
+    [ "notifyTargetFamilyLocalIdChanged", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a2854cddd430bc80ab0ab62b58b7a26fb", null ],
+    [ "preAllocatedSize", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#acc61e3d84cc15a1d1129d27776ae7117", null ],
+    [ "removeConnectedItem", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#ae45c70a4cf7ecfd955cd1b640f13a1af", null ],
+    [ "removeConnectedItems", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#ad7b52982e5a5417f9c4b318aaa43fef0", null ],
+    [ "replaceConnectedItem", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#ae88cab965a7ec9d2b7525ae9f4c310b5", null ],
+    [ "replaceConnectedItems", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a042362d19bf473230483d8e2585b81ff", null ],
+    [ "setPreAllocatedSize", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#ac08a9056f371005eb95883ffc322fcef", null ],
+    [ "sourceFamily", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a08919e38c1df67586f56e52758829ac1", null ],
+    [ "targetFamily", "dc/d09/classArcane_1_1NewWithLegacyConnectivity.html#a76836d29d54d91e6a87ab453d57a00a9", null ]
+];

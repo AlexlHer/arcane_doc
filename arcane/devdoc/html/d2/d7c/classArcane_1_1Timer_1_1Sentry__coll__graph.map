@@ -1,0 +1,10 @@
+<map id="Arcane::Timer::Sentry" name="Arcane::Timer::Sentry">
+<area shape="rect" id="node1" title="Sentinelle pour le timer. La sentinelle associée à un timer permet de déclancher celui&#45;ci au moment d..." alt="" coords="135,1912,306,1981"/>
+<area shape="rect" id="node2" href="$d3/d97/classArcane_1_1Timer.html" title="Gestion d&#39;un timer." alt="" coords="135,1501,306,1849"/>
+<area shape="rect" id="node3" href="$df/de1/classArcane_1_1ITimerMng.html" title="Interface d&#39;un gestionnaire de timer." alt="" coords="5,1113,159,1226"/>
+<area shape="rect" id="node4" title=" " alt="" coords="183,1149,259,1189"/>
+<area shape="rect" id="node5" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="283,900,505,1439"/>
+<area shape="rect" id="node6" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="317,387,471,837"/>
+<area shape="rect" id="node7" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="177,5,385,324"/>
+<area shape="rect" id="node8" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="409,5,608,324"/>
+</map>

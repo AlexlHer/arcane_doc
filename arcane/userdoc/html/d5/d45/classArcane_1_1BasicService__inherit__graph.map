@@ -1,0 +1,13 @@
+<map id="Arcane::BasicService" name="Arcane::BasicService">
+<area shape="rect" id="node1" title="Classe de base de service lié à un sous&#45;domaine." alt="" coords="541,695,708,779"/>
+<area shape="rect" id="node7" href="$d3/dcc/classArcane_1_1BasicRayMeshIntersection.html" title="Service basique de calcul d&#39;intersection entre segments et maillage." alt="" coords="5,856,260,1028"/>
+<area shape="rect" id="node8" href="$d3/d2b/classArcane_1_1BasicTimeLoopService.html" title="Classe de base d&#39;un service opérant lors de la boucle en temps." alt="" coords="284,856,515,1028"/>
+<area shape="rect" id="node9" href="$de/d51/classArcane_1_1BasicUnitTest.html" title="Service basique de test unitaire." alt="" coords="539,885,710,999"/>
+<area shape="rect" id="node10" href="$d1/df4/classArcane_1_1CheckpointService.html" title=" " alt="" coords="735,827,944,1057"/>
+<area shape="rect" id="node11" href="$db/d67/classArcane_1_1PostProcessorWriterBase.html" title="Classe de base d&#39;un écrivain pour les informations de post&#45;traitement." alt="" coords="968,827,1215,1057"/>
+<area shape="rect" id="node2" href="$da/d61/classArcane_1_1AbstractService.html" title="Classe de base d&#39;un service." alt="" coords="327,401,512,529"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="223,5,418,236"/>
+<area shape="rect" id="node4" href="$da/d7e/classArcane_1_1IService.html" title="Interface d&#39;un service." alt="" coords="442,64,594,177"/>
+<area shape="rect" id="node5" href="$d6/d09/classArcane_1_1MeshAccessor.html" title="Accès aux informations d&#39;un maillage." alt="" coords="537,365,713,566"/>
+<area shape="rect" id="node6" href="$d1/d74/classArcane_1_1CommonVariables.html" title="Variables communes d&#39;un cas." alt="" coords="737,284,955,647"/>
+</map>

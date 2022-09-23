@@ -1,0 +1,11 @@
+<map id="Arcane::Materials::MeshMaterialVariableSynchronizerList" name="Arcane::Materials::MeshMaterialVariableSynchronizerList">
+<area shape="rect" id="node1" title="Synchronisation d&#39;une liste de variables matériaux." alt="" coords="81,2268,355,2455"/>
+<area shape="rect" id="node2" href="$d8/d7f/classArcane_1_1Materials_1_1MeshMaterialVariableSynchronizerList_1_1Impl.html" title=" " alt="" coords="94,2107,342,2205"/>
+<area shape="rect" id="node3" href="$d5/df0/classArcane_1_1Materials_1_1IMeshMaterialMng.html" title="Interface du gestionnaire des matériaux et des milieux d&#39;un maillage." alt="" coords="5,1755,236,2029"/>
+<area shape="rect" id="node4" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="260,1777,451,2007"/>
+<area shape="rect" id="node5" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="255,1372,455,1705"/>
+<area shape="rect" id="node6" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="248,755,463,1323"/>
+<area shape="rect" id="node7" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="243,548,468,705"/>
+<area shape="rect" id="node8" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="260,211,451,471"/>
+<area shape="rect" id="node9" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="254,5,457,148"/>
+</map>

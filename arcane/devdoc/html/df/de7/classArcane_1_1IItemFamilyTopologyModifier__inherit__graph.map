@@ -1,0 +1,6 @@
+<map id="Arcane::IItemFamilyTopologyModifier" name="Arcane::IItemFamilyTopologyModifier">
+<area shape="rect" id="node1" title="Interface de modification de la topologie des entités d&#39;une famille." alt="" coords="89,5,344,236"/>
+<area shape="rect" id="node2" href="$de/d36/classArcane_1_1mesh_1_1AbstractItemFamilyTopologyModifier.html" title="Modification de la topologie des entités d&#39;une famille." alt="" coords="100,284,333,617"/>
+<area shape="rect" id="node3" href="$dc/d3d/classArcane_1_1mesh_1_1FaceFamily_1_1TopologyModifier.html" title=" " alt="" coords="5,665,204,808"/>
+<area shape="rect" id="node4" href="$dc/d18/classArcane_1_1mesh_1_1NodeFamily_1_1TopologyModifier.html" title=" " alt="" coords="228,673,432,801"/>
+</map>

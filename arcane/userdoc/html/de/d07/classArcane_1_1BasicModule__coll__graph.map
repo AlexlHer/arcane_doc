@@ -1,0 +1,11 @@
+<map id="Arcane::BasicModule" name="Arcane::BasicModule">
+<area shape="rect" id="node1" title="Module basique." alt="" coords="358,1328,525,1397"/>
+<area shape="rect" id="node2" href="$dd/dde/classArcane_1_1AbstractModule.html" title="Classe représentant un module." alt="" coords="143,1048,329,1279"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,535,200,765"/>
+<area shape="rect" id="node4" href="$d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="225,520,399,780"/>
+<area shape="rect" id="node5" href="$d6/d09/classArcane_1_1MeshAccessor.html" title="Accès aux informations d&#39;un maillage." alt="" coords="353,1063,529,1264"/>
+<area shape="rect" id="node6" href="$d1/d74/classArcane_1_1CommonVariables.html" title="Variables communes d&#39;un cas." alt="" coords="553,1055,756,1271"/>
+<area shape="rect" id="node7" href="$d0/db7/classArcane_1_1VariableRefScalarT.html" title=" " alt="" coords="443,535,642,765"/>
+<area shape="rect" id="node8" href="$d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="564,5,743,471"/>
+<area shape="rect" id="node9" href="$d0/db7/classArcane_1_1VariableRefScalarT.html" title=" " alt="" coords="666,535,865,765"/>
+</map>

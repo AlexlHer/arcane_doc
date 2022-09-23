@@ -1,0 +1,33 @@
+<map id="Arcane::MshMeshReader::MeshInfo" name="Arcane::MshMeshReader::MeshInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="942,3272,1133,3356"/>
+<area shape="rect" id="node2" title=" " alt="" coords="675,1857,751,1897"/>
+<area shape="rect" id="node13" href="$d3/db3/classArcane_1_1HashTableMapT.html" title=" " alt="" coords="944,2803,1131,3209"/>
+<area shape="rect" id="node14" href="$d8/d03/classArcane_1_1HashTableBase.html" title="Classe de base d&#39;une table de hachage simple pour les entités." alt="" coords="803,2345,989,2458"/>
+<area shape="rect" id="node15" href="$dd/d37/classArcane_1_1MultiBufferT.html" title=" " alt="" coords="1163,2279,1357,2524"/>
+<area shape="rect" id="node3" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="5,2031,173,2247"/>
+<area shape="rect" id="node4" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="9,1372,209,1705"/>
+<area shape="rect" id="node5" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="1037,755,1251,1323"/>
+<area shape="rect" id="node10" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="248,1372,448,1705"/>
+<area shape="rect" id="node12" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="480,1372,680,1705"/>
+<area shape="rect" id="node17" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="932,1372,1132,1705"/>
+<area shape="rect" id="node19" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="708,1372,908,1705"/>
+<area shape="rect" id="node22" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1156,1372,1356,1705"/>
+<area shape="rect" id="node25" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1380,1372,1580,1705"/>
+<area shape="rect" id="node27" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1604,1372,1804,1705"/>
+<area shape="rect" id="node29" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="1828,1372,2028,1705"/>
+<area shape="rect" id="node31" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2052,1372,2252,1705"/>
+<area shape="rect" id="node6" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="1031,548,1257,705"/>
+<area shape="rect" id="node7" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="1049,211,1239,471"/>
+<area shape="rect" id="node8" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="1043,5,1245,148"/>
+<area shape="rect" id="node9" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="195,2555,363,2771"/>
+<area shape="rect" id="node11" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="299,2031,467,2247"/>
+<area shape="rect" id="node16" href="$da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="1047,1777,1254,1978"/>
+<area shape="rect" id="node18" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="783,1769,985,1985"/>
+<area shape="rect" id="node20" href="$d7/d4e/structArcane_1_1HashTableMapT_1_1Data.html" title=" " alt="" coords="503,2293,689,2509"/>
+<area shape="rect" id="node21" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1319,2024,1513,2255"/>
+<area shape="rect" id="node23" href="$de/dd1/structArcane_1_1MshMeshReader_1_1MeshPhysicalNameList.html" title="Infos du bloc &#39;$PhysicalNames&#39;." alt="" coords="1181,2957,1387,3055"/>
+<area shape="rect" id="node24" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1419,1755,1618,2000"/>
+<area shape="rect" id="node26" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1579,2548,1778,2779"/>
+<area shape="rect" id="node28" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1617,2891,1834,3121"/>
+<area shape="rect" id="node30" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1895,2548,2094,2779"/>
+</map>

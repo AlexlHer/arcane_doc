@@ -1,0 +1,7 @@
+<map id="ItemTools.h" name="ItemTools.h">
+<area shape="rect" id="node1" title="Utilitaires aidant à retrouver des items à partir d&#39;autres." alt="" coords="280,5,377,31"/>
+<area shape="rect" id="node2" href="$d7/dbb/FaceUniqueIdBuilder_8cc_source.html" title=" " alt="" coords="5,79,177,104"/>
+<area shape="rect" id="node3" href="$d1/d0c/ItemTools_8cc_source.html" title=" " alt="" coords="201,79,304,104"/>
+<area shape="rect" id="node4" href="$de/d91/MeshNodeMerger_8cc_source.html" title=" " alt="" coords="329,79,483,104"/>
+<area shape="rect" id="node5" href="$df/d59/OneMeshItemAdder_8cc_source.html" title=" " alt="" coords="507,79,675,104"/>
+</map>

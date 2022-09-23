@@ -1,0 +1,52 @@
+<map id="Arcane::mesh::IncrementalItemConnectivity" name="Arcane::mesh::IncrementalItemConnectivity">
+<area shape="rect" id="node1" title="Connectivité incrémentale item&#45;&gt;item[]." alt="" coords="2751,5733,2999,6140"/>
+<area shape="rect" id="node2" href="$de/d27/classArcane_1_1mesh_1_1IncrementalItemConnectivityBase.html" title="Classe de base pour les connectivités incrémentales item&#45;&gt;item[]." alt="" coords="2332,5175,2588,5684"/>
+<area shape="rect" id="node3" href="$dd/def/classArcane_1_1mesh_1_1AbstractIncrementalItemConnectivity.html" title="Classe abstraite de gestion des connectivités." alt="" coords="2584,4889,2883,5061"/>
+<area shape="rect" id="node4" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="2196,995,2391,1241"/>
+<area shape="rect" id="node31" href="$d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)" alt="" coords="971,1802,1197,2267"/>
+<area shape="rect" id="node5" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="2215,137,2388,485"/>
+<area shape="rect" id="node6" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="2139,20,2280,60"/>
+<area shape="rect" id="node7" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="2304,5,2483,75"/>
+<area shape="rect" id="node8" href="$df/d35/classArcane_1_1IIncrementalItemConnectivity.html" title="Interface pour gérer une connectivité incrémentale." alt="" coords="2882,4038,3142,4254"/>
+<area shape="rect" id="node9" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="2895,2883,3135,3011"/>
+<area shape="rect" id="node10" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="2635,3591,2858,4701"/>
+<area shape="rect" id="node11" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="3366,3972,3559,4320"/>
+<area shape="rect" id="node12" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3364,2328,3564,2661"/>
+<area shape="rect" id="node13" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="3358,834,3573,1402"/>
+<area shape="rect" id="node16" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3503,1868,3703,2201"/>
+<area shape="rect" id="node40" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3228,1868,3428,2201"/>
+<area shape="rect" id="node14" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="3353,233,3578,390"/>
+<area shape="rect" id="node15" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="3500,2781,3705,3114"/>
+<area shape="rect" id="node17" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="2009,1765,2231,2304"/>
+<area shape="rect" id="node23" href="$d7/d98/classArcane_1_1mesh_1_1IncrementalItemConnectivityContainer.html" title=" " alt="" coords="1979,4903,2210,5046"/>
+<area shape="rect" id="node25" href="$d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="1381,2722,1584,3173"/>
+<area shape="rect" id="node18" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="2009,893,2164,1343"/>
+<area shape="rect" id="node19" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="1983,152,2191,471"/>
+<area shape="rect" id="node20" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="1759,152,1958,471"/>
+<area shape="rect" id="node21" href="$d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="841,3233,996,3567"/>
+<area shape="rect" id="node22" title=" " alt="" coords="527,2015,590,2055"/>
+<area shape="rect" id="node45" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="391,3270,582,3530"/>
+<area shape="rect" id="node46" href="$d1/d6b/structArcane_1_1ItemInternalConnectivityList_1_1Int32View.html" title="Vue spécifique pour gérer les entités nulles." alt="" coords="589,3321,835,3479"/>
+<area shape="rect" id="node48" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="286,2817,477,3077"/>
+<area shape="rect" id="node24" href="$d8/d30/classArcane_1_1VariableRefArrayT.html" title=" " alt="" coords="1377,3987,1589,4305"/>
+<area shape="rect" id="node26" href="$d5/d96/classArcane_1_1IVariable.html" title="Interface d&#39;une variable." alt="" coords="1292,548,1513,1688"/>
+<area shape="rect" id="node27" href="$d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="1782,1905,1957,2165"/>
+<area shape="rect" id="node28" href="$da/db9/classArcane_1_1VariableRef_1_1UpdateNotifyFunctorList.html" title="Classe interne pour gérer les fonctor appelés lors de la mise à jour de la variable." alt="" coords="1549,1934,1757,2135"/>
+<area shape="rect" id="node29" href="$d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="920,2781,1112,3114"/>
+<area shape="rect" id="node30" href="$d9/d83/classArcane_1_1VariableArrayT.html" title="Implémentation d&#39;une variable sur un tableau 1D." alt="" coords="1136,2810,1357,3085"/>
+<area shape="rect" id="node32" href="$d8/d11/classArcane_1_1IFamilyObserver.html" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="833,1076,1036,1160"/>
+<area shape="rect" id="node33" href="$d2/db4/classArcane_1_1Family.html" title="Famille AnyItem (pattern flyweight) Aggrégation de groupes pour décrire des variables / variables par..." alt="" coords="1061,1017,1187,1219"/>
+<area shape="rect" id="node34" href="$da/dc0/classArcane_1_1IArrayDataT.html" title="Interface d&#39;une donnée tableau d&#39;un type T." alt="" coords="1221,1941,1395,2128"/>
+<area shape="rect" id="node35" href="$d5/d86/classArcane_1_1VariableFactoryRegisterer.html" title="Enregistreur d&#39;une fabrique de variables." alt="" coords="1783,2825,2033,3070"/>
+<area shape="rect" id="node36" href="$df/d46/classArcane_1_1VariableTypeInfo.html" title="Informations caractérisant le type d&#39;une variable." alt="" coords="2331,1927,2565,2143"/>
+<area shape="rect" id="node37" title=" " alt="" coords="2565,1098,2641,1138"/>
+<area shape="rect" id="node38" href="$d1/dfb/classArcane_1_1Array.html" title="Tableau d&#39;items de types quelconques." alt="" coords="2351,4097,2561,4195"/>
+<area shape="rect" id="node39" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2695,2832,2870,3063"/>
+<area shape="rect" id="node41" href="$d1/d7d/classArcane_1_1ObserverPool.html" title="Liste d&#39;observateurs." alt="" coords="1123,4082,1293,4210"/>
+<area shape="rect" id="node42" href="$d2/ddc/classArcane_1_1List.html" title=" " alt="" coords="729,2817,895,3077"/>
+<area shape="rect" id="node43" href="$d3/d5d/classArcane_1_1Collection.html" title="Classe de base d&#39;une collection fortement typée." alt="" coords="719,1919,905,2150"/>
+<area shape="rect" id="node44" href="$d1/ddd/classArcane_1_1ItemInternalConnectivityList.html" title="Informations de connectivité, pour une famille d&#39;entité, permettant la transition entre les anciennes..." alt="" coords="513,4837,781,5112"/>
+<area shape="rect" id="node47" href="$d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="192,4119,413,4173"/>
+<area shape="rect" id="node49" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="5,2685,261,3209"/>
+<area shape="rect" id="node50" href="$de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="56,1934,211,2135"/>
+</map>

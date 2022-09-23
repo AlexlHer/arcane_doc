@@ -1,0 +1,8 @@
+<map id="Arcane::ServiceRegisterer" name="Arcane::ServiceRegisterer">
+<area shape="rect" id="node1" title="Enregistreur de service et modules." alt="" coords="349,475,609,764"/>
+<area shape="rect" id="node2" href="$dc/d07/classArcane_1_1IModuleFactoryInfo.html" title="Informations sur la fabrique d&#39;un module." alt="" coords="5,189,212,346"/>
+<area shape="rect" id="node3" href="$de/df8/classArcane_1_1IServiceInfo.html" title="Interface des informations d&#39;un service ou d&#39;un module." alt="" coords="237,137,453,397"/>
+<area shape="rect" id="node4" title=" " alt="" coords="307,5,383,45"/>
+<area shape="rect" id="node5" href="$d7/d2e/classArcane_1_1ServiceProperty.html" title="Propriétés de création d&#39;un service." alt="" coords="477,181,663,353"/>
+<area shape="rect" id="node6" href="$dd/de5/classArcane_1_1ModuleProperty.html" title="Propriétés de création d&#39;un module." alt="" coords="687,203,874,331"/>
+</map>

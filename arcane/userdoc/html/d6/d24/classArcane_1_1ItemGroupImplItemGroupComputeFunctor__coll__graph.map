@@ -1,0 +1,8 @@
+<map id="Arcane::ItemGroupImplItemGroupComputeFunctor" name="Arcane::ItemGroupImplItemGroupComputeFunctor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,772,276,871"/>
+<area shape="rect" id="node2" href="$d5/d78/classArcane_1_1ItemGroupComputeFunctor.html" title="Fonctor pour le calcul des éléments d&#39;un groupe." alt="" coords="23,624,258,723"/>
+<area shape="rect" id="node3" href="$d5/d5f/classArccore_1_1IFunctor.html" title="Interface d&#39;un fonctor." alt="" coords="10,404,157,473"/>
+<area shape="rect" id="node4" href="$da/df1/classArcane_1_1ItemGroupImpl.html" title=" " alt="" coords="181,316,362,561"/>
+<area shape="rect" id="node5" href="$dd/d79/classArcane_1_1SharedReference.html" title="Implémentation d&#39;un compteur de référence." alt="" coords="174,153,369,267"/>
+<area shape="rect" id="node6" href="$de/d86/classArcane_1_1ISharedReference.html" title="Interface d&#39;un compteur de référence." alt="" coords="172,5,371,104"/>
+</map>

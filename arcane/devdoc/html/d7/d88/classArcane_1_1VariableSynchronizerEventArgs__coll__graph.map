@@ -1,0 +1,11 @@
+<map id="Arcane::VariableSynchronizerEventArgs" name="Arcane::VariableSynchronizerEventArgs">
+<area shape="rect" id="node1" title="Arguments de l&#39;évènement notifiant une synchronisation de variables." alt="" coords="228,2957,451,3291"/>
+<area shape="rect" id="node2" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="31,2217,205,2433"/>
+<area shape="rect" id="node3" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="18,1372,218,1705"/>
+<area shape="rect" id="node4" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="11,755,225,1323"/>
+<area shape="rect" id="node5" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="5,548,231,705"/>
+<area shape="rect" id="node6" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="23,211,213,471"/>
+<area shape="rect" id="node7" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="17,5,219,148"/>
+<area shape="rect" id="node8" href="$d5/d96/classArcane_1_1IVariable.html" title="Interface d&#39;une variable." alt="" coords="229,1755,450,2895"/>
+<area shape="rect" id="node9" href="$d4/d9f/classArcane_1_1IVariableSynchronizer.html" title="Interface d&#39;un service de synchronisation de variable." alt="" coords="474,2217,698,2433"/>
+</map>

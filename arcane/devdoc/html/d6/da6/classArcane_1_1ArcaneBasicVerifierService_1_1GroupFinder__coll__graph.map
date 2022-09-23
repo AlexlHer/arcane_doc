@@ -1,0 +1,5 @@
+<map id="Arcane::ArcaneBasicVerifierService::GroupFinder" name="Arcane::ArcaneBasicVerifierService::GroupFinder">
+<area shape="rect" id="node1" title=" " alt="" coords="93,357,302,441"/>
+<area shape="rect" id="node2" href="$d8/d5d/classArcane_1_1BasicReader_1_1IItemGroupFinder.html" title="Interface pour retrouver le groupe associée à une variable à partir de ces meta&#45;données." alt="" coords="5,108,184,192"/>
+<area shape="rect" id="node3" href="$d7/d7c/classArcane_1_1IVariableMng.html" title="Interface du gestionnaire de variables." alt="" coords="208,5,395,295"/>
+</map>

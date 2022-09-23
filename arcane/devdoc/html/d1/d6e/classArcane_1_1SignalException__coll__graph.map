@@ -1,0 +1,12 @@
+<map id="Arcane::SignalException" name="Arcane::SignalException">
+<area shape="rect" id="node1" title="Exception lorsqu&#39;un signal survient." alt="" coords="5,2075,192,2247"/>
+<area shape="rect" id="node2" href="$d7/d37/classArccore_1_1Exception.html" title="Classe de base d&#39;une exception." alt="" coords="156,1692,353,2025"/>
+<area shape="rect" id="node3" title=" " alt="" coords="120,1545,243,1585"/>
+<area shape="rect" id="node4" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="178,900,401,1439"/>
+<area shape="rect" id="node8" href="$df/d50/classArccore_1_1StackTrace.html" title="Informations sur la pile d&#39;appel des fonctions." alt="" coords="441,1501,599,1629"/>
+<area shape="rect" id="node5" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="212,387,367,837"/>
+<area shape="rect" id="node6" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="72,5,280,324"/>
+<area shape="rect" id="node7" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="305,5,503,324"/>
+<area shape="rect" id="node9" href="$d9/d1f/classArccore_1_1FixedStackFrameArray.html" title="Conserve une liste de taille fixe maximale de StackFrame." alt="" coords="425,1098,623,1241"/>
+<area shape="rect" id="node10" href="$d1/d31/classArccore_1_1StackFrame.html" title="Conserve les adresses correspondantes à une pile d&#39;appel. Cette classe est interne et ne dois pas êtr..." alt="" coords="442,563,606,661"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Arcane::RayTriangle3DIntersection" name="Arcane::RayTriangle3DIntersection">
+<area shape="rect" id="node1" title="Calcul l&#39;intersection d&#39;un rayon avec un ensemble de triangles en 3D." alt="" coords="473,2148,727,2320"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="71,1803,265,2049"/>
+<area shape="rect" id="node3" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="81,1385,255,1733"/>
+<area shape="rect" id="node4" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="5,1019,147,1059"/>
+<area shape="rect" id="node5" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="171,1004,349,1073"/>
+<area shape="rect" id="node6" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="290,1796,481,2056"/>
+<area shape="rect" id="node7" title=" " alt="" coords="430,1539,493,1579"/>
+<area shape="rect" id="node8" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="505,1796,695,2056"/>
+<area shape="rect" id="node9" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="720,1818,888,2034"/>
+<area shape="rect" id="node10" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="684,1393,884,1726"/>
+<area shape="rect" id="node11" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="789,755,1003,1323"/>
+<area shape="rect" id="node16" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="908,1393,1108,1726"/>
+<area shape="rect" id="node12" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="783,548,1009,705"/>
+<area shape="rect" id="node13" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="801,211,991,471"/>
+<area shape="rect" id="node14" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="795,5,997,148"/>
+<area shape="rect" id="node15" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="920,1818,1088,2034"/>
+</map>

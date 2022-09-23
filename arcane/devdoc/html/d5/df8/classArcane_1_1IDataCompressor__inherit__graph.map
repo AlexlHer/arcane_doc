@@ -1,0 +1,5 @@
+<map id="Arcane::IDataCompressor" name="Arcane::IDataCompressor">
+<area shape="rect" id="node1" title="Interface d&#39;un service permettant de compresser/décompresser des données." alt="" coords="144,5,340,133"/>
+<area shape="rect" id="node2" href="$d1/df1/classArcane_1_1Bzip2DataCompressor.html" title="Service de compression utilisant la bibliothèque &#39;Bzip2&#39;." alt="" coords="5,181,233,339"/>
+<area shape="rect" id="node3" href="$df/d52/classArcane_1_1LZ4DataCompressor.html" title="Service de compression utilisant la bibliothèque &#39;LZ4&#39;." alt="" coords="258,181,474,339"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Arcane::NumArrayDataT&lt; DataType, RankValue &gt;" name="Arcane::NumArrayDataT&lt; DataType, RankValue &gt;">
+<area shape="rect" id="node1" title="Implémentation d&#39;un &#39;IData&#39; dont le conteneur repose sur un &#39;NumArray&#39;." alt="" coords="239,579,479,956"/>
+<area shape="rect" id="node2" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,351,239,450"/>
+<area shape="rect" id="node3" href="$d8/dcb/classArcane_1_1INumArrayDataT.html" title="Interface d&#39;un &#39;IData&#39; dont le conteneur repose sur un &#39;NumArray&#39;." alt="" coords="263,344,455,457"/>
+<area shape="rect" id="node4" href="$d1/d15/classArcane_1_1IData.html" title="Interface d&#39;une donnée." alt="" coords="236,5,483,236"/>
+<area shape="rect" id="node5" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="480,285,727,516"/>
+</map>

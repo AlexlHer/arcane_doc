@@ -1,0 +1,13 @@
+<map id="Arcane::VariableBuildInfo" name="Arcane::VariableBuildInfo">
+<area shape="rect" id="node1" title="Paramètres nécessaires à la construction d&#39;une variable." alt="" coords="284,1545,479,1791"/>
+<area shape="rect" id="node2" href="$d9/d1e/classArcane_1_1ISubDomain.html" title="Interface du gestionnaire d&#39;un sous&#45;domaine." alt="" coords="5,1054,192,1285"/>
+<area shape="rect" id="node3" href="$d3/d96/classArcane_1_1IBase.html" title="Interface de la classe de base des objets principaux arcane." alt="" coords="5,519,192,705"/>
+<area shape="rect" id="node4" href="$d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="217,1039,391,1299"/>
+<area shape="rect" id="node5" href="$d7/d6f/classArcane_1_1MeshHandle.html" title="Handle sur un maillage." alt="" coords="415,1047,595,1292"/>
+<area shape="rect" id="node6" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="342,519,639,705"/>
+<area shape="rect" id="node7" href="$d0/dac/classArccore_1_1CheckedPointer.html" title="Encapsulation d&#39;un pointeur." alt="" coords="377,49,604,280"/>
+<area shape="rect" id="node8" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="626,900,849,1439"/>
+<area shape="rect" id="node9" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="664,387,819,837"/>
+<area shape="rect" id="node10" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="632,5,840,324"/>
+<area shape="rect" id="node11" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="865,5,1063,324"/>
+</map>

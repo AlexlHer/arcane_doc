@@ -1,0 +1,7 @@
+<map id="Arcane::IItemGroupObserver" name="Arcane::IItemGroupObserver">
+<area shape="rect" id="node1" title=" " alt="" coords="400,5,615,133"/>
+<area shape="rect" id="node2" href="$d6/d46/classArcane_1_1ItemGroupObserverWithInfoT.html" title=" " alt="" coords="5,203,252,346"/>
+<area shape="rect" id="node3" href="$db/d6f/classArcane_1_1ItemGroupObserverWithoutInfoT.html" title=" " alt="" coords="275,196,499,353"/>
+<area shape="rect" id="node4" href="$d2/d77/classArcane_1_1ItemGroupPartialVariableObserver.html" title="Observer des évènements sur ItemGroup sous&#45;jacent." alt="" coords="523,181,734,368"/>
+<area shape="rect" id="node5" href="$d5/d11/classArcane_1_1Materials_1_1MeshEnvironmentObserver.html" title=" " alt="" coords="758,203,990,346"/>
+</map>

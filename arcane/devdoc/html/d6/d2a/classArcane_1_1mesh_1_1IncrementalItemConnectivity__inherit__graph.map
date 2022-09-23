@@ -1,0 +1,9 @@
+<map id="Arcane::mesh::IncrementalItemConnectivity" name="Arcane::mesh::IncrementalItemConnectivity">
+<area shape="rect" id="node1" title="Connectivité incrémentale item&#45;&gt;item[]." alt="" coords="104,1428,352,1849"/>
+<area shape="rect" id="node7" href="$df/d14/classArcane_1_1mesh_1_1FaceToCellIncrementalItemConnectivity.html" title="Surcharge du type IncrementalItemConnectivity pour gérer les connectivités Face &#45;&gt; BackCell et FrontC..." alt="" coords="116,1897,340,2099"/>
+<area shape="rect" id="node2" href="$de/d27/classArcane_1_1mesh_1_1IncrementalItemConnectivityBase.html" title="Classe de base pour les connectivités incrémentales item&#45;&gt;item[]." alt="" coords="100,768,356,1380"/>
+<area shape="rect" id="node3" href="$dd/def/classArcane_1_1mesh_1_1AbstractIncrementalItemConnectivity.html" title="Classe abstraite de gestion des connectivités." alt="" coords="81,489,375,720"/>
+<area shape="rect" id="node4" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,181,200,441"/>
+<area shape="rect" id="node5" href="$df/d35/classArcane_1_1IIncrementalItemConnectivity.html" title="Interface pour gérer une connectivité incrémentale." alt="" coords="225,203,485,419"/>
+<area shape="rect" id="node6" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="235,5,475,133"/>
+</map>

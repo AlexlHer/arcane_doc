@@ -1,0 +1,11 @@
+<map id="Arcane::ReduceSumOfRealHelper" name="Arcane::ReduceSumOfRealHelper">
+<area shape="rect" id="node1" title="Classe gérant une réduction d&#39;une somme de valeur." alt="" coords="5,2908,252,3065"/>
+<area shape="rect" id="node2" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="37,2497,220,2845"/>
+<area shape="rect" id="node3" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="7,1729,207,2063"/>
+<area shape="rect" id="node4" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="17,755,232,1323"/>
+<area shape="rect" id="node9" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="146,1372,346,1705"/>
+<area shape="rect" id="node5" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="12,548,237,705"/>
+<area shape="rect" id="node6" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="29,211,220,471"/>
+<area shape="rect" id="node7" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="23,5,226,148"/>
+<area shape="rect" id="node8" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="145,2087,350,2420"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Arcane::ItemVectorView" name="Arcane::ItemVectorView">
+<area shape="rect" id="node1" title="Vue sur un vecteur d&#39;entités." alt="" coords="44,592,261,852"/>
+<area shape="rect" id="node2" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="5,299,196,529"/>
+<area shape="rect" id="node3" href="$df/d28/classArcane_1_1ItemIndexArrayView.html" title="Vue sur un tableau d&#39;index (localIds()) d&#39;entités." alt="" coords="221,299,437,529"/>
+<area shape="rect" id="node4" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="233,5,424,236"/>
+</map>

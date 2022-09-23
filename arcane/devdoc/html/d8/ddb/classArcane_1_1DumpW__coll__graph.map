@@ -1,0 +1,4 @@
+<map id="Arcane::DumpW" name="Arcane::DumpW">
+<area shape="rect" id="node1" title="wrapper transformant des appels à l&#39;interface IDataWriter en ex IDumpW" alt="" coords="17,167,152,456"/>
+<area shape="rect" id="node2" href="$d2/d27/classArcane_1_1IDataWriter.html" title="Interface d&#39;écriture des données d&#39;une variable." alt="" coords="5,5,164,119"/>
+</map>

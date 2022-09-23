@@ -1,0 +1,10 @@
+<map id="Arcane::ItemRangeFunctorT&lt; InstanceType, ItemType &gt;" name="Arcane::ItemRangeFunctorT&lt; InstanceType, ItemType &gt;">
+<area shape="rect" id="node1" title="Fonctor pour itérer sur une liste d&#39;entités." alt="" coords="137,1121,351,1205"/>
+<area shape="rect" id="node2" href="$d0/d16/classArcane_1_1AbstractItemRangeFunctor.html" title="Classe de base des fonctors sur une liste d&#39;entités." alt="" coords="130,959,358,1072"/>
+<area shape="rect" id="node3" href="$d2/d8e/classArcane_1_1IRangeFunctor.html" title="Interface d&#39;un fonctor sur un interval d&#39;itération." alt="" coords="5,687,181,757"/>
+<area shape="rect" id="node4" title=" " alt="" coords="206,702,282,742"/>
+<area shape="rect" id="node5" href="$d6/df2/classArcane_1_1ItemVectorView.html" title="Vue sur un vecteur d&#39;entités." alt="" coords="319,592,537,852"/>
+<area shape="rect" id="node6" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="250,299,441,529"/>
+<area shape="rect" id="node7" href="$df/d28/classArcane_1_1ItemIndexArrayView.html" title="Vue sur un tableau d&#39;index (localIds()) d&#39;entités." alt="" coords="465,299,681,529"/>
+<area shape="rect" id="node8" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="478,5,669,236"/>
+</map>

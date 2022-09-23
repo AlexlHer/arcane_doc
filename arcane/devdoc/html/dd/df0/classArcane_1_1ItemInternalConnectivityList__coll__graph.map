@@ -1,0 +1,10 @@
+<map id="Arcane::ItemInternalConnectivityList" name="Arcane::ItemInternalConnectivityList">
+<area shape="rect" id="node1" title="Informations de connectivité, pour une famille d&#39;entité, permettant la transition entre les anciennes..." alt="" coords="176,1219,444,1493"/>
+<area shape="rect" id="node2" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="5,817,196,1077"/>
+<area shape="rect" id="node3" title=" " alt="" coords="273,86,336,126"/>
+<area shape="rect" id="node4" href="$d1/d6b/structArcane_1_1ItemInternalConnectivityList_1_1Int32View.html" title="Vue spécifique pour gérer les entités nulles." alt="" coords="203,869,449,1026"/>
+<area shape="rect" id="node6" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="343,401,533,661"/>
+<area shape="rect" id="node5" href="$d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="417,1101,638,1156"/>
+<area shape="rect" id="node7" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="558,269,814,793"/>
+<area shape="rect" id="node8" href="$de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="609,5,763,207"/>
+</map>

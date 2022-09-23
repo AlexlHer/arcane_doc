@@ -1,0 +1,12 @@
+<map id="Arcane::ItemVariableScalarRefT&lt; DataTypeT &gt;" name="Arcane::ItemVariableScalarRefT&lt; DataTypeT &gt;">
+<area shape="rect" id="node1" title="Variable scalaire sur un type d&#39;entité du maillage." alt="" coords="369,2400,581,2675"/>
+<area shape="rect" id="node2" href="$de/da9/classArcane_1_1PrivateVariableScalarT.html" title=" " alt="" coords="364,2091,587,2351"/>
+<area shape="rect" id="node3" href="$de/d79/classArcane_1_1MeshVariableRef.html" title="Classe de base d&#39;une variable sur des entités du maillage." alt="" coords="5,1797,199,1955"/>
+<area shape="rect" id="node4" href="$d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="6,1209,185,1675"/>
+<area shape="rect" id="node5" href="$d9/d83/classArcane_1_1VariableArrayT.html" title=" " alt="" coords="226,1739,447,2013"/>
+<area shape="rect" id="node6" href="$d6/df5/classArcane_1_1Variable.html" title=" " alt="" coords="209,1283,472,1601"/>
+<area shape="rect" id="node7" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="119,467,314,698"/>
+<area shape="rect" id="node8" href="$d5/d96/classArcane_1_1IVariable.html" title=" " alt="" coords="338,5,589,1160"/>
+<area shape="rect" id="node9" href="$d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="471,1724,626,2028"/>
+<area shape="rect" id="node10" href="$d8/d05/classArcane_1_1IMemoryAccessTrace.html" title=" " alt="" coords="651,1841,871,1911"/>
+</map>

@@ -1,0 +1,1646 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::Face</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d1/db1/classArcane_1_1Face.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="../../d1/db0/classArcane_1_1Face-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::Face<div class="ingroups"><a class="el" href="../../de/db5/group__Mesh.html">Mesh</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="../../d1/db1/classArcane_1_1Face.html" title="Face d&#39;une maille.">Face</a> d'une maille.  
+ <a href="../../d1/db1/classArcane_1_1Face.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d1/dd4/Item_8h_source.html">arcane/Item.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::Face:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d1/d75/classArcane_1_1Face__inherit__graph.png" border="0" usemap="#aArcane_1_1Face_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1Face_inherit__map" id="aArcane_1_1Face_inherit__map">
+<area shape="rect" title="Face d&#39;une maille." alt="" coords="36,651,159,852"/>
+<area shape="rect" href="../../d4/d55/classArcane_1_1ItemWithNodes.html" title="Elément de maillage s&#39;appuyant sur des noeuds (Edge,Face,Cell)." alt="" coords="5,372,189,603"/>
+<area shape="rect" href="../../df/d5f/classArcane_1_1Item.html" title="Classe de base d&#39;un élément de maillage." alt="" coords="22,5,173,324"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::Face:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../d8/dad/classArcane_1_1Face__coll__graph.png" border="0" usemap="#aArcane_1_1Face_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1Face_coll__map" id="aArcane_1_1Face_coll__map">
+<area shape="rect" title="Face d&#39;une maille." alt="" coords="36,6501,159,6703"/>
+<area shape="rect" href="../../d4/d55/classArcane_1_1ItemWithNodes.html" title="Elément de maillage s&#39;appuyant sur des noeuds (Edge,Face,Cell)." alt="" coords="5,6221,189,6452"/>
+<area shape="rect" href="../../df/d5f/classArcane_1_1Item.html" title="Classe de base d&#39;un élément de maillage." alt="" coords="22,5883,173,6172"/>
+<area shape="rect" title=" " alt="" coords="741,1894,803,1934"/>
+<area shape="rect" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html" title="Structure interne partagée d&#39;une entité de maillage." alt="" coords="603,4944,786,5439"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="810,2469,1001,2729"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="683,2885,874,3145"/>
+<area shape="rect" href="../../d1/d6b/structArcane_1_1ItemInternalConnectivityList_1_1Int32View.html" title="Vue spécifique pour gérer les entités nulles." alt="" coords="993,2937,1239,3094"/>
+<area shape="rect" href="../../dd/df1/classArcane_1_1ItemInternal.html" title="Structure interne d&#39;une entité de maillage." alt="" coords="363,5501,525,5820"/>
+<area shape="rect" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="1131,3411,1352,3466"/>
+<area shape="rect" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html" title="Informations de connectivité, pour une famille d&#39;entité, permettant la transition entre les anciennes..." alt="" coords="774,4189,1042,4463"/>
+<area shape="rect" href="../../d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="1127,2337,1383,2861"/>
+<area shape="rect" href="../../de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="1088,1813,1243,2015"/>
+<area shape="rect" href="../../dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="218,3771,441,4881"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="465,4159,657,4493"/>
+<area shape="rect" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html" title="Infos sur un type d&#39;entité du maillage." alt="" coords="1493,4247,1661,4405"/>
+<area shape="rect" href="../../d7/dbb/classArcane_1_1ItemTypeMng.html" title="Gestionnaire des types d&#39;entités de maillage." alt="" coords="2207,3287,2411,3591"/>
+<area shape="rect" title=" " alt="" coords="1774,1894,1850,1934"/>
+<area shape="rect" href="../../dd/d37/classArcane_1_1MultiBufferT.html" title=" " alt="" coords="2457,2484,2693,2715"/>
+<area shape="rect" href="../../de/d2f/classArcane_1_1AtomicInt32.html" title="Type &#39;Int32&#39; atomique." alt="" coords="1999,2499,2161,2700"/>
+<area shape="rect" href="../../d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="2186,2484,2433,2715"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2894,2097,3095,2313"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2907,1372,3107,1705"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="2563,755,2778,1323"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2235,1372,2435,1705"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2459,1372,2659,1705"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2683,1372,2883,1705"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="2558,548,2783,705"/>
+<area shape="rect" href="../../d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="2575,211,2766,471"/>
+<area shape="rect" href="../../d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="2569,5,2772,148"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title="Vecteur 1D de données avec sémantique par valeur (style STL)." alt="" coords="2229,1813,2435,2015"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2459,1806,2661,2022"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2705,2097,2873,2313"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="1391,3169,1614,3708"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="1425,2374,1580,2825"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="1491,1755,1699,2073"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="1267,1755,1466,2073"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6c/classArcane_1_1Face_1_1Index.html">Index</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dc/d6c/classArcane_1_1Face_1_1Index.html" title="Index d&#39;une Face dans une variable.">Index</a> d'une <a class="el" href="../../d1/db1/classArcane_1_1Face.html" title="Face d&#39;une maille.">Face</a> dans une variable.  <a href="../../dc/d6c/classArcane_1_1Face_1_1Index.html#details">Plus de détails...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a297d78db7d43d9702fe07a8c76da88f2"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">FaceLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a297d78db7d43d9702fe07a8c76da88f2">LocalIdType</a></td></tr>
+<tr class="memdesc:a297d78db7d43d9702fe07a8c76da88f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type du <a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5c3dac466a25bb5c0e5b42c85d4304b8" title="Identifiant local de l&#39;entité dans le sous-domaine du processeur.">localId()</a>  <a href="../../d1/db1/classArcane_1_1Face.html#a297d78db7d43d9702fe07a8c76da88f2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a297d78db7d43d9702fe07a8c76da88f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classArcane_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classArcane_1_1Item')"><img src="../../closed.png" alt="-"/>&#160;Types publics hérités de <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Arcane::Item</a></td></tr>
+<tr class="memitem:adc16a3ce03446f018e7afc98cdc4e8cb inherit pub_types_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <br />
+&#160;&#160;<a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <br />
+&#160;&#160;<a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+, <br />
+&#160;&#160;<a class="el" href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cba58fa0f55224c83b42dc582411a237621">ARCANE_DEPRECATED_REASON</a> =("Use 'IT_NullType' instead") = IT_NullType
+<br />
+ }</td></tr>
+<tr class="memdesc:adc16a3ce03446f018e7afc98cdc4e8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type des éléments.  <a href="../../df/d5f/classArcane_1_1Item.html#adc16a3ce03446f018e7afc98cdc4e8cb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adc16a3ce03446f018e7afc98cdc4e8cb inherit pub_types_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99d83358646e92b575dcf40a9900bad inherit pub_types_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ad99d83358646e92b575dcf40a9900bad">ItemInternalPtr</a></td></tr>
+<tr class="separator:ad99d83358646e92b575dcf40a9900bad inherit pub_types_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de7c6350b99b10e63f3d02ed0165574 inherit pub_types_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../de/dc8/classArcane_1_1ItemLocalId.html">ItemLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5de7c6350b99b10e63f3d02ed0165574">LocalIdType</a></td></tr>
+<tr class="memdesc:a5de7c6350b99b10e63f3d02ed0165574 inherit pub_types_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type du <a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5c3dac466a25bb5c0e5b42c85d4304b8" title="Identifiant local de l&#39;entité dans le sous-domaine du processeur.">localId()</a>  <a href="../../df/d5f/classArcane_1_1Item.html#a5de7c6350b99b10e63f3d02ed0165574">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5de7c6350b99b10e63f3d02ed0165574 inherit pub_types_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:abaa84d035374b45b4c6ed524f95b11e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#abaa84d035374b45b4c6ed524f95b11e1">Face</a> ()</td></tr>
+<tr class="memdesc:abaa84d035374b45b4c6ed524f95b11e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Création d'une face non connecté au maillage.  <a href="../../d1/db1/classArcane_1_1Face.html#abaa84d035374b45b4c6ed524f95b11e1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abaa84d035374b45b4c6ed524f95b11e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68bc8cf330e8493af08cab5d572ba8bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a68bc8cf330e8493af08cab5d572ba8bd">Face</a> (const <a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a68bc8cf330e8493af08cab5d572ba8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de recopie.  <a href="../../d1/db1/classArcane_1_1Face.html#a68bc8cf330e8493af08cab5d572ba8bd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a68bc8cf330e8493af08cab5d572ba8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b7f75be4f3b7c194897f04b773ba35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#ac2b7f75be4f3b7c194897f04b773ba35">Face</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="memdesc:ac2b7f75be4f3b7c194897f04b773ba35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une référence à l'entité <em>internal</em>.  <a href="../../d1/db1/classArcane_1_1Face.html#ac2b7f75be4f3b7c194897f04b773ba35">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac2b7f75be4f3b7c194897f04b773ba35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae43afc6de7f073a7d5d8fb19265ee7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#aae43afc6de7f073a7d5d8fb19265ee7f">Face</a> (const <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternalPtr</a> *internals, Int32 local_id)</td></tr>
+<tr class="memdesc:aae43afc6de7f073a7d5d8fb19265ee7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une référence à l'entité <em>internal</em>.  <a href="../../d1/db1/classArcane_1_1Face.html#aae43afc6de7f073a7d5d8fb19265ee7f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aae43afc6de7f073a7d5d8fb19265ee7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed93b19f40f76e7de562f1aabf0b4813"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#aed93b19f40f76e7de562f1aabf0b4813">operator=</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="memdesc:aed93b19f40f76e7de562f1aabf0b4813"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de copie.  <a href="../../d1/db1/classArcane_1_1Face.html#aed93b19f40f76e7de562f1aabf0b4813">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aed93b19f40f76e7de562f1aabf0b4813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfade8ca56fbffa60282526e52dda81c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#abfade8ca56fbffa60282526e52dda81c">operator=</a> (const <a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp;from)</td></tr>
+<tr class="memdesc:abfade8ca56fbffa60282526e52dda81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de copie.  <a href="../../d1/db1/classArcane_1_1Face.html#abfade8ca56fbffa60282526e52dda81c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abfade8ca56fbffa60282526e52dda81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84459acb4c7def160c73d1c6375c4ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">FaceLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a84459acb4c7def160c73d1c6375c4ec5">itemLocalId</a> () const</td></tr>
+<tr class="memdesc:a84459acb4c7def160c73d1c6375c4ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifiant local de l'entité dans le sous-domaine du processeur.  <a href="../../d1/db1/classArcane_1_1Face.html#a84459acb4c7def160c73d1c6375c4ec5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a84459acb4c7def160c73d1c6375c4ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500ee00b6481628cf99ec7f5cf94a6bb"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a500ee00b6481628cf99ec7f5cf94a6bb">nbCell</a> () const</td></tr>
+<tr class="memdesc:a500ee00b6481628cf99ec7f5cf94a6bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de mailles de la face (1 ou 2)  <a href="../../d1/db1/classArcane_1_1Face.html#a500ee00b6481628cf99ec7f5cf94a6bb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a500ee00b6481628cf99ec7f5cf94a6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c88bda2fb777bd9a51199cbb394b2ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a4c88bda2fb777bd9a51199cbb394b2ea">cell</a> (Int32 i) const</td></tr>
+<tr class="memdesc:a4c88bda2fb777bd9a51199cbb394b2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème maille de la face  <a href="../../d1/db1/classArcane_1_1Face.html#a4c88bda2fb777bd9a51199cbb394b2ea">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4c88bda2fb777bd9a51199cbb394b2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b867872ff13bcff99a434096254618e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#ga914dea9362ea4dd4c2ca3023bcdbeb62">CellVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a4b867872ff13bcff99a434096254618e">cells</a> () const</td></tr>
+<tr class="memdesc:a4b867872ff13bcff99a434096254618e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des mailles de la face.  <a href="../../d1/db1/classArcane_1_1Face.html#a4b867872ff13bcff99a434096254618e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4b867872ff13bcff99a434096254618e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48c478f1362ca6cc464a8ec9e0dd570b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a48c478f1362ca6cc464a8ec9e0dd570b">cellId</a> (Int32 i) const</td></tr>
+<tr class="memdesc:a48c478f1362ca6cc464a8ec9e0dd570b"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème maille de la face  <a href="../../d1/db1/classArcane_1_1Face.html#a48c478f1362ca6cc464a8ec9e0dd570b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a48c478f1362ca6cc464a8ec9e0dd570b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed3b6873997e7fe9afe29ff2f8b04915"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#ga2957e04cba7c87aa1e7c69cd296442de">CellLocalIdView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#aed3b6873997e7fe9afe29ff2f8b04915">cellIds</a> () const</td></tr>
+<tr class="memdesc:aed3b6873997e7fe9afe29ff2f8b04915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des mailles de la face.  <a href="../../d1/db1/classArcane_1_1Face.html#aed3b6873997e7fe9afe29ff2f8b04915">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aed3b6873997e7fe9afe29ff2f8b04915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78822a868c7fe1da495b54c892751da8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a78822a868c7fe1da495b54c892751da8">isSubDomainBoundary</a> () const</td></tr>
+<tr class="memdesc:a78822a868c7fe1da495b54c892751da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indique si la face est au bord du sous-domaine (i.e <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a500ee00b6481628cf99ec7f5cf94a6bb" title="Nombre de mailles de la face (1 ou 2)">nbCell()</a>==1)  <a href="../../d1/db1/classArcane_1_1Face.html#a78822a868c7fe1da495b54c892751da8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a78822a868c7fe1da495b54c892751da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5293df90de3cbbecf713b7f50bc5541c"><td class="memItemLeft" align="right" valign="top">ARCANE_DEPRECATED_118 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a5293df90de3cbbecf713b7f50bc5541c">isBoundary</a> () const</td></tr>
+<tr class="separator:a5293df90de3cbbecf713b7f50bc5541c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5de63064dc0220a1ac192275f4b34da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#ab5de63064dc0220a1ac192275f4b34da">isSubDomainBoundaryOutside</a> () const</td></tr>
+<tr class="memdesc:ab5de63064dc0220a1ac192275f4b34da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indique si la face est au bord t orientée vers l'extérieur.  <a href="../../d1/db1/classArcane_1_1Face.html#ab5de63064dc0220a1ac192275f4b34da">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab5de63064dc0220a1ac192275f4b34da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ca0e09dd4b2f1d67d019a2aceadf51"><td class="memItemLeft" align="right" valign="top">ARCANE_DEPRECATED_118 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a75ca0e09dd4b2f1d67d019a2aceadf51">isBoundaryOutside</a> () const</td></tr>
+<tr class="memdesc:a75ca0e09dd4b2f1d67d019a2aceadf51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indique si la face est au bord t orientée vers l'extérieur.  <a href="../../d1/db1/classArcane_1_1Face.html#a75ca0e09dd4b2f1d67d019a2aceadf51">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a75ca0e09dd4b2f1d67d019a2aceadf51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc1f762bd055a1abab3646dc965b03e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#acc1f762bd055a1abab3646dc965b03e0">boundaryCell</a> () const</td></tr>
+<tr class="memdesc:acc1f762bd055a1abab3646dc965b03e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille associée à cette face frontière (maille nulle si aucune)  <a href="../../d1/db1/classArcane_1_1Face.html#acc1f762bd055a1abab3646dc965b03e0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acc1f762bd055a1abab3646dc965b03e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5eb0ad8fc1568b4c59ff0bd5ece57bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#af5eb0ad8fc1568b4c59ff0bd5ece57bf">backCell</a> () const</td></tr>
+<tr class="memdesc:af5eb0ad8fc1568b4c59ff0bd5ece57bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille derrière la face (maille nulle si aucune)  <a href="../../d1/db1/classArcane_1_1Face.html#af5eb0ad8fc1568b4c59ff0bd5ece57bf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af5eb0ad8fc1568b4c59ff0bd5ece57bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf62da87ec534574ea4b2d865102ca5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#aaaf62da87ec534574ea4b2d865102ca5">backCellId</a> () const</td></tr>
+<tr class="memdesc:aaaf62da87ec534574ea4b2d865102ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille derrière la face (maille nulle si aucune)  <a href="../../d1/db1/classArcane_1_1Face.html#aaaf62da87ec534574ea4b2d865102ca5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aaaf62da87ec534574ea4b2d865102ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44af4a40d72fa462be177cc19fc40ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a44af4a40d72fa462be177cc19fc40ff6">frontCell</a> () const</td></tr>
+<tr class="memdesc:a44af4a40d72fa462be177cc19fc40ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille devant la face (maille nulle si aucune)  <a href="../../d1/db1/classArcane_1_1Face.html#a44af4a40d72fa462be177cc19fc40ff6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a44af4a40d72fa462be177cc19fc40ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313a4826ee0296e522a727f6ac1a0504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a313a4826ee0296e522a727f6ac1a0504">frontCellId</a> () const</td></tr>
+<tr class="memdesc:a313a4826ee0296e522a727f6ac1a0504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille devant la face (maille nulle si aucune)  <a href="../../d1/db1/classArcane_1_1Face.html#a313a4826ee0296e522a727f6ac1a0504">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a313a4826ee0296e522a727f6ac1a0504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8234b42868fb9baf6e02db4e99fd4f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#af8234b42868fb9baf6e02db4e99fd4f1">oppositeCell</a> (<a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a4c88bda2fb777bd9a51199cbb394b2ea">cell</a>) const</td></tr>
+<tr class="memdesc:af8234b42868fb9baf6e02db4e99fd4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille opposée de cette face à la maille <em>cell</em>.  <a href="../../d1/db1/classArcane_1_1Face.html#af8234b42868fb9baf6e02db4e99fd4f1">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af8234b42868fb9baf6e02db4e99fd4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa9272446a04d90e7224f7a2a68d1a6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#afa9272446a04d90e7224f7a2a68d1a6a">oppositeCellId</a> (<a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> cell_id) const</td></tr>
+<tr class="memdesc:afa9272446a04d90e7224f7a2a68d1a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maille opposée de cette face à la maille <em>cell</em>.  <a href="../../d1/db1/classArcane_1_1Face.html#afa9272446a04d90e7224f7a2a68d1a6a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afa9272446a04d90e7224f7a2a68d1a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8df72f1292ebe164a6158abf5fcff871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a8df72f1292ebe164a6158abf5fcff871">masterFace</a> () const</td></tr>
+<tr class="memdesc:a8df72f1292ebe164a6158abf5fcff871"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d1/db1/classArcane_1_1Face.html" title="Face d&#39;une maille.">Face</a> maître associée à cette face.  <a href="../../d1/db1/classArcane_1_1Face.html#a8df72f1292ebe164a6158abf5fcff871">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8df72f1292ebe164a6158abf5fcff871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26df356d81f68f2537f1fb9face85159"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a26df356d81f68f2537f1fb9face85159">isMasterFace</a> () const</td></tr>
+<tr class="memdesc:a26df356d81f68f2537f1fb9face85159"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> s'il s'agit de la face maître d'une interface  <a href="../../d1/db1/classArcane_1_1Face.html#a26df356d81f68f2537f1fb9face85159">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a26df356d81f68f2537f1fb9face85159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e57a6ac08d35fd902f501b39b51890"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a93e57a6ac08d35fd902f501b39b51890">isSlaveFace</a> () const</td></tr>
+<tr class="memdesc:a93e57a6ac08d35fd902f501b39b51890"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> s'il s'agit d'une face esclave d'une interface  <a href="../../d1/db1/classArcane_1_1Face.html#a93e57a6ac08d35fd902f501b39b51890">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a93e57a6ac08d35fd902f501b39b51890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacb65c100ade1247a40aa209ca7445a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#adacb65c100ade1247a40aa209ca7445a">isTiedFace</a> () const</td></tr>
+<tr class="memdesc:adacb65c100ade1247a40aa209ca7445a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> s'il s'agit d'une face esclave ou maître d'une interface  <a href="../../d1/db1/classArcane_1_1Face.html#adacb65c100ade1247a40aa209ca7445a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adacb65c100ade1247a40aa209ca7445a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8982a659c722cbcb02bcf3b3a02ed9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#gaa2c4853186b74a5337b3a5c3d4bec269">FaceVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#ae8982a659c722cbcb02bcf3b3a02ed9a">slaveFaces</a> () const</td></tr>
+<tr class="memdesc:ae8982a659c722cbcb02bcf3b3a02ed9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des faces esclaves associées à cette face maître.  <a href="../../d1/db1/classArcane_1_1Face.html#ae8982a659c722cbcb02bcf3b3a02ed9a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae8982a659c722cbcb02bcf3b3a02ed9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad59b58bbbd7e239c49dd6873147c7bf6"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#ad59b58bbbd7e239c49dd6873147c7bf6">nbEdge</a> () const</td></tr>
+<tr class="memdesc:ad59b58bbbd7e239c49dd6873147c7bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre d'arêtes de la face.  <a href="../../d1/db1/classArcane_1_1Face.html#ad59b58bbbd7e239c49dd6873147c7bf6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad59b58bbbd7e239c49dd6873147c7bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d9188d95b668db8aec8681ce480b9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d16/classArcane_1_1Edge.html">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a99d9188d95b668db8aec8681ce480b9c">edge</a> (Int32 i) const</td></tr>
+<tr class="memdesc:a99d9188d95b668db8aec8681ce480b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème arête de la face  <a href="../../d1/db1/classArcane_1_1Face.html#a99d9188d95b668db8aec8681ce480b9c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a99d9188d95b668db8aec8681ce480b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06e7998685e8f9c12ff8aa4948e7edbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#ga45aea0682111312722abdb0f2641b7d3">EdgeVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a06e7998685e8f9c12ff8aa4948e7edbf">edges</a> () const</td></tr>
+<tr class="memdesc:a06e7998685e8f9c12ff8aa4948e7edbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des arêtes de la face.  <a href="../../d1/db1/classArcane_1_1Face.html#a06e7998685e8f9c12ff8aa4948e7edbf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a06e7998685e8f9c12ff8aa4948e7edbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b90557f752f9d1e2b4ecfc83e67c80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">EdgeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a84b90557f752f9d1e2b4ecfc83e67c80">edgeId</a> (Int32 i) const</td></tr>
+<tr class="memdesc:a84b90557f752f9d1e2b4ecfc83e67c80"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème arête de la face  <a href="../../d1/db1/classArcane_1_1Face.html#a84b90557f752f9d1e2b4ecfc83e67c80">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a84b90557f752f9d1e2b4ecfc83e67c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b272ee449dac44ff34158a890e9550e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#ga5cfab729e1e6f48ed598b408118e7829">EdgeLocalIdView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a4b272ee449dac44ff34158a890e9550e">edgeIds</a> () const</td></tr>
+<tr class="memdesc:a4b272ee449dac44ff34158a890e9550e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des arêtes de la face.  <a href="../../d1/db1/classArcane_1_1Face.html#a4b272ee449dac44ff34158a890e9550e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4b272ee449dac44ff34158a890e9550e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8803fcc929a6ba264481dd3935f6f0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a8803fcc929a6ba264481dd3935f6f0d3">operator-&gt;</a> ()</td></tr>
+<tr class="separator:a8803fcc929a6ba264481dd3935f6f0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a412992a7a5e00cc56eda873391d92"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db1/classArcane_1_1Face.html#a45a412992a7a5e00cc56eda873391d92">operator-&gt;</a> () const</td></tr>
+<tr class="separator:a45a412992a7a5e00cc56eda873391d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1ItemWithNodes"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1ItemWithNodes')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">Arcane::ItemWithNodes</a></td></tr>
+<tr class="memitem:a6281382eab9c1c96549e314569b2717f inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a6281382eab9c1c96549e314569b2717f">ItemWithNodes</a> ()</td></tr>
+<tr class="memdesc:a6281382eab9c1c96549e314569b2717f inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Création d'une entité non connectée au maillage.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a6281382eab9c1c96549e314569b2717f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6281382eab9c1c96549e314569b2717f inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611f61b877f6314c4bd969e71bb947b6 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a611f61b877f6314c4bd969e71bb947b6">ItemWithNodes</a> (const <a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a611f61b877f6314c4bd969e71bb947b6 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de recopie.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a611f61b877f6314c4bd969e71bb947b6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a611f61b877f6314c4bd969e71bb947b6 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad263d67b47e80da05def53055edaa4ea inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#ad263d67b47e80da05def53055edaa4ea">ItemWithNodes</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="memdesc:ad263d67b47e80da05def53055edaa4ea inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une référence à l'entité <em>internal</em>.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#ad263d67b47e80da05def53055edaa4ea">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad263d67b47e80da05def53055edaa4ea inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a026368979682187373b979d41a5cf506 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a026368979682187373b979d41a5cf506">ItemWithNodes</a> (const <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternalPtr</a> *internals, Int32 local_id)</td></tr>
+<tr class="memdesc:a026368979682187373b979d41a5cf506 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une référence à l'entité <em>internal</em>.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a026368979682187373b979d41a5cf506">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a026368979682187373b979d41a5cf506 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0187e90912d6db4d705c5bff03b680c inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#af0187e90912d6db4d705c5bff03b680c">operator=</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="memdesc:af0187e90912d6db4d705c5bff03b680c inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de copie.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#af0187e90912d6db4d705c5bff03b680c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af0187e90912d6db4d705c5bff03b680c inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5096d956f9074f2d44fb7e359b049684 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a5096d956f9074f2d44fb7e359b049684">operator=</a> (const <a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a> &amp;from)</td></tr>
+<tr class="memdesc:a5096d956f9074f2d44fb7e359b049684 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de copie.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a5096d956f9074f2d44fb7e359b049684">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5096d956f9074f2d44fb7e359b049684 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c7e80b8f5f0bf7374bee7371e659c5 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#ae1c7e80b8f5f0bf7374bee7371e659c5">nbNode</a> () const</td></tr>
+<tr class="memdesc:ae1c7e80b8f5f0bf7374bee7371e659c5 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de noeuds de l'entité  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#ae1c7e80b8f5f0bf7374bee7371e659c5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae1c7e80b8f5f0bf7374bee7371e659c5 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5c2583373ef18e3197574686d02775 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a4e5c2583373ef18e3197574686d02775">node</a> (Int32 i) const</td></tr>
+<tr class="memdesc:a4e5c2583373ef18e3197574686d02775 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème noeud de l'entité  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a4e5c2583373ef18e3197574686d02775">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4e5c2583373ef18e3197574686d02775 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f9ed5132b928e270e92f715683117d inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#ga043244d96e0f701a5037a8d9620ab667">NodeVectorView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#af7f9ed5132b928e270e92f715683117d">nodes</a> () const</td></tr>
+<tr class="memdesc:af7f9ed5132b928e270e92f715683117d inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des noeuds de l'entité  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#af7f9ed5132b928e270e92f715683117d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af7f9ed5132b928e270e92f715683117d inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba73b13cb32056ecacbb971fb3d560b inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/db5/group__Mesh.html#gae765502ef6c25e3a8fbca35648f84a5f">NodeLocalIdView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#aeba73b13cb32056ecacbb971fb3d560b">nodeIds</a> () const</td></tr>
+<tr class="memdesc:aeba73b13cb32056ecacbb971fb3d560b inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liste des noeuds de l'entité  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#aeba73b13cb32056ecacbb971fb3d560b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aeba73b13cb32056ecacbb971fb3d560b inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08634aa0f2f63969f35d9e0472310bbd inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">NodeLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a08634aa0f2f63969f35d9e0472310bbd">nodeId</a> (Int32 index) const</td></tr>
+<tr class="memdesc:a08634aa0f2f63969f35d9e0472310bbd inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème noeud de l'entité.  <a href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a08634aa0f2f63969f35d9e0472310bbd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a08634aa0f2f63969f35d9e0472310bbd inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad05c26b7274c7abcf5fa4e5889aa8712 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#ad05c26b7274c7abcf5fa4e5889aa8712">operator-&gt;</a> ()</td></tr>
+<tr class="separator:ad05c26b7274c7abcf5fa4e5889aa8712 inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d6babfbbbea90327ccf80177ca258f inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html#a58d6babfbbbea90327ccf80177ca258f">operator-&gt;</a> () const</td></tr>
+<tr class="separator:a58d6babfbbbea90327ccf80177ca258f inherit pub_methods_classArcane_1_1ItemWithNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1Item')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Arcane::Item</a></td></tr>
+<tr class="memitem:a0b791beb00c507b08fadbb52dfa5ffd4 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a0b791beb00c507b08fadbb52dfa5ffd4">Item</a> ()</td></tr>
+<tr class="memdesc:a0b791beb00c507b08fadbb52dfa5ffd4 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Création d'une entité de maillage nulle.  <a href="../../df/d5f/classArcane_1_1Item.html#a0b791beb00c507b08fadbb52dfa5ffd4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0b791beb00c507b08fadbb52dfa5ffd4 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e537b4d00a78a93b0b284aa60d8c714 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a9e537b4d00a78a93b0b284aa60d8c714">Item</a> (const <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a9e537b4d00a78a93b0b284aa60d8c714 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de recopie.  <a href="../../df/d5f/classArcane_1_1Item.html#a9e537b4d00a78a93b0b284aa60d8c714">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9e537b4d00a78a93b0b284aa60d8c714 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23be4c858850cd46d877f284e19dff01 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a23be4c858850cd46d877f284e19dff01">Item</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="memdesc:a23be4c858850cd46d877f284e19dff01 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une référence à l'entité <em>internal</em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a23be4c858850cd46d877f284e19dff01">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a23be4c858850cd46d877f284e19dff01 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3716c8c2efe670f18965b65fe374a11b inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a3716c8c2efe670f18965b65fe374a11b">Item</a> (const <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternalPtr</a> *internals, Int32 local_id)</td></tr>
+<tr class="memdesc:a3716c8c2efe670f18965b65fe374a11b inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit une référence à l'entité <em>internal</em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a3716c8c2efe670f18965b65fe374a11b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3716c8c2efe670f18965b65fe374a11b inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb72a19fadce82dd05483924ebe2a78 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#afdb72a19fadce82dd05483924ebe2a78">operator=</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="memdesc:afdb72a19fadce82dd05483924ebe2a78 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de copie.  <a href="../../df/d5f/classArcane_1_1Item.html#afdb72a19fadce82dd05483924ebe2a78">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afdb72a19fadce82dd05483924ebe2a78 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e32cc9f659486b6c927c219a32842b inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a33e32cc9f659486b6c927c219a32842b">operator=</a> (const <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> &amp;from)</td></tr>
+<tr class="memdesc:a33e32cc9f659486b6c927c219a32842b inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de copie.  <a href="../../df/d5f/classArcane_1_1Item.html#a33e32cc9f659486b6c927c219a32842b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a33e32cc9f659486b6c927c219a32842b inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a2c347c90124d6a4b9c75af7ab9fbe inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a02a2c347c90124d6a4b9c75af7ab9fbe">null</a> () const</td></tr>
+<tr class="memdesc:a02a2c347c90124d6a4b9c75af7ab9fbe inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est nul (i.e. non connecté au maillage)  <a href="../../df/d5f/classArcane_1_1Item.html#a02a2c347c90124d6a4b9c75af7ab9fbe">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a02a2c347c90124d6a4b9c75af7ab9fbe inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c3dac466a25bb5c0e5b42c85d4304b8 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5c3dac466a25bb5c0e5b42c85d4304b8">localId</a> () const</td></tr>
+<tr class="memdesc:a5c3dac466a25bb5c0e5b42c85d4304b8 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifiant local de l'entité dans le sous-domaine du processeur.  <a href="../../df/d5f/classArcane_1_1Item.html#a5c3dac466a25bb5c0e5b42c85d4304b8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5c3dac466a25bb5c0e5b42c85d4304b8 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a223159c441101849a462ee7e94602482 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dc8/classArcane_1_1ItemLocalId.html">ItemLocalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a223159c441101849a462ee7e94602482">itemLocalId</a> () const</td></tr>
+<tr class="memdesc:a223159c441101849a462ee7e94602482 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifiant local de l'entité dans le sous-domaine du processeur.  <a href="../../df/d5f/classArcane_1_1Item.html#a223159c441101849a462ee7e94602482">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a223159c441101849a462ee7e94602482 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5cf3572ae8a043fae3e32fe400551b inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d81/classArcane_1_1ItemUniqueId.html">ItemUniqueId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a8e5cf3572ae8a043fae3e32fe400551b">uniqueId</a> () const</td></tr>
+<tr class="memdesc:a8e5cf3572ae8a043fae3e32fe400551b inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifiant unique sur tous les domaines.  <a href="../../df/d5f/classArcane_1_1Item.html#a8e5cf3572ae8a043fae3e32fe400551b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8e5cf3572ae8a043fae3e32fe400551b inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5651b2880e289af4cf8b93ef9164272c inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5651b2880e289af4cf8b93ef9164272c">owner</a> () const</td></tr>
+<tr class="memdesc:a5651b2880e289af4cf8b93ef9164272c inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numéro du sous-domaine propriétaire de l'entité  <a href="../../df/d5f/classArcane_1_1Item.html#a5651b2880e289af4cf8b93ef9164272c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5651b2880e289af4cf8b93ef9164272c inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4731a1b88e0bb8ade7a596523fdccd inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a9a4731a1b88e0bb8ade7a596523fdccd">type</a> () const</td></tr>
+<tr class="memdesc:a9a4731a1b88e0bb8ade7a596523fdccd inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type de l'entité  <a href="../../df/d5f/classArcane_1_1Item.html#a9a4731a1b88e0bb8ade7a596523fdccd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9a4731a1b88e0bb8ade7a596523fdccd inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a21925a30a72f0ce597d23e8e789bf4 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">eItemKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a6a21925a30a72f0ce597d23e8e789bf4">kind</a> () const</td></tr>
+<tr class="memdesc:a6a21925a30a72f0ce597d23e8e789bf4 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Genre de l'entité  <a href="../../df/d5f/classArcane_1_1Item.html#a6a21925a30a72f0ce597d23e8e789bf4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6a21925a30a72f0ce597d23e8e789bf4 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5034f8b37ac0fdd2522a0b1ce8eaa712 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5034f8b37ac0fdd2522a0b1ce8eaa712">isOwn</a> () const</td></tr>
+<tr class="memdesc:a5034f8b37ac0fdd2522a0b1ce8eaa712 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est appartient au sous-domaine  <a href="../../df/d5f/classArcane_1_1Item.html#a5034f8b37ac0fdd2522a0b1ce8eaa712">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5034f8b37ac0fdd2522a0b1ce8eaa712 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae88a5d7d13c922cdf5e04eedf38b3553 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ae88a5d7d13c922cdf5e04eedf38b3553">isShared</a> () const</td></tr>
+<tr class="memdesc:ae88a5d7d13c922cdf5e04eedf38b3553 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vrai si l'entité est partagé d'autres sous-domaines.  <a href="../../df/d5f/classArcane_1_1Item.html#ae88a5d7d13c922cdf5e04eedf38b3553">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae88a5d7d13c922cdf5e04eedf38b3553 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61655e4a83d38ed64d6a23fe7c8c6013 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html">ItemWithNodes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a61655e4a83d38ed64d6a23fe7c8c6013">toItemWithNodes</a> () const</td></tr>
+<tr class="memdesc:a61655e4a83d38ed64d6a23fe7c8c6013 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html" title="Elément de maillage s&#39;appuyant sur des noeuds (Edge,Face,Cell).">ItemWithNodes</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a61655e4a83d38ed64d6a23fe7c8c6013">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a61655e4a83d38ed64d6a23fe7c8c6013 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc639daa7737acbcd85dba8af4420ce inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd7/classArcane_1_1Node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#afdc639daa7737acbcd85dba8af4420ce">toNode</a> () const</td></tr>
+<tr class="memdesc:afdc639daa7737acbcd85dba8af4420ce inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../d8/dd7/classArcane_1_1Node.html" title="Noeud d&#39;un maillage.">Node</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#afdc639daa7737acbcd85dba8af4420ce">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afdc639daa7737acbcd85dba8af4420ce inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65066405cbd295b6cfeb9e8a413cc06e inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a65066405cbd295b6cfeb9e8a413cc06e">toCell</a> () const</td></tr>
+<tr class="memdesc:a65066405cbd295b6cfeb9e8a413cc06e inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../d9/db2/classArcane_1_1Cell.html" title="Maille d&#39;un maillage.">Cell</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a65066405cbd295b6cfeb9e8a413cc06e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a65066405cbd295b6cfeb9e8a413cc06e inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a4ee76664c6c7826203152cac0ced0 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d16/classArcane_1_1Edge.html">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a35a4ee76664c6c7826203152cac0ced0">toEdge</a> () const</td></tr>
+<tr class="memdesc:a35a4ee76664c6c7826203152cac0ced0 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../d1/d16/classArcane_1_1Edge.html" title="Arête d&#39;une maille.">Edge</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a35a4ee76664c6c7826203152cac0ced0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a35a4ee76664c6c7826203152cac0ced0 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc4269e31637d844104cd884ae77f85 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#aabc4269e31637d844104cd884ae77f85">toFace</a> () const</td></tr>
+<tr class="memdesc:aabc4269e31637d844104cd884ae77f85 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../d1/d16/classArcane_1_1Edge.html" title="Arête d&#39;une maille.">Edge</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#aabc4269e31637d844104cd884ae77f85">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aabc4269e31637d844104cd884ae77f85 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a842be475d748e8799b538f23c4ce3029 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d6c/classArcane_1_1Particle.html">Particle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a842be475d748e8799b538f23c4ce3029">toParticle</a> () const</td></tr>
+<tr class="memdesc:a842be475d748e8799b538f23c4ce3029 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../dd/d6c/classArcane_1_1Particle.html" title="Particule.">Particle</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a842be475d748e8799b538f23c4ce3029">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a842be475d748e8799b538f23c4ce3029 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f6b49ba19e41a9e9d03b12e5ab6d68 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d6c/classArcane_1_1DoF.html">DoF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a64f6b49ba19e41a9e9d03b12e5ab6d68">toDoF</a> () const</td></tr>
+<tr class="memdesc:a64f6b49ba19e41a9e9d03b12e5ab6d68 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converti l'entité en le genre <em><a class="el" href="../../d0/d6c/classArcane_1_1DoF.html" title="classe degré de liberté.">DoF</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a64f6b49ba19e41a9e9d03b12e5ab6d68">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a64f6b49ba19e41a9e9d03b12e5ab6d68 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04aac9347c0bd71c3c9bc36ead0a1399 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a04aac9347c0bd71c3c9bc36ead0a1399">nbParent</a> () const</td></tr>
+<tr class="memdesc:a04aac9347c0bd71c3c9bc36ead0a1399 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de parents.  <a href="../../df/d5f/classArcane_1_1Item.html#a04aac9347c0bd71c3c9bc36ead0a1399">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a04aac9347c0bd71c3c9bc36ead0a1399 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d60b0e820ee0b91d9b0219801ec462 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ac9d60b0e820ee0b91d9b0219801ec462">parent</a> (Int32 i) const</td></tr>
+<tr class="memdesc:ac9d60b0e820ee0b91d9b0219801ec462 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">i-ème parent  <a href="../../df/d5f/classArcane_1_1Item.html#ac9d60b0e820ee0b91d9b0219801ec462">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac9d60b0e820ee0b91d9b0219801ec462 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d2f25e6483bc3eb81d59a09372591f inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ad6d2f25e6483bc3eb81d59a09372591f">parent</a> () const</td></tr>
+<tr class="memdesc:ad6d2f25e6483bc3eb81d59a09372591f inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">premier parent  <a href="../../df/d5f/classArcane_1_1Item.html#ad6d2f25e6483bc3eb81d59a09372591f">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad6d2f25e6483bc3eb81d59a09372591f inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c832cab6e6688816abb23b09624c524 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a1c832cab6e6688816abb23b09624c524">isItemWithNodes</a> () const</td></tr>
+<tr class="memdesc:a1c832cab6e6688816abb23b09624c524 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est du genre <em><a class="el" href="../../d4/d55/classArcane_1_1ItemWithNodes.html" title="Elément de maillage s&#39;appuyant sur des noeuds (Edge,Face,Cell).">ItemWithNodes</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a1c832cab6e6688816abb23b09624c524">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1c832cab6e6688816abb23b09624c524 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce7e533cb137359c6d9fa8069c7e1f7 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#abce7e533cb137359c6d9fa8069c7e1f7">isNode</a> () const</td></tr>
+<tr class="memdesc:abce7e533cb137359c6d9fa8069c7e1f7 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est du genre <em><a class="el" href="../../d8/dd7/classArcane_1_1Node.html" title="Noeud d&#39;un maillage.">Node</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#abce7e533cb137359c6d9fa8069c7e1f7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abce7e533cb137359c6d9fa8069c7e1f7 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544d7ef415e9bc9cc797bcf4474a9e66 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a544d7ef415e9bc9cc797bcf4474a9e66">isCell</a> () const</td></tr>
+<tr class="memdesc:a544d7ef415e9bc9cc797bcf4474a9e66 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est du genre <em><a class="el" href="../../d9/db2/classArcane_1_1Cell.html" title="Maille d&#39;un maillage.">Cell</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a544d7ef415e9bc9cc797bcf4474a9e66">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a544d7ef415e9bc9cc797bcf4474a9e66 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9791e64470a59630559577594413dd2 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ac9791e64470a59630559577594413dd2">isEdge</a> () const</td></tr>
+<tr class="memdesc:ac9791e64470a59630559577594413dd2 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est du genre <em><a class="el" href="../../d1/d16/classArcane_1_1Edge.html" title="Arête d&#39;une maille.">Edge</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#ac9791e64470a59630559577594413dd2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac9791e64470a59630559577594413dd2 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5444251a927dba5c4f8333bd025ccf3 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#aa5444251a927dba5c4f8333bd025ccf3">isFace</a> () const</td></tr>
+<tr class="memdesc:aa5444251a927dba5c4f8333bd025ccf3 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> si l'entité est du genre <em><a class="el" href="../../d1/d16/classArcane_1_1Edge.html" title="Arête d&#39;une maille.">Edge</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#aa5444251a927dba5c4f8333bd025ccf3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa5444251a927dba5c4f8333bd025ccf3 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea487edb5d391b0af6cabb6a94a7daad inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#aea487edb5d391b0af6cabb6a94a7daad">isParticle</a> () const</td></tr>
+<tr class="memdesc:aea487edb5d391b0af6cabb6a94a7daad inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> is l'entité est du genre <em><a class="el" href="../../dd/d6c/classArcane_1_1Particle.html" title="Particule.">Particle</a></em>.  <a href="../../df/d5f/classArcane_1_1Item.html#aea487edb5d391b0af6cabb6a94a7daad">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aea487edb5d391b0af6cabb6a94a7daad inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7ae44fec8ba6ba545c3957f7337c34e inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ad7ae44fec8ba6ba545c3957f7337c34e">isDoF</a> () const</td></tr>
+<tr class="memdesc:ad7ae44fec8ba6ba545c3957f7337c34e inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><em>true</em> is l'entité est du genre <em><a class="el" href="../../d0/d6c/classArcane_1_1DoF.html" title="classe degré de liberté.">DoF</a></em>  <a href="../../df/d5f/classArcane_1_1Item.html#ad7ae44fec8ba6ba545c3957f7337c34e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad7ae44fec8ba6ba545c3957f7337c34e inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3372dfe19033c4475ffe4751d1ab0851 inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a3372dfe19033c4475ffe4751d1ab0851">internal</a> () const</td></tr>
+<tr class="memdesc:a3372dfe19033c4475ffe4751d1ab0851 inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partie interne de l'entité.  <a href="../../df/d5f/classArcane_1_1Item.html#a3372dfe19033c4475ffe4751d1ab0851">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3372dfe19033c4475ffe4751d1ab0851 inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1014367675cf6c37cfb74ad87046c44c inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html">ItemTypeInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a1014367675cf6c37cfb74ad87046c44c">typeInfo</a> () const</td></tr>
+<tr class="memdesc:a1014367675cf6c37cfb74ad87046c44c inherit pub_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Infos sur le type de l'entité.  <a href="../../df/d5f/classArcane_1_1Item.html#a1014367675cf6c37cfb74ad87046c44c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1014367675cf6c37cfb74ad87046c44c inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc9a9f51e71acf5830c57a3b733513b inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#afdc9a9f51e71acf5830c57a3b733513b">operator-&gt;</a> ()</td></tr>
+<tr class="separator:afdc9a9f51e71acf5830c57a3b733513b inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6c35a677dfecdb16ebfcab10104fbf inherit pub_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a3c6c35a677dfecdb16ebfcab10104fbf">operator-&gt;</a> () const</td></tr>
+<tr class="separator:a3c6c35a677dfecdb16ebfcab10104fbf inherit pub_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Membres hérités additionnels</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classArcane_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classArcane_1_1Item')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques statiques hérités de <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Arcane::Item</a></td></tr>
+<tr class="memitem:a5284e93df7ea16a0eda1737b8f94cbae inherit pub_static_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5284e93df7ea16a0eda1737b8f94cbae">typeName</a> (Int32 <a class="el" href="../../df/d5f/classArcane_1_1Item.html#a9a4731a1b88e0bb8ade7a596523fdccd">type</a>)</td></tr>
+<tr class="memdesc:a5284e93df7ea16a0eda1737b8f94cbae inherit pub_static_methods_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nom du type de maille <em>cell_type</em>.  <a href="../../df/d5f/classArcane_1_1Item.html#a5284e93df7ea16a0eda1737b8f94cbae">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5284e93df7ea16a0eda1737b8f94cbae inherit pub_static_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classArcane_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classArcane_1_1Item')"><img src="../../closed.png" alt="-"/>&#160;Attributs publics statiques hérités de <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Arcane::Item</a></td></tr>
+<tr class="memitem:a1c7e88619c921fefdbcf0d5fa7b0a802 inherit pub_static_attribs_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">static const Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a1c7e88619c921fefdbcf0d5fa7b0a802">NULL_ELEMENT</a> = NULL_ITEM_ID</td></tr>
+<tr class="memdesc:a1c7e88619c921fefdbcf0d5fa7b0a802 inherit pub_static_attribs_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indice d'un élément nul.  <a href="../../df/d5f/classArcane_1_1Item.html#a1c7e88619c921fefdbcf0d5fa7b0a802">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a1c7e88619c921fefdbcf0d5fa7b0a802 inherit pub_static_attribs_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classArcane_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classArcane_1_1Item')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres protégées hérités de <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Arcane::Item</a></td></tr>
+<tr class="memitem:a1a7e5ff302406e8c9dc143f826135424 inherit pro_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a1a7e5ff302406e8c9dc143f826135424">_checkKind</a> (bool is_valid) const</td></tr>
+<tr class="separator:a1a7e5ff302406e8c9dc143f826135424 inherit pro_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2125b5470280573cf4ec29e6ed8befd9 inherit pro_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a2125b5470280573cf4ec29e6ed8befd9">_badConversion</a> () const</td></tr>
+<tr class="separator:a2125b5470280573cf4ec29e6ed8befd9 inherit pro_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90b0e9466071eda5eaf8da56a351502 inherit pro_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ae90b0e9466071eda5eaf8da56a351502">_set</a> (<a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *ainternal)</td></tr>
+<tr class="separator:ae90b0e9466071eda5eaf8da56a351502 inherit pro_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc9e610f6eb717570ddd0d518d64144 inherit pro_methods_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a7cc9e610f6eb717570ddd0d518d64144">_set</a> (const <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> &amp;rhs)</td></tr>
+<tr class="separator:a7cc9e610f6eb717570ddd0d518d64144 inherit pro_methods_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classArcane_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classArcane_1_1Item')"><img src="../../closed.png" alt="-"/>&#160;Attributs protégés hérités de <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Arcane::Item</a></td></tr>
+<tr class="memitem:a5c10260db9c33f5d98f0d27fd1aeb561 inherit pro_attribs_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5c10260db9c33f5d98f0d27fd1aeb561">m_internal</a></td></tr>
+<tr class="memdesc:a5c10260db9c33f5d98f0d27fd1aeb561 inherit pro_attribs_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partie interne de l'élément.  <a href="../../df/d5f/classArcane_1_1Item.html#a5c10260db9c33f5d98f0d27fd1aeb561">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a5c10260db9c33f5d98f0d27fd1aeb561 inherit pro_attribs_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9192b488cd90153444501d166a39417 inherit pro_attribs_classArcane_1_1Item"><td class="memItemLeft" align="right" valign="top">Int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5f/classArcane_1_1Item.html#ad9192b488cd90153444501d166a39417">m_local_id</a></td></tr>
+<tr class="memdesc:ad9192b488cd90153444501d166a39417 inherit pro_attribs_classArcane_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indice local.  <a href="../../df/d5f/classArcane_1_1Item.html#ad9192b488cd90153444501d166a39417">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad9192b488cd90153444501d166a39417 inherit pro_attribs_classArcane_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p ><a class="el" href="../../d1/db1/classArcane_1_1Face.html" title="Face d&#39;une maille.">Face</a> d'une maille. </p>
+<p >Une face est décrite par la liste ordonnée de ses sommets, ce qui lui donne une orientation. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00698">698</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a297d78db7d43d9702fe07a8c76da88f2" name="a297d78db7d43d9702fe07a8c76da88f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a297d78db7d43d9702fe07a8c76da88f2">&#9670;&#160;</a></span>LocalIdType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">FaceLocalId</a> <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a297d78db7d43d9702fe07a8c76da88f2">Arcane::Face::LocalIdType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type du <a class="el" href="../../df/d5f/classArcane_1_1Item.html#a5c3dac466a25bb5c0e5b42c85d4304b8" title="Identifiant local de l&#39;entité dans le sous-domaine du processeur.">localId()</a> </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00718">718</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="abaa84d035374b45b4c6ed524f95b11e1" name="abaa84d035374b45b4c6ed524f95b11e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa84d035374b45b4c6ed524f95b11e1">&#9670;&#160;</a></span>Face() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::Face::Face </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Création d'une face non connecté au maillage. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00721">721</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a68bc8cf330e8493af08cab5d572ba8bd" name="a68bc8cf330e8493af08cab5d572ba8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68bc8cf330e8493af08cab5d572ba8bd">&#9670;&#160;</a></span>Face() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::Face::Face </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructeur de recopie. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00724">724</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="ac2b7f75be4f3b7c194897f04b773ba35" name="ac2b7f75be4f3b7c194897f04b773ba35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b7f75be4f3b7c194897f04b773ba35">&#9670;&#160;</a></span>Face() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::Face::Face </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>ainternal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit une référence à l'entité <em>internal</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00727">727</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="aae43afc6de7f073a7d5d8fb19265ee7f" name="aae43afc6de7f073a7d5d8fb19265ee7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae43afc6de7f073a7d5d8fb19265ee7f">&#9670;&#160;</a></span>Face() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::Face::Face </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternalPtr</a> *&#160;</td>
+          <td class="paramname"><em>internals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>local_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construit une référence à l'entité <em>internal</em>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00731">731</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="af5eb0ad8fc1568b4c59ff0bd5ece57bf" name="af5eb0ad8fc1568b4c59ff0bd5ece57bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5eb0ad8fc1568b4c59ff0bd5ece57bf">&#9670;&#160;</a></span>backCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::Face::backCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille derrière la face (maille nulle si aucune) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l01250">1250</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00572">Arcane::ItemInternal::backCell()</a>, et <a class="el" href="../../d1/dd4/Item_8h_source.html#l00296">Arcane::Item::m_internal</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00457">Arcane::DynamicMeshChecker::_checkFacesOrientation()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l00830">Arcane::mesh::MeshRefinement::_checkLevelOne()</a>, <a class="el" href="../../d7/dbb/FaceUniqueIdBuilder_8cc_source.html#l00675">Arcane::mesh::FaceUniqueIdBuilder::_computeFacesUniqueIdsParallelV2()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l01072">Arcane::mesh::MeshRefinement::_makeCoarseningCompatible()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l01325">Arcane::mesh::MeshRefinement::_makeRefinementCompatible()</a>, <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00222">Arcane::DynamicMeshChecker::checkValidConnectivity()</a>, <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00141">Arcane::DynamicMeshChecker::checkValidMeshFull()</a>, <a class="el" href="../../d1/de9/CartesianMesh_8cc_source.html#l00244">Arcane::CartesianMeshImpl::computeDirections()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00094">Arcane::InterfaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00188">Arcane::InnerFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00235">Arcane::OuterFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00415">Arcane::ActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00480">Arcane::OwnActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00534">Arcane::InnerActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d3/d18/SplitSDMeshPartitioner_8cc_source.html#l01567">Arcane::SplitSDMeshPartitioner::getDomVoisMaxFace()</a>, <a class="el" href="../../d3/d18/SplitSDMeshPartitioner_8cc_source.html#l00193">Arcane::SplitSDMeshPartitioner::MAJDomaine()</a>, <a class="el" href="../../de/d91/MeshNodeMerger_8cc_source.html#l00082">Arcane::MeshNodeMerger::mergeNodes()</a>, <a class="el" href="../../d1/dd4/Item_8h_source.html#l01263">oppositeCell()</a>, <a class="el" href="../../dc/ddb/FaceFamily_8cc_source.html#l00408">Arcane::mesh::FaceFamily::replaceBackCellToFace()</a>, <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00802">Arcane::mesh_utils::writeMeshConnectivity()</a>, et <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00510">Arcane::mesh_utils::writeMeshInfosSorted()</a>.</p>
+
+</div>
+</div>
+<a id="aaaf62da87ec534574ea4b2d865102ca5" name="aaaf62da87ec534574ea4b2d865102ca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf62da87ec534574ea4b2d865102ca5">&#9670;&#160;</a></span>backCellId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::Face::backCellId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille derrière la face (maille nulle si aucune) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00808">808</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="acc1f762bd055a1abab3646dc965b03e0" name="acc1f762bd055a1abab3646dc965b03e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc1f762bd055a1abab3646dc965b03e0">&#9670;&#160;</a></span>boundaryCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::Face::boundaryCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille associée à cette face frontière (maille nulle si aucune) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l01244">1244</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00570">Arcane::ItemInternal::boundaryCell()</a>, et <a class="el" href="../../d1/dd4/Item_8h_source.html#l00296">Arcane::Item::m_internal</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d9/d5d/UnstructuredMeshUtilities_8cc_source.html#l00374">Arcane::UnstructuredMeshUtilities::computeNormal()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00415">Arcane::ActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00480">Arcane::OwnActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, et <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00587">Arcane::OuterActiveFaceItemGroupComputeFunctor::executeFunctor()</a>.</p>
+
+</div>
+</div>
+<a id="a4c88bda2fb777bd9a51199cbb394b2ea" name="a4c88bda2fb777bd9a51199cbb394b2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c88bda2fb777bd9a51199cbb394b2ea">&#9670;&#160;</a></span>cell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::Face::cell </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>i-ème maille de la face </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l01269">1269</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00296">Arcane::Item::m_internal</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d7/d2c/FaceUniqueIdBuilder2_8cc_source.html#l01044">Arcane::mesh::FaceUniqueIdBuilder2::_checkFacesUniqueId()</a>, <a class="el" href="../../d7/d2c/FaceUniqueIdBuilder2_8cc_source.html#l00682">Arcane::mesh::FaceUniqueIdBuilder2::_computeAndSortBoundaryFaces()</a>, <a class="el" href="../../d7/dbb/FaceUniqueIdBuilder_8cc_source.html#l00208">Arcane::mesh::FaceUniqueIdBuilder::_computeFacesUniqueIdsParallelV1()</a>, <a class="el" href="../../d7/d2c/FaceUniqueIdBuilder2_8cc_source.html#l00552">Arcane::mesh::FaceUniqueIdBuilder2::_computeParallel()</a>, <a class="el" href="../../d4/dc9/GhostLayerBuilder2_8cc_source.html#l00825">Arcane::mesh::GhostLayerBuilder2::_markBoundaryItems()</a>, <a class="el" href="../../d4/dc9/GhostLayerBuilder2_8cc_source.html#l00354">Arcane::mesh::GhostLayerBuilder2::_markBoundaryNodes()</a>, <a class="el" href="../../d3/db9/TiedInterface_8cc_source.html#l01517">Arcane::mesh::TiedInterfaceBuilder::changeOwners()</a>, <a class="el" href="../../d3/db9/TiedInterface_8cc_source.html#l01479">Arcane::mesh::TiedInterfaceBuilder::changeOwnersOld()</a>, <a class="el" href="../../d0/da9/FaceReorienter_8cc_source.html#l00087">Arcane::FaceReorienter::checkAndChangeOrientation()</a>, <a class="el" href="../../d0/da9/FaceReorienter_8cc_source.html#l00164">Arcane::FaceReorienter::checkAndChangeOrientationAMR()</a>, <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00222">Arcane::DynamicMeshChecker::checkValidConnectivity()</a>, <a class="el" href="../../d0/d05/ParallelAMRConsistency_8cc_source.html#l00590">Arcane::ParallelAMRConsistency::makeNewItemsConsistent2()</a>, <a class="el" href="../../d1/dd4/Item_8h_source.html#l01263">oppositeCell()</a>, <a class="el" href="../../d2/d1d/DynamicMesh_8cc_source.html#l02034">Arcane::mesh::DynamicMesh::updateGhostLayerFromParent()</a>, et <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00510">Arcane::mesh_utils::writeMeshInfosSorted()</a>.</p>
+
+</div>
+</div>
+<a id="a48c478f1362ca6cc464a8ec9e0dd570b" name="a48c478f1362ca6cc464a8ec9e0dd570b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48c478f1362ca6cc464a8ec9e0dd570b">&#9670;&#160;</a></span>cellId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::Face::cellId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>i-ème maille de la face </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00764">764</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="aed3b6873997e7fe9afe29ff2f8b04915" name="aed3b6873997e7fe9afe29ff2f8b04915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed3b6873997e7fe9afe29ff2f8b04915">&#9670;&#160;</a></span>cellIds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/db5/group__Mesh.html#ga2957e04cba7c87aa1e7c69cd296442de">CellLocalIdView</a> Arcane::Face::cellIds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des mailles de la face. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00767">767</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a4b867872ff13bcff99a434096254618e" name="a4b867872ff13bcff99a434096254618e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b867872ff13bcff99a434096254618e">&#9670;&#160;</a></span>cells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/db5/group__Mesh.html#ga914dea9362ea4dd4c2ca3023bcdbeb62">CellVectorView</a> Arcane::Face::cells </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des mailles de la face. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00761">761</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00222">Arcane::DynamicMeshChecker::checkValidConnectivity()</a>.</p>
+
+</div>
+</div>
+<a id="a99d9188d95b668db8aec8681ce480b9c" name="a99d9188d95b668db8aec8681ce480b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99d9188d95b668db8aec8681ce480b9c">&#9670;&#160;</a></span>edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d16/classArcane_1_1Edge.html">Edge</a> Arcane::Face::edge </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>i-ème arête de la face </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00872">872</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00510">Arcane::mesh_utils::writeMeshInfosSorted()</a>.</p>
+
+</div>
+</div>
+<a id="a84b90557f752f9d1e2b4ecfc83e67c80" name="a84b90557f752f9d1e2b4ecfc83e67c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b90557f752f9d1e2b4ecfc83e67c80">&#9670;&#160;</a></span>edgeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">EdgeLocalId</a> Arcane::Face::edgeId </td>
+          <td>(</td>
+          <td class="paramtype">Int32&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>i-ème arête de la face </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00878">878</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a4b272ee449dac44ff34158a890e9550e" name="a4b272ee449dac44ff34158a890e9550e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b272ee449dac44ff34158a890e9550e">&#9670;&#160;</a></span>edgeIds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/db5/group__Mesh.html#ga5cfab729e1e6f48ed598b408118e7829">EdgeLocalIdView</a> Arcane::Face::edgeIds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des arêtes de la face. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00881">881</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a06e7998685e8f9c12ff8aa4948e7edbf" name="a06e7998685e8f9c12ff8aa4948e7edbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06e7998685e8f9c12ff8aa4948e7edbf">&#9670;&#160;</a></span>edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/db5/group__Mesh.html#ga45aea0682111312722abdb0f2641b7d3">EdgeVectorView</a> Arcane::Face::edges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des arêtes de la face. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00875">875</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d4/dc9/GhostLayerBuilder2_8cc_source.html#l00825">Arcane::mesh::GhostLayerBuilder2::_markBoundaryItems()</a>, <a class="el" href="../../d4/dc9/GhostLayerBuilder2_8cc_source.html#l00354">Arcane::mesh::GhostLayerBuilder2::_markBoundaryNodes()</a>, <a class="el" href="../../d0/d05/ParallelAMRConsistency_8cc_source.html#l00179">Arcane::ParallelAMRConsistency::makeNewItemsConsistent()</a>, et <a class="el" href="../../d0/d05/ParallelAMRConsistency_8cc_source.html#l00590">Arcane::ParallelAMRConsistency::makeNewItemsConsistent2()</a>.</p>
+
+</div>
+</div>
+<a id="a44af4a40d72fa462be177cc19fc40ff6" name="a44af4a40d72fa462be177cc19fc40ff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44af4a40d72fa462be177cc19fc40ff6">&#9670;&#160;</a></span>frontCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::Face::frontCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille devant la face (maille nulle si aucune) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l01256">1256</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d5/d4d/ItemInternal_8h_source.html#l00586">Arcane::ItemInternal::frontCell()</a>, et <a class="el" href="../../d1/dd4/Item_8h_source.html#l00296">Arcane::Item::m_internal</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00457">Arcane::DynamicMeshChecker::_checkFacesOrientation()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l00830">Arcane::mesh::MeshRefinement::_checkLevelOne()</a>, <a class="el" href="../../d7/dbb/FaceUniqueIdBuilder_8cc_source.html#l00675">Arcane::mesh::FaceUniqueIdBuilder::_computeFacesUniqueIdsParallelV2()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l01072">Arcane::mesh::MeshRefinement::_makeCoarseningCompatible()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l01325">Arcane::mesh::MeshRefinement::_makeRefinementCompatible()</a>, <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00222">Arcane::DynamicMeshChecker::checkValidConnectivity()</a>, <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00141">Arcane::DynamicMeshChecker::checkValidMeshFull()</a>, <a class="el" href="../../d1/de9/CartesianMesh_8cc_source.html#l00244">Arcane::CartesianMeshImpl::computeDirections()</a>, <a class="el" href="../../d9/d5d/UnstructuredMeshUtilities_8cc_source.html#l00374">Arcane::UnstructuredMeshUtilities::computeNormal()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00094">Arcane::InterfaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00188">Arcane::InnerFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00235">Arcane::OuterFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00415">Arcane::ActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00480">Arcane::OwnActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00534">Arcane::InnerActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d3/d18/SplitSDMeshPartitioner_8cc_source.html#l01567">Arcane::SplitSDMeshPartitioner::getDomVoisMaxFace()</a>, <a class="el" href="../../d3/d18/SplitSDMeshPartitioner_8cc_source.html#l00193">Arcane::SplitSDMeshPartitioner::MAJDomaine()</a>, <a class="el" href="../../d1/dd4/Item_8h_source.html#l01263">oppositeCell()</a>, <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00802">Arcane::mesh_utils::writeMeshConnectivity()</a>, et <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00510">Arcane::mesh_utils::writeMeshInfosSorted()</a>.</p>
+
+</div>
+</div>
+<a id="a313a4826ee0296e522a727f6ac1a0504" name="a313a4826ee0296e522a727f6ac1a0504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a313a4826ee0296e522a727f6ac1a0504">&#9670;&#160;</a></span>frontCellId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::Face::frontCellId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille devant la face (maille nulle si aucune) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00814">814</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a5293df90de3cbbecf713b7f50bc5541c" name="a5293df90de3cbbecf713b7f50bc5541c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5293df90de3cbbecf713b7f50bc5541c">&#9670;&#160;</a></span>isBoundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ARCANE_DEPRECATED_118 bool Arcane::Face::isBoundary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p ><em>true</em> si la face est au bord du sous-domaine. </p><dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000048">Obsolète:</a></b></dt><dd>Utiliser <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a78822a868c7fe1da495b54c892751da8" title="Indique si la face est au bord du sous-domaine (i.e nbCell()==1)">isSubDomainBoundary()</a> à la place. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00783">783</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a75ca0e09dd4b2f1d67d019a2aceadf51" name="a75ca0e09dd4b2f1d67d019a2aceadf51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ca0e09dd4b2f1d67d019a2aceadf51">&#9670;&#160;</a></span>isBoundaryOutside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ARCANE_DEPRECATED_118 bool Arcane::Face::isBoundaryOutside </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indique si la face est au bord t orientée vers l'extérieur. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000049">Obsolète:</a></b></dt><dd>Utiliser <a class="el" href="../../d1/db1/classArcane_1_1Face.html#ab5de63064dc0220a1ac192275f4b34da" title="Indique si la face est au bord t orientée vers l&#39;extérieur.">isSubDomainBoundaryOutside()</a> </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00796">796</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../db/d27/GeometryKernelSurfaceInternalUtils_8cc_source.html#l00022">Arcane::buildFaceGroupSurface()</a>.</p>
+
+</div>
+</div>
+<a id="a26df356d81f68f2537f1fb9face85159" name="a26df356d81f68f2537f1fb9face85159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26df356d81f68f2537f1fb9face85159">&#9670;&#160;</a></span>isMasterFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::Face::isMasterFace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><em>true</em> s'il s'agit de la face maître d'une interface </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00845">845</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00802">Arcane::mesh_utils::writeMeshConnectivity()</a>.</p>
+
+</div>
+</div>
+<a id="a93e57a6ac08d35fd902f501b39b51890" name="a93e57a6ac08d35fd902f501b39b51890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e57a6ac08d35fd902f501b39b51890">&#9670;&#160;</a></span>isSlaveFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::Face::isSlaveFace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><em>true</em> s'il s'agit d'une face esclave d'une interface </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00848">848</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00802">Arcane::mesh_utils::writeMeshConnectivity()</a>.</p>
+
+</div>
+</div>
+<a id="a78822a868c7fe1da495b54c892751da8" name="a78822a868c7fe1da495b54c892751da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78822a868c7fe1da495b54c892751da8">&#9670;&#160;</a></span>isSubDomainBoundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::Face::isSubDomainBoundary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indique si la face est au bord du sous-domaine (i.e <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a500ee00b6481628cf99ec7f5cf94a6bb" title="Nombre de mailles de la face (1 ou 2)">nbCell()</a>==1) </p>
+<dl class="section warning"><dt>Avertissement</dt><dd>Une face au bord du sous-domaine n'est pas nécessairement au bord du maillage global. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00777">777</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d1/de9/CartesianMesh_8cc_source.html#l00244">Arcane::CartesianMeshImpl::computeDirections()</a>, <a class="el" href="../../d9/d5d/UnstructuredMeshUtilities_8cc_source.html#l00374">Arcane::UnstructuredMeshUtilities::computeNormal()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00188">Arcane::InnerFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00235">Arcane::OuterFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00415">Arcane::ActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00480">Arcane::OwnActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00534">Arcane::InnerActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d1/d7e/ItemGroupComputeFunctor_8cc_source.html#l00587">Arcane::OuterActiveFaceItemGroupComputeFunctor::executeFunctor()</a>, <a class="el" href="../../d3/d18/SplitSDMeshPartitioner_8cc_source.html#l01567">Arcane::SplitSDMeshPartitioner::getDomVoisMaxFace()</a>, et <a class="el" href="../../d3/d18/SplitSDMeshPartitioner_8cc_source.html#l00193">Arcane::SplitSDMeshPartitioner::MAJDomaine()</a>.</p>
+
+</div>
+</div>
+<a id="ab5de63064dc0220a1ac192275f4b34da" name="ab5de63064dc0220a1ac192275f4b34da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5de63064dc0220a1ac192275f4b34da">&#9670;&#160;</a></span>isSubDomainBoundaryOutside()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::Face::isSubDomainBoundaryOutside </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indique si la face est au bord t orientée vers l'extérieur. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00786">786</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../df/d59/OneMeshItemAdder_8cc_source.html#l00720">Arcane::mesh::OneMeshItemAdder::addOneParentItem()</a>.</p>
+
+</div>
+</div>
+<a id="adacb65c100ade1247a40aa209ca7445a" name="adacb65c100ade1247a40aa209ca7445a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adacb65c100ade1247a40aa209ca7445a">&#9670;&#160;</a></span>isTiedFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::Face::isTiedFace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><em>true</em> s'il s'agit d'une face esclave ou maître d'une interface </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00851">851</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a84459acb4c7def160c73d1c6375c4ec5" name="a84459acb4c7def160c73d1c6375c4ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84459acb4c7def160c73d1c6375c4ec5">&#9670;&#160;</a></span>itemLocalId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">FaceLocalId</a> Arcane::Face::itemLocalId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Identifiant local de l'entité dans le sous-domaine du processeur. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00752">752</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a8df72f1292ebe164a6158abf5fcff871" name="a8df72f1292ebe164a6158abf5fcff871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8df72f1292ebe164a6158abf5fcff871">&#9670;&#160;</a></span>masterFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> Arcane::Face::masterFace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d1/db1/classArcane_1_1Face.html" title="Face d&#39;une maille.">Face</a> maître associée à cette face. </p>
+<p >Cette face n'est non nul que si la face est liée à une interface et est une face esclave de cette interface (i.e. <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a93e57a6ac08d35fd902f501b39b51890" title="true s&#39;il s&#39;agit d&#39;une face esclave d&#39;une interface">isSlaveFace()</a> est vrai)</p>
+<dl class="section see"><dt>Voir également</dt><dd><a class="el" href="../../d6/db6/classArcane_1_1ITiedInterface.html" title="Interface d&#39;un classe gérant une semi-conformité du maillage.">ITiedInterface</a> </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00842">842</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l00842">masterFace()</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d1/dd4/Item_8h_source.html#l00842">masterFace()</a>, et <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00802">Arcane::mesh_utils::writeMeshConnectivity()</a>.</p>
+
+</div>
+</div>
+<a id="a500ee00b6481628cf99ec7f5cf94a6bb" name="a500ee00b6481628cf99ec7f5cf94a6bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a500ee00b6481628cf99ec7f5cf94a6bb">&#9670;&#160;</a></span>nbCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::Face::nbCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nombre de mailles de la face (1 ou 2) </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00755">755</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l00830">Arcane::mesh::MeshRefinement::_checkLevelOne()</a>, <a class="el" href="../../d7/d2c/FaceUniqueIdBuilder2_8cc_source.html#l00682">Arcane::mesh::FaceUniqueIdBuilder2::_computeAndSortBoundaryFaces()</a>, <a class="el" href="../../d7/dbb/FaceUniqueIdBuilder_8cc_source.html#l00675">Arcane::mesh::FaceUniqueIdBuilder::_computeFacesUniqueIdsParallelV2()</a>, <a class="el" href="../../d7/d2c/FaceUniqueIdBuilder2_8cc_source.html#l00552">Arcane::mesh::FaceUniqueIdBuilder2::_computeParallel()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l01072">Arcane::mesh::MeshRefinement::_makeCoarseningCompatible()</a>, <a class="el" href="../../d3/dfd/MeshRefinement_8cc_source.html#l01325">Arcane::mesh::MeshRefinement::_makeRefinementCompatible()</a>, <a class="el" href="../../d4/dc9/GhostLayerBuilder2_8cc_source.html#l00825">Arcane::mesh::GhostLayerBuilder2::_markBoundaryItems()</a>, <a class="el" href="../../d4/dc9/GhostLayerBuilder2_8cc_source.html#l00354">Arcane::mesh::GhostLayerBuilder2::_markBoundaryNodes()</a>, <a class="el" href="../../d0/da9/FaceReorienter_8cc_source.html#l00087">Arcane::FaceReorienter::checkAndChangeOrientation()</a>, <a class="el" href="../../d0/da9/FaceReorienter_8cc_source.html#l00164">Arcane::FaceReorienter::checkAndChangeOrientationAMR()</a>, <a class="el" href="../../dc/d81/DynamicMeshChecker_8cc_source.html#l00222">Arcane::DynamicMeshChecker::checkValidConnectivity()</a>, <a class="el" href="../../dc/ddb/FaceFamily_8cc_source.html#l00408">Arcane::mesh::FaceFamily::replaceBackCellToFace()</a>, <a class="el" href="../../d2/d1d/DynamicMesh_8cc_source.html#l02034">Arcane::mesh::DynamicMesh::updateGhostLayerFromParent()</a>, et <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00510">Arcane::mesh_utils::writeMeshInfosSorted()</a>.</p>
+
+</div>
+</div>
+<a id="ad59b58bbbd7e239c49dd6873147c7bf6" name="ad59b58bbbd7e239c49dd6873147c7bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59b58bbbd7e239c49dd6873147c7bf6">&#9670;&#160;</a></span>nbEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int32 Arcane::Face::nbEdge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nombre d'arêtes de la face. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00869">869</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00510">Arcane::mesh_utils::writeMeshInfosSorted()</a>.</p>
+
+</div>
+</div>
+<a id="a8803fcc929a6ba264481dd3935f6f0d3" name="a8803fcc929a6ba264481dd3935f6f0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8803fcc929a6ba264481dd3935f6f0d3">&#9670;&#160;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> * Arcane::Face::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00886">886</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="a45a412992a7a5e00cc56eda873391d92" name="a45a412992a7a5e00cc56eda873391d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45a412992a7a5e00cc56eda873391d92">&#9670;&#160;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> * Arcane::Face::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00887">887</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="abfade8ca56fbffa60282526e52dda81c" name="abfade8ca56fbffa60282526e52dda81c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfade8ca56fbffa60282526e52dda81c">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp; Arcane::Face::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp;&#160;</td>
+          <td class="paramname"><em>from</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opérateur de copie. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00743">743</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="aed93b19f40f76e7de562f1aabf0b4813" name="aed93b19f40f76e7de562f1aabf0b4813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed93b19f40f76e7de562f1aabf0b4813">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a> &amp; Arcane::Face::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df1/classArcane_1_1ItemInternal.html">ItemInternal</a> *&#160;</td>
+          <td class="paramname"><em>ainternal</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Opérateur de copie. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00736">736</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="af8234b42868fb9baf6e02db4e99fd4f1" name="af8234b42868fb9baf6e02db4e99fd4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8234b42868fb9baf6e02db4e99fd4f1">&#9670;&#160;</a></span>oppositeCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a> Arcane::Face::oppositeCell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/db2/classArcane_1_1Cell.html">Cell</a>&#160;</td>
+          <td class="paramname"><em>cell</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille opposée de cette face à la maille <em>cell</em>. </p>
+<dl class="section pre"><dt>Précondition</dt><dd><a class="el" href="../../d1/db1/classArcane_1_1Face.html#af5eb0ad8fc1568b4c59ff0bd5ece57bf" title="Maille derrière la face (maille nulle si aucune)">backCell()</a>==cell || <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a44af4a40d72fa462be177cc19fc40ff6" title="Maille devant la face (maille nulle si aucune)">frontCell()</a>==cell. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l01262">1262</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d1/dd4/Item_8h_source.html#l01251">backCell()</a>, <a class="el" href="../../d1/dd4/Item_8h_source.html#l01270">cell()</a>, et <a class="el" href="../../d1/dd4/Item_8h_source.html#l01257">frontCell()</a>.</p>
+
+</div>
+</div>
+<a id="afa9272446a04d90e7224f7a2a68d1a6a" name="afa9272446a04d90e7224f7a2a68d1a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9272446a04d90e7224f7a2a68d1a6a">&#9670;&#160;</a></span>oppositeCellId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a> Arcane::Face::oppositeCellId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d48/classArcane_1_1ItemLocalIdT.html">CellLocalId</a>&#160;</td>
+          <td class="paramname"><em>cell_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maille opposée de cette face à la maille <em>cell</em>. </p>
+<dl class="section pre"><dt>Précondition</dt><dd><a class="el" href="../../d1/db1/classArcane_1_1Face.html#af5eb0ad8fc1568b4c59ff0bd5ece57bf" title="Maille derrière la face (maille nulle si aucune)">backCell()</a>==cell || <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a44af4a40d72fa462be177cc19fc40ff6" title="Maille devant la face (maille nulle si aucune)">frontCell()</a>==cell. </dd></dl>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00828">828</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+</div>
+</div>
+<a id="ae8982a659c722cbcb02bcf3b3a02ed9a" name="ae8982a659c722cbcb02bcf3b3a02ed9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8982a659c722cbcb02bcf3b3a02ed9a">&#9670;&#160;</a></span>slaveFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/db5/group__Mesh.html#gaa2c4853186b74a5337b3a5c3d4bec269">FaceVectorView</a> Arcane::Face::slaveFaces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Liste des faces esclaves associées à cette face maître. </p>
+<p >Cette liste n'existe que pour les faces dont <a class="el" href="../../d1/db1/classArcane_1_1Face.html#a26df356d81f68f2537f1fb9face85159" title="true s&#39;il s&#39;agit de la face maître d&#39;une interface">isMasterFace()</a> est vrai. Pour les autres, elle est vide. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d1/dd4/Item_8h_source.html#l00859">859</a> du fichier <a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a>.</p>
+
+<p class="reference">Référencé par <a class="el" href="../../d3/d63/MeshUtils_8cc_source.html#l00802">Arcane::mesh_utils::writeMeshConnectivity()</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d1/dd4/Item_8h_source.html">Item.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d1/db1/classArcane_1_1Face.html">Face</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:25 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

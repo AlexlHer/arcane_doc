@@ -1,0 +1,6 @@
+<map id="Arcane::SequentialParallelMngBuilder" name="Arcane::SequentialParallelMngBuilder">
+<area shape="rect" id="node1" title=" " alt="" coords="129,269,379,441"/>
+<area shape="rect" id="node2" href="$d7/d5d/classArcane_1_1ParallelMngContainerBase.html" title=" " alt="" coords="127,152,381,221"/>
+<area shape="rect" id="node3" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,5,239,104"/>
+<area shape="rect" id="node4" href="$dd/dbb/classArcane_1_1IParallelMngContainer.html" title="Interface d&#39;un conteneur de &#39;IParallelMng&#39;." alt="" coords="263,5,509,104"/>
+</map>

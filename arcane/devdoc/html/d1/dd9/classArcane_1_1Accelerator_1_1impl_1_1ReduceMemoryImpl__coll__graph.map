@@ -1,0 +1,15 @@
+<map id="Arcane::Accelerator::impl::ReduceMemoryImpl" name="Arcane::Accelerator::impl::ReduceMemoryImpl">
+<area shape="rect" id="node1" title=" " alt="" coords="492,1809,691,1952"/>
+<area shape="rect" id="node2" href="$da/dc8/classArcane_1_1Accelerator_1_1impl_1_1IReduceMemoryImpl.html" title="Interface de la gestion mémoire pour les réductions." alt="" coords="235,1575,438,1673"/>
+<area shape="rect" id="node3" href="$d2/d7c/classArcane_1_1Accelerator_1_1impl_1_1RunCommandImpl.html" title="Implémentation d&#39;une commande pour accélérateur." alt="" coords="463,1501,720,1747"/>
+<area shape="rect" id="node4" href="$d1/d0a/classArcane_1_1Accelerator_1_1impl_1_1RunQueueImpl.html" title="File d&#39;exécution pour accélérateur." alt="" coords="231,995,493,1343"/>
+<area shape="rect" id="node5" href="$d1/d61/classArcane_1_1Accelerator_1_1Runner.html" title="Gestionnaire d&#39;exécution pour accélérateur." alt="" coords="5,423,241,801"/>
+<area shape="rect" id="node6" href="$d8/d5a/classArcane_1_1Accelerator_1_1impl_1_1IRunQueueRuntime.html" title="Interface du runtime associé à une RunQueue." alt="" coords="265,533,459,691"/>
+<area shape="rect" id="node7" href="$da/dbb/classArcane_1_1Accelerator_1_1impl_1_1IRunQueueStream.html" title="Interface d&#39;un flux d&#39;exécution pour une RunQueue." alt="" coords="483,541,668,683"/>
+<area shape="rect" id="node8" href="$db/d6c/classArccore_1_1TraceInfo.html" title="Informations de trace." alt="" coords="517,1069,666,1270"/>
+<area shape="rect" id="node9" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="691,900,913,1439"/>
+<area shape="rect" id="node10" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="725,387,879,837"/>
+<area shape="rect" id="node11" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="583,5,791,324"/>
+<area shape="rect" id="node12" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="816,5,1015,324"/>
+<area shape="rect" id="node13" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="745,1553,947,1695"/>
+</map>

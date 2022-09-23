@@ -1,0 +1,11 @@
+<map id="Arcane::geometric::NullConnectivity" name="Arcane::geometric::NullConnectivity">
+<area shape="rect" id="node1" title="Informations de connectivité pour les éléments géométriques de type IT_NullType." alt="" coords="526,681,689,795"/>
+<area shape="rect" id="node2" href="$db/d71/classArcane_1_1geometric_1_1CellConnectivity.html" title="Informations sur la connectivité d&#39;une maille." alt="" coords="503,387,712,632"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,71,81,111"/>
+<area shape="rect" id="node4" href="$d4/d5d/structArcane_1_1geometric_1_1NodeConnectic.html" title="Structures de connectique locale des mailles." alt="" coords="166,20,323,163"/>
+<area shape="rect" id="node5" href="$df/d83/structArcane_1_1geometric_1_1EdgeConnectic.html" title="Structures de connectique locale des mailles." alt="" coords="347,27,505,155"/>
+<area shape="rect" id="node6" href="$d3/dfd/structArcane_1_1geometric_1_1FaceConnectic.html" title="Structure de connectique locale." alt="" coords="529,5,686,177"/>
+<area shape="rect" id="node7" href="$d3/d20/structArcane_1_1geometric_1_1SVCFaceConnectic.html" title="Structures de connectique locale des mailles et svc." alt="" coords="711,5,885,177"/>
+<area shape="rect" id="node8" title=" " alt="" coords="932,71,995,111"/>
+<area shape="rect" id="node9" href="$dc/dfb/classArcane_1_1geometric_1_1GeomType.html" title="Enumération spécifiant le type de polygone ou polyèdre associé à un élément ou une forme géométrique." alt="" coords="1071,64,1229,119"/>
+</map>

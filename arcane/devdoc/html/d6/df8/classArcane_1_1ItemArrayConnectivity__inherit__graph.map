@@ -1,0 +1,7 @@
+<map id="Arcane::ItemArrayConnectivity" name="Arcane::ItemArrayConnectivity">
+<area shape="rect" id="node1" title=" " alt="" coords="10,695,241,999"/>
+<area shape="rect" id="node5" href="$d3/d90/classArcane_1_1ItemArrayConnectivityT.html" title=" " alt="" coords="8,1047,243,1160"/>
+<area shape="rect" id="node2" href="$d6/d33/classArcane_1_1AbstractConnectivity.html" title="Classe abstraite de gestion des connectivités." alt="" coords="16,416,235,647"/>
+<area shape="rect" id="node3" href="$d0/dc0/classArcane_1_1IItemConnectivity.html" title="Interface pour gérer une connectivité." alt="" coords="22,181,229,368"/>
+<area shape="rect" id="node4" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="5,5,245,133"/>
+</map>

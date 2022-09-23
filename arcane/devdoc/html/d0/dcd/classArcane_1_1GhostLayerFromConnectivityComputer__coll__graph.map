@@ -1,0 +1,15 @@
+<map id="Arcane::GhostLayerFromConnectivityComputer" name="Arcane::GhostLayerFromConnectivityComputer">
+<area shape="rect" id="node1" title="Outil de calcul de la couche fantôme d&#39;une famille à partir de la connectivité." alt="" coords="433,2937,705,3153"/>
+<area shape="rect" id="node2" href="$d3/d32/classArcane_1_1IItemConnectivityGhostPolicy.html" title=" " alt="" coords="5,2607,264,2735"/>
+<area shape="rect" id="node3" href="$d0/dc0/classArcane_1_1IItemConnectivity.html" title="Interface pour gérer une connectivité." alt="" coords="289,2578,495,2765"/>
+<area shape="rect" id="node4" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="272,2189,512,2317"/>
+<area shape="rect" id="node5" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="519,2556,766,2787"/>
+<area shape="rect" id="node6" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="791,2497,980,2845"/>
+<area shape="rect" id="node7" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="739,1729,939,2063"/>
+<area shape="rect" id="node8" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="749,755,963,1323"/>
+<area shape="rect" id="node13" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="877,1372,1077,1705"/>
+<area shape="rect" id="node9" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="743,548,969,705"/>
+<area shape="rect" id="node10" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="761,211,951,471"/>
+<area shape="rect" id="node11" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="755,5,957,148"/>
+<area shape="rect" id="node12" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="876,2087,1081,2420"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Arcane::Materials::MeshMaterialVariableScalar&lt; ItemType, DataType &gt;" name="Arcane::Materials::MeshMaterialVariableScalar&lt; ItemType, DataType &gt;">
+<area shape="rect" id="node1" title="Variable scalaire sur un matériau du maillage." alt="" coords="132,2220,372,2480"/>
+<area shape="rect" id="node2" href="$d3/d7e/classArcane_1_1Materials_1_1ItemMaterialVariableScalar.html" title="Variable scalaire sur un matériau du maillage." alt="" coords="9,1765,233,2172"/>
+<area shape="rect" id="node3" href="$dd/dc8/classArcane_1_1Materials_1_1ItemMaterialVariableBase.html" title=" " alt="" coords="5,1311,237,1717"/>
+<area shape="rect" id="node4" href="$de/d4a/classArcane_1_1Materials_1_1MeshMaterialVariable.html" title="Classe de base des variables matériaux." alt="" coords="21,621,221,1263"/>
+<area shape="rect" id="node5" href="$dc/dcf/classArcane_1_1Materials_1_1IMeshMaterialVariable.html" title="Interface d&#39;une variable matériau d&#39;un maillage." alt="" coords="5,5,237,573"/>
+<area shape="rect" id="node6" href="$d0/d68/classArcane_1_1Materials_1_1IScalarMeshMaterialVariable.html" title="Interface d&#39;accès pour CellMaterialVariableScalarRef." alt="" coords="258,1853,510,2084"/>
+</map>

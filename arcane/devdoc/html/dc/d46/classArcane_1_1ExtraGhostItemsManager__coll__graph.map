@@ -1,0 +1,12 @@
+<map id="Arcane::ExtraGhostItemsManager" name="Arcane::ExtraGhostItemsManager">
+<area shape="rect" id="node1" title=" " alt="" coords="479,2943,728,3100"/>
+<area shape="rect" id="node2" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="5,1755,228,2865"/>
+<area shape="rect" id="node3" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="253,2202,527,2418"/>
+<area shape="rect" id="node4" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="290,1372,490,1705"/>
+<area shape="rect" id="node5" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="283,755,497,1323"/>
+<area shape="rect" id="node6" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="277,548,503,705"/>
+<area shape="rect" id="node7" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="295,211,485,471"/>
+<area shape="rect" id="node8" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="289,5,491,148"/>
+<area shape="rect" id="node9" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="552,2195,799,2425"/>
+<area shape="rect" id="node10" href="$df/d63/classArcane_1_1IExtraGhostItemsAdder.html" title=" " alt="" coords="823,2231,1045,2389"/>
+</map>

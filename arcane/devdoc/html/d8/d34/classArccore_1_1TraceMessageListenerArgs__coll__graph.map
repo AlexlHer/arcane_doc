@@ -1,0 +1,6 @@
+<map id="Arccore::TraceMessageListenerArgs" name="Arccore::TraceMessageListenerArgs">
+<area shape="rect" id="node1" title="Arguments de ITraceMessageListener::visitMessage()." alt="" coords="104,636,364,720"/>
+<area shape="rect" id="node2" href="$d9/d5d/classArccore_1_1TraceMessage.html" title="Gestion d&#39;un message." alt="" coords="39,306,218,566"/>
+<area shape="rect" id="node3" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="5,5,252,236"/>
+<area shape="rect" id="node4" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="243,299,433,573"/>
+</map>

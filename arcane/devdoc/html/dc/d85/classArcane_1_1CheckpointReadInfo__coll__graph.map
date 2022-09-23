@@ -1,0 +1,10 @@
+<map id="Arcane::CheckpointReadInfo" name="Arcane::CheckpointReadInfo">
+<area shape="rect" id="node1" title="Informations de relecture d&#39;une protection." alt="" coords="345,7309,560,7437"/>
+<area shape="rect" id="node2" href="$de/d12/classArcane_1_1CheckpointInfo.html" title="Informations sur une protection." alt="" coords="139,4237,320,4541"/>
+<area shape="rect" id="node3" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="118,900,341,1439"/>
+<area shape="rect" id="node4" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="152,387,307,837"/>
+<area shape="rect" id="node5" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="12,5,220,324"/>
+<area shape="rect" id="node6" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="245,5,444,324"/>
+<area shape="rect" id="node7" href="$d5/dd8/classArcane_1_1ICheckpointReader2.html" title="Interface du service de lecture d&#39;une protection/reprise (V2)" alt="" coords="345,4339,560,4438"/>
+<area shape="rect" id="node8" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="584,1531,830,7247"/>
+</map>

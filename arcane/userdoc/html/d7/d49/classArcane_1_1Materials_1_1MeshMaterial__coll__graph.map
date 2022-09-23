@@ -1,0 +1,6 @@
+<map id="Arcane::Materials::MeshMaterial" name="Arcane::Materials::MeshMaterial">
+<area shape="rect" id="node1" title="Matériau d&#39;un maillage." alt="" coords="119,577,286,793"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,284,200,515"/>
+<area shape="rect" id="node3" href="$d9/ddb/classArcane_1_1Materials_1_1IMeshMaterial.html" title="Interface d&#39;un matériau d&#39;un maillage." alt="" coords="225,269,383,529"/>
+<area shape="rect" id="node4" href="$d1/d55/classArcane_1_1Materials_1_1IMeshComponent.html" title="Interface d&#39;un composant (matériau ou milieu) d&#39;un maillage." alt="" coords="214,5,394,221"/>
+</map>

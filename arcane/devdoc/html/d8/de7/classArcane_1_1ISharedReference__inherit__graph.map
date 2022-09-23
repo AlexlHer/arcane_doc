@@ -1,0 +1,12 @@
+<map id="Arcane::ISharedReference" name="Arcane::ISharedReference">
+<area shape="rect" id="node1" title="Interface d&#39;un compteur de référence." alt="" coords="481,5,680,104"/>
+<area shape="rect" id="node2" href="$dd/d79/classArcane_1_1SharedReference.html" title="Implémentation d&#39;un compteur de référence." alt="" coords="483,152,678,280"/>
+<area shape="rect" id="node3" href="$da/df1/classArcane_1_1ItemGroupImpl.html" title="Implémentation d&#39;un groupe d&#39;entités de maillage." alt="" coords="5,328,223,764"/>
+<area shape="rect" id="node5" href="$dc/d2c/classArcane_1_1ItemPairGroupImpl.html" title="Implémentation d&#39;un tableau de listes d&#39;entités." alt="" coords="249,416,454,676"/>
+<area shape="rect" id="node7" href="$d7/d42/classArcane_1_1Materials_1_1ComponentItemVector_1_1Impl.html" title="Implémentation de ComponentItemVector." alt="" coords="478,445,683,647"/>
+<area shape="rect" id="node8" href="$d9/dd4/classArcane_1_1PropertiesImplBase.html" title=" " alt="" coords="707,526,918,566"/>
+<area shape="rect" id="node10" href="$de/d9b/classArcane_1_1VariableCollection_1_1Impl.html" title=" " alt="" coords="943,489,1144,603"/>
+<area shape="rect" id="node4" href="$dc/dfd/classArcane_1_1ItemGroupImplNull.html" title="Classe d&#39;un groupe nul." alt="" coords="8,907,215,1079"/>
+<area shape="rect" id="node6" href="$d5/dd1/classArcane_1_1ItemPairGroupImplNull.html" title="Classe d&#39;un groupe nul." alt="" coords="239,959,469,1028"/>
+<area shape="rect" id="node9" href="$d3/d66/classArcane_1_1PropertiesImpl.html" title=" " alt="" coords="723,812,902,1175"/>
+</map>

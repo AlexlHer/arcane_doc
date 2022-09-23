@@ -1,0 +1,10 @@
+<map id="Arcane::VtkLegacyCaseMeshReader::Builder" name="Arcane::VtkLegacyCaseMeshReader::Builder">
+<area shape="rect" id="node1" title=" " alt="" coords="215,1824,433,1923"/>
+<area shape="rect" id="node2" href="$db/d39/classArcane_1_1IMeshBuilder.html" title="Interface d&#39;un service de création/lecture du maillage." alt="" coords="5,1604,176,1688"/>
+<area shape="rect" id="node3" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="201,1531,447,1761"/>
+<area shape="rect" id="node4" href="$d7/dbd/classArcane_1_1CaseMeshReaderReadInfo.html" title="Informations nécessaires pour la lecture d&#39;un fichier de maillage." alt="" coords="471,1560,726,1732"/>
+<area shape="rect" id="node5" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="487,900,710,1439"/>
+<area shape="rect" id="node6" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="521,387,676,837"/>
+<area shape="rect" id="node7" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="381,5,589,324"/>
+<area shape="rect" id="node8" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="614,5,813,324"/>
+</map>

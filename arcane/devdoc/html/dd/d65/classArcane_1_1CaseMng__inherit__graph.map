@@ -1,0 +1,5 @@
+<map id="Arcane::CaseMng" name="Arcane::CaseMng">
+<area shape="rect" id="node1" title="Gestionnaire d&#39;un cas." alt="" coords="91,313,303,823"/>
+<area shape="rect" id="node2" href="$d3/dcf/classArcane_1_1ICaseMng.html" title="Interface du gestionnaire de cas." alt="" coords="5,35,180,236"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="205,5,399,265"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Arcane::ArcaneMetisMeshPartitionerObject" name="Arcane::ArcaneMetisMeshPartitionerObject">
+<area shape="rect" id="node1" title="Generation de la classe de base du Service." alt="" coords="272,1487,539,1659"/>
+<area shape="rect" id="node8" href="$d7/d2b/classArcane_1_1MetisMeshPartitioner.html" title="Partitioneur de maillage utilisant la bibliothèque PARMetis." alt="" coords="289,1707,521,1937"/>
+<area shape="rect" id="node2" href="$dd/d1f/classArcane_1_1MeshPartitionerBase.html" title="Classe de base d&#39;un service d&#39;équilibrage de charge." alt="" coords="280,841,531,1439"/>
+<area shape="rect" id="node3" href="$da/d61/classArcane_1_1AbstractService.html" title="Classe de base d&#39;un service." alt="" coords="191,475,377,632"/>
+<area shape="rect" id="node4" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,5,200,265"/>
+<area shape="rect" id="node5" href="$da/d7e/classArcane_1_1IService.html" title="Interface d&#39;un service." alt="" coords="224,79,376,192"/>
+<area shape="rect" id="node6" href="$dc/dd8/classArcane_1_1IMeshPartitioner.html" title="Interface d&#39;un partitionneur de maillage." alt="" coords="401,313,652,793"/>
+<area shape="rect" id="node7" href="$d8/d7d/classArcane_1_1IMeshPartitionerBase.html" title="Interface d&#39;un partitionneur de maillage." alt="" coords="416,86,637,185"/>
+</map>

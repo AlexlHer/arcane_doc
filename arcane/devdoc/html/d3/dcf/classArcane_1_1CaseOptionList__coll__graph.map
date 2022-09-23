@@ -1,0 +1,12 @@
+<map id="Arcane::CaseOptionList" name="Arcane::CaseOptionList">
+<area shape="rect" id="node1" title="Liste d&#39;options de configuration d&#39;un service ou module." alt="" coords="474,915,665,1292"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="71,570,265,815"/>
+<area shape="rect" id="node3" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="81,137,255,485"/>
+<area shape="rect" id="node4" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="5,20,147,60"/>
+<area shape="rect" id="node5" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="171,5,349,75"/>
+<area shape="rect" id="node6" href="$de/d86/classArcane_1_1ICaseOptionList.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="290,585,513,801"/>
+<area shape="rect" id="node7" href="$d3/dcf/classArcane_1_1ICaseMng.html" title="Interface du gestionnaire de cas." alt="" coords="537,592,711,793"/>
+<area shape="rect" id="node8" href="$d9/dcc/classArcane_1_1XmlNode.html" title="Noeud d&#39;un arbre DOM." alt="" coords="735,548,902,837"/>
+<area shape="rect" id="node9" href="$d4/d81/classArcane_1_1IRessourceMng.html" title="Interface d&#39;un gestionnaire de ressource." alt="" coords="727,269,910,353"/>
+<area shape="rect" id="node10" href="$dd/d74/classArcane_1_1ICaseOptions.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="926,585,1098,801"/>
+</map>

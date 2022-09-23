@@ -1,0 +1,13 @@
+<map id="Arcane::CriteriaMng" name="Arcane::CriteriaMng">
+<area shape="rect" id="node1" title="Classe de gestion des criteres de partitionnement." alt="" coords="302,2121,487,2396"/>
+<area shape="rect" id="node2" href="$d7/d7c/classArcane_1_1IVariableMng.html" title="Interface du gestionnaire de variables." alt="" coords="5,1755,192,2044"/>
+<area shape="rect" id="node3" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="216,1791,384,2007"/>
+<area shape="rect" id="node4" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="180,1372,380,1705"/>
+<area shape="rect" id="node5" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="283,755,498,1323"/>
+<area shape="rect" id="node10" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="404,1372,604,1705"/>
+<area shape="rect" id="node6" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="278,548,503,705"/>
+<area shape="rect" id="node7" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="295,211,486,471"/>
+<area shape="rect" id="node8" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="289,5,492,148"/>
+<area shape="rect" id="node9" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="408,1791,576,2007"/>
+<area shape="rect" id="node11" href="$d0/d30/structArcane_1_1CriteriaMng_1_1MemInfo.html" title="Système de cache pour l&#39;accès aux mémoires relatives à une maille." alt="" coords="601,1843,759,1956"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Arcane::AutoDetachObservable" name="Arcane::AutoDetachObservable">
+<area shape="rect" id="node1" title="Observable qui appelle automatiquement IObservable::detachAllObservers() dans le destructeur." alt="" coords="5,2313,239,2383"/>
+<area shape="rect" id="node2" href="$d0/dfa/classArcane_1_1Observable.html" title="Classe de base d&#39;un observable." alt="" coords="31,2033,213,2264"/>
+<area shape="rect" id="node3" href="$dc/d38/classArcane_1_1IObservable.html" title="Interface d&#39;un observable." alt="" coords="13,1777,188,1949"/>
+<area shape="rect" id="node4" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="213,1755,391,1971"/>
+<area shape="rect" id="node5" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="202,1372,402,1705"/>
+<area shape="rect" id="node6" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="195,755,409,1323"/>
+<area shape="rect" id="node7" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="189,548,415,705"/>
+<area shape="rect" id="node8" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="207,211,397,471"/>
+<area shape="rect" id="node9" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="201,5,403,148"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Arccore::TraceMng::TraceClass" name="Arccore::TraceMng::TraceClass">
+<area shape="rect" id="node1" title="Information sur une classe de messages." alt="" coords="261,1501,419,1571"/>
+<area shape="rect" id="node2" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="111,900,334,1439"/>
+<area shape="rect" id="node3" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="145,387,300,837"/>
+<area shape="rect" id="node4" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="5,5,213,324"/>
+<area shape="rect" id="node5" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="238,5,437,324"/>
+<area shape="rect" id="node6" href="$d3/d79/classArccore_1_1TraceClassConfig.html" title="Configuration associée à une classe de trace." alt="" coords="359,1017,556,1321"/>
+</map>

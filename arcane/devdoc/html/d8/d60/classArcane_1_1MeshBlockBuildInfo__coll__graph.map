@@ -1,0 +1,17 @@
+<map id="Arcane::MeshBlockBuildInfo" name="Arcane::MeshBlockBuildInfo">
+<area shape="rect" id="node1" title="Informations pour la création d&#39;un bloc." alt="" coords="457,2573,669,2701"/>
+<area shape="rect" id="node2" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="234,1972,457,2511"/>
+<area shape="rect" id="node3" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="260,1459,415,1909"/>
+<area shape="rect" id="node4" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="5,953,213,1271"/>
+<area shape="rect" id="node5" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="238,953,437,1271"/>
+<area shape="rect" id="node6" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="483,2148,643,2335"/>
+<area shape="rect" id="node7" href="$d9/d27/classArcane_1_1ItemGroup.html" title="Groupe d&#39;entités de maillage." alt="" coords="487,1576,639,1792"/>
+<area shape="rect" id="node8" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="461,1011,664,1213"/>
+<area shape="rect" id="node9" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="489,548,636,779"/>
+<area shape="rect" id="node10" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="680,2126,851,2357"/>
+<area shape="rect" id="node11" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="679,1517,879,1851"/>
+<area shape="rect" id="node12" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="689,828,903,1396"/>
+<area shape="rect" id="node13" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="683,585,909,742"/>
+<area shape="rect" id="node14" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="701,211,891,471"/>
+<area shape="rect" id="node15" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="695,5,897,148"/>
+</map>

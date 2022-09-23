@@ -1,0 +1,1765 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence de la classe Arcane::mesh::GraphDoFs</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pub-static-methods">Fonctions membres publiques statiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="#friends">Amis</a> &#124;
+<a href="../../d8/da9/classArcane_1_1mesh_1_1GraphDoFs-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence de la classe Arcane::mesh::GraphDoFs</div></div>
+</div><!--header-->
+<div class="contents">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::mesh::GraphDoFs:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../dc/d47/classArcane_1_1mesh_1_1GraphDoFs__inherit__graph.png" border="0" usemap="#aArcane_1_1mesh_1_1GraphDoFs_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1mesh_1_1GraphDoFs_inherit__map" id="aArcane_1_1mesh_1_1GraphDoFs_inherit__map">
+<area shape="rect" title=" " alt="" coords="187,313,413,808"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,5,200,265"/>
+<area shape="rect" href="../../d8/d5b/classArcane_1_1IGraph2.html" title="Interface d&#39;un graphe du maillage." alt="" coords="224,35,376,236"/>
+<area shape="rect" href="../../de/d3a/classArcane_1_1IGraphModifier2.html" title="Interface d&#39;un graphe du maillage." alt="" coords="401,57,615,214"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::mesh::GraphDoFs:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../db/d18/classArcane_1_1mesh_1_1GraphDoFs__coll__graph.png" border="0" usemap="#aArcane_1_1mesh_1_1GraphDoFs_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1mesh_1_1GraphDoFs_coll__map" id="aArcane_1_1mesh_1_1GraphDoFs_coll__map">
+<area shape="rect" title=" " alt="" coords="3100,4379,3303,4756"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="3000,1651,3195,1897"/>
+<area shape="rect" href="../../dd/def/classArcane_1_1mesh_1_1AbstractIncrementalItemConnectivity.html" title="Classe abstraite de gestion des connectivités." alt="" coords="2143,2791,2441,2963"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="3048,475,3221,823"/>
+<area shape="rect" href="../../d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="2904,145,3045,185"/>
+<area shape="rect" href="../../da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="3069,130,3248,199"/>
+<area shape="rect" href="../../d8/d5b/classArcane_1_1IGraph2.html" title="Interface d&#39;un graphe du maillage." alt="" coords="3760,3997,3912,4199"/>
+<area shape="rect" href="../../de/d3a/classArcane_1_1IGraphModifier2.html" title="Interface d&#39;un graphe du maillage." alt="" coords="3937,4019,4151,4177"/>
+<area shape="rect" href="../../d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="3245,387,3501,911"/>
+<area shape="rect" href="../../d8/dd2/classArcane_1_1DoFManager.html" title=" " alt="" coords="3219,1725,3386,1823"/>
+<area shape="rect" href="../../d8/de5/classArcane_1_1MeshItemInternalList.html" title="Tableaux d&#39;indirection sur les entités d&#39;un maillage." alt="" coords="1048,1747,1269,1801"/>
+<area shape="rect" href="../../de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="3296,64,3451,265"/>
+<area shape="rect" href="../../de/d50/classArcane_1_1IItemFamilyNetwork.html" title=" " alt="" coords="4175,3990,4390,4206"/>
+<area shape="rect" href="../../d1/d74/classArcane_1_1ItemConnectivityMng.html" title=" " alt="" coords="2596,1571,2844,1977"/>
+<area shape="rect" href="../../d8/dc6/classArcane_1_1IItemConnectivityMng.html" title=" " alt="" coords="2776,526,3024,771"/>
+<area shape="rect" href="../../d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="279,533,526,764"/>
+<area shape="rect" href="../../d7/dbb/classArcane_1_1ItemTypeMng.html" title="Gestionnaire des types d&#39;entités de maillage." alt="" coords="215,1622,419,1926"/>
+<area shape="rect" href="../../d1/df2/classArcane_1_1DoFFamily.html" title=" " alt="" coords="990,3902,1205,4294"/>
+<area shape="rect" title=" " alt="" coords="1138,3341,1241,3381"/>
+<area shape="rect" href="../../d6/dd8/classArcane_1_1IItemFamilyModifier.html" title="Interface de modification d&#39;une famille." alt="" coords="900,3312,1113,3411"/>
+<area shape="rect" href="../../df/d0b/classArcane_1_1ItemSharedInfo.html" title="Structure interne partagée d&#39;une entité de maillage." alt="" coords="529,3114,711,3609"/>
+<area shape="rect" title=" " alt="" coords="714,145,777,185"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="950,519,1141,779"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="650,935,841,1195"/>
+<area shape="rect" href="../../d1/d6b/structArcane_1_1ItemInternalConnectivityList_1_1Int32View.html" title="Vue spécifique pour gérer les entités nulles." alt="" coords="397,986,643,1143"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="1692,2353,1847,2687"/>
+<area shape="rect" href="../../d1/ddd/classArcane_1_1ItemInternalConnectivityList.html" title="Informations de connectivité, pour une famille d&#39;entité, permettant la transition entre les anciennes..." alt="" coords="722,2740,990,3015"/>
+<area shape="rect" href="../../de/d27/classArcane_1_1mesh_1_1IncrementalItemConnectivityBase.html" title="Classe de base pour les connectivités incrémentales item&#45;&gt;item[]." alt="" coords="1563,3107,1819,3616"/>
+<area shape="rect" href="../../dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="1510,1219,1733,2329"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="313,2711,505,3044"/>
+<area shape="rect" href="../../dc/d74/classArcane_1_1ItemTypeInfo.html" title="Infos sur un type d&#39;entité du maillage." alt="" coords="529,2799,697,2956"/>
+<area shape="rect" title=" " alt="" coords="1269,629,1345,669"/>
+<area shape="rect" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html" title="Connectivité incrémentale item&#45;&gt;item[]." alt="" coords="1567,3895,1815,4301"/>
+<area shape="rect" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html" title=" " alt="" coords="2812,4005,3020,4191"/>
+<area shape="rect" href="../../d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="1845,1505,2067,2043"/>
+<area shape="rect" href="../../d7/d98/classArcane_1_1mesh_1_1IncrementalItemConnectivityContainer.html" title=" " alt="" coords="1887,2806,2118,2949"/>
+<area shape="rect" href="../../d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="1879,423,2033,874"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="2001,5,2209,324"/>
+<area shape="rect" href="../../d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="1778,5,1977,324"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3546,3640,3758,3871"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3721,2711,3921,3044"/>
+<area shape="rect" href="../../db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="3522,1490,3737,2058"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3497,2711,3697,3044"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3223,2711,3423,3044"/>
+<area shape="rect" href="../../df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="3526,570,3751,727"/>
+<area shape="rect" href="../../df/d35/classArcane_1_1IIncrementalItemConnectivity.html" title="Interface pour gérer une connectivité incrémentale." alt="" coords="2094,1666,2354,1882"/>
+<area shape="rect" href="../../d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="2378,1600,2571,1948"/>
+<area shape="rect" href="../../d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="2417,482,2623,815"/>
+<area shape="rect" href="../../d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="2919,3187,3102,3535"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3341,3647,3509,3863"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a982a930e4043449e7e0a1413d72e769c"><td class="memItemLeft" align="right" valign="top">typedef DynamicMeshKindInfos::ItemInternalMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a982a930e4043449e7e0a1413d72e769c">ItemInternalMap</a></td></tr>
+<tr class="separator:a982a930e4043449e7e0a1413d72e769c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a94f63c322bcdd22ee879b929c1f35e4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a94f63c322bcdd22ee879b929c1f35e4e">GraphDoFs</a> (<a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *mesh, <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> particle_family_name=ParticleFamily::defaultFamilyName())</td></tr>
+<tr class="separator:a94f63c322bcdd22ee879b929c1f35e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0515c4824dd5450c1f8abab1987fae1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html">IGraphModifier2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a0515c4824dd5450c1f8abab1987fae1a">modifier</a> () override</td></tr>
+<tr class="separator:a0515c4824dd5450c1f8abab1987fae1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb75dbe7866208134184db0d67bdd6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html">IGraphConnectivity</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a3eb75dbe7866208134184db0d67bdd6d">connectivity</a> () const override</td></tr>
+<tr class="separator:a3eb75dbe7866208134184db0d67bdd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa747f61e829d6f7e59cbaef07b733b9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#aa747f61e829d6f7e59cbaef07b733b9f">dualNodeFamily</a> () override</td></tr>
+<tr class="separator:aa747f61e829d6f7e59cbaef07b733b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2d1ccffec4ece6a60204c3a09d9043"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#aba2d1ccffec4ece6a60204c3a09d9043">dualNodeFamily</a> () const override</td></tr>
+<tr class="memdesc:aba2d1ccffec4ece6a60204c3a09d9043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne la famille des noeuds duaux.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#aba2d1ccffec4ece6a60204c3a09d9043">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aba2d1ccffec4ece6a60204c3a09d9043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa7b92a3ed2405b4545d41a1419ba88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#aafa7b92a3ed2405b4545d41a1419ba88">linkFamily</a> () override</td></tr>
+<tr class="separator:aafa7b92a3ed2405b4545d41a1419ba88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad414353f5f683f3cfef56d83ede31032"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ad414353f5f683f3cfef56d83ede31032">linkFamily</a> () const override</td></tr>
+<tr class="memdesc:ad414353f5f683f3cfef56d83ede31032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne la famille des liaisons.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ad414353f5f683f3cfef56d83ede31032">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad414353f5f683f3cfef56d83ede31032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb21a2c68e4f30c749cd1cb58b3584cc"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#acb21a2c68e4f30c749cd1cb58b3584cc">nbLink</a> () const override</td></tr>
+<tr class="memdesc:acb21a2c68e4f30c749cd1cb58b3584cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de liaisons du graphe.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#acb21a2c68e4f30c749cd1cb58b3584cc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acb21a2c68e4f30c749cd1cb58b3584cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d831766e58a2545f8d473e187421da"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ab0d831766e58a2545f8d473e187421da">nbDualNode</a> () const override</td></tr>
+<tr class="memdesc:ab0d831766e58a2545f8d473e187421da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de noeuds duaux du graphe.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ab0d831766e58a2545f8d473e187421da">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab0d831766e58a2545f8d473e187421da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cbe16a8e120ee6ed67c391aa0bc4998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a6cbe16a8e120ee6ed67c391aa0bc4998">addLinks</a> (Integer nb_link, Integer nb_dual_nodes_per_link, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> links_infos) override</td></tr>
+<tr class="memdesc:a6cbe16a8e120ee6ed67c391aa0bc4998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout de liaisons dans le graphe avec un nombre fixe de noeuds dual par liaison.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a6cbe16a8e120ee6ed67c391aa0bc4998">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6cbe16a8e120ee6ed67c391aa0bc4998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35495881f0aca5b660f1c5fb82e07e94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a35495881f0aca5b660f1c5fb82e07e94">addDualNodes</a> (Integer graph_nb_dual_node, Integer dual_node_kind, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> dual_nodes_infos) override</td></tr>
+<tr class="memdesc:a35495881f0aca5b660f1c5fb82e07e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout de noeuds duaux dans le graphe avec un type fixe d'item dual par noeud.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a35495881f0aca5b660f1c5fb82e07e94">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a35495881f0aca5b660f1c5fb82e07e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9825b690671768389654e31a20d09c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ac9825b690671768389654e31a20d09c2">addDualNodes</a> (Integer graph_nb_dual_node, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> dual_nodes_infos) override</td></tr>
+<tr class="memdesc:ac9825b690671768389654e31a20d09c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout de noeuds duaux dans le graphe avec le type du noeud dans le tableau infos.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ac9825b690671768389654e31a20d09c2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac9825b690671768389654e31a20d09c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac79c260fdb50a3e88595ff26bba37d8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ac79c260fdb50a3e88595ff26bba37d8b">removeDualNodes</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> dual_node_local_ids) override</td></tr>
+<tr class="memdesc:ac79c260fdb50a3e88595ff26bba37d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suppression de noeuds duaux dans le graphe.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ac79c260fdb50a3e88595ff26bba37d8b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac79c260fdb50a3e88595ff26bba37d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac099910e99c3c050e268b579f2abd173"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ac099910e99c3c050e268b579f2abd173">removeLinks</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> link_local_ids) override</td></tr>
+<tr class="memdesc:ac099910e99c3c050e268b579f2abd173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suppression de liaisons duaux dans le graphe.  <a href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ac099910e99c3c050e268b579f2abd173">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac099910e99c3c050e268b579f2abd173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078d052b1ea91348ebf0235f5c9cfad0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a078d052b1ea91348ebf0235f5c9cfad0">endUpdate</a> () override</td></tr>
+<tr class="separator:a078d052b1ea91348ebf0235f5c9cfad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ed730612f96c4f0dd9a08e5cd4acd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a94ed730612f96c4f0dd9a08e5cd4acd8">updateAfterMeshChanged</a> () override</td></tr>
+<tr class="separator:a94ed730612f96c4f0dd9a08e5cd4acd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563bfb316aef5712cf3c97723b4dc8d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a563bfb316aef5712cf3c97723b4dc8d4">printDualNodes</a> () const override</td></tr>
+<tr class="separator:a563bfb316aef5712cf3c97723b4dc8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcccdede1dd7b03a284ce1577917ce6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#adcccdede1dd7b03a284ce1577917ce6c">printLinks</a> () const override</td></tr>
+<tr class="separator:adcccdede1dd7b03a284ce1577917ce6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArccore_1_1TraceAccessor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArccore_1_1TraceAccessor')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">Arccore::TraceAccessor</a></td></tr>
+<tr class="memitem:afe70c009833ca29c6c1832a2cec75f86 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afe70c009833ca29c6c1832a2cec75f86">TraceAccessor</a> (<a class="el" href="../../d0/df9/classArccore_1_1ITraceMng.html">ITraceMng</a> *m)</td></tr>
+<tr class="memdesc:afe70c009833ca29c6c1832a2cec75f86 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construit un accesseur via le gestionnaire de trace <em>m</em>.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afe70c009833ca29c6c1832a2cec75f86">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afe70c009833ca29c6c1832a2cec75f86 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52e789bcc12802b71ad911b73dd5c98 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac52e789bcc12802b71ad911b73dd5c98">TraceAccessor</a> (const <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">TraceAccessor</a> &amp;rhs)</td></tr>
+<tr class="memdesc:ac52e789bcc12802b71ad911b73dd5c98 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur par recopie.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac52e789bcc12802b71ad911b73dd5c98">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac52e789bcc12802b71ad911b73dd5c98 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67efc4d69e4c2df750a4ae48ff956396 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">TraceAccessor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a67efc4d69e4c2df750a4ae48ff956396">operator=</a> (const <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">TraceAccessor</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a67efc4d69e4c2df750a4ae48ff956396 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opérateur de recopie.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a67efc4d69e4c2df750a4ae48ff956396">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a67efc4d69e4c2df750a4ae48ff956396 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1495cbaf1ae139e0b969a4a246812d inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a4a1495cbaf1ae139e0b969a4a246812d">~TraceAccessor</a> ()</td></tr>
+<tr class="memdesc:a4a1495cbaf1ae139e0b969a4a246812d inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Libère les ressources.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a4a1495cbaf1ae139e0b969a4a246812d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a4a1495cbaf1ae139e0b969a4a246812d inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c624a02bc7d3a224b158010018b753 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df9/classArccore_1_1ITraceMng.html">ITraceMng</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a75c624a02bc7d3a224b158010018b753">traceMng</a> () const</td></tr>
+<tr class="memdesc:a75c624a02bc7d3a224b158010018b753 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gestionnaire de trace.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a75c624a02bc7d3a224b158010018b753">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a75c624a02bc7d3a224b158010018b753 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97ca3cda108d93dceb8e1a4800246a7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">info</a> () const</td></tr>
+<tr class="memdesc:ac97ca3cda108d93dceb8e1a4800246a7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac97ca3cda108d93dceb8e1a4800246a7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac97ca3cda108d93dceb8e1a4800246a7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb5f9dc714b659e4d7dc2c8716ce717 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a3eb5f9dc714b659e4d7dc2c8716ce717">pinfo</a> () const</td></tr>
+<tr class="memdesc:a3eb5f9dc714b659e4d7dc2c8716ce717 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information en parallèle.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a3eb5f9dc714b659e4d7dc2c8716ce717">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3eb5f9dc714b659e4d7dc2c8716ce717 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fc20509beb3913d9d362d763ee2f2a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a95fc20509beb3913d9d362d763ee2f2a">info</a> (char category) const</td></tr>
+<tr class="memdesc:a95fc20509beb3913d9d362d763ee2f2a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information d'une catégorie donnée.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a95fc20509beb3913d9d362d763ee2f2a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a95fc20509beb3913d9d362d763ee2f2a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e9d170dd926412aa515a8a65c6f660 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a33e9d170dd926412aa515a8a65c6f660">pinfo</a> (char category) const</td></tr>
+<tr class="memdesc:a33e9d170dd926412aa515a8a65c6f660 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information parallèle d'une catégorie donnée.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a33e9d170dd926412aa515a8a65c6f660">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a33e9d170dd926412aa515a8a65c6f660 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd471e54d5b3f74fa659fdf31a737c3 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a0dd471e54d5b3f74fa659fdf31a737c3">info</a> (bool v) const</td></tr>
+<tr class="memdesc:a0dd471e54d5b3f74fa659fdf31a737c3 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a0dd471e54d5b3f74fa659fdf31a737c3">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0dd471e54d5b3f74fa659fdf31a737c3 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7819e9c2158bc8389f98db69bbdad02 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ab7819e9c2158bc8389f98db69bbdad02">warning</a> () const</td></tr>
+<tr class="memdesc:ab7819e9c2158bc8389f98db69bbdad02 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'avertissement.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ab7819e9c2158bc8389f98db69bbdad02">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab7819e9c2158bc8389f98db69bbdad02 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15637d98064c2991806fef1e1c187ef9 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a15637d98064c2991806fef1e1c187ef9">pwarning</a> () const</td></tr>
+<tr class="separator:a15637d98064c2991806fef1e1c187ef9 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a8c15c146724b331c8aa10e2027f08 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">error</a> () const</td></tr>
+<tr class="memdesc:a86a8c15c146724b331c8aa10e2027f08 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'erreur.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a86a8c15c146724b331c8aa10e2027f08">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a86a8c15c146724b331c8aa10e2027f08 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91bebb591669e3f99a5074639bc9a79 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ab91bebb591669e3f99a5074639bc9a79">perror</a> () const</td></tr>
+<tr class="separator:ab91bebb591669e3f99a5074639bc9a79 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c5f0749b260e04f8ce5815a430dc2e inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a15c5f0749b260e04f8ce5815a430dc2e">log</a> () const</td></tr>
+<tr class="memdesc:a15c5f0749b260e04f8ce5815a430dc2e inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de log.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a15c5f0749b260e04f8ce5815a430dc2e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a15c5f0749b260e04f8ce5815a430dc2e inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8092b75b69f2aa2425f890d7917bcdb4 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a8092b75b69f2aa2425f890d7917bcdb4">plog</a> () const</td></tr>
+<tr class="memdesc:a8092b75b69f2aa2425f890d7917bcdb4 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de log.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a8092b75b69f2aa2425f890d7917bcdb4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8092b75b69f2aa2425f890d7917bcdb4 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae19ea4861a709e97e78a6e59199fb1c7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ae19ea4861a709e97e78a6e59199fb1c7">logdate</a> () const</td></tr>
+<tr class="memdesc:ae19ea4861a709e97e78a6e59199fb1c7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de log précédé de la date.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ae19ea4861a709e97e78a6e59199fb1c7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae19ea4861a709e97e78a6e59199fb1c7 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0d71ec8fb01c5f1a64fd404bff3812 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#adf0d71ec8fb01c5f1a64fd404bff3812">fatal</a> () const</td></tr>
+<tr class="memdesc:adf0d71ec8fb01c5f1a64fd404bff3812 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'erreur fatale.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#adf0d71ec8fb01c5f1a64fd404bff3812">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adf0d71ec8fb01c5f1a64fd404bff3812 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44a523a890f337d989e89fa3268de7d2 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a44a523a890f337d989e89fa3268de7d2">pfatal</a> () const</td></tr>
+<tr class="memdesc:a44a523a890f337d989e89fa3268de7d2 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'erreur fatale en parallèle.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a44a523a890f337d989e89fa3268de7d2">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a44a523a890f337d989e89fa3268de7d2 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f1b199abdaea45cfe09d1bb05bc0b8 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d03/classArccore_1_1TraceMessageDbg.html">TraceMessageDbg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a87f1b199abdaea45cfe09d1bb05bc0b8">debug</a> (<a class="el" href="../../d4/d56/namespaceArccore_1_1Trace.html#abf5dbf930d14c0c3147dcce10df4cac9">Trace::eDebugLevel</a>=<a class="el" href="../../d4/d56/namespaceArccore_1_1Trace.html#abf5dbf930d14c0c3147dcce10df4cac9a0daa39c42b94819ebb77c607a16ae023">Trace::Medium</a>) const</td></tr>
+<tr class="memdesc:a87f1b199abdaea45cfe09d1bb05bc0b8 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message de debug.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a87f1b199abdaea45cfe09d1bb05bc0b8">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a87f1b199abdaea45cfe09d1bb05bc0b8 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb8d2f4b894436310f42d0587da4eb6 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d56/namespaceArccore_1_1Trace.html#abf5dbf930d14c0c3147dcce10df4cac9">Trace::eDebugLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afcb8d2f4b894436310f42d0587da4eb6">configDbgLevel</a> () const</td></tr>
+<tr class="memdesc:afcb8d2f4b894436310f42d0587da4eb6 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Niveau debug du fichier de configuration.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#afcb8d2f4b894436310f42d0587da4eb6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afcb8d2f4b894436310f42d0587da4eb6 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a5b1bb20d49b82a5ee5bdb20b1a71a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac8a5b1bb20d49b82a5ee5bdb20b1a71a">info</a> (<a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a> verbose_level) const</td></tr>
+<tr class="memdesc:ac8a5b1bb20d49b82a5ee5bdb20b1a71a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information d'un niveau donné  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ac8a5b1bb20d49b82a5ee5bdb20b1a71a">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac8a5b1bb20d49b82a5ee5bdb20b1a71a inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a97cbf2e9e1af4e7584870bad6cb33c inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a6a97cbf2e9e1af4e7584870bad6cb33c">linfo</a> () const</td></tr>
+<tr class="memdesc:a6a97cbf2e9e1af4e7584870bad6cb33c inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information avec le niveau d'information local à cette instance.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a6a97cbf2e9e1af4e7584870bad6cb33c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6a97cbf2e9e1af4e7584870bad6cb33c inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8797fc0db8446c5eb9549ba8bfcfee5 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5d/classArccore_1_1TraceMessage.html">TraceMessage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ad8797fc0db8446c5eb9549ba8bfcfee5">linfo</a> (<a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a> relative_level) const</td></tr>
+<tr class="memdesc:ad8797fc0db8446c5eb9549ba8bfcfee5 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flot pour un message d'information avec le niveau d'information local à cette instance.  <a href="../../d4/d0e/classArccore_1_1TraceAccessor.html#ad8797fc0db8446c5eb9549ba8bfcfee5">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ad8797fc0db8446c5eb9549ba8bfcfee5 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcb629d674469f5950cc3a8bd357313 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#aadcb629d674469f5950cc3a8bd357313">fatalMessage</a> (const <a class="el" href="../../d8/da2/classArccore_1_1StandaloneTraceMessage.html">StandaloneTraceMessage</a> &amp;o) const</td></tr>
+<tr class="separator:aadcb629d674469f5950cc3a8bd357313 inherit pub_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e7ea391dd89bf6a52aa12e841b63530"><td class="memItemLeft" align="right" valign="top"><a id="a0e7ea391dd89bf6a52aa12e841b63530" name="a0e7ea391dd89bf6a52aa12e841b63530"></a>
+virtual <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html">IGraphModifier2</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>modifier</b> ()=0</td></tr>
+<tr class="separator:a0e7ea391dd89bf6a52aa12e841b63530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af563b8d7cd4f2830698b59381707353c"><td class="memItemLeft" align="right" valign="top"><a id="af563b8d7cd4f2830698b59381707353c" name="af563b8d7cd4f2830698b59381707353c"></a>
+virtual const <a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html">IGraphConnectivity</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>connectivity</b> () const =0</td></tr>
+<tr class="separator:af563b8d7cd4f2830698b59381707353c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e084f65e6624456b29d7991413be399"><td class="memItemLeft" align="right" valign="top">virtual Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#a7e084f65e6624456b29d7991413be399">nbDualNode</a> () const =0</td></tr>
+<tr class="memdesc:a7e084f65e6624456b29d7991413be399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de noeuds duaux du graphe.  <a href="../../d8/d5b/classArcane_1_1IGraph2.html#a7e084f65e6624456b29d7991413be399">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a7e084f65e6624456b29d7991413be399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d0af57fd912256ad5eaf233d74e3db"><td class="memItemLeft" align="right" valign="top">virtual Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#a61d0af57fd912256ad5eaf233d74e3db">nbLink</a> () const =0</td></tr>
+<tr class="memdesc:a61d0af57fd912256ad5eaf233d74e3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre de liaisons du graphe.  <a href="../../d8/d5b/classArcane_1_1IGraph2.html#a61d0af57fd912256ad5eaf233d74e3db">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a61d0af57fd912256ad5eaf233d74e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90cc5b3b89d5d26b1ac4074a85884c9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#ae90cc5b3b89d5d26b1ac4074a85884c9">dualNodeFamily</a> () const =0</td></tr>
+<tr class="memdesc:ae90cc5b3b89d5d26b1ac4074a85884c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne la famille des noeuds duaux.  <a href="../../d8/d5b/classArcane_1_1IGraph2.html#ae90cc5b3b89d5d26b1ac4074a85884c9">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae90cc5b3b89d5d26b1ac4074a85884c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f6eed6583eaacd143a6a7b047c76e3"><td class="memItemLeft" align="right" valign="top"><a id="ab2f6eed6583eaacd143a6a7b047c76e3" name="ab2f6eed6583eaacd143a6a7b047c76e3"></a>
+virtual <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>dualNodeFamily</b> ()=0</td></tr>
+<tr class="separator:ab2f6eed6583eaacd143a6a7b047c76e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ec47995b8cf04b1c18f2e04bfdac4b"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#af2ec47995b8cf04b1c18f2e04bfdac4b">linkFamily</a> () const =0</td></tr>
+<tr class="memdesc:af2ec47995b8cf04b1c18f2e04bfdac4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retourne la famille des liaisons.  <a href="../../d8/d5b/classArcane_1_1IGraph2.html#af2ec47995b8cf04b1c18f2e04bfdac4b">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af2ec47995b8cf04b1c18f2e04bfdac4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b329a8bcd89537a94023659f5625be"><td class="memItemLeft" align="right" valign="top"><a id="a11b329a8bcd89537a94023659f5625be" name="a11b329a8bcd89537a94023659f5625be"></a>
+virtual <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>linkFamily</b> ()=0</td></tr>
+<tr class="separator:a11b329a8bcd89537a94023659f5625be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10d99bb62a2cedfa81ceb6666ebff5c"><td class="memItemLeft" align="right" valign="top"><a id="ae10d99bb62a2cedfa81ceb6666ebff5c" name="ae10d99bb62a2cedfa81ceb6666ebff5c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>printDualNodes</b> () const =0</td></tr>
+<tr class="separator:ae10d99bb62a2cedfa81ceb6666ebff5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcaddd4470c6ab75f5fa976bef51e10b"><td class="memItemLeft" align="right" valign="top"><a id="abcaddd4470c6ab75f5fa976bef51e10b" name="abcaddd4470c6ab75f5fa976bef51e10b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>printLinks</b> () const =0</td></tr>
+<tr class="separator:abcaddd4470c6ab75f5fa976bef51e10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a931f079c3291156ab681e1db4d46b6c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a931f079c3291156ab681e1db4d46b6c0">addLinks</a> (Integer nb_link, Integer nb_dual_nodes_per_link, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> links_infos)=0</td></tr>
+<tr class="memdesc:a931f079c3291156ab681e1db4d46b6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout de liaisons dans le graphe avec un nombre fixe de noeuds dual par liaison.  <a href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a931f079c3291156ab681e1db4d46b6c0">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a931f079c3291156ab681e1db4d46b6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0862ef8acd451dde7f1b64326fac8dc6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a0862ef8acd451dde7f1b64326fac8dc6">addDualNodes</a> (Integer graph_nb_dual_node, Integer dual_node_kind, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> dual_nodes_infos)=0</td></tr>
+<tr class="memdesc:a0862ef8acd451dde7f1b64326fac8dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout de noeuds duaux dans le graphe avec un type fixe d'item dual par noeud.  <a href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a0862ef8acd451dde7f1b64326fac8dc6">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0862ef8acd451dde7f1b64326fac8dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a191b604eadf016e42c9923df2adea13c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a191b604eadf016e42c9923df2adea13c">addDualNodes</a> (Integer graph_nb_dual_node, <a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a> dual_nodes_infos)=0</td></tr>
+<tr class="memdesc:a191b604eadf016e42c9923df2adea13c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajout de noeuds duaux dans le graphe avec le type du noeud dans le tableau infos.  <a href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a191b604eadf016e42c9923df2adea13c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a191b604eadf016e42c9923df2adea13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a577b5dec852d0d03264ffae2d18313b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a577b5dec852d0d03264ffae2d18313b7">removeDualNodes</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> dual_node_local_ids)=0</td></tr>
+<tr class="memdesc:a577b5dec852d0d03264ffae2d18313b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suppression de noeuds duaux dans le graphe.  <a href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a577b5dec852d0d03264ffae2d18313b7">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a577b5dec852d0d03264ffae2d18313b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28a705ac4b3a8d5f2e291ce6e59fe11"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#ac28a705ac4b3a8d5f2e291ce6e59fe11">removeLinks</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a> link_local_ids)=0</td></tr>
+<tr class="memdesc:ac28a705ac4b3a8d5f2e291ce6e59fe11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Suppression de liaisons duaux dans le graphe.  <a href="../../de/d3a/classArcane_1_1IGraphModifier2.html#ac28a705ac4b3a8d5f2e291ce6e59fe11">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ac28a705ac4b3a8d5f2e291ce6e59fe11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ecd2ebb1a3b9f791bb2499fda39e10"><td class="memItemLeft" align="right" valign="top"><a id="ab5ecd2ebb1a3b9f791bb2499fda39e10" name="ab5ecd2ebb1a3b9f791bb2499fda39e10"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>endUpdate</b> ()=0</td></tr>
+<tr class="separator:ab5ecd2ebb1a3b9f791bb2499fda39e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1eba7ea114d52e475d505071a4f47e2"><td class="memItemLeft" align="right" valign="top"><a id="ac1eba7ea114d52e475d505071a4f47e2" name="ac1eba7ea114d52e475d505071a4f47e2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updateAfterMeshChanged</b> ()=0</td></tr>
+<tr class="separator:ac1eba7ea114d52e475d505071a4f47e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Fonctions membres publiques statiques</h2></td></tr>
+<tr class="memitem:a58f46b9c106453ed28da8f38a0b05986"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a58f46b9c106453ed28da8f38a0b05986">dualNodeFamilyName</a> ()</td></tr>
+<tr class="separator:a58f46b9c106453ed28da8f38a0b05986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad40caf5e5916abf9afe327da475dc163"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ad40caf5e5916abf9afe327da475dc163">linkFamilyName</a> ()</td></tr>
+<tr class="separator:ad40caf5e5916abf9afe327da475dc163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a8c5b874643b67d7bdee2b38afa5514dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a8c5b874643b67d7bdee2b38afa5514dd">_className</a> () const</td></tr>
+<tr class="separator:a8c5b874643b67d7bdee2b38afa5514dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e07b7c883145295fbfa433ff366234"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ad4e07b7c883145295fbfa433ff366234">_connectivityIndex</a> (Integer dual_node_IT) const</td></tr>
+<tr class="separator:ad4e07b7c883145295fbfa433ff366234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21269706009c74e8e70d68e5f2e755e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a21269706009c74e8e70d68e5f2e755e0">_dualItemFamily</a> (<a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">Arcane::eItemKind</a> kind)</td></tr>
+<tr class="separator:a21269706009c74e8e70d68e5f2e755e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc352bd3064820efe2cddb4759332d2c"><td class="memItemLeft" align="right" valign="top">Int64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#adc352bd3064820efe2cddb4759332d2c">_doFUid</a> (Integer dual_item_kind, <a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> const &amp;item)</td></tr>
+<tr class="separator:adc352bd3064820efe2cddb4759332d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1372080f67ee89dc9aed3659726559b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a1372080f67ee89dc9aed3659726559b5">_allocateGraph</a> ()</td></tr>
+<tr class="separator:a1372080f67ee89dc9aed3659726559b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a0140cf122b30d2f66aa8360de9f89030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a0140cf122b30d2f66aa8360de9f89030">m_mesh</a> = nullptr</td></tr>
+<tr class="separator:a0140cf122b30d2f66aa8360de9f89030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9432a5b2426a1d022f13c061aefde6a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d50/classArcane_1_1IItemFamilyNetwork.html">IItemFamilyNetwork</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a9432a5b2426a1d022f13c061aefde6a7">m_item_family_network</a> = nullptr</td></tr>
+<tr class="separator:a9432a5b2426a1d022f13c061aefde6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b784c8cd284ce35e0ab2b7878f20a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a76b784c8cd284ce35e0ab2b7878f20a4">m_graph_allocated</a> = false</td></tr>
+<tr class="separator:a76b784c8cd284ce35e0ab2b7878f20a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd2fe47dd4640610829289dba4fb968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d74/classArcane_1_1ItemConnectivityMng.html">ItemConnectivityMng</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a0cd2fe47dd4640610829289dba4fb968">m_connectivity_mng</a></td></tr>
+<tr class="separator:a0cd2fe47dd4640610829289dba4fb968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56547db7195f9c88a288ec3583e06081"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd2/classArcane_1_1DoFManager.html">DoFManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a56547db7195f9c88a288ec3583e06081">m_dof_mng</a></td></tr>
+<tr class="separator:a56547db7195f9c88a288ec3583e06081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e04a7ec44ba463c1527d5fe3878ab31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/df2/classArcane_1_1DoFFamily.html">DoFFamily</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a8e04a7ec44ba463c1527d5fe3878ab31">m_dual_node_family</a></td></tr>
+<tr class="separator:a8e04a7ec44ba463c1527d5fe3878ab31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a517e0d00f380faa6d4e7b15f19c14cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/df2/classArcane_1_1DoFFamily.html">DoFFamily</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a517e0d00f380faa6d4e7b15f19c14cc2">m_link_family</a></td></tr>
+<tr class="separator:a517e0d00f380faa6d4e7b15f19c14cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01608d42c6433cd3f411353de6cadfed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a01608d42c6433cd3f411353de6cadfed">m_incremental_connectivities</a></td></tr>
+<tr class="separator:a01608d42c6433cd3f411353de6cadfed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10bbcc4606d3cc107bb845e14b6bf683"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a10bbcc4606d3cc107bb845e14b6bf683">m_dual2dof_incremental_connectivities</a></td></tr>
+<tr class="separator:a10bbcc4606d3cc107bb845e14b6bf683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea449afa2112f9e8b0721da51f16e5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#aea449afa2112f9e8b0721da51f16e5ed">m_links_incremental_connectivity</a> = nullptr</td></tr>
+<tr class="separator:aea449afa2112f9e8b0721da51f16e5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c92e165c213a6daaf287d5f44ffaac"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html">GraphIncrementalConnectivity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a86c92e165c213a6daaf287d5f44ffaac">m_graph_connectivity</a></td></tr>
+<tr class="separator:a86c92e165c213a6daaf287d5f44ffaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20ed9541865297b17ebc3f48b344c40"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../df/db4/classArcane_1_1GhostLayerFromConnectivityComputer.html">Arcane::GhostLayerFromConnectivityComputer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#af20ed9541865297b17ebc3f48b344c40">m_ghost_layer_computers</a></td></tr>
+<tr class="separator:af20ed9541865297b17ebc3f48b344c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad141e36f87f04504c726cea83c1ec524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#ad141e36f87f04504c726cea83c1ec524">m_connectivity_indexes_per_type</a></td></tr>
+<tr class="separator:ad141e36f87f04504c726cea83c1ec524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33d6bb09fae0fb63379ce21ee76eb1a"><td class="memItemLeft" align="right" valign="top">std::array&lt; Integer, NB_BASIC_ITEM_TYPE &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#af33d6bb09fae0fb63379ce21ee76eb1a">m_dualnode_kinds</a> = { IT_DualNode, IT_DualEdge, IT_DualFace, IT_DualCell, IT_DualParticle }</td></tr>
+<tr class="separator:af33d6bb09fae0fb63379ce21ee76eb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7904f041d5d32d7413d1a1af82036b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html">ItemScalarProperty</a>&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a7904f041d5d32d7413d1a1af82036b80">m_dual_node_to_connectivity_index</a></td></tr>
+<tr class="separator:a7904f041d5d32d7413d1a1af82036b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0edd7be068837c900c56f5a704d51f25"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a0edd7be068837c900c56f5a704d51f25">m_update_sync_info</a> = false</td></tr>
+<tr class="separator:a0edd7be068837c900c56f5a704d51f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78be9cf33a8f3a6e68d651242fec41b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#a78be9cf33a8f3a6e68d651242fec41b9">m_particle_family_name</a></td></tr>
+<tr class="separator:a78be9cf33a8f3a6e68d651242fec41b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Amis</h2></td></tr>
+<tr class="memitem:af4c5821dd28572962d73488af1a46a2c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html#af4c5821dd28572962d73488af1a46a2c">GraphIncrementalConnectivity</a></td></tr>
+<tr class="separator:af4c5821dd28572962d73488af1a46a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Membres hérités additionnels</h2></td></tr>
+<tr class="inherit_header pro_methods_classArccore_1_1TraceAccessor"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classArccore_1_1TraceAccessor')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres protégées hérités de <a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html">Arccore::TraceAccessor</a></td></tr>
+<tr class="memitem:a630f20ee7d44480eea5f29713813db29 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a630f20ee7d44480eea5f29713813db29">_setLocalVerboseLevel</a> (<a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a> v)</td></tr>
+<tr class="separator:a630f20ee7d44480eea5f29713813db29 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5aa89c22f87cffe6bf1132e9bd6ba5 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d60/namespaceArccore.html#ab32c98ae2c2cf8372feb620983bb5b67">Int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d0e/classArccore_1_1TraceAccessor.html#a5c5aa89c22f87cffe6bf1132e9bd6ba5">_localVerboseLevel</a> () const</td></tr>
+<tr class="separator:a5c5aa89c22f87cffe6bf1132e9bd6ba5 inherit pro_methods_classArccore_1_1TraceAccessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock">
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00110">110</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a982a930e4043449e7e0a1413d72e769c" name="a982a930e4043449e7e0a1413d72e769c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a982a930e4043449e7e0a1413d72e769c">&#9670;&#160;</a></span>ItemInternalMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef DynamicMeshKindInfos::ItemInternalMap Arcane::mesh::GraphDoFs::ItemInternalMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00118">118</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a94f63c322bcdd22ee879b929c1f35e4e" name="a94f63c322bcdd22ee879b929c1f35e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f63c322bcdd22ee879b929c1f35e4e">&#9670;&#160;</a></span>GraphDoFs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Arcane::mesh::GraphDoFs::GraphDoFs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a> *&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a>&#160;</td>
+          <td class="paramname"><em>particle_family_name</em> = <code>ParticleFamily::defaultFamilyName()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00045">45</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<a id="a442d4547c1bff69f183fab55c10646f6" name="a442d4547c1bff69f183fab55c10646f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a442d4547c1bff69f183fab55c10646f6">&#9670;&#160;</a></span>~GraphDoFs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Arcane::mesh::GraphDoFs::~GraphDoFs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00126">126</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a1372080f67ee89dc9aed3659726559b5" name="a1372080f67ee89dc9aed3659726559b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1372080f67ee89dc9aed3659726559b5">&#9670;&#160;</a></span>_allocateGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::_allocateGraph </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00058">58</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<a id="a8c5b874643b67d7bdee2b38afa5514dd" name="a8c5b874643b67d7bdee2b38afa5514dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c5b874643b67d7bdee2b38afa5514dd">&#9670;&#160;</a></span>_className()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::mesh::GraphDoFs::_className </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00167">167</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="ad4e07b7c883145295fbfa433ff366234" name="ad4e07b7c883145295fbfa433ff366234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e07b7c883145295fbfa433ff366234">&#9670;&#160;</a></span>_connectivityIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::mesh::GraphDoFs::_connectivityIndex </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>dual_node_IT</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00168">168</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="adc352bd3064820efe2cddb4759332d2c" name="adc352bd3064820efe2cddb4759332d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc352bd3064820efe2cddb4759332d2c">&#9670;&#160;</a></span>_doFUid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int64 Arcane::mesh::GraphDoFs::_doFUid </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>dual_item_kind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d5f/classArcane_1_1Item.html">Item</a> const &amp;&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00186">186</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a21269706009c74e8e70d68e5f2e755e0" name="a21269706009c74e8e70d68e5f2e755e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21269706009c74e8e70d68e5f2e755e0">&#9670;&#160;</a></span>_dualItemFamily()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> * Arcane::mesh::GraphDoFs::_dualItemFamily </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#aaa6951864e32e84c29b3cffca3d4b3f7">Arcane::eItemKind</a>&#160;</td>
+          <td class="paramname"><em>kind</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00176">176</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="ac9825b690671768389654e31a20d09c2" name="ac9825b690671768389654e31a20d09c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9825b690671768389654e31a20d09c2">&#9670;&#160;</a></span>addDualNodes() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::addDualNodes </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>graph_nb_dual_node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>dual_nodes_infos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajout de noeuds duaux dans le graphe avec le type du noeud dans le tableau infos. </p>
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a191b604eadf016e42c9923df2adea13c">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00197">197</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../d6/d0f/ItemEnumerator_8h_source.html#l00272">ENUMERATE_DOF</a>, <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#ac84615ed0ea22a2104fdae7d9c8c5179">Arcane::IItemFamily::itemsUniqueIdToLocalId()</a>, et <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+</div>
+</div>
+<a id="a35495881f0aca5b660f1c5fb82e07e94" name="a35495881f0aca5b660f1c5fb82e07e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35495881f0aca5b660f1c5fb82e07e94">&#9670;&#160;</a></span>addDualNodes() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::addDualNodes </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>graph_nb_dual_node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>dual_node_kind</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>dual_nodes_infos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajout de noeuds duaux dans le graphe avec un type fixe d'item dual par noeud. </p>
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a0862ef8acd451dde7f1b64326fac8dc6">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00156">156</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00962">Arccore::Array&lt; T &gt;::add()</a>, <a class="el" href="../../d6/d0f/ItemEnumerator_8h_source.html#l00272">ENUMERATE_DOF</a>, <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html#ac84615ed0ea22a2104fdae7d9c8c5179">Arcane::IItemFamily::itemsUniqueIdToLocalId()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01016">Arccore::Array&lt; T &gt;::reserve()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00398">Arccore::AbstractArray&lt; T &gt;::size()</a>, et <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+</div>
+</div>
+<a id="a6cbe16a8e120ee6ed67c391aa0bc4998" name="a6cbe16a8e120ee6ed67c391aa0bc4998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cbe16a8e120ee6ed67c391aa0bc4998">&#9670;&#160;</a></span>addLinks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::addLinks </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>nb_link</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>nb_dual_nodes_per_link</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#ad52ea8220f052e503f802c64c81e0222">Int64ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>links_infos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ajout de liaisons dans le graphe avec un nombre fixe de noeuds dual par liaison. </p>
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a931f079c3291156ab681e1db4d46b6c0">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00109">109</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00962">Arccore::Array&lt; T &gt;::add()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00970">Arccore::Array&lt; T &gt;::addRange()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00897">Arccore::Array&lt; T &gt;::constView()</a>, <a class="el" href="../../d6/d0f/ItemEnumerator_8h_source.html#l00272">ENUMERATE_DOF</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l01016">Arccore::Array&lt; T &gt;::reserve()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00398">Arccore::AbstractArray&lt; T &gt;::size()</a>, <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>, <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00913">Arccore::Array&lt; T &gt;::subConstView()</a>, <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00613">Arccore::ConstArrayView&lt; T &gt;::subConstView()</a>, et <a class="el" href="../../da/d85/arccore_2src_2collections_2arccore_2collections_2Array_8h_source.html#l00918">Arccore::Array&lt; T &gt;::view()</a>.</p>
+
+</div>
+</div>
+<a id="a3eb75dbe7866208134184db0d67bdd6d" name="a3eb75dbe7866208134184db0d67bdd6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb75dbe7866208134184db0d67bdd6d">&#9670;&#160;</a></span>connectivity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d46/classArcane_1_1IGraphConnectivity.html">IGraphConnectivity</a> const  * Arcane::mesh::GraphDoFs::connectivity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00131">131</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="aba2d1ccffec4ece6a60204c3a09d9043" name="aba2d1ccffec4ece6a60204c3a09d9043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2d1ccffec4ece6a60204c3a09d9043">&#9670;&#160;</a></span>dualNodeFamily() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> * Arcane::mesh::GraphDoFs::dualNodeFamily </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne la famille des noeuds duaux. </p>
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#ae90cc5b3b89d5d26b1ac4074a85884c9">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00137">137</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="aa747f61e829d6f7e59cbaef07b733b9f" name="aa747f61e829d6f7e59cbaef07b733b9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa747f61e829d6f7e59cbaef07b733b9f">&#9670;&#160;</a></span>dualNodeFamily() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> * Arcane::mesh::GraphDoFs::dualNodeFamily </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00136">136</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a58f46b9c106453ed28da8f38a0b05986" name="a58f46b9c106453ed28da8f38a0b05986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f46b9c106453ed28da8f38a0b05986">&#9670;&#160;</a></span>dualNodeFamilyName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::mesh::GraphDoFs::dualNodeFamilyName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00120">120</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a078d052b1ea91348ebf0235f5c9cfad0" name="a078d052b1ea91348ebf0235f5c9cfad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a078d052b1ea91348ebf0235f5c9cfad0">&#9670;&#160;</a></span>endUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::endUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00279">279</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<a id="ad414353f5f683f3cfef56d83ede31032" name="ad414353f5f683f3cfef56d83ede31032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad414353f5f683f3cfef56d83ede31032">&#9670;&#160;</a></span>linkFamily() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> * Arcane::mesh::GraphDoFs::linkFamily </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retourne la famille des liaisons. </p>
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#af2ec47995b8cf04b1c18f2e04bfdac4b">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00140">140</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="aafa7b92a3ed2405b4545d41a1419ba88" name="aafa7b92a3ed2405b4545d41a1419ba88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa7b92a3ed2405b4545d41a1419ba88">&#9670;&#160;</a></span>linkFamily() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d0a/classArcane_1_1IItemFamily.html">IItemFamily</a> * Arcane::mesh::GraphDoFs::linkFamily </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00139">139</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="ad40caf5e5916abf9afe327da475dc163" name="ad40caf5e5916abf9afe327da475dc163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad40caf5e5916abf9afe327da475dc163">&#9670;&#160;</a></span>linkFamilyName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const <a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::mesh::GraphDoFs::linkFamilyName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00121">121</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a0515c4824dd5450c1f8abab1987fae1a" name="a0515c4824dd5450c1f8abab1987fae1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0515c4824dd5450c1f8abab1987fae1a">&#9670;&#160;</a></span>modifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html">IGraphModifier2</a> * Arcane::mesh::GraphDoFs::modifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00129">129</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="ab0d831766e58a2545f8d473e187421da" name="ab0d831766e58a2545f8d473e187421da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d831766e58a2545f8d473e187421da">&#9670;&#160;</a></span>nbDualNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::mesh::GraphDoFs::nbDualNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nombre de noeuds duaux du graphe. </p>
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#a7e084f65e6624456b29d7991413be399">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00143">143</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="acb21a2c68e4f30c749cd1cb58b3584cc" name="acb21a2c68e4f30c749cd1cb58b3584cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb21a2c68e4f30c749cd1cb58b3584cc">&#9670;&#160;</a></span>nbLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer Arcane::mesh::GraphDoFs::nbLink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Nombre de liaisons du graphe. </p>
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html#a61d0af57fd912256ad5eaf233d74e3db">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00142">142</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a563bfb316aef5712cf3c97723b4dc8d4" name="a563bfb316aef5712cf3c97723b4dc8d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563bfb316aef5712cf3c97723b4dc8d4">&#9670;&#160;</a></span>printDualNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::printDualNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00327">327</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<a id="adcccdede1dd7b03a284ce1577917ce6c" name="adcccdede1dd7b03a284ce1577917ce6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcccdede1dd7b03a284ce1577917ce6c">&#9670;&#160;</a></span>printLinks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::printLinks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../d8/d5b/classArcane_1_1IGraph2.html">Arcane::IGraph2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00347">347</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<a id="ac79c260fdb50a3e88595ff26bba37d8b" name="ac79c260fdb50a3e88595ff26bba37d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79c260fdb50a3e88595ff26bba37d8b">&#9670;&#160;</a></span>removeDualNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::removeDualNodes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>dual_node_local_ids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Suppression de noeuds duaux dans le graphe. </p>
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#a577b5dec852d0d03264ffae2d18313b7">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00253">253</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+</div>
+</div>
+<a id="ac099910e99c3c050e268b579f2abd173" name="ac099910e99c3c050e268b579f2abd173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac099910e99c3c050e268b579f2abd173">&#9670;&#160;</a></span>removeLinks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::removeLinks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/namespaceArcane.html#a638ab0b5813a316efa87a4e382bedc59">Int32ConstArrayView</a>&#160;</td>
+          <td class="paramname"><em>link_local_ids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Suppression de liaisons duaux dans le graphe. </p>
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html#ac28a705ac4b3a8d5f2e291ce6e59fe11">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00266">266</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+<p class="reference">Références <a class="el" href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00665">Arccore::ConstArrayView&lt; T &gt;::size()</a>.</p>
+
+</div>
+</div>
+<a id="a94ed730612f96c4f0dd9a08e5cd4acd8" name="a94ed730612f96c4f0dd9a08e5cd4acd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ed730612f96c4f0dd9a08e5cd4acd8">&#9670;&#160;</a></span>updateAfterMeshChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Arcane::mesh::GraphDoFs::updateAfterMeshChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../de/d3a/classArcane_1_1IGraphModifier2.html">Arcane::IGraphModifier2</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html#l00293">293</a> du fichier <a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions amies et associées</h2>
+<a id="af4c5821dd28572962d73488af1a46a2c" name="af4c5821dd28572962d73488af1a46a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4c5821dd28572962d73488af1a46a2c">&#9670;&#160;</a></span>GraphIncrementalConnectivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html">GraphIncrementalConnectivity</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00116">116</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="ad141e36f87f04504c726cea83c1ec524" name="ad141e36f87f04504c726cea83c1ec524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad141e36f87f04504c726cea83c1ec524">&#9670;&#160;</a></span>m_connectivity_indexes_per_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d32/namespaceArcane.html#a9705dd87194ca42d81d4da3d95a9acd7">Int32UniqueArray</a> Arcane::mesh::GraphDoFs::m_connectivity_indexes_per_type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00221">221</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a0cd2fe47dd4640610829289dba4fb968" name="a0cd2fe47dd4640610829289dba4fb968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd2fe47dd4640610829289dba4fb968">&#9670;&#160;</a></span>m_connectivity_mng</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d74/classArcane_1_1ItemConnectivityMng.html">ItemConnectivityMng</a> Arcane::mesh::GraphDoFs::m_connectivity_mng</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00210">210</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a56547db7195f9c88a288ec3583e06081" name="a56547db7195f9c88a288ec3583e06081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56547db7195f9c88a288ec3583e06081">&#9670;&#160;</a></span>m_dof_mng</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd2/classArcane_1_1DoFManager.html">DoFManager</a> Arcane::mesh::GraphDoFs::m_dof_mng</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00211">211</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a10bbcc4606d3cc107bb845e14b6bf683" name="a10bbcc4606d3cc107bb845e14b6bf683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10bbcc4606d3cc107bb845e14b6bf683">&#9670;&#160;</a></span>m_dual2dof_incremental_connectivities</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a>*&gt; Arcane::mesh::GraphDoFs::m_dual2dof_incremental_connectivities</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00216">216</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a8e04a7ec44ba463c1527d5fe3878ab31" name="a8e04a7ec44ba463c1527d5fe3878ab31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e04a7ec44ba463c1527d5fe3878ab31">&#9670;&#160;</a></span>m_dual_node_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/df2/classArcane_1_1DoFFamily.html">DoFFamily</a>&amp; Arcane::mesh::GraphDoFs::m_dual_node_family</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00212">212</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a7904f041d5d32d7413d1a1af82036b80" name="a7904f041d5d32d7413d1a1af82036b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7904f041d5d32d7413d1a1af82036b80">&#9670;&#160;</a></span>m_dual_node_to_connectivity_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dde/classArcane_1_1ItemScalarProperty.html">ItemScalarProperty</a>&lt;Integer&gt; Arcane::mesh::GraphDoFs::m_dual_node_to_connectivity_index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00223">223</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="af33d6bb09fae0fb63379ce21ee76eb1a" name="af33d6bb09fae0fb63379ce21ee76eb1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33d6bb09fae0fb63379ce21ee76eb1a">&#9670;&#160;</a></span>m_dualnode_kinds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;Integer, NB_BASIC_ITEM_TYPE&gt; Arcane::mesh::GraphDoFs::m_dualnode_kinds = { IT_DualNode, IT_DualEdge, IT_DualFace, IT_DualCell, IT_DualParticle }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00222">222</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="af20ed9541865297b17ebc3f48b344c40" name="af20ed9541865297b17ebc3f48b344c40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af20ed9541865297b17ebc3f48b344c40">&#9670;&#160;</a></span>m_ghost_layer_computers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="../../df/db4/classArcane_1_1GhostLayerFromConnectivityComputer.html">Arcane::GhostLayerFromConnectivityComputer</a>&gt; &gt; Arcane::mesh::GraphDoFs::m_ghost_layer_computers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00220">220</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a76b784c8cd284ce35e0ab2b7878f20a4" name="a76b784c8cd284ce35e0ab2b7878f20a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76b784c8cd284ce35e0ab2b7878f20a4">&#9670;&#160;</a></span>m_graph_allocated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::mesh::GraphDoFs::m_graph_allocated = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00208">208</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a86c92e165c213a6daaf287d5f44ffaac" name="a86c92e165c213a6daaf287d5f44ffaac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c92e165c213a6daaf287d5f44ffaac">&#9670;&#160;</a></span>m_graph_connectivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="../../d2/df1/classArcane_1_1mesh_1_1GraphIncrementalConnectivity.html">GraphIncrementalConnectivity</a>&gt; Arcane::mesh::GraphDoFs::m_graph_connectivity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00218">218</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a01608d42c6433cd3f411353de6cadfed" name="a01608d42c6433cd3f411353de6cadfed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01608d42c6433cd3f411353de6cadfed">&#9670;&#160;</a></span>m_incremental_connectivities</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a>*&gt; Arcane::mesh::GraphDoFs::m_incremental_connectivities</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00215">215</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a9432a5b2426a1d022f13c061aefde6a7" name="a9432a5b2426a1d022f13c061aefde6a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9432a5b2426a1d022f13c061aefde6a7">&#9670;&#160;</a></span>m_item_family_network</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d50/classArcane_1_1IItemFamilyNetwork.html">IItemFamilyNetwork</a>* Arcane::mesh::GraphDoFs::m_item_family_network = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00207">207</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a517e0d00f380faa6d4e7b15f19c14cc2" name="a517e0d00f380faa6d4e7b15f19c14cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a517e0d00f380faa6d4e7b15f19c14cc2">&#9670;&#160;</a></span>m_link_family</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/df2/classArcane_1_1DoFFamily.html">DoFFamily</a>&amp; Arcane::mesh::GraphDoFs::m_link_family</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00213">213</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="aea449afa2112f9e8b0721da51f16e5ed" name="aea449afa2112f9e8b0721da51f16e5ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea449afa2112f9e8b0721da51f16e5ed">&#9670;&#160;</a></span>m_links_incremental_connectivity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d91/classArcane_1_1mesh_1_1IncrementalItemConnectivity.html">Arcane::mesh::IncrementalItemConnectivity</a>* Arcane::mesh::GraphDoFs::m_links_incremental_connectivity = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00217">217</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a0140cf122b30d2f66aa8360de9f89030" name="a0140cf122b30d2f66aa8360de9f89030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0140cf122b30d2f66aa8360de9f89030">&#9670;&#160;</a></span>m_mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d9f/classArcane_1_1IMesh.html">IMesh</a>* Arcane::mesh::GraphDoFs::m_mesh = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00206">206</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a78be9cf33a8f3a6e68d651242fec41b9" name="a78be9cf33a8f3a6e68d651242fec41b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78be9cf33a8f3a6e68d651242fec41b9">&#9670;&#160;</a></span>m_particle_family_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/ddb/classArccore_1_1String.html">String</a> Arcane::mesh::GraphDoFs::m_particle_family_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00227">227</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<a id="a0edd7be068837c900c56f5a704d51f25" name="a0edd7be068837c900c56f5a704d51f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0edd7be068837c900c56f5a704d51f25">&#9670;&#160;</a></span>m_update_sync_info</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Arcane::mesh::GraphDoFs::m_update_sync_info = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../db/d34/GraphDoFs_8h_source.html#l00225">225</a> du fichier <a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../db/d34/GraphDoFs_8h_source.html">GraphDoFs.h</a></li>
+<li><a class="el" href="../../da/d6e/GraphDoFs_8cc_source.html">GraphDoFs.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d5/d7e/namespaceArcane_1_1mesh.html">mesh</a></li><li class="navelem"><a class="el" href="../../de/ddb/classArcane_1_1mesh_1_1GraphDoFs.html">GraphDoFs</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:30 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

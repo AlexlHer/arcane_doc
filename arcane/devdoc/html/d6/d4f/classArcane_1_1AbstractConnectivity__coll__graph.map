@@ -1,0 +1,18 @@
+<map id="Arcane::AbstractConnectivity" name="Arcane::AbstractConnectivity">
+<area shape="rect" id="node1" title="Classe abstraite de gestion des connectivités." alt="" coords="351,3803,569,3975"/>
+<area shape="rect" id="node2" href="$d0/dc0/classArcane_1_1IItemConnectivity.html" title="Interface pour gérer une connectivité." alt="" coords="22,3077,229,3263"/>
+<area shape="rect" id="node3" href="$de/d13/classArcane_1_1IItemConnectivityAccessor.html" title="Interface pour gérer l&#39;accès à une connectivité." alt="" coords="5,2248,245,2376"/>
+<area shape="rect" id="node4" href="$dd/d0a/classArcane_1_1IItemFamily.html" title="Interface d&#39;une famille d&#39;entités." alt="" coords="253,2615,475,3725"/>
+<area shape="rect" id="node5" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="499,2996,693,3344"/>
+<area shape="rect" id="node6" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="356,1729,556,2063"/>
+<area shape="rect" id="node7" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="366,755,581,1323"/>
+<area shape="rect" id="node12" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="495,1372,695,1705"/>
+<area shape="rect" id="node8" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="361,548,586,705"/>
+<area shape="rect" id="node9" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="378,211,569,471"/>
+<area shape="rect" id="node10" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="372,5,575,148"/>
+<area shape="rect" id="node11" href="$d4/dee/classArccore_1_1SharedArray.html" title="Vecteur 1D de données avec sémantique par référence." alt="" coords="493,2145,699,2479"/>
+<area shape="rect" id="node13" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="743,2901,966,3439"/>
+<area shape="rect" id="node14" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="805,2087,960,2537"/>
+<area shape="rect" id="node15" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="748,1379,956,1698"/>
+<area shape="rect" id="node16" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="981,1379,1179,1698"/>
+</map>

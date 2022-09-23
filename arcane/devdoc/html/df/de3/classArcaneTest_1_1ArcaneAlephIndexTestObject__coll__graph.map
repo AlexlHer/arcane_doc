@@ -1,0 +1,52 @@
+<map id="ArcaneTest::ArcaneAlephIndexTestObject" name="ArcaneTest::ArcaneAlephIndexTestObject">
+<area shape="rect" id="node1" title="Generation de la classe de base du Module." alt="" coords="803,3464,1047,3621"/>
+<area shape="rect" id="node2" href="$d5/d47/classArcane_1_1BasicModule.html" title="Module basique." alt="" coords="1040,2863,1207,2932"/>
+<area shape="rect" id="node3" href="$dd/dde/classArcane_1_1AbstractModule.html" title="Classe représentant un module." alt="" coords="961,1245,1147,1505"/>
+<area shape="rect" id="node4" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="639,665,834,911"/>
+<area shape="rect" id="node5" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="650,57,823,405"/>
+<area shape="rect" id="node6" href="$d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="1301,658,1476,918"/>
+<area shape="rect" id="node19" href="$d6/d00/classArcane_1_1VariableRef.html" title="Référence à une variable." alt="" coords="1418,1149,1621,1600"/>
+<area shape="rect" id="node7" href="$db/d9b/classArcane_1_1ISession.html" title="Interface d&#39;une session d&#39;exécution d&#39;un cas." alt="" coords="858,709,1066,867"/>
+<area shape="rect" id="node8" href="$d3/d96/classArcane_1_1IBase.html" title="Interface de la classe de base des objets principaux arcane." alt="" coords="951,137,1138,324"/>
+<area shape="rect" id="node9" href="$d9/d1e/classArcane_1_1ISubDomain.html" title="Interface du gestionnaire d&#39;un sous&#45;domaine." alt="" coords="1090,673,1277,903"/>
+<area shape="rect" id="node10" href="$d7/d6f/classArcane_1_1MeshHandle.html" title="Handle sur un maillage." alt="" coords="1759,665,1939,911"/>
+<area shape="rect" id="node16" href="$d6/d09/classArcane_1_1MeshAccessor.html" title="Accès aux informations d&#39;un maillage." alt="" coords="1758,1624,1934,1825"/>
+<area shape="rect" id="node11" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="1707,137,2004,324"/>
+<area shape="rect" id="node12" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="1500,519,1723,1057"/>
+<area shape="rect" id="node28" href="$d7/dd0/classArcane_1_1CaseOptionSimple.html" title="Classe de base des options simples (uniquement une valeur)." alt="" coords="2865,1171,3113,1578"/>
+<area shape="rect" id="node13" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="1527,5,1682,456"/>
+<area shape="rect" id="node14" href="$d5/d14/classArcane_1_1VersionInfo.html" title="Informations sur une version." alt="" coords="263,687,419,889"/>
+<area shape="rect" id="node15" href="$df/d02/classArcane_1_1Accelerator_1_1IAcceleratorMng.html" title="Interface du gestionnaire des accélérateurs." alt="" coords="443,724,615,852"/>
+<area shape="rect" id="node17" href="$d1/d74/classArcane_1_1CommonVariables.html" title="Variables communes d&#39;un cas." alt="" coords="1118,2473,1321,2689"/>
+<area shape="rect" id="node18" href="$d0/db7/classArcane_1_1VariableRefScalarT.html" title=" " alt="" coords="1340,1879,1539,2153"/>
+<area shape="rect" id="node23" href="$d0/db7/classArcane_1_1VariableRefScalarT.html" title=" " alt="" coords="1117,1879,1316,2153"/>
+<area shape="rect" id="node46" href="$de/d79/classArcane_1_1MeshVariableRef.html" title="Classe de base d&#39;une variable sur des entités du maillage." alt="" coords="1563,1937,1756,2095"/>
+<area shape="rect" id="node20" href="$da/dbf/classArcane_1_1VariableScalarT.html" title="Variable scalaire." alt="" coords="1171,1215,1393,1534"/>
+<area shape="rect" id="node21" href="$d5/d86/classArcane_1_1VariableFactoryRegisterer.html" title="Enregistreur d&#39;une fabrique de variables." alt="" coords="235,1252,486,1497"/>
+<area shape="rect" id="node43" href="$d7/d20/classArcane_1_1MeshVariableScalarRefT.html" title=" " alt="" coords="267,3097,481,3387"/>
+<area shape="rect" id="node50" href="$d7/d20/classArcane_1_1MeshVariableScalarRefT.html" title=" " alt="" coords="527,3097,741,3387"/>
+<area shape="rect" id="node22" href="$df/d46/classArcane_1_1VariableTypeInfo.html" title="Informations caractérisant le type d&#39;une variable." alt="" coords="5,680,239,896"/>
+<area shape="rect" id="node24" href="$da/d42/classArcaneTest_1_1CaseOptionsAlephIndexTest.html" title="Options." alt="" coords="2167,2458,2403,2703"/>
+<area shape="rect" id="node25" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="1947,1923,2151,2109"/>
+<area shape="rect" id="node26" href="$d0/dac/classArccore_1_1CheckedPointer.html" title="Encapsulation d&#39;un pointeur." alt="" coords="1935,1259,2162,1490"/>
+<area shape="rect" id="node27" href="$d4/d3d/classArcane_1_1CaseOptionSimpleT.html" title=" " alt="" coords="2175,1879,2395,2153"/>
+<area shape="rect" id="node35" href="$d4/d3d/classArcane_1_1CaseOptionSimpleT.html" title=" " alt="" coords="2879,1879,3099,2153"/>
+<area shape="rect" id="node29" href="$df/d69/classArcane_1_1CaseOptionBase.html" title="Classe de base d&#39;une option du jeu de donnée." alt="" coords="3151,599,3362,977"/>
+<area shape="rect" id="node30" href="$d9/dcc/classArcane_1_1XmlNode.html" title="Noeud d&#39;un arbre DOM." alt="" coords="3385,643,3552,933"/>
+<area shape="rect" id="node31" href="$d6/dec/classArcane_1_1ICaseFunction.html" title="Interface d&#39;une fonction du jeu de données." alt="" coords="3576,541,3804,1035"/>
+<area shape="rect" id="node32" href="$db/d86/classArcane_1_1IStandardFunction.html" title="Interface gérant une fonction standard." alt="" coords="2637,731,2871,845"/>
+<area shape="rect" id="node33" href="$d6/d70/classArcane_1_1IPhysicalUnitConverter.html" title="Interface d&#39;un convertisseur d&#39;unité." alt="" coords="2895,731,3127,845"/>
+<area shape="rect" id="node34" href="$d8/d2c/classArcane_1_1CaseOptionTraitsT.html" title=" " alt="" coords="2187,1347,2380,1402"/>
+<area shape="rect" id="node36" href="$d8/d2c/classArcane_1_1CaseOptionTraitsT.html" title=" " alt="" coords="3137,1347,3331,1402"/>
+<area shape="rect" id="node37" href="$d5/da7/classArcaneTest_1_1CaseOptionsAlephIndexTest_1_1CaseOptionBoundaryCondition.html" title=" " alt="" coords="2419,1930,2710,2102"/>
+<area shape="rect" id="node38" href="$d6/da9/classArcane_1_1CaseOptionsMulti.html" title="Classe de base d&#39;un tableau d&#39;options complexes du jeu de données." alt="" coords="2404,1303,2603,1446"/>
+<area shape="rect" id="node39" href="$dd/d1c/classArcane_1_1CaseOptions.html" title="Classe de base d&#39;une liste d&#39;options du jeu de données." alt="" coords="1963,651,2143,925"/>
+<area shape="rect" id="node40" href="$da/d3e/classArcane_1_1ICaseOptionsMulti.html" title="Interface d&#39;une liste d&#39;options présente plusieurs fois." alt="" coords="2167,724,2370,852"/>
+<area shape="rect" id="node41" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2394,680,2613,896"/>
+<area shape="rect" id="node42" href="$d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="2627,1208,2819,1541"/>
+<area shape="rect" id="node44" href="$de/dc3/classArcane_1_1ItemVariableScalarRefT.html" title="Variable scalaire sur un type d&#39;entité du maillage." alt="" coords="528,2760,740,3035"/>
+<area shape="rect" id="node45" href="$de/da9/classArcane_1_1PrivateVariableScalarT.html" title=" " alt="" coords="576,2451,799,2711"/>
+<area shape="rect" id="node47" href="$d9/d83/classArcane_1_1VariableArrayT.html" title="Implémentation d&#39;une variable sur un tableau 1D." alt="" coords="822,1879,1043,2153"/>
+<area shape="rect" id="node48" href="$d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="398,1849,553,2183"/>
+<area shape="rect" id="node49" href="$d8/d05/classArcane_1_1IMemoryAccessTrace.html" title=" " alt="" coords="577,1981,797,2051"/>
+</map>

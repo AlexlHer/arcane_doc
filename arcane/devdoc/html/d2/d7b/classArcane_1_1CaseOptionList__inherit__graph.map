@@ -1,0 +1,6 @@
+<map id="Arcane::CaseOptionList" name="Arcane::CaseOptionList">
+<area shape="rect" id="node1" title="Liste d&#39;options de configuration d&#39;un service ou module." alt="" coords="123,313,314,764"/>
+<area shape="rect" id="node4" href="$d8/da1/classArcane_1_1CaseOptionListMulti.html" title="Liste d&#39;options du jeu de données contenant plusieurs fils identiques." alt="" coords="111,812,326,1072"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,5,200,265"/>
+<area shape="rect" id="node3" href="$de/d86/classArcane_1_1ICaseOptionList.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="225,27,447,243"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Arcane::IParticleExchanger" name="Arcane::IParticleExchanger">
+<area shape="rect" id="node1" title="Interface d&#39;un échangeur de particules." alt="" coords="279,5,482,251"/>
+<area shape="rect" id="node2" href="$db/ddb/classArcane_1_1ArcaneBasicParticleExchangerObject.html" title="Generation de la classe de base du Service." alt="" coords="5,577,249,749"/>
+<area shape="rect" id="node4" href="$d6/d1b/classArcane_1_1mesh_1_1AsyncParticleExchanger.html" title=" " alt="" coords="273,460,488,867"/>
+<area shape="rect" id="node5" href="$d2/dc1/classArcane_1_1mesh_1_1NonBlockingParticleExchanger.html" title="Echangeur de particules." alt="" coords="513,299,769,1028"/>
+<area shape="rect" id="node3" href="$d3/dde/classArcane_1_1mesh_1_1BasicParticleExchanger.html" title="Echangeur de particules basique (utilise une réduction bloquante)." alt="" coords="22,1076,233,1644"/>
+</map>

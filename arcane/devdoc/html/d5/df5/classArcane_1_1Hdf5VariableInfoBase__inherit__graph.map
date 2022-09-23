@@ -1,0 +1,5 @@
+<map id="Arcane::Hdf5VariableInfoBase" name="Arcane::Hdf5VariableInfoBase">
+<area shape="rect" id="node1" title="Classe de base pour lire ou écrire une variables." alt="" coords="135,5,359,295"/>
+<area shape="rect" id="node2" href="$d5/daf/classArcane_1_1Hdf5ItemVariableInfo.html" title=" " alt="" coords="5,343,235,515"/>
+<area shape="rect" id="node3" href="$d5/d3d/classArcane_1_1Hdf5ScalarVariableInfo.html" title=" " alt="" coords="259,343,488,515"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="Assertion.h" name="Assertion.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1020,5,1115,31"/>
+<area shape="rect" id="node2" href="$d5/dd7/arcane_2src_2arcane_2utils_2TraceInfo_8h_source.html" title=" " alt="" coords="549,225,722,251"/>
+<area shape="rect" id="node19" href="$dc/da6/Numeric_8h_source.html" title=" " alt="" coords="1436,79,1605,104"/>
+<area shape="rect" id="node32" href="$d0/d7e/ArcaneTypes_8h.html" title="Déclarations des types généraux de Arcane." alt="" coords="985,152,1149,177"/>
+<area shape="rect" id="node34" href="$df/d03/ArcaneException_8h_source.html" title=" " alt="" coords="905,79,1096,104"/>
+<area shape="rect" id="node3" href="$d5/dbe/arccore_2src_2base_2arccore_2base_2TraceInfo_8h_source.html" title=" " alt="" coords="549,299,729,324"/>
+<area shape="rect" id="node8" href="$d4/da8/UtilsTypes_8h.html" title="Déclarations des types utilisés dans Arcane." alt="" coords="1122,299,1303,324"/>
+<area shape="rect" id="node4" href="$dd/d76/ArccoreGlobal_8h_source.html" title=" " alt="" coords="763,621,975,647"/>
+<area shape="rect" id="node7" title=" " alt="" coords="717,460,781,485"/>
+<area shape="rect" id="node5" title=" " alt="" coords="761,695,827,720"/>
+<area shape="rect" id="node6" title=" " alt="" coords="852,695,1032,720"/>
+<area shape="rect" id="node9" href="$d0/d1e/ArcaneGlobal_8h.html" title="Fichier de configuration d&#39;Arcane." alt="" coords="907,379,1108,405"/>
+<area shape="rect" id="node11" href="$d4/d12/BaseTypes_8h.html" title="Déclarations des types de la composante &#39;base&#39; de Arccore." alt="" coords="471,541,661,566"/>
+<area shape="rect" id="node13" href="$dc/d80/RefDeclarations_8h.html" title=" " alt="" coords="1167,460,1392,485"/>
+<area shape="rect" id="node16" href="$d0/d8d/CollectionsGlobal_8h_source.html" title=" " alt="" coords="793,533,945,573"/>
+<area shape="rect" id="node17" href="$d1/db9/ConcurrencyGlobal_8h_source.html" title=" " alt="" coords="1132,372,1293,412"/>
+<area shape="rect" id="node18" href="$dd/d4e/TraceGlobal_8h_source.html" title=" " alt="" coords="1317,379,1516,405"/>
+<area shape="rect" id="node10" title=" " alt="" coords="907,460,1065,485"/>
+<area shape="rect" id="node12" title=" " alt="" coords="517,695,588,720"/>
+<area shape="rect" id="node14" title=" " alt="" coords="619,621,711,647"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1191,541,1269,566"/>
+<area shape="rect" id="node20" href="$d4/dd4/Limits_8h_source.html" title=" " alt="" coords="1558,225,1713,251"/>
+<area shape="rect" id="node30" href="$db/d8a/Math_8h_source.html" title=" " alt="" coords="1447,152,1594,177"/>
+<area shape="rect" id="node21" href="$d2/d39/StdHeader_8h_source.html" title=" " alt="" coords="1689,299,1870,324"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1606,299,1665,324"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1519,299,1581,324"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1866,379,1933,405"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1957,379,2028,405"/>
+<area shape="rect" id="node24" title=" " alt="" coords="2052,379,2123,405"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1590,379,1654,405"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1679,379,1747,405"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1771,379,1841,405"/>
+<area shape="rect" id="node31" href="$de/d42/Convert_8h_source.html" title=" " alt="" coords="1318,225,1483,251"/>
+<area shape="rect" id="node33" href="$d2/d12/DataTypes_8h.html" title="Fichier contenant les définitions des types de données gérés par Arcane." alt="" coords="931,225,1143,251"/>
+<area shape="rect" id="node35" href="$dd/d36/arcane_2src_2arcane_2utils_2Exception_8h_source.html" title=" " alt="" coords="737,152,915,177"/>
+<area shape="rect" id="node50" href="$d8/d3e/arcane_2src_2arcane_2utils_2String_8h_source.html" title=" " alt="" coords="1190,152,1342,177"/>
+<area shape="rect" id="node36" href="$d0/dfb/arccore_2src_2base_2arccore_2base_2Exception_8h_source.html" title=" " alt="" coords="237,225,423,251"/>
+<area shape="rect" id="node49" href="$d3/d91/Atomic_8h_source.html" title=" " alt="" coords="746,225,906,251"/>
+<area shape="rect" id="node37" href="$d1/ddc/arccore_2src_2base_2arccore_2base_2String_8h_source.html" title=" " alt="" coords="188,379,347,405"/>
+<area shape="rect" id="node46" href="$d4/d26/arccore_2src_2base_2arccore_2base_2StackTrace_8h_source.html" title=" " alt="" coords="29,299,220,324"/>
+<area shape="rect" id="node47" title=" " alt="" coords="387,299,473,324"/>
+<area shape="rect" id="node48" title=" " alt="" coords="295,299,362,324"/>
+<area shape="rect" id="node38" href="$dd/dea/StringView_8h_source.html" title=" " alt="" coords="339,460,529,485"/>
+<area shape="rect" id="node44" title=" " alt="" coords="157,460,215,485"/>
+<area shape="rect" id="node45" title=" " alt="" coords="239,460,314,485"/>
+<area shape="rect" id="node39" href="$d3/dc0/Span_8h_source.html" title=" " alt="" coords="293,541,447,566"/>
+<area shape="rect" id="node43" title=" " alt="" coords="172,541,269,566"/>
+<area shape="rect" id="node40" href="$db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html" title=" " alt="" coords="277,621,463,647"/>
+<area shape="rect" id="node41" href="$d2/d4b/arccore_2src_2base_2arccore_2base_2ArrayRange_8h_source.html" title=" " alt="" coords="277,695,474,720"/>
+<area shape="rect" id="node42" href="$dc/d8d/ArrayViewCommon_8h_source.html" title=" " alt="" coords="5,695,252,720"/>
+</map>

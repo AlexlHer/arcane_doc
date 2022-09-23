@@ -1,0 +1,7 @@
+<map id="Arccore::ReferenceCounterImpl" name="Arccore::ReferenceCounterImpl">
+<area shape="rect" id="node1" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="409,5,643,104"/>
+<area shape="rect" id="node2" href="$d7/d5d/classArcane_1_1ParallelMngContainerBase.html" title=" " alt="" coords="5,313,260,353"/>
+<area shape="rect" id="node3" href="$d8/dd7/classArcane_1_1ParallelMngDispatcher.html" title=" " alt="" coords="284,152,531,515"/>
+<area shape="rect" id="node4" href="$dc/de4/classArcane_1_1SerializedData.html" title=" " alt="" coords="555,233,734,434"/>
+<area shape="rect" id="node5" href="$dd/db8/classArccore_1_1TraceMng.html" title=" " alt="" coords="758,152,1017,515"/>
+</map>

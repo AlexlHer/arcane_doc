@@ -1,0 +1,5 @@
+<map id="Arcane::DependencyInjection::impl::IInstanceFactory" name="Arcane::DependencyInjection::impl::IInstanceFactory">
+<area shape="rect" id="node1" title="Fabrique pour une instance encapsulée par une référence (i.e Ref&lt;T&gt;)." alt="" coords="5,5,252,163"/>
+<area shape="rect" id="node2" href="$d9/d87/classArcane_1_1DependencyInjection_1_1impl_1_1AbstractInstanceFactory.html" title="internal." alt="" coords="8,211,249,295"/>
+<area shape="rect" id="node3" href="$db/d0c/classArcane_1_1DependencyInjection_1_1impl_1_1InstanceFactory.html" title=" " alt="" coords="19,343,239,573"/>
+</map>

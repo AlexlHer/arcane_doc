@@ -1,0 +1,11 @@
+<map id="Arcane::MeshMaterialModifierImpl::Operation" name="Arcane::MeshMaterialModifierImpl::Operation">
+<area shape="rect" id="node1" title=" " alt="" coords="89,1901,315,2015"/>
+<area shape="rect" id="node2" href="$d9/ddb/classArcane_1_1Materials_1_1IMeshMaterial.html" title="Interface d&#39;un matériau d&#39;un maillage." alt="" coords="29,1579,188,1839"/>
+<area shape="rect" id="node3" href="$d1/d55/classArcane_1_1Materials_1_1IMeshComponent.html" title="Interface d&#39;un composant (matériau ou milieu) d&#39;un maillage." alt="" coords="5,1277,185,1493"/>
+<area shape="rect" id="node4" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="219,1601,387,1817"/>
+<area shape="rect" id="node5" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="210,1240,410,1529"/>
+<area shape="rect" id="node6" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="203,725,417,1191"/>
+<area shape="rect" id="node7" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="206,533,414,676"/>
+<area shape="rect" id="node8" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title=" " alt="" coords="215,211,405,456"/>
+<area shape="rect" id="node9" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="209,5,411,148"/>
+</map>

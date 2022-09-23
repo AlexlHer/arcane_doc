@@ -1,0 +1,18 @@
+<map id="Arccore::MessagePassing::Mpi::MpiAdapter" name="Arccore::MessagePassing::Mpi::MpiAdapter">
+<area shape="rect" id="node1" title="Adapteur pour MPI." alt="" coords="597,1501,798,2025"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,709,200,955"/>
+<area shape="rect" id="node16" href="$df/de9/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiAdapter_1_1RequestSet.html" title=" " alt="" coords="139,1017,357,1439"/>
+<area shape="rect" id="node3" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="105,299,279,647"/>
+<area shape="rect" id="node4" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="29,101,171,141"/>
+<area shape="rect" id="node5" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="195,86,373,155"/>
+<area shape="rect" id="node6" href="$d4/dfb/classArccore_1_1MessagePassing_1_1IRequestCreator.html" title="Interface d&#39;un créateur de requête." alt="" coords="381,1193,576,1263"/>
+<area shape="rect" id="node7" href="$d4/d36/classArccore_1_1MessagePassing_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="600,1164,795,1292"/>
+<area shape="rect" id="node8" href="$d6/dd7/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiLock.html" title="Verrou pour les appels MPI." alt="" coords="819,1193,1013,1263"/>
+<area shape="rect" id="node9" href="$da/d90/classArccore_1_1Mutex.html" title="Mutex." alt="" coords="852,783,980,881"/>
+<area shape="rect" id="node10" title=" " alt="" coords="798,453,898,493"/>
+<area shape="rect" id="node11" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="922,379,1185,566"/>
+<area shape="rect" id="node12" href="$d0/dac/classArccore_1_1CheckedPointer.html" title="Encapsulation d&#39;un pointeur." alt="" coords="940,5,1167,236"/>
+<area shape="rect" id="node13" href="$d0/db7/classArccore_1_1MessagePassing_1_1Mpi_1_1IMpiProfiling.html" title="Interface d&#39;abstraction pour les operations MPI. Sert principalement a utiliser un decorateur pour le..." alt="" coords="1037,1120,1232,1336"/>
+<area shape="rect" id="node14" href="$de/d08/classArccore_1_1MessagePassing_1_1IProfiler.html" title="Interface d&#39;un profiler pour les échanges de messages." alt="" coords="1037,797,1232,867"/>
+<area shape="rect" id="node15" href="$d2/d83/classArccore_1_1ITimeMetricCollector.html" title="Interface gérant les statistiques sur l&#39;exécution." alt="" coords="1257,1179,1479,1277"/>
+</map>

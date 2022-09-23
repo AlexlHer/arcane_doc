@@ -1,0 +1,10 @@
+<map id="Arcane::SequentialParallelMngBuildInfo" name="Arcane::SequentialParallelMngBuildInfo">
+<area shape="rect" id="node1" title="Infos pour construire un SequentialParallelMng." alt="" coords="431,6077,653,6279"/>
+<area shape="rect" id="node2" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="5,3041,252,3272"/>
+<area shape="rect" id="node3" href="$df/de1/classArcane_1_1ITimerMng.html" title="Interface d&#39;un gestionnaire de timer." alt="" coords="276,3100,429,3213"/>
+<area shape="rect" id="node4" href="$d3/db0/classArcane_1_1IThreadMng.html" title="Interface d&#39;un gestionnaire de thread." alt="" coords="453,3115,631,3199"/>
+<area shape="rect" id="node5" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="655,299,901,6015"/>
+<area shape="rect" id="node6" href="$d0/d0f/classArccore_1_1MessagePassing_1_1Communicator.html" title="Communicateur pour l&#39;échange de message." alt="" coords="926,3027,1121,3287"/>
+<area shape="rect" id="node7" href="$dd/dc4/unionArccore_1_1MessagePassing_1_1Communicator_1_1__Communicator.html" title=" " alt="" coords="905,108,1142,221"/>
+<area shape="rect" id="node8" title=" " alt="" coords="989,5,1057,45"/>
+</map>

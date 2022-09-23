@@ -1,0 +1,328 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane:  Fichier source de ScalarData.h</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('df/d28/ScalarData_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ScalarData.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// -*- tab-width: 2; indent-tabs-mode: nil; coding: utf-8-with-signature -*-</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// Copyright 2000-2022 CEA (www.cea.fr) IFPEN (www.ifpenergiesnouvelles.com)</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">// See the top-level COPYRIGHT file for details.</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">// SPDX-License-Identifier: Apache-2.0</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">//-----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">/* ScalarData.h                                                (C) 2000-2020 */</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">/*                                                                           */</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">/* Donnée scalaire.                                                          */</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#ifndef ARCANE_IMPL_SCALARDATA_H</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define ARCANE_IMPL_SCALARDATA_H</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;arcane/utils/Array.h&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;arcane/utils/String.h&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;arcane/utils/Ref.h&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;arcane/datatype/DataTypeTraits.h&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#include &quot;arcane/IData.h&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &quot;arcane/IDataVisitor.h&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/d3c/ReferenceCounterImpl_8h.html">arccore/base/ReferenceCounterImpl.h</a>&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../d0/d32/namespaceArcane.html">Arcane</a></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> DataType&gt;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html">   40</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ScalarDataT</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>: <span class="keyword">public</span> <a class="code hl_class" href="../../db/d48/classArccore_1_1ReferenceCounterImpl.html">ReferenceCounterImpl</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>, <span class="keyword">public</span> <a class="code hl_class" href="../../db/d09/classArcane_1_1IScalarDataT.html">IScalarDataT</a>&lt;DataType&gt;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  ARCCORE_DEFINE_REFERENCE_COUNTED_INCLASS_METHODS();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keyword">typedef</span> <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ScalarDataT&lt;DataType&gt;</a> <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ThatClass</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keyword">typedef</span> <a class="code hl_class" href="../../db/d09/classArcane_1_1IScalarDataT.html">IScalarDataT&lt;DataType&gt;</a> <a class="code hl_class" href="../../db/d09/classArcane_1_1IScalarDataT.html">DataInterfaceType</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ScalarDataT</a>(<a class="code hl_class" href="../../d0/df9/classArccore_1_1ITraceMng.html">ITraceMng</a>* trace)</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  : <a class="code hl_variable" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">m_value</a>(<a class="code hl_class" href="../../db/d4f/classArcane_1_1DataTypeTraitsT.html">DataTypeTraitsT&lt;DataType&gt;::defaultValue</a>())</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  , m_trace(trace)</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  {}</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ScalarDataT</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../dd/d23/classArcane_1_1DataStorageBuildInfo.html">DataStorageBuildInfo</a>&amp; dsbi);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ScalarDataT</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ScalarDataT&lt;DataType&gt;</a>&amp; rhs)</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  : <a class="code hl_variable" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">m_value</a>(rhs.<a class="code hl_variable" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">m_value</a>)</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  , m_trace(rhs.m_trace)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  {}</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ab071779146e5c796eba0be3fc5712fc0">   65</a></span>  Integer <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ab071779146e5c796eba0be3fc5712fc0">dimension</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a9f5efa6fd546548917b5b267de8a9263">   66</a></span>  Integer <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a9f5efa6fd546548917b5b267de8a9263">multiTag</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aef8647a3ff9428a277a0623c6175b5fe">   67</a></span>  <a class="code hl_enumeration" href="../../d0/d32/namespaceArcane.html#a05c27a651d3da9ae112c75113fcf7426">eDataType</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aef8647a3ff9428a277a0623c6175b5fe">dataType</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_class" href="../../db/d4f/classArcane_1_1DataTypeTraitsT.html">DataTypeTraitsT&lt;DataType&gt;::type</a>(); }</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ac4e5936bdb781402e75cea07bfe45975">serialize</a>(<a class="code hl_class" href="../../dd/dcd/classArccore_1_1ISerializer.html">ISerializer</a>* sbuf, <a class="code hl_class" href="../../df/d13/classArcane_1_1IDataOperation.html">IDataOperation</a>* operation) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ac4e5936bdb781402e75cea07bfe45975">serialize</a>(<a class="code hl_class" href="../../dd/dcd/classArccore_1_1ISerializer.html">ISerializer</a>* sbuf, <a class="code hl_class" href="../../db/d8c/classArccore_1_1ConstArrayView.html">Int32ConstArrayView</a> ids, <a class="code hl_class" href="../../df/d13/classArcane_1_1IDataOperation.html">IDataOperation</a>* operation) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a0bea316198d7ed48b37d6e2b7459a092">   70</a></span>  DataType&amp; <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a0bea316198d7ed48b37d6e2b7459a092">value</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">m_value</a>; }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a9a043d0b6bf3eba413e2a42ee170ab50">   71</a></span>  <span class="keyword">const</span> DataType&amp; <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a9a043d0b6bf3eba413e2a42ee170ab50">value</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">m_value</a>; }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a505f7d460dd0c04de96e740d307c6374">   72</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a505f7d460dd0c04de96e740d307c6374">resize</a>(Integer)<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#adcfab7d3a9c1f86ee6a0226180e8462f">   73</a></span>  <a class="code hl_class" href="../../d1/d15/classArcane_1_1IData.html">IData</a>* <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#adcfab7d3a9c1f86ee6a0226180e8462f">clone</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> _cloneTrue(); }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a93268f6c1912490793d448c58771d1c5">   74</a></span>  <a class="code hl_class" href="../../d1/d15/classArcane_1_1IData.html">IData</a>* <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a93268f6c1912490793d448c58771d1c5">cloneEmpty</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> _cloneTrueEmpty(); };</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#af00ce574ff8b0f45bbc25f370544c48f">   75</a></span>  <a class="code hl_class" href="../../de/d9f/classArccore_1_1Ref.html">Ref&lt;IData&gt;</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#af00ce574ff8b0f45bbc25f370544c48f">cloneRef</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> makeRef(<a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a75dbc68b6c9c96d2ed782c2b01da6ab3">cloneTrue</a>()); }</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a42e8f36152d441ce215308fdf16f52e6">   76</a></span>  <a class="code hl_class" href="../../de/d9f/classArccore_1_1Ref.html">Ref&lt;IData&gt;</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a42e8f36152d441ce215308fdf16f52e6">cloneEmptyRef</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> makeRef(<a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a37c3dff36e77d6a3f0c8f6163c3424ed">cloneTrueEmpty</a>()); }</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <a class="code hl_class" href="../../d2/d8e/classArcane_1_1DataStorageTypeInfo.html">DataStorageTypeInfo</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#af585331f92b39317155f6007ce34855a">storageTypeInfo</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a75dbc68b6c9c96d2ed782c2b01da6ab3">   78</a></span>  <a class="code hl_class" href="../../db/d09/classArcane_1_1IScalarDataT.html">DataInterfaceType</a>* <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a75dbc68b6c9c96d2ed782c2b01da6ab3">cloneTrue</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> _cloneTrue(); }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a37c3dff36e77d6a3f0c8f6163c3424ed">   79</a></span>  <a class="code hl_class" href="../../db/d09/classArcane_1_1IScalarDataT.html">DataInterfaceType</a>* <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a37c3dff36e77d6a3f0c8f6163c3424ed">cloneTrueEmpty</a>()<span class="keyword"> override </span>{ <span class="keywordflow">return</span> _cloneTrueEmpty(); }</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ad5258221889c225d068719bcd768d07f">   80</a></span>  <a class="code hl_class" href="../../de/d9f/classArccore_1_1Ref.html">Ref&lt;DataInterfaceType&gt;</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ad5258221889c225d068719bcd768d07f">cloneTrueRef</a>()<span class="keyword"> override </span>{ <span class="keyword">auto</span>* d = _cloneTrue(); <span class="keywordflow">return</span> makeRef(d); }</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ad88fe8fc50534ad1618c67bdb8bcaee5">   81</a></span>  <a class="code hl_class" href="../../de/d9f/classArccore_1_1Ref.html">Ref&lt;DataInterfaceType&gt;</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#ad88fe8fc50534ad1618c67bdb8bcaee5">cloneTrueEmptyRef</a>()<span class="keyword"> override </span>{ <span class="keyword">auto</span>* d = _cloneTrueEmpty(); <span class="keywordflow">return</span> makeRef(d); }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a8f76589751489ca29e842638752072d0">fillDefault</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a677670060a9747f68d834b8cf18dfaa8">setName</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d2/ddb/classArccore_1_1String.html">String</a>&amp; name) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <a class="code hl_class" href="../../de/d9f/classArccore_1_1Ref.html">Ref&lt;ISerializedData&gt;</a> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aebe226d23d28da5ba90f2fab7a50c195">createSerializedDataRef</a>(<span class="keywordtype">bool</span> use_basic_type) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#af7da5086fa875bf540fcbcd0d196601b">allocateBufferForSerializedData</a>(<a class="code hl_class" href="../../d9/d08/classArcane_1_1ISerializedData.html">ISerializedData</a>* sdata) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a100a1d4559b3840dbffba5b9e7f0dcee">assignSerializedData</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d9/d08/classArcane_1_1ISerializedData.html">ISerializedData</a>* sdata) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a46e189e9a7d25836f48afac9e7f493b3">copy</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d1/d15/classArcane_1_1IData.html">IData</a>* data) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aac0bd8a687b9a1f13a399139d6eebd7c">swapValues</a>(<a class="code hl_class" href="../../d1/d15/classArcane_1_1IData.html">IData</a>* data) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#acae4468bb7ead98d47caab3300fc5338">computeHash</a>(<a class="code hl_class" href="../../d0/d68/classArcane_1_1IHashAlgorithm.html">IHashAlgorithm</a>* algo, <a class="code hl_class" href="../../d1/dfb/classArcane_1_1Array.html">ByteArray</a>&amp; output) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#af5db6c7c094cc419684f3887f5b79555">   90</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#af5db6c7c094cc419684f3887f5b79555">visit</a>(<a class="code hl_class" href="../../db/d50/classArcane_1_1IScalarDataVisitor.html">IScalarDataVisitor</a>* visitor)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    visitor-&gt;applyVisitor(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  }</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a79e3568379a994b50af9b9ac90bb414e">   94</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a79e3568379a994b50af9b9ac90bb414e">visit</a>(<a class="code hl_class" href="../../d0/d7c/classArcane_1_1IDataVisitor.html">IDataVisitor</a>* visitor)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    visitor-&gt;applyDataVisitor(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  }</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#afb5f507db5f5593599cb64ff410e7cbb">visitScalar</a>(<a class="code hl_class" href="../../db/d50/classArcane_1_1IScalarDataVisitor.html">IScalarDataVisitor</a>* visitor) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#acb3d5687e9e61188922925b8e1511df5">visitArray</a>(<a class="code hl_class" href="../../db/d75/classArcane_1_1IArrayDataVisitor.html">IArrayDataVisitor</a>* visitor) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a8596ecb46bab3f3c433e780b8fd2e0d2">visitArray2</a>(<a class="code hl_class" href="../../da/dc0/classArcane_1_1IArray2DataVisitor.html">IArray2DataVisitor</a>* visitor) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dbb/classArcane_1_1ScalarDataT.html#a1e4b45f18367cffd99e558cfb5da4c3f">visitMultiArray2</a>(<a class="code hl_class" href="../../db/dd3/classArcane_1_1IMultiArray2DataVisitor.html">IMultiArray2DataVisitor</a>* visitor) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="keyword">static</span> <a class="code hl_class" href="../../d2/d8e/classArcane_1_1DataStorageTypeInfo.html">DataStorageTypeInfo</a> staticStorageTypeInfo();</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">  109</a></span>  DataType <a class="code hl_variable" href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">m_value</a>; </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  <a class="code hl_class" href="../../d0/df9/classArccore_1_1ITraceMng.html">ITraceMng</a>* m_trace;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <a class="code hl_class" href="../../db/d09/classArcane_1_1IScalarDataT.html">DataInterfaceType</a>* _cloneTrue()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="../../df/dbb/classArcane_1_1ScalarDataT.html">ThatClass</a>(*<span class="keyword">this</span>); }</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  DataInterfaceType* _cloneTrueEmpty()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> ThatClass(m_trace); }</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>};</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>} <span class="comment">// End namespace Arcane</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="comment">/*---------------------------------------------------------------------------*/</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#endif  </span></div>
+<div class="ttc" id="aReferenceCounterImpl_8h_html"><div class="ttname"><a href="../../dc/d3c/ReferenceCounterImpl_8h.html">ReferenceCounterImpl.h</a></div></div>
+<div class="ttc" id="aclassArcane_1_1Array_html"><div class="ttname"><a href="../../d1/dfb/classArcane_1_1Array.html">Arcane::Array</a></div><div class="ttdoc">Tableau d'items de types quelconques.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d60/AnyItemArray_8h_source.html#l00054">AnyItemArray.h:55</a></div></div>
+<div class="ttc" id="aclassArcane_1_1DataStorageBuildInfo_html"><div class="ttname"><a href="../../dd/d23/classArcane_1_1DataStorageBuildInfo.html">Arcane::DataStorageBuildInfo</a></div><div class="ttdoc">Informations pour construire une instance de 'IData'.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d81/DataStorageBuildInfo_8h_source.html#l00030">DataStorageBuildInfo.h:31</a></div></div>
+<div class="ttc" id="aclassArcane_1_1DataStorageTypeInfo_html"><div class="ttname"><a href="../../d2/d8e/classArcane_1_1DataStorageTypeInfo.html">Arcane::DataStorageTypeInfo</a></div><div class="ttdoc">Informations de type pour un conteneur de données.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/DataStorageTypeInfo_8h_source.html#l00032">DataStorageTypeInfo.h:33</a></div></div>
+<div class="ttc" id="aclassArcane_1_1DataTypeTraitsT_html"><div class="ttname"><a href="../../db/d4f/classArcane_1_1DataTypeTraitsT.html">Arcane::DataTypeTraitsT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d04/DataTypeTraits_8h_source.html#l00035">DataTypeTraits.h:35</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IArray2DataVisitor_html"><div class="ttname"><a href="../../da/dc0/classArcane_1_1IArray2DataVisitor.html">Arcane::IArray2DataVisitor</a></div><div class="ttdoc">Interface du pattern visitor pour une donnée tableau 2D.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d78/IDataVisitor_8h_source.html#l00107">IDataVisitor.h:108</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IArrayDataVisitor_html"><div class="ttname"><a href="../../db/d75/classArcane_1_1IArrayDataVisitor.html">Arcane::IArrayDataVisitor</a></div><div class="ttdoc">Interface du pattern visitor pour une donnée tableau.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d78/IDataVisitor_8h_source.html#l00082">IDataVisitor.h:83</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IDataOperation_html"><div class="ttname"><a href="../../df/d13/classArcane_1_1IDataOperation.html">Arcane::IDataOperation</a></div><div class="ttdoc">Interface d'une opération sur une donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d70/IDataOperation_8h_source.html#l00036">IDataOperation.h:37</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IDataVisitor_html"><div class="ttname"><a href="../../d0/d7c/classArcane_1_1IDataVisitor.html">Arcane::IDataVisitor</a></div><div class="ttdoc">Interface du pattern visitor pour une donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d78/IDataVisitor_8h_source.html#l00041">IDataVisitor.h:42</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IData_html"><div class="ttname"><a href="../../d1/d15/classArcane_1_1IData.html">Arcane::IData</a></div><div class="ttdoc">Interface d'une donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d38/IData_8h_source.html#l00030">IData.h:31</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IHashAlgorithm_html"><div class="ttname"><a href="../../d0/d68/classArcane_1_1IHashAlgorithm.html">Arcane::IHashAlgorithm</a></div><div class="ttdoc">Interface d'un algorithme de hashage.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dde/IHashAlgorithm_8h_source.html#l00031">IHashAlgorithm.h:32</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IMultiArray2DataVisitor_html"><div class="ttname"><a href="../../db/dd3/classArcane_1_1IMultiArray2DataVisitor.html">Arcane::IMultiArray2DataVisitor</a></div><div class="ttdoc">Interface du pattern visitor pour une donnée tableau 2D à taille variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d78/IDataVisitor_8h_source.html#l00131">IDataVisitor.h:132</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IScalarDataT_html"><div class="ttname"><a href="../../db/d09/classArcane_1_1IScalarDataT.html">Arcane::IScalarDataT</a></div><div class="ttdoc">Interface d'une donnée scalaire d'un type T.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d38/IData_8h_source.html#l00207">IData.h:209</a></div></div>
+<div class="ttc" id="aclassArcane_1_1IScalarDataVisitor_html"><div class="ttname"><a href="../../db/d50/classArcane_1_1IScalarDataVisitor.html">Arcane::IScalarDataVisitor</a></div><div class="ttdoc">Interface du pattern visitor pour une donnée scalaire.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d78/IDataVisitor_8h_source.html#l00060">IDataVisitor.h:61</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ISerializedData_html"><div class="ttname"><a href="../../d9/d08/classArcane_1_1ISerializedData.html">Arcane::ISerializedData</a></div><div class="ttdoc">Interface d'une donnée sérialisée.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d65/ISerializedData_8h_source.html#l00061">ISerializedData.h:62</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html">Arcane::ScalarDataT</a></div><div class="ttdoc">Donnée scalaire d'un type T.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00040">ScalarData.h:43</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a0bea316198d7ed48b37d6e2b7459a092"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a0bea316198d7ed48b37d6e2b7459a092">Arcane::ScalarDataT::value</a></div><div class="ttdeci">DataType &amp; value() override</div><div class="ttdoc">Valeur de la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00070">ScalarData.h:70</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a100a1d4559b3840dbffba5b9e7f0dcee"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a100a1d4559b3840dbffba5b9e7f0dcee">Arcane::ScalarDataT::assignSerializedData</a></div><div class="ttdeci">void assignSerializedData(const ISerializedData *sdata) override</div><div class="ttdoc">Assigne à la donnée les valeurs sérialisées sdata.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00128">ScalarData.cc:129</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a1e4b45f18367cffd99e558cfb5da4c3f"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a1e4b45f18367cffd99e558cfb5da4c3f">Arcane::ScalarDataT::visitMultiArray2</a></div><div class="ttdeci">void visitMultiArray2(IMultiArray2DataVisitor *visitor) override</div><div class="ttdoc">Applique le visiteur à la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00259">ScalarData.cc:260</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a37c3dff36e77d6a3f0c8f6163c3424ed"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a37c3dff36e77d6a3f0c8f6163c3424ed">Arcane::ScalarDataT::cloneTrueEmpty</a></div><div class="ttdeci">DataInterfaceType * cloneTrueEmpty() override</div><div class="ttdoc">Clone la donnée mais sans éléments.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00079">ScalarData.h:79</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a42e8f36152d441ce215308fdf16f52e6"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a42e8f36152d441ce215308fdf16f52e6">Arcane::ScalarDataT::cloneEmptyRef</a></div><div class="ttdeci">Ref&lt; IData &gt; cloneEmptyRef() override</div><div class="ttdoc">Clone la donnée mais sans éléments.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00076">ScalarData.h:76</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a46e189e9a7d25836f48afac9e7f493b3"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a46e189e9a7d25836f48afac9e7f493b3">Arcane::ScalarDataT::copy</a></div><div class="ttdeci">void copy(const IData *data) override</div><div class="ttdoc">Copie la donnée data dans l'instance courante.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00203">ScalarData.cc:204</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a505f7d460dd0c04de96e740d307c6374"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a505f7d460dd0c04de96e740d307c6374">Arcane::ScalarDataT::resize</a></div><div class="ttdeci">void resize(Integer) override</div><div class="ttdoc">Redimensionne la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00072">ScalarData.h:72</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a677670060a9747f68d834b8cf18dfaa8"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a677670060a9747f68d834b8cf18dfaa8">Arcane::ScalarDataT::setName</a></div><div class="ttdeci">void setName(const String &amp;name) override</div><div class="ttdoc">Positionne le nom de la donnée (interne)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00181">ScalarData.cc:182</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a75dbc68b6c9c96d2ed782c2b01da6ab3"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a75dbc68b6c9c96d2ed782c2b01da6ab3">Arcane::ScalarDataT::cloneTrue</a></div><div class="ttdeci">DataInterfaceType * cloneTrue() override</div><div class="ttdoc">Clone la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00078">ScalarData.h:78</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a79e3568379a994b50af9b9ac90bb414e"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a79e3568379a994b50af9b9ac90bb414e">Arcane::ScalarDataT::visit</a></div><div class="ttdeci">void visit(IDataVisitor *visitor) override</div><div class="ttdoc">Applique le visiteur à la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00094">ScalarData.h:94</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a8596ecb46bab3f3c433e780b8fd2e0d2"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a8596ecb46bab3f3c433e780b8fd2e0d2">Arcane::ScalarDataT::visitArray2</a></div><div class="ttdeci">void visitArray2(IArray2DataVisitor *visitor) override</div><div class="ttdoc">Applique le visiteur à la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00249">ScalarData.cc:250</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a8f76589751489ca29e842638752072d0"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a8f76589751489ca29e842638752072d0">Arcane::ScalarDataT::fillDefault</a></div><div class="ttdeci">void fillDefault() override</div><div class="ttdoc">Remplit la donnée avec sa valeur par défaut.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00171">ScalarData.cc:172</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a93268f6c1912490793d448c58771d1c5"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a93268f6c1912490793d448c58771d1c5">Arcane::ScalarDataT::cloneEmpty</a></div><div class="ttdeci">IData * cloneEmpty() override</div><div class="ttdoc">Clone la donnée mais sans éléments. L'instance créée doit être détruite par l'opérateur 'delete'.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00074">ScalarData.h:74</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a9a043d0b6bf3eba413e2a42ee170ab50"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a9a043d0b6bf3eba413e2a42ee170ab50">Arcane::ScalarDataT::value</a></div><div class="ttdeci">const DataType &amp; value() const override</div><div class="ttdoc">Valeur de la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00071">ScalarData.h:71</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_a9f5efa6fd546548917b5b267de8a9263"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#a9f5efa6fd546548917b5b267de8a9263">Arcane::ScalarDataT::multiTag</a></div><div class="ttdeci">Integer multiTag() const override</div><div class="ttdoc">Tag multiple. 0 si non multiple, 1 si multiple, 2 si multiple obsolete.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00066">ScalarData.h:66</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_aa9b0f130feac4b68bda3d2a631a3bd66"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#aa9b0f130feac4b68bda3d2a631a3bd66">Arcane::ScalarDataT::m_value</a></div><div class="ttdeci">DataType m_value</div><div class="ttdoc">Donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00109">ScalarData.h:109</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_aac0bd8a687b9a1f13a399139d6eebd7c"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#aac0bd8a687b9a1f13a399139d6eebd7c">Arcane::ScalarDataT::swapValues</a></div><div class="ttdeci">void swapValues(IData *data) override</div><div class="ttdoc">Échange les valeurs de data avec celles de l'instance.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00216">ScalarData.cc:217</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_ab071779146e5c796eba0be3fc5712fc0"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#ab071779146e5c796eba0be3fc5712fc0">Arcane::ScalarDataT::dimension</a></div><div class="ttdeci">Integer dimension() const override</div><div class="ttdoc">Dimension. 0 pour un scalaire, 1 pour un tableau mono-dim, 2 pour un tableau bi-dim.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00065">ScalarData.h:65</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_ac4e5936bdb781402e75cea07bfe45975"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#ac4e5936bdb781402e75cea07bfe45975">Arcane::ScalarDataT::serialize</a></div><div class="ttdeci">void serialize(ISerializer *sbuf, IDataOperation *operation) override</div><div class="ttdoc">Serialise la donnée en appliquant l'opération operation.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00138">ScalarData.cc:139</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_acae4468bb7ead98d47caab3300fc5338"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#acae4468bb7ead98d47caab3300fc5338">Arcane::ScalarDataT::computeHash</a></div><div class="ttdeci">void computeHash(IHashAlgorithm *algo, ByteArray &amp;output) const override</div><div class="ttdoc">Calcul une clé de hashage sur cette donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00190">ScalarData.cc:191</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_acb3d5687e9e61188922925b8e1511df5"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#acb3d5687e9e61188922925b8e1511df5">Arcane::ScalarDataT::visitArray</a></div><div class="ttdeci">void visitArray(IArrayDataVisitor *visitor) override</div><div class="ttdoc">Applique le visiteur à la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00239">ScalarData.cc:240</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_ad5258221889c225d068719bcd768d07f"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#ad5258221889c225d068719bcd768d07f">Arcane::ScalarDataT::cloneTrueRef</a></div><div class="ttdeci">Ref&lt; DataInterfaceType &gt; cloneTrueRef() override</div><div class="ttdoc">Clone la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00080">ScalarData.h:80</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_ad88fe8fc50534ad1618c67bdb8bcaee5"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#ad88fe8fc50534ad1618c67bdb8bcaee5">Arcane::ScalarDataT::cloneTrueEmptyRef</a></div><div class="ttdeci">Ref&lt; DataInterfaceType &gt; cloneTrueEmptyRef() override</div><div class="ttdoc">Clone la donnée mais sans éléments.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00081">ScalarData.h:81</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_adcfab7d3a9c1f86ee6a0226180e8462f"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#adcfab7d3a9c1f86ee6a0226180e8462f">Arcane::ScalarDataT::clone</a></div><div class="ttdeci">IData * clone() override</div><div class="ttdoc">Clone la donnée. L'instance créée doit être détruite par l'opérateur 'delete'.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00073">ScalarData.h:73</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_aebe226d23d28da5ba90f2fab7a50c195"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#aebe226d23d28da5ba90f2fab7a50c195">Arcane::ScalarDataT::createSerializedDataRef</a></div><div class="ttdeci">Ref&lt; ISerializedData &gt; createSerializedDataRef(bool use_basic_type) const override</div><div class="ttdoc">Sérialise la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00078">ScalarData.cc:79</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_aef8647a3ff9428a277a0623c6175b5fe"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#aef8647a3ff9428a277a0623c6175b5fe">Arcane::ScalarDataT::dataType</a></div><div class="ttdeci">eDataType dataType() const override</div><div class="ttdoc">Type de la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00067">ScalarData.h:67</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_af00ce574ff8b0f45bbc25f370544c48f"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#af00ce574ff8b0f45bbc25f370544c48f">Arcane::ScalarDataT::cloneRef</a></div><div class="ttdeci">Ref&lt; IData &gt; cloneRef() override</div><div class="ttdoc">Clone la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00075">ScalarData.h:75</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_af585331f92b39317155f6007ce34855a"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#af585331f92b39317155f6007ce34855a">Arcane::ScalarDataT::storageTypeInfo</a></div><div class="ttdeci">DataStorageTypeInfo storageTypeInfo() const override</div><div class="ttdoc">Informations sur le type de conteneur de la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00068">ScalarData.cc:69</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_af5db6c7c094cc419684f3887f5b79555"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#af5db6c7c094cc419684f3887f5b79555">Arcane::ScalarDataT::visit</a></div><div class="ttdeci">void visit(IScalarDataVisitor *visitor) override</div><div class="ttdoc">Applique le visiteur à la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/ScalarData_8h_source.html#l00090">ScalarData.h:90</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_af7da5086fa875bf540fcbcd0d196601b"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#af7da5086fa875bf540fcbcd0d196601b">Arcane::ScalarDataT::allocateBufferForSerializedData</a></div><div class="ttdeci">void allocateBufferForSerializedData(ISerializedData *sdata) override</div><div class="ttdoc">Alloue la mémoire pour lire les valeurs sérialisées sdata.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00109">ScalarData.cc:110</a></div></div>
+<div class="ttc" id="aclassArcane_1_1ScalarDataT_html_afb5f507db5f5593599cb64ff410e7cbb"><div class="ttname"><a href="../../df/dbb/classArcane_1_1ScalarDataT.html#afb5f507db5f5593599cb64ff410e7cbb">Arcane::ScalarDataT::visitScalar</a></div><div class="ttdeci">void visitScalar(IScalarDataVisitor *visitor) override</div><div class="ttdoc">Applique le visiteur à la donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/ScalarData_8cc_source.html#l00229">ScalarData.cc:230</a></div></div>
+<div class="ttc" id="aclassArccore_1_1ConstArrayView_html"><div class="ttname"><a href="../../db/d8c/classArccore_1_1ConstArrayView.html">Arccore::ConstArrayView</a></div><div class="ttdoc">Vue constante d'un tableau de type T.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/arccore_2src_2base_2arccore_2base_2ArrayView_8h_source.html#l00499">arccore/src/base/arccore/base/ArrayView.h:500</a></div></div>
+<div class="ttc" id="aclassArccore_1_1ISerializer_html"><div class="ttname"><a href="../../dd/dcd/classArccore_1_1ISerializer.html">Arccore::ISerializer</a></div><div class="ttdoc">Interface d'un sérialiseur.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dea/arccore_2src_2serialize_2arccore_2serialize_2ISerializer_8h_source.html#l00052">arccore/src/serialize/arccore/serialize/ISerializer.h:53</a></div></div>
+<div class="ttc" id="aclassArccore_1_1ITraceMng_html"><div class="ttname"><a href="../../d0/df9/classArccore_1_1ITraceMng.html">Arccore::ITraceMng</a></div><div class="ttdoc">Interface du gestionnaire de traces.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d19/arccore_2src_2trace_2arccore_2trace_2ITraceMng_8h_source.html#l00155">arccore/src/trace/arccore/trace/ITraceMng.h:156</a></div></div>
+<div class="ttc" id="aclassArccore_1_1Ref_html"><div class="ttname"><a href="../../de/d9f/classArccore_1_1Ref.html">Arccore::Ref</a></div><div class="ttdoc">Référence à une instance.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d92/arccore_2src_2base_2arccore_2base_2Ref_8h_source.html#l00127">arccore/src/base/arccore/base/Ref.h:129</a></div></div>
+<div class="ttc" id="aclassArccore_1_1ReferenceCounterImpl_html"><div class="ttname"><a href="../../db/d48/classArccore_1_1ReferenceCounterImpl.html">Arccore::ReferenceCounterImpl</a></div><div class="ttdoc">Implémentation thread-safe d'un compteur de référence.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/ReferenceCounterImpl_8h_source.html#l00067">ReferenceCounterImpl.h:68</a></div></div>
+<div class="ttc" id="aclassArccore_1_1String_html"><div class="ttname"><a href="../../d2/ddb/classArccore_1_1String.html">Arccore::String</a></div><div class="ttdoc">Chaîne de caractères unicode.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddc/arccore_2src_2base_2arccore_2base_2String_8h_source.html#l00069">arccore/src/base/arccore/base/String.h:70</a></div></div>
+<div class="ttc" id="anamespaceArcane_html"><div class="ttname"><a href="../../d0/d32/namespaceArcane.html">Arcane</a></div><div class="ttdoc">-*- tab-width: 2; indent-tabs-mode: nil; coding: utf-8-with-signature -*-</div><div class="ttdef"><b>Definition:</b> <a href="../../de/df4/AbstractCaseDocumentVisitor_8cc_source.html#l00020">AbstractCaseDocumentVisitor.cc:20</a></div></div>
+<div class="ttc" id="anamespaceArcane_html_a05c27a651d3da9ae112c75113fcf7426"><div class="ttname"><a href="../../d0/d32/namespaceArcane.html#a05c27a651d3da9ae112c75113fcf7426">Arcane::eDataType</a></div><div class="ttdeci">eDataType</div><div class="ttdoc">Type d'une donnée.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/DataTypes_8h_source.html#l00034">DataTypes.h:35</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_cd48e9603a047c3a36ad2b31e177f8e3.html">arcane</a></li><li class="navelem"><a class="el" href="../../dir_ec03dd46f3a35f00f5eb9d8763bb81e2.html">impl</a></li><li class="navelem"><b>ScalarData.h</b></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:35:53 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

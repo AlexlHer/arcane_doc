@@ -1,0 +1,11 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="41,5,195,31"/>
+<area shape="rect" id="node2" href="$d8/dd7/classArcane_1_1ParallelMngDispatcher.html" title=" " alt="" coords="291,12,513,37"/>
+<area shape="rect" id="node3" href="$dd/dbb/classArcane_1_1IParallelMngContainer.html" title=" " alt="" coords="9,55,227,80"/>
+<area shape="rect" id="node4" href="$d7/d5d/classArcane_1_1ParallelMngContainerBase.html" title=" " alt="" coords="279,68,525,93"/>
+<area shape="rect" id="node5" href="$d9/d08/classArcane_1_1ISerializedData.html" title=" " alt="" coords="31,153,205,179"/>
+<area shape="rect" id="node6" href="$dc/de4/classArcane_1_1SerializedData.html" title=" " alt="" coords="317,129,487,155"/>
+<area shape="rect" id="node7" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="45,203,191,228"/>
+<area shape="rect" id="node8" href="$dd/db8/classArccore_1_1TraceMng.html" title=" " alt="" coords="331,191,473,216"/>
+<area shape="rect" id="node9" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,104,231,129"/>
+</map>

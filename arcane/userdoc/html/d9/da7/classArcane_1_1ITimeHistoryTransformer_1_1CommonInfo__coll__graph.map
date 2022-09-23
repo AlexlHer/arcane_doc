@@ -1,0 +1,11 @@
+<map id="Arcane::ITimeHistoryTransformer::CommonInfo" name="Arcane::ITimeHistoryTransformer::CommonInfo">
+<area shape="rect" id="node1" title="Infos communes à chaque courbe." alt="" coords="177,2004,423,2059"/>
+<area shape="rect" id="node2" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="5,1579,184,1941"/>
+<area shape="rect" id="node3" href="$d4/dee/classArccore_1_1SharedArray.html" title=" " alt="" coords="209,1593,391,1927"/>
+<area shape="rect" id="node4" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="200,1240,400,1529"/>
+<area shape="rect" id="node5" href="$db/d34/classArccore_1_1AbstractArray.html" title="Classe abstraite de base d&#39;un vecteur." alt="" coords="193,725,407,1191"/>
+<area shape="rect" id="node6" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="196,533,404,676"/>
+<area shape="rect" id="node7" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title=" " alt="" coords="205,211,395,456"/>
+<area shape="rect" id="node8" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="199,5,401,148"/>
+<area shape="rect" id="node9" title=" " alt="" coords="415,1740,491,1780"/>
+</map>

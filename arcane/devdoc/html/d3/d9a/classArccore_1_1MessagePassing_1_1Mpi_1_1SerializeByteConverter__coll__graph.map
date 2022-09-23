@@ -1,0 +1,5 @@
+<map id="Arccore::MessagePassing::Mpi::SerializeByteConverter&lt; SpanType &gt;" name="Arccore::MessagePassing::Mpi::SerializeByteConverter&lt; SpanType &gt;">
+<area shape="rect" id="node1" title="Wrappeur pour envoyer un tableau d&#39;octets d&#39;un sérialiseur." alt="" coords="5,667,217,853"/>
+<area shape="rect" id="node2" href="$dd/d9f/classArccore_1_1Span.html" title=" " alt="" coords="6,373,217,604"/>
+<area shape="rect" id="node3" href="$d6/d42/classArccore_1_1SpanImpl.html" title="Vue d&#39;un tableau d&#39;éléments de type T." alt="" coords="32,5,191,324"/>
+</map>

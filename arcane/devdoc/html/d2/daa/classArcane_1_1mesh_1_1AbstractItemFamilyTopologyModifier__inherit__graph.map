@@ -1,0 +1,7 @@
+<map id="Arcane::mesh::AbstractItemFamilyTopologyModifier" name="Arcane::mesh::AbstractItemFamilyTopologyModifier">
+<area shape="rect" id="node1" title="Modification de la topologie des entités d&#39;une famille." alt="" coords="110,313,343,647"/>
+<area shape="rect" id="node4" href="$dc/d3d/classArcane_1_1mesh_1_1FaceFamily_1_1TopologyModifier.html" title=" " alt="" coords="15,695,214,837"/>
+<area shape="rect" id="node5" href="$dc/d18/classArcane_1_1mesh_1_1NodeFamily_1_1TopologyModifier.html" title=" " alt="" coords="238,702,442,830"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,5,200,265"/>
+<area shape="rect" id="node3" href="$d6/df1/classArcane_1_1IItemFamilyTopologyModifier.html" title="Interface de modification de la topologie des entités d&#39;une famille." alt="" coords="225,20,479,251"/>
+</map>

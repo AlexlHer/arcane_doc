@@ -1,0 +1,11 @@
+<map id="Arcane::IFamilyObserver" name="Arcane::IFamilyObserver">
+<area shape="rect" id="node1" title="Interface d&#39;observeurs de famille AnyItem." alt="" coords="461,5,664,89"/>
+<area shape="rect" id="node2" href="$d0/deb/classArcane_1_1LinkFamily.html" title="Famille de liens AnyItem (pattern flyweight)" alt="" coords="5,262,208,537"/>
+<area shape="rect" id="node3" href="$d5/d31/classArcane_1_1LinkFamilyInternal.html" title="Famille de liens AnyItem partie interne les données stockées sont les localid des items et l&#39;offset d..." alt="" coords="233,247,437,551"/>
+<area shape="rect" id="node4" href="$d2/d26/classArcane_1_1UserGroup.html" title="Groupe utilisateur pour spécifier des groupes (Arcane) sur lesquels on souhaite itérer ces groupes do..." alt="" coords="461,321,664,478"/>
+<area shape="rect" id="node5" href="$d6/df5/classArcane_1_1Variable.html" title="Variable aggrégée de types quelconques (pas de variables tableaux)" alt="" coords="688,137,915,661"/>
+<area shape="rect" id="node9" href="$da/d21/classArcane_1_1VariableArray.html" title="Variable tableau aggrégée de types quelconques (pas de variables tableaux) ATTENTION Les variables ar..." alt="" coords="939,218,1141,581"/>
+<area shape="rect" id="node6" href="$d8/d38/classArcane_1_1Array2VariableT.html" title="Variable sur un tableau 2D." alt="" coords="441,731,666,1021"/>
+<area shape="rect" id="node7" href="$d9/d83/classArcane_1_1VariableArrayT.html" title="Implémentation d&#39;une variable sur un tableau 1D." alt="" coords="691,731,912,1021"/>
+<area shape="rect" id="node8" href="$da/dbf/classArcane_1_1VariableScalarT.html" title="Variable scalaire." alt="" coords="937,709,1159,1043"/>
+</map>

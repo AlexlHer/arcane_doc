@@ -1,0 +1,52 @@
+<map id="Arcane::CaseOptionsArcaneCaseMeshService" name="Arcane::CaseOptionsArcaneCaseMeshService">
+<area shape="rect" id="node1" title="Options." alt="" coords="2083,3393,2321,3727"/>
+<area shape="rect" id="node2" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="1457,3144,1661,3331"/>
+<area shape="rect" id="node3" href="$d0/dac/classArccore_1_1CheckedPointer.html" title="Encapsulation d&#39;un pointeur." alt="" coords="1429,2821,1655,3052"/>
+<area shape="rect" id="node4" href="$d4/d3d/classArcane_1_1CaseOptionSimpleT.html" title=" " alt="" coords="1680,2799,1900,3074"/>
+<area shape="rect" id="node5" href="$d7/dd0/classArcane_1_1CaseOptionSimple.html" title="Classe de base des options simples (uniquement une valeur)." alt="" coords="1653,2323,1901,2729"/>
+<area shape="rect" id="node21" href="$d4/d3d/classArcane_1_1CaseOptionSimpleT.html" title=" " alt="" coords="1949,2799,2169,3074"/>
+<area shape="rect" id="node6" href="$df/d69/classArcane_1_1CaseOptionBase.html" title="Classe de base d&#39;une option du jeu de donnée." alt="" coords="1109,1883,1319,2260"/>
+<area shape="rect" id="node7" href="$df/d4f/classArcane_1_1CaseOptionBasePrivate.html" title="Implémentation de la classe de base d&#39;une option du jeu de données." alt="" coords="861,1641,1097,1725"/>
+<area shape="rect" id="node8" href="$d3/dcf/classArcane_1_1ICaseMng.html" title="Interface du gestionnaire de cas." alt="" coords="1343,1098,1517,1299"/>
+<area shape="rect" id="node42" href="$da/d9c/classArcane_1_1CaseOptionsPrivate.html" title=" " alt="" coords="1472,1611,1687,1754"/>
+<area shape="rect" id="node9" href="$de/d86/classArcane_1_1ICaseOptionList.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="1096,1091,1319,1307"/>
+<area shape="rect" id="node10" href="$d9/dcc/classArcane_1_1XmlNode.html" title="Noeud d&#39;un arbre DOM." alt="" coords="360,1054,527,1343"/>
+<area shape="rect" id="node11" href="$d4/d81/classArcane_1_1IRessourceMng.html" title="Interface d&#39;un gestionnaire de ressource." alt="" coords="352,570,535,654"/>
+<area shape="rect" id="node12" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="5,929,228,1468"/>
+<area shape="rect" id="node13" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="39,387,194,837"/>
+<area shape="rect" id="node14" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="13,5,221,324"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1167,592,1243,632"/>
+<area shape="rect" id="node45" href="$de/df8/classArcane_1_1IServiceInfo.html" title="Interface des informations d&#39;un service ou d&#39;un module." alt="" coords="1794,1069,2010,1329"/>
+<area shape="rect" id="node16" href="$dd/d06/classArcane_1_1StringDictionary.html" title="Dictionnaire de chaînes unicode." alt="" coords="629,1127,817,1270"/>
+<area shape="rect" id="node17" href="$d6/dec/classArcane_1_1ICaseFunction.html" title="Interface d&#39;une fonction du jeu de données." alt="" coords="1541,951,1769,1446"/>
+<area shape="rect" id="node18" href="$db/d86/classArcane_1_1IStandardFunction.html" title="Interface gérant une fonction standard." alt="" coords="1660,2015,1893,2128"/>
+<area shape="rect" id="node19" href="$d6/d70/classArcane_1_1IPhysicalUnitConverter.html" title="Interface d&#39;un convertisseur d&#39;unité." alt="" coords="1918,2015,2150,2128"/>
+<area shape="rect" id="node20" href="$d8/d2c/classArcane_1_1CaseOptionTraitsT.html" title=" " alt="" coords="1435,2499,1628,2553"/>
+<area shape="rect" id="node22" href="$d8/d2c/classArcane_1_1CaseOptionTraitsT.html" title=" " alt="" coords="1963,2499,2156,2553"/>
+<area shape="rect" id="node23" href="$d4/dbd/classArcane_1_1CaseOptionServiceT.html" title=" " alt="" coords="3037,3159,3244,3316"/>
+<area shape="rect" id="node24" href="$dd/ddd/classArcane_1_1CaseOptionService.html" title="Classe de base des options utilisant des services." alt="" coords="3292,2792,3533,3081"/>
+<area shape="rect" id="node33" href="$d4/dbd/classArcane_1_1CaseOptionServiceT.html" title=" " alt="" coords="3297,3159,3528,3316"/>
+<area shape="rect" id="node25" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="3284,2433,3541,2619"/>
+<area shape="rect" id="node26" href="$d0/dac/classArccore_1_1CheckedPointer.html" title="Encapsulation d&#39;un pointeur." alt="" coords="3299,1956,3526,2187"/>
+<area shape="rect" id="node27" href="$dc/d2c/classArcane_1_1CaseOptionServiceContainer.html" title=" " alt="" coords="3014,2843,3267,3030"/>
+<area shape="rect" id="node28" href="$d1/d51/classArcane_1_1ICaseOptionServiceContainer.html" title="Interface d&#39;un conteneur d&#39;instances de service." alt="" coords="3566,2462,3822,2590"/>
+<area shape="rect" id="node34" href="$dc/d2c/classArcane_1_1CaseOptionServiceContainer.html" title=" " alt="" coords="3614,2843,3899,3030"/>
+<area shape="rect" id="node29" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3059,2418,3260,2634"/>
+<area shape="rect" id="node30" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3073,1905,3273,2238"/>
+<area shape="rect" id="node31" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2858,2411,3034,2641"/>
+<area shape="rect" id="node32" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="2849,1905,3049,2238"/>
+<area shape="rect" id="node35" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="3847,2418,4080,2634"/>
+<area shape="rect" id="node36" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="3863,1905,4063,2238"/>
+<area shape="rect" id="node37" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4104,2411,4281,2641"/>
+<area shape="rect" id="node38" href="$d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="4093,1905,4293,2238"/>
+<area shape="rect" id="node39" href="$d2/d4e/classArcane_1_1CaseOptionsArcaneCaseMeshService_1_1CaseOptionInit.html" title=" " alt="" coords="2349,3181,2591,3294"/>
+<area shape="rect" id="node40" href="$dd/d1c/classArcane_1_1CaseOptions.html" title="Classe de base d&#39;une liste d&#39;options du jeu de données." alt="" coords="2644,1934,2824,2209"/>
+<area shape="rect" id="node47" href="$d6/da9/classArcane_1_1CaseOptionsMulti.html" title="Classe de base d&#39;un tableau d&#39;options complexes du jeu de données." alt="" coords="2411,2455,2609,2597"/>
+<area shape="rect" id="node41" href="$dd/d74/classArcane_1_1ICaseOptions.html" title="Interface d&#39;une liste d&#39;options du jeu de données." alt="" coords="2648,1575,2820,1791"/>
+<area shape="rect" id="node43" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="2035,1105,2241,1292"/>
+<area shape="rect" id="node44" href="$d2/da2/classArcane_1_1IModule.html" title="Interface d&#39;un module." alt="" coords="2265,1069,2440,1329"/>
+<area shape="rect" id="node46" href="$d1/d7f/classArcane_1_1CaseOptionsArcaneCaseMeshService_1_1CaseOptionInitVariable.html" title=" " alt="" coords="2349,2843,2591,3030"/>
+<area shape="rect" id="node48" href="$da/d3e/classArcane_1_1ICaseOptionsMulti.html" title="Interface d&#39;une liste d&#39;options présente plusieurs fois." alt="" coords="2174,2007,2377,2135"/>
+<area shape="rect" id="node49" href="$da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="2401,1963,2619,2179"/>
+<area shape="rect" id="node50" href="$d7/d02/classArccore_1_1ArrayView.html" title="Vue modifiable d&#39;un tableau d&#39;un type T." alt="" coords="2194,2359,2386,2693"/>
+</map>

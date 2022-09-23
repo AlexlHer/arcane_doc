@@ -1,0 +1,7 @@
+<map id="Arcane::BasicReader" name="Arcane::BasicReader">
+<area shape="rect" id="node1" title="Lecteur simple." alt="" coords="236,533,464,984"/>
+<area shape="rect" id="node2" href="$d0/d01/classArcane_1_1BasicReaderWriterCommon.html" title=" " alt="" coords="5,313,244,485"/>
+<area shape="rect" id="node3" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="27,5,222,265"/>
+<area shape="rect" id="node4" href="$d1/d46/classArcane_1_1IDataReader.html" title="Interface de lecture des données d&#39;une variable." alt="" coords="268,343,432,456"/>
+<area shape="rect" id="node5" href="$dd/d02/classArcane_1_1IDataReader2.html" title="Interface de lecture des données d&#39;une variable (Version 2)" alt="" coords="456,343,628,456"/>
+</map>

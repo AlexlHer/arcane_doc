@@ -1,0 +1,10 @@
+<map id="Arcane::ItemGroup" name="Arcane::ItemGroup">
+<area shape="rect" id="node1" title="Groupe d&#39;entités de maillage." alt="" coords="620,5,772,236"/>
+<area shape="rect" id="node2" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="5,284,165,471"/>
+<area shape="rect" id="node3" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="189,284,349,471"/>
+<area shape="rect" id="node4" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="373,291,573,463"/>
+<area shape="rect" id="node5" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="597,291,795,463"/>
+<area shape="rect" id="node6" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="819,284,979,471"/>
+<area shape="rect" id="node7" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title=" " alt="" coords="1003,284,1163,471"/>
+<area shape="rect" id="node8" href="$d8/d8e/classArcane_1_1ItemGroupT.html" title="Référence à un groupe d&#39;un genre donné." alt="" coords="1187,291,1386,463"/>
+</map>

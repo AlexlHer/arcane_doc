@@ -1,0 +1,52 @@
+<map id="RefDeclarations.h" name="RefDeclarations.h">
+<area shape="rect" id="node1" title=" " alt="" coords="1609,5,1748,31"/>
+<area shape="rect" id="node2" href="$d1/d04/BasicSerializeMessage_8h_source.html" title=" " alt="" coords="787,152,970,177"/>
+<area shape="rect" id="node10" href="$d1/db9/ConcurrencyGlobal_8h_source.html" title=" " alt="" coords="3105,79,3263,104"/>
+<area shape="rect" id="node17" href="$d4/da8/UtilsTypes_8h.html" title="Déclarations des types utilisés dans Arcane." alt="" coords="2063,152,2164,177"/>
+<area shape="rect" id="node22" href="$d0/d52/ISerializeDispatcher_8h_source.html" title=" " alt="" coords="1517,79,1680,104"/>
+<area shape="rect" id="node28" href="$dc/d29/arccore_2src_2message__passing_2arccore_2message__passing_2ISerializeMessageList_8h_source.html" title=" " alt="" coords="1318,79,1493,104"/>
+<area shape="rect" id="node32" href="$db/d19/arccore_2src_2trace_2arccore_2trace_2ITraceMng_8h_source.html" title=" " alt="" coords="2327,152,2427,177"/>
+<area shape="rect" id="node38" href="$d1/dd0/Messages_8h.html" title="Liste des fonctions d&#39;échange de message." alt="" coords="323,152,421,177"/>
+<area shape="rect" id="node40" href="$db/d8b/Parallel_8h.html" title="Fichier contenant les déclarations concernant le modèle de programmation par échange de message." alt="" coords="3981,152,4064,177"/>
+<area shape="rect" id="node47" href="$d3/d03/PointToPointSerializerMng_8h_source.html" title=" " alt="" coords="715,79,917,104"/>
+<area shape="rect" id="node48" href="$de/d92/arccore_2src_2base_2arccore_2base_2Ref_8h.html" title="Gestion des références à une classe C++." alt="" coords="1134,79,1189,104"/>
+<area shape="rect" id="node49" href="$db/d1e/ReferenceCounter_8h_source.html" title=" " alt="" coords="2759,152,2910,177"/>
+<area shape="rect" id="node50" href="$dd/d4e/TraceGlobal_8h_source.html" title=" " alt="" coords="1705,79,1815,104"/>
+<area shape="rect" id="node3" href="$d3/dcb/BasicSerializeMessage_8cc_source.html" title=" " alt="" coords="945,233,1135,258"/>
+<area shape="rect" id="node4" href="$d3/d38/MpiSerializeMessageList_8cc_source.html" title=" " alt="" coords="1493,233,1694,258"/>
+<area shape="rect" id="node5" href="$de/d85/PointToPointSerializerMng_8cc_source.html" title=" " alt="" coords="338,233,547,258"/>
+<area shape="rect" id="node6" href="$de/da5/SerializeMessage_8h_source.html" title=" " alt="" coords="773,233,921,258"/>
+<area shape="rect" id="node9" href="$db/ddc/SerializeMessageList_8cc_source.html" title=" " alt="" coords="571,233,749,258"/>
+<area shape="rect" id="node7" href="$df/d70/HybridParallelMng_8cc_source.html" title=" " alt="" coords="1954,313,2113,339"/>
+<area shape="rect" id="node8" href="$dc/dfb/MpiParallelMng_8cc_source.html" title=" " alt="" coords="1150,313,1290,339"/>
+<area shape="rect" id="node11" href="$d2/d6a/ConcurrencyGlobal_8cc_source.html" title=" " alt="" coords="3088,233,3251,258"/>
+<area shape="rect" id="node12" href="$d8/d80/GlibAdapter_8h_source.html" title=" " alt="" coords="2986,152,3097,177"/>
+<area shape="rect" id="node13" href="$dd/dcc/arccore_2src_2concurrency_2arccore_2concurrency_2IThreadBarrier_8h_source.html" title=" " alt="" coords="3121,152,3247,177"/>
+<area shape="rect" id="node14" href="$d6/d08/arccore_2src_2concurrency_2arccore_2concurrency_2IThreadImplementation_8h_source.html" title=" " alt="" coords="3323,152,3509,177"/>
+<area shape="rect" id="node15" href="$df/d14/arccore_2src_2concurrency_2arccore_2concurrency_2Mutex_8h_source.html" title=" " alt="" coords="3509,233,3584,258"/>
+<area shape="rect" id="node16" href="$d6/de2/arccore_2src_2trace_2arccore_2trace_2TraceMng_8cc_source.html" title=" " alt="" coords="3421,313,3523,339"/>
+<area shape="rect" id="node18" href="$d2/dcc/arcane_2src_2arcane_2utils_2ITraceMng_8h_source.html" title=" " alt="" coords="1983,233,2083,258"/>
+<area shape="rect" id="node19" href="$d6/d5f/ArcaneSimpleExecutor_8cc_source.html" title=" " alt="" coords="3738,313,3923,339"/>
+<area shape="rect" id="node20" href="$da/d92/MpiParallelDispatch_8cc_source.html" title=" " alt="" coords="34,313,203,339"/>
+<area shape="rect" id="node21" href="$d2/d8d/ParallelMngDispatcher_8cc_source.html" title=" " alt="" coords="1362,313,1547,339"/>
+<area shape="rect" id="node23" href="$dd/d54/MessagePassingGlobal_8cc_source.html" title=" " alt="" coords="1321,152,1511,177"/>
+<area shape="rect" id="node24" href="$da/d51/Messages_8cc_source.html" title=" " alt="" coords="1210,233,1315,258"/>
+<area shape="rect" id="node25" href="$d4/d41/MpiSerializeDispatcher_8h_source.html" title=" " alt="" coords="1855,152,2038,177"/>
+<area shape="rect" id="node26" href="$d0/d4c/MpiSerializeDispatcher_8cc_source.html" title=" " alt="" coords="1719,233,1908,258"/>
+<area shape="rect" id="node27" href="$da/d28/StandaloneMpiMessagePassingMng_8cc_source.html" title=" " alt="" coords="2264,225,2491,265"/>
+<area shape="rect" id="node29" href="$d4/daf/arcane_2src_2arcane_2ISerializeMessageList_8h_source.html" title=" " alt="" coords="3609,233,3783,258"/>
+<area shape="rect" id="node30" href="$dc/dc9/arccore_2src_2message__passing__mpi_2arccore_2message__passing__mpi_2MpiSerializeMessageList_8h_source.html" title=" " alt="" coords="1636,152,1831,177"/>
+<area shape="rect" id="node31" href="$d1/dd0/SerializeMessageList_8h_source.html" title=" " alt="" coords="1076,152,1247,177"/>
+<area shape="rect" id="node33" href="$dd/d54/MpiAdapter_8cc_source.html" title=" " alt="" coords="2643,233,2757,258"/>
+<area shape="rect" id="node34" href="$d7/da6/TestTraceMng_8cc_source.html" title=" " alt="" coords="2936,233,3064,258"/>
+<area shape="rect" id="node35" href="$dd/d23/TraceAccessor_8cc_source.html" title=" " alt="" coords="2781,233,2912,258"/>
+<area shape="rect" id="node36" href="$dc/d57/TraceMessage_8cc_source.html" title=" " alt="" coords="2107,233,2239,258"/>
+<area shape="rect" id="node37" href="$dd/d79/arcane_2src_2arcane_2utils_2TraceMng_8cc_source.html" title=" " alt="" coords="2515,233,2618,258"/>
+<area shape="rect" id="node39" href="$d5/d86/MpiTypeDispatcherImpl_8h_source.html" title=" " alt="" coords="25,233,212,258"/>
+<area shape="rect" id="node41" href="$db/d26/ArcaneThread_8h_source.html" title=" " alt="" coords="4061,233,4185,258"/>
+<area shape="rect" id="node42" href="$d0/dd2/DataOperation_8h_source.html" title=" " alt="" coords="4209,233,4338,258"/>
+<area shape="rect" id="node43" href="$d8/d06/HybridMessageQueue_8h_source.html" title=" " alt="" coords="3807,233,3985,258"/>
+<area shape="rect" id="node44" href="$db/d5a/IDataFactory_8h_source.html" title=" " alt="" coords="4363,233,4477,258"/>
+<area shape="rect" id="node45" href="$d8/d00/IDataFactoryMng_8h_source.html" title=" " alt="" coords="4501,233,4645,258"/>
+<area shape="rect" id="node46" href="$d0/dd3/IItemFamily_8h_source.html" title=" " alt="" coords="3275,233,3384,258"/>
+</map>

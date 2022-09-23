@@ -1,0 +1,7 @@
+<map id="Arcane::TimerMng" name="Arcane::TimerMng">
+<area shape="rect" id="node1" title="Gestionnaire de timer." alt="" coords="127,313,276,559"/>
+<area shape="rect" id="node4" href="$dc/dd2/classArcane_1_1MpiTimerMng.html" title="Gestionnaire de timer utisant la bibliothèque MPI." alt="" coords="16,695,189,793"/>
+<area shape="rect" id="node5" href="$dd/d94/classArcane_1_1PapiTimerMng.html" title=" " alt="" coords="213,607,389,881"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="5,5,200,265"/>
+<area shape="rect" id="node3" href="$df/de1/classArcane_1_1ITimerMng.html" title="Interface d&#39;un gestionnaire de timer." alt="" coords="225,79,378,192"/>
+</map>

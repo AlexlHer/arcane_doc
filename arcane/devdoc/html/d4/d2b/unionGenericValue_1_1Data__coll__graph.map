@@ -1,0 +1,15 @@
+<map id="GenericValue&lt; Encoding, Allocator &gt;::Data" name="GenericValue&lt; Encoding, Allocator &gt;::Data">
+<area shape="rect" id="node1" title=" " alt="" coords="417,1223,612,1277"/>
+<area shape="rect" id="node2" href="$dc/d5a/structGenericValue_1_1String.html" title=" " alt="" coords="248,159,443,258"/>
+<area shape="rect" id="node10" href="$d3/dbf/unionGenericValue_1_1Data.html" title=" " alt="" coords="392,328,587,383"/>
+<area shape="rect" id="node3" href="$dc/dfe/structGenericValue_1_1ShortString.html" title=" " alt="" coords="5,152,200,265"/>
+<area shape="rect" id="node4" href="$d8/df4/unionGenericValue_1_1Number.html" title=" " alt="" coords="755,159,949,258"/>
+<area shape="rect" id="node5" href="$d5/d41/structGenericValue_1_1Number_1_1I.html" title=" " alt="" coords="645,5,840,89"/>
+<area shape="rect" id="node6" href="$dc/d30/structGenericValue_1_1Number_1_1U.html" title=" " alt="" coords="864,5,1059,89"/>
+<area shape="rect" id="node7" href="$d7/da7/structGenericValue_1_1ObjectData.html" title=" " alt="" coords="491,1076,685,1160"/>
+<area shape="rect" id="node8" href="$d6/d94/classGenericMember.html" title="Name&#45;value pair in a JSON object value." alt="" coords="482,929,694,1013"/>
+<area shape="rect" id="node9" href="$d4/dc1/classGenericValue.html" title=" " alt="" coords="502,445,693,852"/>
+<area shape="rect" id="node12" href="$d4/dc1/classGenericValue.html" title="Represents a JSON value. Use Value for UTF8 encoding and default allocator." alt="" coords="211,453,405,845"/>
+<area shape="rect" id="node11" href="$d4/dbc/structGenericValue_1_1ArrayData.html" title=" " alt="" coords="263,929,457,1013"/>
+<area shape="rect" id="node13" href="$de/df8/structGenericValue_1_1Flag.html" title=" " alt="" coords="513,167,708,251"/>
+</map>

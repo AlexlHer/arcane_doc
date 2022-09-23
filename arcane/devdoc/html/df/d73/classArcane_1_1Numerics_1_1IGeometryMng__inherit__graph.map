@@ -1,0 +1,5 @@
+<map id="Arcane::Numerics::IGeometryMng" name="Arcane::Numerics::IGeometryMng">
+<area shape="rect" id="node1" title="Gestionnaire des calculs gÃ©omÃ©triques." alt="" coords="5,5,256,207"/>
+<area shape="rect" id="node2" href="$db/d2f/classArcane_1_1GeometryServiceBase.html" title=" " alt="" coords="9,255,252,603"/>
+<area shape="rect" id="node3" href="$d1/db8/classArcane_1_1Euclidian3GeometryService.html" title=" " alt="" coords="11,651,250,852"/>
+</map>

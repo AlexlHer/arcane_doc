@@ -1,0 +1,5 @@
+<map id="Arcane::ParallelMngContainerBase" name="Arcane::ParallelMngContainerBase">
+<area shape="rect" id="node1" title=" " alt="" coords="127,152,381,221"/>
+<area shape="rect" id="node2" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,5,239,104"/>
+<area shape="rect" id="node3" href="$dd/dbb/classArcane_1_1IParallelMngContainer.html" title="Interface d&#39;un conteneur de &#39;IParallelMng&#39;." alt="" coords="263,5,509,104"/>
+</map>

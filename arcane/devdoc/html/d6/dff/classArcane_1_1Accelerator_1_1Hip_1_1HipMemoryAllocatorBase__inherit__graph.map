@@ -1,0 +1,8 @@
+<map id="Arcane::Accelerator::Hip::HipMemoryAllocatorBase" name="Arcane::Accelerator::Hip::HipMemoryAllocatorBase">
+<area shape="rect" id="node1" title="Classe de base d&#39;un allocateur spécifique pour &#39;Hip&#39;." alt="" coords="261,489,487,647"/>
+<area shape="rect" id="node4" href="$df/d53/classArcane_1_1Accelerator_1_1Hip_1_1DeviceHipMemoryAllocator.html" title=" " alt="" coords="5,702,244,786"/>
+<area shape="rect" id="node5" href="$d5/d1b/classArcane_1_1Accelerator_1_1Hip_1_1HostPinnedHipMemoryAllocator.html" title=" " alt="" coords="269,695,479,793"/>
+<area shape="rect" id="node6" href="$db/d65/classArcane_1_1Accelerator_1_1Hip_1_1UnifiedMemoryHipMemoryAllocator.html" title=" " alt="" coords="503,695,739,793"/>
+<area shape="rect" id="node2" href="$d0/d7e/classArccore_1_1AlignedMemoryAllocator.html" title="Allocateur mémoire avec alignement mémoire spécifique." alt="" coords="250,196,498,441"/>
+<area shape="rect" id="node3" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="273,5,475,148"/>
+</map>

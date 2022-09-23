@@ -1,0 +1,11 @@
+<map id="Arccore::MessagePassing::Mpi::StandaloneMpiMessagePassingMng::Impl" name="Arccore::MessagePassing::Mpi::StandaloneMpiMessagePassingMng::Impl">
+<area shape="rect" id="node1" title=" " alt="" coords="287,579,553,751"/>
+<area shape="rect" id="node2" href="$d7/d42/classArccore_1_1ReferenceCounter.html" title=" " alt="" coords="17,322,221,479"/>
+<area shape="rect" id="node3" href="$d0/dac/classArccore_1_1CheckedPointer.html" title="Encapsulation d&#39;un pointeur." alt="" coords="5,5,232,236"/>
+<area shape="rect" id="node4" href="$d4/d36/classArccore_1_1MessagePassing_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="245,337,440,465"/>
+<area shape="rect" id="node5" href="$d6/d0f/classArccore_1_1MessagePassing_1_1Dispatchers.html" title="Interface du conteneur des dispatchers." alt="" coords="464,293,659,509"/>
+<area shape="rect" id="node6" href="$d7/d6c/classArccore_1_1MessagePassing_1_1IDispatchers.html" title="Interface du conteneur des dispatchers." alt="" coords="464,13,659,229"/>
+<area shape="rect" id="node7" href="$d5/d11/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiAdapter.html" title=" " alt="" coords="683,285,877,516"/>
+<area shape="rect" id="node8" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="683,5,877,236"/>
+<area shape="rect" id="node9" href="$d4/dfb/classArccore_1_1MessagePassing_1_1IRequestCreator.html" title="Interface d&#39;un créateur de requête." alt="" coords="901,86,1096,155"/>
+</map>

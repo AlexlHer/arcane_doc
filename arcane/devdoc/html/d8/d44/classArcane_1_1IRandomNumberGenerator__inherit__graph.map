@@ -1,0 +1,5 @@
+<map id="Arcane::IRandomNumberGenerator" name="Arcane::IRandomNumberGenerator">
+<area shape="rect" id="node1" title="Interface pour un générateur de nombre aléatoire." alt="" coords="25,5,284,192"/>
+<area shape="rect" id="node2" href="$d7/d08/classArcanePDESRandomNumberGeneratorObject.html" title="Generation de la classe de base du Service." alt="" coords="5,240,304,412"/>
+<area shape="rect" id="node3" href="$d6/d86/classArcane_1_1PDESRandomNumberGeneratorService.html" title=" " alt="" coords="28,460,281,808"/>
+</map>

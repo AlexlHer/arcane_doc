@@ -1,0 +1,13 @@
+<map id="Arcane::MeshBuildInfo" name="Arcane::MeshBuildInfo">
+<area shape="rect" id="node1" title="Paramètres nécessaires à la construction d&#39;un maillage." alt="" coords="425,1516,612,1717"/>
+<area shape="rect" id="node2" href="$d2/ddb/classArccore_1_1String.html" title="Chaîne de caractères unicode." alt="" coords="154,900,377,1439"/>
+<area shape="rect" id="node3" href="$d0/de1/classArccore_1_1StringImpl.html" title="Implémentation de la classe String." alt="" coords="145,387,300,837"/>
+<area shape="rect" id="node4" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="5,5,213,324"/>
+<area shape="rect" id="node5" href="$d4/de3/classArccore_1_1CoreArray.html" title=" " alt="" coords="238,5,437,324"/>
+<area shape="rect" id="node6" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="434,995,603,1343"/>
+<area shape="rect" id="node7" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="324,592,465,632"/>
+<area shape="rect" id="node8" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="489,577,668,647"/>
+<area shape="rect" id="node9" href="$d9/d27/classArcane_1_1ItemGroup.html" title="Groupe d&#39;entités de maillage." alt="" coords="645,1061,797,1277"/>
+<area shape="rect" id="node10" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="692,511,895,713"/>
+<area shape="rect" id="node11" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="720,49,867,280"/>
+</map>

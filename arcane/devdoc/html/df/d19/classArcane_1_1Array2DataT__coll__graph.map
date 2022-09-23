@@ -1,0 +1,14 @@
+<map id="Arcane::Array2DataT&lt; DataType &gt;" name="Arcane::Array2DataT&lt; DataType &gt;">
+<area shape="rect" id="node1" title="Donnée tableau bi&#45;dimensionnel d&#39;un type DataType." alt="" coords="321,2136,561,2455"/>
+<area shape="rect" id="node2" href="$db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="5,1909,239,2007"/>
+<area shape="rect" id="node3" href="$dc/d51/classArcane_1_1IArray2DataT.html" title="Interface d&#39;une donnée tableau bi&#45;dimensionnel d&#39;un type T." alt="" coords="263,1865,437,2051"/>
+<area shape="rect" id="node4" href="$dd/dad/classArcane_1_1IArray2Data.html" title="Interface d&#39;une donnée tableau 2D." alt="" coords="257,1570,419,1610"/>
+<area shape="rect" id="node5" href="$d1/d15/classArcane_1_1IData.html" title="Interface d&#39;une donnée." alt="" coords="200,931,447,1161"/>
+<area shape="rect" id="node6" href="$d3/d1d/classArccore_1_1UniqueArray2.html" title=" " alt="" coords="461,1850,637,2066"/>
+<area shape="rect" id="node7" href="$d1/da2/classArccore_1_1Array2.html" title="Classe représentant un tableau 2D classique." alt="" coords="451,1387,673,1793"/>
+<area shape="rect" id="node8" href="$db/d34/classArccore_1_1AbstractArray.html" title=" " alt="" coords="470,755,670,1337"/>
+<area shape="rect" id="node9" href="$df/dac/classArccore_1_1AbstractArrayBase.html" title="Classe de base pour les tableaux." alt="" coords="457,548,683,705"/>
+<area shape="rect" id="node10" href="$d3/df1/classArccore_1_1ArrayMetaData.html" title="Meta&#45;Données des tableaux." alt="" coords="475,211,665,471"/>
+<area shape="rect" id="node11" href="$d1/dbb/classArccore_1_1IMemoryAllocator.html" title="Interface d&#39;un allocateur pour la mémoire." alt="" coords="469,5,671,148"/>
+<area shape="rect" id="node12" href="$d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="661,1843,908,2073"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Arcane::UnstructuredMeshUtilities" name="Arcane::UnstructuredMeshUtilities">
+<area shape="rect" id="node1" title="Fonctions utilitaires sur un maillage." alt="" coords="231,1531,459,1776"/>
+<area shape="rect" id="node2" href="$d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="287,687,481,933"/>
+<area shape="rect" id="node9" href="$db/d5d/classArcane_1_1BasicItemPairGroupComputeFunctor.html" title="Fonctions utilitaires sur un maillage." alt="" coords="134,1135,391,1453"/>
+<area shape="rect" id="node3" href="$de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="297,137,471,485"/>
+<area shape="rect" id="node4" href="$d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="221,20,363,60"/>
+<area shape="rect" id="node5" href="$da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="387,5,565,75"/>
+<area shape="rect" id="node6" href="$dd/d6a/classArcane_1_1IMeshUtilities.html" title="Interface d&#39;une classe proposant des fonctions utilitaires sur maillage." alt="" coords="467,1201,682,1387"/>
+<area shape="rect" id="node7" href="$d0/d9f/classArcane_1_1IMesh.html" title=" " alt="" coords="5,548,261,1072"/>
+<area shape="rect" id="node8" href="$de/d4a/classArcane_1_1IMeshBase.html" title=" " alt="" coords="56,211,211,412"/>
+</map>

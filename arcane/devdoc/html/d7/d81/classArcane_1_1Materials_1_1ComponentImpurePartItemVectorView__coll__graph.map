@@ -1,0 +1,8 @@
+<map id="Arcane::Materials::ComponentImpurePartItemVectorView" name="Arcane::Materials::ComponentImpurePartItemVectorView">
+<area shape="rect" id="node1" title="Vue sur la partie impure d&#39;un composant." alt="" coords="169,725,440,839"/>
+<area shape="rect" id="node2" href="$db/dfd/classArcane_1_1Materials_1_1ComponentPartItemVectorView.html" title="Vue sur une partie pure ou partielles des entités d&#39;un composant." alt="" coords="177,460,432,676"/>
+<area shape="rect" id="node3" href="$d1/d55/classArcane_1_1Materials_1_1IMeshComponent.html" title="Interface d&#39;un composant (matériau ou milieu) d&#39;un maillage." alt="" coords="5,137,185,353"/>
+<area shape="rect" id="node4" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="209,115,400,375"/>
+<area shape="rect" id="node5" title=" " alt="" coords="391,5,453,45"/>
+<area shape="rect" id="node6" href="$db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="425,108,659,383"/>
+</map>

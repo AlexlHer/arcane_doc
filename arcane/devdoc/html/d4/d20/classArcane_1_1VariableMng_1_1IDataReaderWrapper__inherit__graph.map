@@ -1,0 +1,5 @@
+<map id="Arcane::VariableMng::IDataReaderWrapper" name="Arcane::VariableMng::IDataReaderWrapper">
+<area shape="rect" id="node1" title="Interface pour utiliser IDataReader ou IDataReader2." alt="" coords="105,5,307,119"/>
+<area shape="rect" id="node2" href="$db/d48/classArcane_1_1VariableMng_1_1DataReaderWrapper.html" title="Wrapper pour IDataReader2." alt="" coords="5,167,188,295"/>
+<area shape="rect" id="node3" href="$db/daa/classArcane_1_1VariableMng_1_1OldDataReaderWrapper.html" title="Wrapper pour IDataReader." alt="" coords="213,167,418,295"/>
+</map>

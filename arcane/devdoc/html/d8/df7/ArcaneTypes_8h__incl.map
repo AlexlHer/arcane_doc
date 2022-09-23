@@ -1,0 +1,19 @@
+<map id="ArcaneTypes.h" name="ArcaneTypes.h">
+<area shape="rect" id="node1" title="Déclarations des types généraux de Arcane." alt="" coords="461,5,577,31"/>
+<area shape="rect" id="node2" href="$d4/da8/UtilsTypes_8h.html" title="Déclarations des types utilisés dans Arcane." alt="" coords="357,152,539,177"/>
+<area shape="rect" id="node17" href="$d2/d12/DataTypes_8h.html" title="Fichier contenant les définitions des types de données gérés par Arcane." alt="" coords="485,79,697,104"/>
+<area shape="rect" id="node3" href="$d0/d1e/ArcaneGlobal_8h.html" title="Fichier de configuration d&#39;Arcane." alt="" coords="701,233,902,258"/>
+<area shape="rect" id="node9" href="$d4/d12/BaseTypes_8h.html" title="Déclarations des types de la composante &#39;base&#39; de Arccore." alt="" coords="486,233,677,258"/>
+<area shape="rect" id="node11" href="$dc/d80/RefDeclarations_8h.html" title=" " alt="" coords="47,321,273,346"/>
+<area shape="rect" id="node14" href="$d0/d8d/CollectionsGlobal_8h_source.html" title=" " alt="" coords="348,313,500,353"/>
+<area shape="rect" id="node15" href="$d1/db9/ConcurrencyGlobal_8h_source.html" title=" " alt="" coords="27,225,189,265"/>
+<area shape="rect" id="node16" href="$dd/d4e/TraceGlobal_8h_source.html" title=" " alt="" coords="213,233,411,258"/>
+<area shape="rect" id="node4" href="$dd/d76/ArccoreGlobal_8h_source.html" title=" " alt="" coords="387,401,599,427"/>
+<area shape="rect" id="node7" title=" " alt="" coords="722,321,881,346"/>
+<area shape="rect" id="node8" title=" " alt="" coords="907,321,971,346"/>
+<area shape="rect" id="node5" title=" " alt="" coords="385,475,452,500"/>
+<area shape="rect" id="node6" title=" " alt="" coords="477,475,657,500"/>
+<area shape="rect" id="node10" title=" " alt="" coords="525,321,595,346"/>
+<area shape="rect" id="node12" title=" " alt="" coords="82,401,174,427"/>
+<area shape="rect" id="node13" title=" " alt="" coords="199,401,276,427"/>
+</map>

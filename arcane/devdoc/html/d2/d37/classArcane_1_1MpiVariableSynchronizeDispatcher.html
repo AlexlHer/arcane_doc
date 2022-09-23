@@ -1,0 +1,581 @@
+<!-- HTML header for doxygen 1.9.5-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="generator" content="Doxygen 1.9.5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcane: Référence du modèle de la classe Arcane::MpiVariableSynchronizeDispatcher&lt; SimpleType &gt;</title>
+    <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../../jquery.js"></script>
+    <script type="text/javascript" src="../../dynsections.js"></script>
+    <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+    <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+    <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="../../doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="../../doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="../../custom.css" rel="stylesheet" type="text/css"/>
+<link href="../../dev_colors.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="../../doxygen-awesome-darkmode-toggle.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-fragment-copy-button.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-paragraph-link.js"></script>
+    <script type="text/javascript" src="../../doxygen-awesome-interactive-toc.js"></script>
+    <script type="text/javascript" src="../../script-resize.js"></script>
+    <script type="text/javascript" src="../../script-num-lines-code.js"></script>
+    <script type="text/javascript">
+      DoxygenAwesomeDarkModeToggle.title = "Thème clair/sombre";
+      DoxygenAwesomeDarkModeToggle.init();
+      DoxygenAwesomeFragmentCopyButton.title = "Copier le code dans le presse-papier";
+      DoxygenAwesomeFragmentCopyButton.init();
+      DoxygenAwesomeParagraphLink.init();
+      DoxygenAwesomeInteractiveToc.init();
+      waitElemForResizeSideNav();
+      setOldSize();
+    </script>
+  </head>
+  <body>
+    <!--BEGIN CORNER_GITHUB-->
+    <!-- https://tholman.com/github-corners/ -->
+    <a href="https://github.com/arcaneframework/framework" class="github-corner" aria-label="Voir les sources sur GitHub">
+      <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path
+          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path
+          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor" class="octo-body"></path>
+      </svg>
+    </a>
+    <!--END CORNER_GITHUB-->
+      <div id="top">
+        <!-- do not remove this div, it is closed by doxygen! -->
+        <div id="titlearea">
+          <table cellspacing="0" cellpadding="0">
+            <tbody>
+              <tr id="projectrow">
+                <td id="projectlogo">
+                  <a href="../../index.html" title="Aller à la page principale">
+                    <img alt="Logo" src="../../cea_ifpen_logo.png" />
+                  </a>
+                </td>
+              </tr>
+              <tr id="projectrow">
+                <td id="projectalign">
+                  <div id="projectname">Arcane
+                    <span id="projectnumber">&#160;v3.7.0.0</span>
+                  </div>
+                  <div id="projectbrief">Documentation développeur</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- end header part --><!-- Généré par Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Types publics</a> &#124;
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pro-methods">Fonctions membres protégées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="../../d9/d20/classArcane_1_1MpiVariableSynchronizeDispatcher-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle"><div class="title">Référence du modèle de la classe Arcane::MpiVariableSynchronizeDispatcher&lt; SimpleType &gt;</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implémentation optimisée pour MPI de la synchronisation.  
+ <a href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#details">Plus de détails...</a></p>
+
+<p><code>#include &lt;<a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">arcane/parallel/mpi/MpiVariableSynchronizeDispatcher.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Graphe d'héritage de Arcane::MpiVariableSynchronizeDispatcher&lt; SimpleType &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../df/d20/classArcane_1_1MpiVariableSynchronizeDispatcher__inherit__graph.png" border="0" usemap="#aArcane_1_1MpiVariableSynchronizeDispatcher_3_01SimpleType_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="aArcane_1_1MpiVariableSynchronizeDispatcher_3_01SimpleType_01_4_inherit__map" id="aArcane_1_1MpiVariableSynchronizeDispatcher_3_01SimpleType_01_4_inherit__map">
+<area shape="rect" title="Implémentation optimisée pour MPI de la synchronisation." alt="" coords="133,533,410,705"/>
+<area shape="rect" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html" title="Gestion de la synchronisation pour un type de donnée SimpleType." alt="" coords="141,181,401,485"/>
+<area shape="rect" href="../../d0/dc9/classArcane_1_1IDataTypeDataDispatcherT.html" title=" " alt="" coords="5,5,255,133"/>
+<area shape="rect" href="../../d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html" title="Interface pour gérer l&#39;envoi de la synchronisation." alt="" coords="278,20,550,119"/>
+</map>
+</div>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Graphe de collaboration de Arcane::MpiVariableSynchronizeDispatcher&lt; SimpleType &gt;:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="../../da/d20/classArcane_1_1MpiVariableSynchronizeDispatcher__coll__graph.png" border="0" usemap="#aArcane_1_1MpiVariableSynchronizeDispatcher_3_01SimpleType_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="aArcane_1_1MpiVariableSynchronizeDispatcher_3_01SimpleType_01_4_coll__map" id="aArcane_1_1MpiVariableSynchronizeDispatcher_3_01SimpleType_01_4_coll__map">
+<area shape="rect" title="Implémentation optimisée pour MPI de la synchronisation." alt="" coords="4429,9344,4711,9443"/>
+<area shape="rect" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html" title="Gestion de la synchronisation pour un type de donnée SimpleType." alt="" coords="632,7753,892,7983"/>
+<area shape="rect" href="../../d0/dc9/classArcane_1_1IDataTypeDataDispatcherT.html" title=" " alt="" coords="5,3837,255,3965"/>
+<area shape="rect" href="../../d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html" title="Interface pour gérer l&#39;envoi de la synchronisation." alt="" coords="278,3851,550,3950"/>
+<area shape="rect" href="../../dc/d5a/classArcane_1_1IParallelMng.html" title="Interface du gestionnaire de parallélisme pour un sous&#45;domaine." alt="" coords="1119,1043,1365,6759"/>
+<area shape="rect" href="../../d8/da0/classArcane_1_1MpiParallelMng.html" title="Gestionnaire du parallélisme utilisant MPI." alt="" coords="2995,8831,3241,9281"/>
+<area shape="rect" href="../../d8/dd7/classArcane_1_1ParallelMngDispatcher.html" title="Redirige la gestion des messages des sous&#45;domaines suivant le type de l&#39;argument." alt="" coords="1745,7694,1992,8042"/>
+<area shape="rect" href="../../db/df2/classArcane_1_1ItemGroupSynchronizeInfo.html" title="Informations nécessaires pour synchroniser les entités sur un groupe." alt="" coords="493,453,749,595"/>
+<area shape="rect" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html" title="Gère les buffers d&#39;envoie et réception pour la synchronisation." alt="" coords="880,3771,1095,4031"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="513,20,728,236"/>
+<area shape="rect" href="../../db/d8c/classArccore_1_1ConstArrayView.html" title=" " alt="" coords="741,759,956,1019"/>
+<area shape="rect" title=" " alt="" coords="1016,108,1079,148"/>
+<area shape="rect" href="../../d7/d02/classArccore_1_1ArrayView.html" title=" " alt="" coords="1414,357,1569,691"/>
+<area shape="rect" title=" " alt="" coords="929,504,1005,544"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1030,416,1198,632"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="1222,409,1390,639"/>
+<area shape="rect" href="../../db/d48/classArccore_1_1ReferenceCounterImpl.html" title="Implémentation thread&#45;safe d&#39;un compteur de référence." alt="" coords="1389,3851,1623,3950"/>
+<area shape="rect" href="../../d3/d52/classArcane_1_1ITimeStats.html" title="Interface gérant les statistiques sur les temps d&#39;exécution." alt="" coords="1647,3800,1813,4001"/>
+<area shape="rect" href="../../d6/d0f/classArccore_1_1MessagePassing_1_1Dispatchers.html" title="Interface du conteneur des dispatchers." alt="" coords="2035,3785,2231,4016"/>
+<area shape="rect" href="../../d2/dab/classArccore_1_1MessagePassing_1_1IControlDispatcher.html" title="Manage control streams for parallel messages." alt="" coords="1858,423,2053,625"/>
+<area shape="rect" href="../../d8/db0/classArccore_1_1MessagePassing_1_1ISerializeDispatcher.html" title="Interface des messages de sérialisation." alt="" coords="2172,460,2387,588"/>
+<area shape="rect" href="../../d9/d94/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiSerializeDispatcher.html" title=" " alt="" coords="2517,7635,2737,8101"/>
+<area shape="rect" href="../../d9/d6e/classArccore_1_1MessagePassing_1_1MessagePassingMng.html" title="Gestionnaire des échanges de messages." alt="" coords="3231,3807,3429,3994"/>
+<area shape="rect" href="../../d2/d83/classArccore_1_1ITimeMetricCollector.html" title="Interface gérant les statistiques sur l&#39;exécution." alt="" coords="3129,475,3352,573"/>
+<area shape="rect" href="../../d5/d11/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiAdapter.html" title="Adapteur pour MPI." alt="" coords="3531,3639,3732,4163"/>
+<area shape="rect" href="../../d0/df9/classArccore_1_1ITraceMng.html" title="Interface du gestionnaire de traces." alt="" coords="2513,3785,2760,4016"/>
+<area shape="rect" href="../../d3/db0/classArcane_1_1IThreadMng.html" title="Interface d&#39;un gestionnaire de thread." alt="" coords="2144,7826,2321,7910"/>
+<area shape="rect" href="../../da/dd2/classArcane_1_1IIOMng.html" title="Interface du gestionnaire des entrées sorties." alt="" coords="2345,7767,2493,7969"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="3387,7694,3556,8042"/>
+<area shape="rect" href="../../d1/d10/classArccore_1_1RefBase.html" title="Classe de base d&#39;une référence à un service." alt="" coords="4278,3881,4419,3921"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="4243,7694,4446,8042"/>
+<area shape="rect" href="../../de/d9f/classArccore_1_1Ref.html" title=" " alt="" coords="4918,7694,5158,8042"/>
+<area shape="rect" href="../../da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="2809,3866,2987,3935"/>
+<area shape="rect" href="../../df/de1/classArcane_1_1ITimerMng.html" title="Interface d&#39;un gestionnaire de timer." alt="" coords="2761,7811,2915,7925"/>
+<area shape="rect" href="../../de/dcc/classArcane_1_1IParallelReplication.html" title="Informations sur la réplication des sous&#45;domaines en parallèle." alt="" coords="2939,7797,3147,7939"/>
+<area shape="rect" href="../../d9/d44/classArcane_1_1MpiDatatypeList.html" title="Gère les MPI_Datatype associées aux types Arcane." alt="" coords="3172,7679,3363,8057"/>
+<area shape="rect" href="../../d7/daa/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiDatatype.html" title="Encapsulation d&#39;un MPI_Datatype." alt="" coords="3011,3822,3206,3979"/>
+<area shape="rect" href="../../d4/d0e/classArccore_1_1TraceAccessor.html" title="Classe d&#39;accès aux traces." alt="" coords="3415,5,3610,251"/>
+<area shape="rect" href="../../df/de9/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiAdapter_1_1RequestSet.html" title=" " alt="" coords="4409,313,4627,735"/>
+<area shape="rect" href="../../d4/dfb/classArccore_1_1MessagePassing_1_1IRequestCreator.html" title="Interface d&#39;un créateur de requête." alt="" coords="3534,489,3729,559"/>
+<area shape="rect" href="../../d4/d36/classArccore_1_1MessagePassing_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="3753,460,3947,588"/>
+<area shape="rect" href="../../d6/dd7/classArccore_1_1MessagePassing_1_1Mpi_1_1MpiLock.html" title="Verrou pour les appels MPI." alt="" coords="3971,489,4166,559"/>
+<area shape="rect" href="../../d0/db7/classArccore_1_1MessagePassing_1_1Mpi_1_1IMpiProfiling.html" title="Interface d&#39;abstraction pour les operations MPI. Sert principalement a utiliser un decorateur pour le..." alt="" coords="4190,416,4385,632"/>
+<area shape="rect" href="../../d0/dae/classArcane_1_1Parallel_1_1IStat.html" title="Statistiques sur le parallélisme." alt="" coords="3709,7804,3879,7932"/>
+<area shape="rect" href="../../d7/d03/classArcane_1_1IParallelNonBlockingCollective.html" title="Interface des opérations parallèles collectives non bloquantes." alt="" coords="3903,6968,4168,8768"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4469,8941,4671,9171"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="4470,7701,4670,8035"/>
+<area shape="rect" href="../../da/daa/classArccore_1_1UniqueArray.html" title=" " alt="" coords="4703,8948,4871,9164"/>
+<area shape="rect" href="../../d9/d09/classArccore_1_1Array.html" title="Classe de base des vecteurs 1D de données." alt="" coords="4694,7701,4894,8035"/>
+<area shape="rect" href="../../da/d4f/structArccore_1_1RefTraitsTagId.html" title=" " alt="" coords="4937,3866,5139,3935"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Types publics</h2></td></tr>
+<tr class="memitem:a7f62c38665b4e6b39f4a6fc23ec8aa16"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html">VariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::SyncBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#a7f62c38665b4e6b39f4a6fc23ec8aa16">SyncBuffer</a></td></tr>
+<tr class="separator:a7f62c38665b4e6b39f4a6fc23ec8aa16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_classArcane_1_1IVariableSynchronizeDispatcher"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classArcane_1_1IVariableSynchronizeDispatcher')"><img src="../../closed.png" alt="-"/>&#160;Types publics hérités de <a class="el" href="../../d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html">Arcane::IVariableSynchronizeDispatcher</a></td></tr>
+<tr class="memitem:ad6cce2e57ef03dde511b8907bc5a8f67 inherit pub_types_classArcane_1_1IVariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/dae/structArcane_1_1FalseType.html">FalseType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html#ad6cce2e57ef03dde511b8907bc5a8f67">HasStringDispatch</a></td></tr>
+<tr class="separator:ad6cce2e57ef03dde511b8907bc5a8f67 inherit pub_types_classArcane_1_1IVariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:a8391e1ec79327b9c1fd4e2049fb2cdb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#a8391e1ec79327b9c1fd4e2049fb2cdb2">MpiVariableSynchronizeDispatcher</a> (<a class="el" href="../../d0/db1/classArcane_1_1MpiVariableSynchronizeDispatcherBuildInfo.html">MpiVariableSynchronizeDispatcherBuildInfo</a> &amp;bi)</td></tr>
+<tr class="separator:a8391e1ec79327b9c1fd4e2049fb2cdb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classArcane_1_1VariableSynchronizeDispatcher')"><img src="../../closed.png" alt="-"/>&#160;Fonctions membres publiques hérités de <a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html">Arcane::VariableSynchronizeDispatcher&lt; SimpleType &gt;</a></td></tr>
+<tr class="memitem:aff3c3b2a2879c31655dafb1684c5baa6 inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#aff3c3b2a2879c31655dafb1684c5baa6">VariableSynchronizeDispatcher</a> (const <a class="el" href="../../d9/d35/classArcane_1_1VariableSynchronizeDispatcherBuildInfo.html">VariableSynchronizeDispatcherBuildInfo</a> &amp;bi)</td></tr>
+<tr class="separator:aff3c3b2a2879c31655dafb1684c5baa6 inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae413c70a174f3987cce5c5a73d30aeb inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#aae413c70a174f3987cce5c5a73d30aeb">applyDispatch</a> (<a class="el" href="../../db/d09/classArcane_1_1IScalarDataT.html">IScalarDataT</a>&lt; SimpleType &gt; *data) override</td></tr>
+<tr class="separator:aae413c70a174f3987cce5c5a73d30aeb inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69227243cd657faa3a178378115444d inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#ad69227243cd657faa3a178378115444d">applyDispatch</a> (<a class="el" href="../../da/dc0/classArcane_1_1IArrayDataT.html">IArrayDataT</a>&lt; SimpleType &gt; *data) override</td></tr>
+<tr class="separator:ad69227243cd657faa3a178378115444d inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af201036b44f8e1f0ed69290645de2797 inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#af201036b44f8e1f0ed69290645de2797">applyDispatch</a> (<a class="el" href="../../dc/d51/classArcane_1_1IArray2DataT.html">IArray2DataT</a>&lt; SimpleType &gt; *data) override</td></tr>
+<tr class="separator:af201036b44f8e1f0ed69290645de2797 inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cc7e6a65ace2d9a78c15c110c74c54 inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#a14cc7e6a65ace2d9a78c15c110c74c54">applyDispatch</a> (<a class="el" href="../../d2/d71/classArcane_1_1IMultiArray2DataT.html">IMultiArray2DataT</a>&lt; SimpleType &gt; *data) override</td></tr>
+<tr class="separator:a14cc7e6a65ace2d9a78c15c110c74c54 inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a6bdca1ac93000600396facfa13b2c inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#a41a6bdca1ac93000600396facfa13b2c">setItemGroupSynchronizeInfo</a> (<a class="el" href="../../db/df2/classArcane_1_1ItemGroupSynchronizeInfo.html">ItemGroupSynchronizeInfo</a> *sync_info) override</td></tr>
+<tr class="separator:a41a6bdca1ac93000600396facfa13b2c inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3424c2624a5b7ba19e3a1606d5ce48d inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#af3424c2624a5b7ba19e3a1606d5ce48d">compute</a> () override</td></tr>
+<tr class="memdesc:af3424c2624a5b7ba19e3a1606d5ce48d inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcul et alloue les tampons nécessaire aux envois et réceptions pour les synchronisations des variables 1D.  <a href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#af3424c2624a5b7ba19e3a1606d5ce48d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:af3424c2624a5b7ba19e3a1606d5ce48d inherit pub_methods_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc1530a27ebfecf5b09d201dccb061e"><td class="memItemLeft" align="right" valign="top"><a id="adcc1530a27ebfecf5b09d201dccb061e" name="adcc1530a27ebfecf5b09d201dccb061e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>applyDispatch</b> (<a class="el" href="../../db/d09/classArcane_1_1IScalarDataT.html">IScalarDataT</a>&lt; SimpleType &gt; *data)=0</td></tr>
+<tr class="separator:adcc1530a27ebfecf5b09d201dccb061e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1739efe9f64510ffead7b375501e672"><td class="memItemLeft" align="right" valign="top"><a id="ac1739efe9f64510ffead7b375501e672" name="ac1739efe9f64510ffead7b375501e672"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>applyDispatch</b> (<a class="el" href="../../da/dc0/classArcane_1_1IArrayDataT.html">IArrayDataT</a>&lt; SimpleType &gt; *data)=0</td></tr>
+<tr class="separator:ac1739efe9f64510ffead7b375501e672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd810ac417f61fe5a3ecd6b5bc020012"><td class="memItemLeft" align="right" valign="top"><a id="afd810ac417f61fe5a3ecd6b5bc020012" name="afd810ac417f61fe5a3ecd6b5bc020012"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>applyDispatch</b> (<a class="el" href="../../dc/d51/classArcane_1_1IArray2DataT.html">IArray2DataT</a>&lt; SimpleType &gt; *data)=0</td></tr>
+<tr class="separator:afd810ac417f61fe5a3ecd6b5bc020012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8055f26526c8f01ff35d794f521307f"><td class="memItemLeft" align="right" valign="top"><a id="ab8055f26526c8f01ff35d794f521307f" name="ab8055f26526c8f01ff35d794f521307f"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>applyDispatch</b> (<a class="el" href="../../d2/d71/classArcane_1_1IMultiArray2DataT.html">IMultiArray2DataT</a>&lt; SimpleType &gt; *data)=0</td></tr>
+<tr class="separator:ab8055f26526c8f01ff35d794f521307f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d787a0eead97dbf29cdd7f2ef68b0b"><td class="memItemLeft" align="right" valign="top"><a id="a48d787a0eead97dbf29cdd7f2ef68b0b" name="a48d787a0eead97dbf29cdd7f2ef68b0b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setItemGroupSynchronizeInfo</b> (<a class="el" href="../../db/df2/classArcane_1_1ItemGroupSynchronizeInfo.html">ItemGroupSynchronizeInfo</a> *sync_info)=0</td></tr>
+<tr class="separator:a48d787a0eead97dbf29cdd7f2ef68b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9b4d5439bce811e422549e266439fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/classArcane_1_1IVariableSynchronizeDispatcher.html#a0b9b4d5439bce811e422549e266439fe">compute</a> ()=0</td></tr>
+<tr class="separator:a0b9b4d5439bce811e422549e266439fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Fonctions membres protégées</h2></td></tr>
+<tr class="memitem:a8c686b67ec198c650163245f56c30316"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#a8c686b67ec198c650163245f56c30316">_beginSynchronize</a> (<a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a> &amp;sync_buffer) override</td></tr>
+<tr class="separator:a8c686b67ec198c650163245f56c30316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade1d239fef83d15728d68b4254e1ae81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#ade1d239fef83d15728d68b4254e1ae81">_endSynchronize</a> (<a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a> &amp;sync_buffer) override</td></tr>
+<tr class="separator:ade1d239fef83d15728d68b4254e1ae81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130a692480f35c61e4c2af1701c39719"><td class="memItemLeft" align="right" valign="top"><a id="a130a692480f35c61e4c2af1701c39719" name="a130a692480f35c61e4c2af1701c39719"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_beginSynchronize</b> (<a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a> &amp;sync_buffer)=0</td></tr>
+<tr class="separator:a130a692480f35c61e4c2af1701c39719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ad1575bbd46c780c4838783e7cdd69"><td class="memItemLeft" align="right" valign="top"><a id="af6ad1575bbd46c780c4838783e7cdd69" name="af6ad1575bbd46c780c4838783e7cdd69"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_endSynchronize</b> (<a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a> &amp;sync_buffer)=0</td></tr>
+<tr class="separator:af6ad1575bbd46c780c4838783e7cdd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a6964f5532c9116b66d708ef1c930d2e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da0/classArcane_1_1MpiParallelMng.html">MpiParallelMng</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#a6964f5532c9116b66d708ef1c930d2e3">m_mpi_parallel_mng</a></td></tr>
+<tr class="separator:a6964f5532c9116b66d708ef1c930d2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0229debe2127ce0e7869ca1e810e3ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; <a class="el" href="../../d1/d72/classArccore_1_1MessagePassing_1_1Request.html">Parallel::Request</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#aa0229debe2127ce0e7869ca1e810e3ed">m_original_recv_requests</a></td></tr>
+<tr class="separator:aa0229debe2127ce0e7869ca1e810e3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587509fba49e2d96847144d49c407bd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#a587509fba49e2d96847144d49c407bd6">m_original_recv_requests_done</a></td></tr>
+<tr class="separator:a587509fba49e2d96847144d49c407bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfed29104a565f7dfff8bfa992621584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d9f/classArccore_1_1Ref.html">Ref</a>&lt; <a class="el" href="../../db/d04/classArccore_1_1MessagePassing_1_1IRequestList.html">Parallel::IRequestList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#abfed29104a565f7dfff8bfa992621584">m_receive_request_list</a></td></tr>
+<tr class="separator:abfed29104a565f7dfff8bfa992621584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab68116d14b2e77e9fa2d72f2ecefb8fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d9f/classArccore_1_1Ref.html">Ref</a>&lt; <a class="el" href="../../db/d04/classArccore_1_1MessagePassing_1_1IRequestList.html">Parallel::IRequestList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html#ab68116d14b2e77e9fa2d72f2ecefb8fb">m_send_request_list</a></td></tr>
+<tr class="separator:ab68116d14b2e77e9fa2d72f2ecefb8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Membres hérités additionnels</h2></td></tr>
+<tr class="inherit_header pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classArcane_1_1VariableSynchronizeDispatcher')"><img src="../../closed.png" alt="-"/>&#160;Attributs protégés hérités de <a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html">Arcane::VariableSynchronizeDispatcher&lt; SimpleType &gt;</a></td></tr>
+<tr class="memitem:acb19abd30d445afb15feb4902edbc2ef inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d5a/classArcane_1_1IParallelMng.html">IParallelMng</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#acb19abd30d445afb15feb4902edbc2ef">m_parallel_mng</a> = nullptr</td></tr>
+<tr class="separator:acb19abd30d445afb15feb4902edbc2ef inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbd3f06a64d1bfb3ae333b415e0de8bb inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d0e/classArcane_1_1IBufferCopier.html">IBufferCopier</a>&lt; SimpleType &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#abbd3f06a64d1bfb3ae333b415e0de8bb">m_buffer_copier</a> = nullptr</td></tr>
+<tr class="separator:abbd3f06a64d1bfb3ae333b415e0de8bb inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc9ef2aa320efac94cfe66925a74f67 inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df2/classArcane_1_1ItemGroupSynchronizeInfo.html">ItemGroupSynchronizeInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#accc9ef2aa320efac94cfe66925a74f67">m_sync_info</a> = nullptr</td></tr>
+<tr class="separator:accc9ef2aa320efac94cfe66925a74f67 inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecbcc08ee8e92d8768b8887710d31d0e inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d8c/classArccore_1_1ConstArrayView.html">ConstArrayView</a>&lt; <a class="el" href="../../d0/d88/classArcane_1_1VariableSyncInfo.html">VariableSyncInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#aecbcc08ee8e92d8768b8887710d31d0e">m_sync_list</a></td></tr>
+<tr class="separator:aecbcc08ee8e92d8768b8887710d31d0e inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff46f890e8416660876bbbd2f0e30c0d inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#aff46f890e8416660876bbbd2f0e30c0d">m_1d_buffer</a></td></tr>
+<tr class="separator:aff46f890e8416660876bbbd2f0e30c0d inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675a1f9512d68777191323e05be0b01c inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#a675a1f9512d68777191323e05be0b01c">m_2d_buffer</a></td></tr>
+<tr class="separator:a675a1f9512d68777191323e05be0b01c inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d97dde22db98de6e6c934af680a4a05 inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html#a7d97dde22db98de6e6c934af680a4a05">m_is_in_sync</a> = false</td></tr>
+<tr class="separator:a7d97dde22db98de6e6c934af680a4a05 inherit pro_attribs_classArcane_1_1VariableSynchronizeDispatcher"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename SimpleType&gt;<br />
+class Arcane::MpiVariableSynchronizeDispatcher&lt; SimpleType &gt;</div><p >Implémentation optimisée pour MPI de la synchronisation. </p>
+<p >Par rapport à la version de base, cette implémentation fait un MPI_Waitsome (au lieu d'un Waitall) et recopie dans le buffer de destination dès qu'un message arrive.</p>
+<p >NOTE: cette optimisation respecte la norme MPI qui dit qu'on ne doit plus toucher à la zone mémoire d'un message tant que celui-ci n'est pas fini. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00067">67</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+</div><h2 class="groupheader">Documentation des définitions de type membres</h2>
+<a id="a7f62c38665b4e6b39f4a6fc23ec8aa16" name="a7f62c38665b4e6b39f4a6fc23ec8aa16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f62c38665b4e6b39f4a6fc23ec8aa16">&#9670;&#160;</a></span>SyncBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html">VariableSynchronizeDispatcher</a>&lt;SimpleType&gt;::SyncBuffer <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::SyncBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00071">71</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a id="a8391e1ec79327b9c1fd4e2049fb2cdb2" name="a8391e1ec79327b9c1fd4e2049fb2cdb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8391e1ec79327b9c1fd4e2049fb2cdb2">&#9670;&#160;</a></span>MpiVariableSynchronizeDispatcher()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::MpiVariableSynchronizeDispatcher </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/db1/classArcane_1_1MpiVariableSynchronizeDispatcherBuildInfo.html">MpiVariableSynchronizeDispatcherBuildInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>bi</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html#l00063">63</a> du fichier <a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html">MpiVariableSynchronizeDispatcher.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions membres</h2>
+<a id="a8c686b67ec198c650163245f56c30316" name="a8c686b67ec198c650163245f56c30316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c686b67ec198c650163245f56c30316">&#9670;&#160;</a></span>_beginSynchronize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::_beginSynchronize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>sync_buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html">Arcane::VariableSynchronizeDispatcher&lt; SimpleType &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html#l00076">76</a> du fichier <a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html">MpiVariableSynchronizeDispatcher.cc</a>.</p>
+
+</div>
+</div>
+<a id="ade1d239fef83d15728d68b4254e1ae81" name="ade1d239fef83d15728d68b4254e1ae81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade1d239fef83d15728d68b4254e1ae81">&#9670;&#160;</a></span>_endSynchronize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::_endSynchronize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/ddf/classArcane_1_1VariableSynchronizeDispatcher_1_1SyncBuffer.html">SyncBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>sync_buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implémente <a class="el" href="../../dc/df2/classArcane_1_1VariableSynchronizeDispatcher.html">Arcane::VariableSynchronizeDispatcher&lt; SimpleType &gt;</a>.</p>
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html#l00140">140</a> du fichier <a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html">MpiVariableSynchronizeDispatcher.cc</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des données membres</h2>
+<a id="a6964f5532c9116b66d708ef1c930d2e3" name="a6964f5532c9116b66d708ef1c930d2e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6964f5532c9116b66d708ef1c930d2e3">&#9670;&#160;</a></span>m_mpi_parallel_mng</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/da0/classArcane_1_1MpiParallelMng.html">MpiParallelMng</a>* <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::m_mpi_parallel_mng</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00082">82</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+
+</div>
+</div>
+<a id="aa0229debe2127ce0e7869ca1e810e3ed" name="aa0229debe2127ce0e7869ca1e810e3ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0229debe2127ce0e7869ca1e810e3ed">&#9670;&#160;</a></span>m_original_recv_requests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;<a class="el" href="../../d1/d72/classArccore_1_1MessagePassing_1_1Request.html">Parallel::Request</a>&gt; <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::m_original_recv_requests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00083">83</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+
+</div>
+</div>
+<a id="a587509fba49e2d96847144d49c407bd6" name="a587509fba49e2d96847144d49c407bd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587509fba49e2d96847144d49c407bd6">&#9670;&#160;</a></span>m_original_recv_requests_done</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/daa/classArccore_1_1UniqueArray.html">UniqueArray</a>&lt;bool&gt; <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::m_original_recv_requests_done</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00084">84</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+
+</div>
+</div>
+<a id="abfed29104a565f7dfff8bfa992621584" name="abfed29104a565f7dfff8bfa992621584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfed29104a565f7dfff8bfa992621584">&#9670;&#160;</a></span>m_receive_request_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d9f/classArccore_1_1Ref.html">Ref</a>&lt;<a class="el" href="../../db/d04/classArccore_1_1MessagePassing_1_1IRequestList.html">Parallel::IRequestList</a>&gt; <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::m_receive_request_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00085">85</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+
+</div>
+</div>
+<a id="ab68116d14b2e77e9fa2d72f2ecefb8fb" name="ab68116d14b2e77e9fa2d72f2ecefb8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab68116d14b2e77e9fa2d72f2ecefb8fb">&#9670;&#160;</a></span>m_send_request_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename SimpleType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d9f/classArccore_1_1Ref.html">Ref</a>&lt;<a class="el" href="../../db/d04/classArccore_1_1MessagePassing_1_1IRequestList.html">Parallel::IRequestList</a>&gt; <a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">Arcane::MpiVariableSynchronizeDispatcher</a>&lt; SimpleType &gt;::m_send_request_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html#l00086">86</a> du fichier <a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d7/d9e/MpiVariableSynchronizeDispatcher_8h_source.html">MpiVariableSynchronizeDispatcher.h</a></li>
+<li><a class="el" href="../../d7/d46/MpiVariableSynchronizeDispatcher_8cc_source.html">MpiVariableSynchronizeDispatcher.cc</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d0/d32/namespaceArcane.html">Arcane</a></li><li class="navelem"><a class="el" href="../../d2/d37/classArcane_1_1MpiVariableSynchronizeDispatcher.html">MpiVariableSynchronizeDispatcher</a></li>
+    <li class="footer">Généré le Vendredi 23 Septembre 2022 11:36:28 pour Arcane par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

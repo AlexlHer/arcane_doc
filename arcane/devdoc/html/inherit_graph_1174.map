@@ -1,0 +1,49 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$dd/de0/classArcane_1_1PtrT.html" title="Encapsulation d&#39;un pointeur." alt="" coords="5,1579,144,1605"/>
+<area shape="rect" id="node2" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="227,5,421,45"/>
+<area shape="rect" id="node3" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="227,69,421,109"/>
+<area shape="rect" id="node4" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="227,133,421,173"/>
+<area shape="rect" id="node5" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="227,197,421,237"/>
+<area shape="rect" id="node6" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="201,262,447,317"/>
+<area shape="rect" id="node7" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="227,341,421,381"/>
+<area shape="rect" id="node8" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="227,405,421,445"/>
+<area shape="rect" id="node9" href="$de/d08/classArcane_1_1AutoRefT.html" title=" " alt="" coords="224,469,424,509"/>
+<area shape="rect" id="node10" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="201,533,447,573"/>
+<area shape="rect" id="node11" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="217,598,431,653"/>
+<area shape="rect" id="node12" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="225,677,423,717"/>
+<area shape="rect" id="node13" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="239,741,409,781"/>
+<area shape="rect" id="node14" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="220,805,428,845"/>
+<area shape="rect" id="node15" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="202,869,446,909"/>
+<area shape="rect" id="node16" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="217,933,431,973"/>
+<area shape="rect" id="node17" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="221,998,427,1053"/>
+<area shape="rect" id="node18" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="233,1077,415,1117"/>
+<area shape="rect" id="node19" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="215,1142,433,1197"/>
+<area shape="rect" id="node20" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="227,1221,421,1275"/>
+<area shape="rect" id="node21" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="229,1299,419,1354"/>
+<area shape="rect" id="node22" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="207,1379,441,1448"/>
+<area shape="rect" id="node23" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="237,1472,411,1512"/>
+<area shape="rect" id="node24" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="231,1536,417,1576"/>
+<area shape="rect" id="node25" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="192,1601,456,1655"/>
+<area shape="rect" id="node26" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="249,1680,399,1720"/>
+<area shape="rect" id="node27" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="230,1744,418,1784"/>
+<area shape="rect" id="node28" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="229,1808,419,1848"/>
+<area shape="rect" id="node29" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="231,1872,417,1912"/>
+<area shape="rect" id="node30" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="222,1936,426,1976"/>
+<area shape="rect" id="node31" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="239,2000,409,2040"/>
+<area shape="rect" id="node32" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="219,2064,429,2104"/>
+<area shape="rect" id="node33" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="223,2128,425,2168"/>
+<area shape="rect" id="node34" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="205,2192,443,2232"/>
+<area shape="rect" id="node35" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="215,2256,433,2296"/>
+<area shape="rect" id="node36" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="240,2320,408,2360"/>
+<area shape="rect" id="node37" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="214,2384,434,2424"/>
+<area shape="rect" id="node38" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="226,2448,422,2488"/>
+<area shape="rect" id="node39" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="223,2513,425,2567"/>
+<area shape="rect" id="node40" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="208,2592,440,2632"/>
+<area shape="rect" id="node41" href="$db/d19/classArcane_1_1ScopedPtrT.html" title=" " alt="" coords="221,2657,427,2711"/>
+<area shape="rect" id="node42" href="$d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="217,2736,431,2776"/>
+<area shape="rect" id="node43" href="$d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="225,2800,423,2840"/>
+<area shape="rect" id="node44" href="$d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="211,2864,437,2904"/>
+<area shape="rect" id="node45" href="$de/d08/classArcane_1_1AutoRefT.html" title="Encapsulation d&#39;un pointeur avec compteur de référence." alt="" coords="237,2929,411,2954"/>
+<area shape="rect" id="node46" href="$db/d19/classArcane_1_1ScopedPtrT.html" title="Encapsulation d&#39;un pointeur qui se détruit automatiquement." alt="" coords="231,2978,417,3003"/>
+<area shape="rect" id="node47" href="$d8/d23/classArcane_1_1SharedPtrT.html" title=" " alt="" coords="232,3027,416,3053"/>
+</map>
